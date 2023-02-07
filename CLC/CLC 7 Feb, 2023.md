@@ -1,14 +1,20 @@
 Why would a company want to migrate to a cloud infrastructure?
 - To convert CAPEX costs into OPEX, mainly due to upfront cost involvement
-- Data Center Investment based on forecast
-	- CAPEX (CAPital EXpenditure)
-		- Running facilities. e.g. Funds to start a business i.e. location and furnishing costs
-		- Required to pay upfront & in large amounts
-	- OPEX (OPerational EXpenditure)
-		- 
-- Pay only for what you consume
-- Massive Economies of Scale
-	- Scaling up a business also increases the margin of profit
-		- Either sell more and have a low profit margin per device
-		- or sell less and have a high profit margin per device
-- 
+	- Data Center Investment based on forecast
+		- CAPEX (CAPital EXpenditure)
+			- Running facilities. e.g. Funds to start a business i.e. location and furnishing costs
+			- Required to pay upfront & in large amounts
+		- OPEX (OPerational EXpenditure)
+			- `Add in later`
+	- Pay only for what you consume
+	- Massive Economies of Scale
+		- Scaling up a business also increases the margin of profit
+			- Either sell more and have a low profit margin per device
+			- or sell less and have a high profit margin per device
+	- Avoid Guessing Usage Capacity
+		- Scale on demand to users
+		- Avoid Underestimate/Overestimating server loads
+			- Either way its a waste of money, use your head to figure out why if doesn't make sense
+	- Increase Speed and Agility
+		- Usually with traditional hardware, there is a long waiting list in between getting the hardware ready and implemented in a system
+		- In the cloud, additional hardware already exists, it just needs to be activated and that usually takes a couple of minutes at best
