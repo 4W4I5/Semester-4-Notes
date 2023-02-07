@@ -1,4 +1,4 @@
-## Cloud Benefits & Adoption Prespectives
+## Cloud Benefits & Adoption Perspectives
 Why would a company want to migrate to a cloud infrastructure?
 - To convert CAPEX costs into OPEX, mainly due to upfront cost involvement
 	- Data Center Investment based on forecast
