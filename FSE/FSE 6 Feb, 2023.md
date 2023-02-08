@@ -94,5 +94,4 @@ Best used for developing Online systems where users are expected to fill forms o
 ### Spiral Model
 
 
-### Agile Model (X-Programming)
 

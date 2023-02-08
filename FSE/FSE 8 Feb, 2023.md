@@ -1,0 +1,81 @@
+#### Fears of a programmer
+- Deadline
+- Cost of resources
+- Cost of personal time
+- Quality Product
+- Any Flaws??
+- Possible Wrong Track
+- No fun
+# Agile Model (Non-Traditional Model)
+- Agile is a effective (Rapid and Adaptive) response to change
+- Effective communication among all stakeholders
+- Drawing customer onto the team
+- Organizing the team so that it is in control of the work performed 
+- Leading to a rapid, incremental delivery of software
+- Agile welcomes changes in the requirements
+- Very thorough testing of the product chunks
+- No need for planning, just start working
+
+#### Agile Process
+- Scenarios
+	- User stories, descriptions of the products' intent
+- Short-lived Planning, Get work done as soon as possible, trash prototypes, more failure = more success
+- Develops software iteratively with heavy emphasis on construction activities
+- Due to multiple prototyping standards per component, multiple fully functional versions of the software are available in increments 
+- Adapts to changes as they occur
+- Banda ziada important ha process ki jagah, Focus more on practicality instead of by book
+- Very important to understand the divide and conquer rule, Divide a very big problem into small chunks that can be programmed into quick functioning prototypes
+
+`^Modify these points based on the Principles of Agile Methods Slides`
+- ## eXtreme Programming Process Models
+	- Best Known and Most used
+	- New Versions may be built several times a day
+	- Increments are delivered to customers every 2 weeks
+	- All tests must be run for every build and the build is only accepted if tests run successfully
+	- eXtreme Programming Values:
+		- Communication
+		- Simplicity
+		- Feedback
+		- Courage
+		- Respect
+	- Involves a lot of testing
+		- Acceptance testing
+			- Customer sits down and based on how the program performs accepts the product
+		- Unit testing
+
+- ## XP MODEL (MODIFY USING SLIDES)
+	- Planning
+		- User Stories
+			- Assess each Story and assign a cost
+		- Values
+		- Acceptance test criteria
+		- Iteration Plan
+		- Delievery
+			- Commitment is made on the Delievery date
+	- Design
+		- Simple Design
+			- KIS, Keep It Simple Principle
+			- For difficult design problems, creation of spike solutions, a design protoype
+		- CRC Cards (Class Responsibility Cards)
+		- Spike Solutions (Stub prototypes)
+		- Prototypes
+	- Coding
+		- Pair Programming
+		- Refactoring
+		- Unit Testing 
+			- Testing on a modular level
+		- Continuous Integration
+	- Testing
+		- Unit Testing
+			- Modular Level, A brick in a room
+		- Integration Testing
+			- Inter-Modular level, Multiple Bricks connected together
+		- System Testing
+			- Final Room test
+		- Acceptance Testing
+			- Controlled setting tests, revise whatever needs to be revised
+	- Final Release
+		- Software Increment
+		- Project Velocity Computed
+- ## SCRUM Programming Process Models
+	- 
