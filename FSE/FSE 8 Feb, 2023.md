@@ -77,5 +77,12 @@
 	- Final Release
 		- Software Increment
 		- Project Velocity Computed
+	- Customer Involvment?
+		- INput output blah blah blah
+
+#### Requirement Scenarios 
+
 - ## SCRUM Programming Process Models
-	- 
+
+
+started voice recording @ Story card for document downloading slide
