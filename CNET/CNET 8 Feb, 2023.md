@@ -17,6 +17,7 @@ Why Layers?
 		- HTTP (HyperText Transfer Protocol)
 		- DNS (Domain Name Service)
 		- DHCP ()
+	- This layer generates data
 - Transport
 	- Process-Process Data Transfer
 		- TCP (Transfer Control Protocol)
@@ -27,15 +28,22 @@ Why Layers?
 		- TCP is reliable, its a data stream
 		- UDP is fast but not reliable
 	- The header of the chosen protocol is appended alongside the port number
-		- Port number is used to respond back to the application on the response
+		- Port number is used to respond back to the application on the response both source port and destination port
 - Network
 	- Routing of Datagrams from source to destination
 		- IP
 		- Routing Protocols
+	- Appends destination and source IP, whatever the routing protocol has determined as well
+	- Every segment from the Transport Layer is now converted into a Packet
+	- Physical Equipment would be called a Router at this stage
 - Link
 	- Data Transfer b/w neighboring elements
 		- Ethernet
 		- 802.111 Wireless
+	- Every Packet from the Network Layer is now converted into a Frame
+	- Error Checking also happens at this stage
+	- Packets are also encapsulated, decapsulated at this stage. Depending on the medium used.
+	- MAC address is also appended to the header. Both source and destination address.
 - Physical
 	- Bits on wire
 
