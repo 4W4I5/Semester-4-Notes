@@ -1,0 +1,49 @@
+SLIDES: Lecture 7, Application Layer Principles
+
+### Application Layer
+- Supports networking between Applications
+- Allows Applications to transfer data over the internet
+- Use of common protocols
+	- DNS
+	- DHCP
+	- SMTP
+	- FTP
+	- HTTP
+---
+###### Creating a network app
+- Runs on multiple end systems
+- Communicates over the internet
+
+###### Application-Layer Protocol Defines
+- Types of messages Exchanged
+	- Request
+	- Response
+- Message Syntax
+	- What fields in messages and how fields are delaminated (deserialized)
+- Message Semantics
+	- Meaning of information in fields
+- Rules for when and how process send and respond to messages
+- Open Protocols
+	- Defined in RFCs, a specification sheet
+	- Allows for interoperability
+		- HTTP, SMTP
+- Proprietary Protocols
+	- A custom made protocol made for a particular system
+		- Skype
+
+#### Client-Server
+- Whenever a system inits a request, its known as a client
+	- Usually temporarily connected, only for the need of the service
+	- Has a dynamic IP address
+	- cannot communicate directly with other clients
+- The system responding to the request is known as a server
+	- Usually assigned a static IP
+	- Always-On (Always powered on)
+	- Used in data centers, for scaling
+#### Peer-Peer 
+- Concept of torrenting
+	- CS model used at first to get the torrent file
+	- List of seeders, leechers found
+	- Downloading from seeders
+	- leechers are the people downloading
+	- 

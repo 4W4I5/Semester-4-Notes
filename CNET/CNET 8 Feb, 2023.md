@@ -16,7 +16,7 @@ Why Layers?
 		- SMTP (Secure Mail Transfer Protocol)
 		- HTTP (HyperText Transfer Protocol)
 		- DNS (Domain Name Service)
-		- DHCP ()
+		- DHCP (Dynamic Host Configuration Protocol)
 	- This layer generates data
 - Transport
 	- Process-Process Data Transfer
