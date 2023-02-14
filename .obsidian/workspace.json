@@ -42,9 +42,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "d5df5a1ef99b3182",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CLC/CLC 14 Feb, 2023.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -110,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CNET/CNET 13 Feb, 2023.md",
+                "file": "CLC/CLC 14 Feb, 2023.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CNET/CNET 13 Feb, 2023.md",
+                "file": "CLC/CLC 14 Feb, 2023.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CNET/CNET 13 Feb, 2023.md"
+                "file": "CLC/CLC 14 Feb, 2023.md"
               }
             }
           },
@@ -181,17 +193,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1cc9a3cfd420ea59",
+  "active": "d5df5a1ef99b3182",
   "lastOpenFiles": [
-    "CNET/CNET 8 Feb, 2023.md",
-    "CNET/CNET 13 Feb, 2023.md",
-    "CLC/CLC 24 Jan, 2023.md",
     "CLC/CLC 7 Feb, 2023.md",
+    "CLC/CLC 24 Jan, 2023.md",
+    "CLC/CLC 14 Feb, 2023.md",
+    "CNET/CNET 13 Feb, 2023.md",
+    "CNET/CNET 8 Feb, 2023.md",
     "CNET/CNET 6 Feb, 2023.md",
     "CNET/CNET 1 Feb, 2023.md",
     "CNET/CNET 25 Jan, 2024.md",
     "CNET/CNET 23 Jan, 2023.md",
-    "TBW/TBW 7,  2023.md",
-    "FSE/FSE 25 Jan, 2023.md"
+    "TBW/TBW 7,  2023.md"
   ]
 }

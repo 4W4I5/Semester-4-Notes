@@ -36,6 +36,7 @@ SLIDES: Lecture 7, Application Layer Principles
 	- Usually temporarily connected, only for the need of the service
 	- Has a dynamic IP address
 	- cannot communicate directly with other clients
+	- Clients increase = Demand more resources
 - The system responding to the request is known as a server
 	- Usually assigned a static IP
 	- Always-On (Always powered on)
@@ -46,4 +47,42 @@ SLIDES: Lecture 7, Application Layer Principles
 	- List of seeders, leechers found
 	- Downloading from seeders
 	- leechers are the people downloading
+		- They usually download random parts of the file itself, if the file goes down then the leechers share the downloaded files
+	- Architecture
+		- No Always-On Server
+			- Theres no concept of a server
+		- End systems directly communicate
+			- Downloading is essentially a CS model
+		- Scaleable
+			- No central entity involved
+			- New peers bring new service capacity, as well as new service demands
+		- Peers request service from other peers and provide service in return to other peers
+		- Always Connected, Change IP Addresses
+###### Process Communications
+- Some kind of tab or whatever, a process in task manager
+	- Program running within a host
+	- Within the same host, two processes communicate using inter-process communication, defined by OS
+	- Processes in different hosts, communicate by exchange of messages
+
+### Sockets
+- A port and IP stored in memory. 
+- Used to identify the process with the help of IP and Port
+	- Scope ki baat ha, including the machine with the application
+### What does a network APP expect?
+- Data integrity
+	- Expected of transport layer
+	- Require 100% reliable data transfer
+	- Some can tolerate some amount of data loss
+- Timing
+	- Expected of transport layer
+	- Low latency
+- Throughput
+	- Actual speed
+	- Bandwidth
+- Security
+	- Encryption, but not much to be expected of it
+
+##### Securing TCP/UDP
+- Use of SSL
+	- Located in between application and transport layer
 	- 
