@@ -1,20 +1,20 @@
 #### Notes Status
 - TBW
-	- 7 feb
-	- 9 feb
-	- 14 feb
-	- 16 feb
+	- 7 feb (Complete)
+	- 9 feb (N/A)
+	- 14 feb (N/A)
+	- 16 feb (N/A)
 - CLC
-	- 24 jan
-	- 7 feb
-	- 9 feb
-	- 10 feb
-	- 14 feb
-	- 16 feb
+	- 24 jan (Refactor)
+	- 7 feb (Refactor)
+	- 9 feb (N/A)
+	- 10 feb (N/A)
+	- 14 feb (Refactor)
+	- 16 feb (Refactor)
 - FSE
 	- 25 jan (Complete)
-	- 6 feb  (Complete)
-	- 8 feb  (Complete)
+	- 6 feb (Complete)
+	- 8 feb (Complete)
 	- 15 feb (Refactor)
 - CNET
 	- 23 jan (N/A)
