@@ -8,26 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "5fa8a92a22dc5f4c",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "7924c608b64f187e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CLC/CLC 7 Feb, 2023.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "7517fb3bfad18cfd",
             "type": "leaf",
             "state": {
@@ -38,9 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "37c3dfdb9602a34e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notes Status.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -106,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "FSE/FSE Project/Project Deliverable 1.md",
+                "file": "Notes Status.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "FSE/FSE Project/Project Deliverable 1.md",
+                "file": "Notes Status.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "FSE/FSE Project/Project Deliverable 1.md"
+                "file": "Notes Status.md"
               }
             }
           },
@@ -177,8 +169,9 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "7517fb3bfad18cfd",
+  "active": "37c3dfdb9602a34e",
   "lastOpenFiles": [
+    "FSE/FSE Project/Project Deliverable 1.md",
     "CLC/CLC 7 Feb, 2023.md",
     "CLC/CLC 24 Jan, 2023.md",
     "FSE/FSE 6 Feb, 2023.md",
@@ -187,7 +180,6 @@
     "CNET/CNET 23 Jan, 2023.md",
     "CNET/CNET 1 Feb, 2023.md",
     "CNET/CNET 25 Jan, 2024.md",
-    "Discrete/Discrete Maths 2 Sept, 2022.md",
-    "Data Struct/Data Struct 2 Sept, 2022.md"
+    "Discrete/Discrete Maths 2 Sept, 2022.md"
   ]
 }
