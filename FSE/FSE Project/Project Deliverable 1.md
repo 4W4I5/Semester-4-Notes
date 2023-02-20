@@ -1,0 +1,41 @@
+- ##### Possible Titles:  
+- ##### Possible Nature of Project:  
+	- WebApp  
+	- MobileApp  
+	- Ask for more  
+- ##### Scope of the project:  
+- ##### Functional Plan (Features):
+- ##### Project Plan:
+	- Decide number of iterations
+	- Each iteration will be a working product (Scrum Approach)
+
+#### Meeting Points
+- Bring these points up at first
+	- Introduce everyone to each other
+		- Skills
+		- What they think they are good at
+		- Anything they have tried
+	- Maam is using Scrum and XP interchangeably so a Hybrid methodology will be adopted by us
+- Discuss what to build
+	- Discuss the nature of the project
+		- Should it be a webapp or a mobile app or a platform app
+		- Platform will most likely be windows regardless
+- How hard should we go (SCOPE)?
+- Roles
+	- I am already Technical Team Lead/Scrum Master
+		- We are working in teams of two. We'll decide on the pairs based on availability
+		- Ideally only one pair will work on the project at any given moment and at any given point one person writes the code and the other reviews the code. Switch every hour or so
+		- I'll be present in meetings with maam and with the Req Engg.
+		- Since this is a 4 man team. All of us will assume a base role of Developer. 
+	- Abdullah:
+	- Laiba:
+	- Sana:
+	- List of roles:
+		- Tester
+		- Product Design
+		- Frontend Dev
+		- Backend Dev
+		- Integration Team (A pair that integrates the work of the two pairs at the end of the day)
+- Coding Practices
+	- Document Document Document
+	- Record yourselves or comment or create a readme and append to the end but documentation is important
