@@ -16,6 +16,7 @@
 	- 6 feb (Complete)
 	- 8 feb (Complete)
 	- 15 feb (Refactor)
+	- 20 feb (Refactor needed high priority, Incomplete)
 - CNET
 	- 23 jan (N/A)
 	- 25 jan (N/A)
