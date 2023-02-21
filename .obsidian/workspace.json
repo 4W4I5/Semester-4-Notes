@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "49ddd0afad00c4a0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -156,14 +169,14 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "7517fb3bfad18cfd",
+  "active": "49ddd0afad00c4a0",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
+    "README.md",
     "CLC/CLC 24 Jan, 2023.md",
     "CLC/CLC 14 Feb, 2023.md",
     "CLC/CLC 16 Feb, 2023.md",
     "CLC/CLC 7 Feb, 2023.md",
-    "README.md",
-    "conflict-files-obsidian-git.md",
     "FSE/FSE Project/Project Deliverable 1.md",
     "FSE/FSE 15 Feb, 2023.md",
     "FSE/FSE 8 Feb, 2023 (XP Programming).md",
