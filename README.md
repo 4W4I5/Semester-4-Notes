@@ -15,7 +15,8 @@
 	- 25 jan (Complete)
 	- 6 feb (Complete)
 	- 8 feb (Complete)
-- 15 feb (Refactor)
+	- 15 feb (Refactor)
+	- 20 feb (Missing)
 - CNET
 	- 23 jan (N/A)
 	- 25 jan (N/A)
@@ -23,6 +24,7 @@
 	- 6 feb (Refactor)
 	- 8 feb (Refactor)
 	- 13 feb (Refactor)
+	- 20 feb (Missing)
 - FOM
 	- 26 jan (N/A)
 	- 3 FEB (N/A)
