@@ -1,1 +1,120 @@
-Lecture 8
+Lecture 8: Continued
+
+- HTTP
+	- HTTP is a PULL protocol
+	- Connections
+		- Persistent HTTP
+			- Server leaves connection open after sending response
+			- Costs 1 RTT + one more for handshake (N+1)
+			- Types:
+				- Without Pipeline
+					- Keep-Alive method not specified
+					- Objects are sent one by one
+						- Cannot send request for the next object while current object is being transferred
+					- Problem:
+						- TCP connection is kept idle while the request is being fulfilled
+				- With Pipeline
+					- Keep-Alive method specified
+					- Allows for multiple requests to receive multiple responses
+						- Each GET request is its own pipeline think of it like that
+					- Problem:
+						- HOL (Head of line Blocking)
+							- One large response data will block other later smaller data from reaching (It has to be in order)
+							- Solution:
+								- Divide Larger and smaller objects into frames
+								- Interleave all of those frames and send them 
+									- This allows for smaller files to be downloaded at the same time as the larger one is being downloaded in the background
+							- Another Issue is Retransmission
+								- Packet loss during transmission results in the rest of the download restarting from the start or the last sent packet
+									- e.g. if 5 failed then the rest wont be sent until 5 is sent successful
+	- Requests
+		- Conditional GET
+			- Specify date of cached object requested
+			- Method: if-modified-since: date
+			- Used mostly by proxy servers
+			- Advantages
+				- Lower link utilization
+				- No Object transmission delay
+			- Returns 304 Not Modified if no change
+				- If modified then returns Object in response 200 
+			- Present in both HTTP 1.0 and HTTP 1.1
+
+
+---
+Lecture 9: Web Caches & FTP
+
+- Proxy Server (Web Cache)
+	- Satisfy client request without involving origin server
+	- Browser sends all requests to cache
+		- How?
+	- IF object is in cache
+		- Return
+		- Else fetch from origin server and cache while returning it
+	- Typically installed by ISP
+	- How do we know if cached Object is the one up to date on the origin server? 
+		- Use conditional GET
+
+- File Transfer Protocol (FTP)
+	- Ports used: 20, 21. If one port is supposed to be the answer then it is control port 21
+	- Uses client-server model
+	- RFC 959
+	- Uses TCP connection over two ports
+		- Port 21
+			- TCP Control Connection 
+		- Port 20
+			- TCP Data connection
+	- Control connection is used for commands
+		- Enter username and password (Credentials)
+		- Send Commands (What we see using the console)
+			- GET to download files
+			- PUT to upload files
+	- Data connection is used for whatever data is being transmitted or received
+		- Only opened and closed as needed. After transmission it is closed
+	- Server maintains state, current directory and authentication
+	- Return Code
+		- 331 Username OK, Password Required
+		- 125 Data Connection already OPEN, Transfer Starting
+		- 425 Cannot open connection
+		- 452 Error Writing file
+
+- SMTP (Secure Mail Transfer Protocol)
+	- Ports used: 25
+	- Uses TCP
+	- Uses Persistent HTTP i.e. HTTP 1.1
+	- Requires message to be encoded in 7-bit ASCII
+	- Three phases of transfer:
+		- Handshake
+		- Transfer of messages
+	- RFC 2821
+	- Three major components
+		- User agents
+			- The interface we use to compose, edit, delete and send EMAILS
+			- Uses IMAP and POP3 Protocols
+			- These are PULL protocols
+			- POP3
+				- Cannot create custom layouts and access from multiple devices under the same interface
+				- Download and Delete
+					- Authorize
+						- Client declares User and Password
+						- After +OK from server go to Transaction Phase
+					- Transaction
+						- 
+				- Download and Keep
+			- IMAP
+				- Cloud-Based
+				- View as is on all devices, Layouts are allowed. Everything is mobile and exists on server
+		- Mail Servers
+			- Usually companies prefer their own mail exchanges
+			- Contains
+				- Mailbox
+					- Basically the server closest to the user
+				- Message Queue
+					- Used to pass messages in between SMTP servers
+				- SMTP used to send mail in between servers
+	- SMTP itself is a PUSH protocol
+	- ASCII Codes (Return Codes)
+		- 220
+		- 250 Acknowledge request
+		- 354
+		- 250
+		- 221 Close connection
