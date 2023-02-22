@@ -9,6 +9,63 @@
 	- Decide number of iterations
 	- Each iteration will be a working product (Scrum Approach)
 
+
+### To be Finalized Details
+- ###### Title:
+- ###### Nature of the Project:
+	- WebApp
+- ###### Scope:
+	- Project is essentially a prototype (idk what im typing here) 
+	- Demonstrate the idea of automation in an LMS
+- ###### Features: 
+	- Automation
+		- Automatic Google Calendar integration with LMS
+	- Student Side
+		- See 
+			- Grades
+			- Classes
+			- Attendance
+			- Marks
+			- Predicted Grades
+			- Transportation Details
+			- Personal Info
+		- Register
+			- Courses
+		- Request
+			- Semester Freeze (Needs approval by course teacher)
+			- Grade Change
+	- Teacher Side
+		- See
+			- Enrolled Students
+			- Courses to teach
+			- Classes
+			- Personal Info
+			- Scheduled Meetings
+		- Edit
+			- Student Marks
+			- Student Attendance
+			- Student Enrollment Status
+		- Create
+			- Class (AutoCreate Classroom on GCR)
+	- LMS Admin
+		- Full Control rights granted
+		- Can assign every user a role of teacher or student manually
+		- Reset Passwords
+		- Cannot edit grades but edit/delete Student and Teacher Personal Info
+- ###### Project Plan:
+- ###### Sprint Backlog
+	- Consists of 4 sprints
+		- ###### Sprint 1
+			- Initial Prototype
+			- 
+		- ###### Sprint 2
+		- ###### Sprint 3
+			- Introduce automation tasks
+		- ###### Sprint 4
+			- finalize 
+			- more test focused
+			- edge case analysis
+
 #### Meeting Points
 - Bring these points up at first
 	- Introduce everyone to each other
@@ -39,3 +96,11 @@
 - Coding Practices
 	- Document Document Document
 	- Record yourselves or comment or create a readme and append to the end but documentation is important
+
+---
+Change of plans
+- Can create a game
+- Unity seems a possible way
+- Look into it 
+- Most likely will be 2d
+- 
