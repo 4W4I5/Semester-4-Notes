@@ -24,7 +24,8 @@
 	- 6 feb (Refactor)
 	- 8 feb (Refactor)
 	- 13 feb (Refactor)
-	- 20 feb (Missing)
+	- 20 feb (Complete)
+	- 22 feb (Complete)
 - FOM
 	- 26 jan (N/A)
 	- 3 FEB (N/A)
