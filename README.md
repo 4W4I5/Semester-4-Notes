@@ -5,7 +5,7 @@
 	- 14 feb (N/A)
 	- 16 feb (N/A)
 - CLC
-	- 24 jan (N/A)
+	- 24 jan (Introductory, Skipped)
 	- 7 feb (Refactor)
 	- 9 feb (N/A)
 	- 10 feb (N/A)
