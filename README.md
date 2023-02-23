@@ -19,9 +19,9 @@
 	- 20 feb (Refactor needed high priority, Incomplete)
 	- 22 feb (Copy from recording)
 - CNET
-	- 23 jan (N/A)
-	- 25 jan (N/A)
-	- 1 feb (Refactor)
+	- 23 jan (Complete) | Introduction Lecture
+	- 25 jan (Complete) | Lecture 2 - Network Media and Packet Switching
+	- 1 feb (Refactor) | Lecture 2 - Circuit Switching
 	- 6 feb (Refactor)
 	- 8 feb (Refactor)
 	- 13 feb (Refactor)
@@ -31,4 +31,5 @@
 	- 26 jan (N/A)
 	- 3 FEB (N/A)
 	- 9 FEB (N/A)
-	- 17 FEB (N/A)
+	- 16 FEB (N/A)
+	- 23 Feb (N/A, Sir left early, gave presentation on books of management)
