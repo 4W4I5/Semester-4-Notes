@@ -12,11 +12,11 @@
 
 ## Key Network-Core Functions
 - ### Forwarding 
-	- aka switching, routing
-	- Routing is known as taking the decision of where to send the packet, Forwarding is actually processing the packet for this
 	- Modify a packet's header for the next appropriate router
+	- Act of sending the packet to the destination router based on routing information
 - ### Routing
-	- `Add them in later`
+	- Determines the source to destination route of packets
+	- It is the act of processing the next route for the packet done by the router
 
 ### Internet Structure: Network of Networks
 - Given millions of ISPs how do we connect them together?

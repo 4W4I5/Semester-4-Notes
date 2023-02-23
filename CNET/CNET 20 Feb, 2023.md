@@ -29,7 +29,7 @@ HTTP
 		- OS Overhead required for each TCP Connection
 		- Browsers often have to fetch referenced Objects using parallel TCP Connections
 	- persistent HTTP
-		- havent covered this in this lecture
+		- covered in [[CNET 22 Feb, 2023]]
 - Requests
 	- HTTP 1.0
 		- GET, POST, HEAD

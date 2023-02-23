@@ -14,13 +14,15 @@ NOTE:: A Network without an ISP connection will be known as INTRANET
 	- could only use voice/phone or the internet at one time
 - DSL (Digital Subscriber Line)
 	- Still using original telephone lines and a modem
-	- consistent speed guaranteed
+	- consistent speed guaranteed as bandwidth is not shared with anyone else
 	- use of a DSLAM (DSL access multiplexer)
 	- included a splitter that could split the incoming signal into voice and data lines to use separately 
+		- Phone and voice data was sent at lower frequencies
+		- Data was sent at higher frequencies
 	- Encoded at diff frequencies
-		- highSpeed = 50kHz - 1mHz
-		- slowSpeed = 
-		- voiceCall = 
+		- highSpeed = 50kHz - 1MHz
+		- slowSpeed = 4kHz - 50kHz
+		- voiceCall = 0kHz - 4kHz
 - Cable Network
 	- Use of cable tv lines
 	- Cable modems specific to frequency division multiplexing, used mainly channels 7 and 8
@@ -98,5 +100,8 @@ NOTE:: A Network without an ISP connection will be known as INTRANET
 	- Kind of like reserving a table at a restaurant
 		- Might not get a table
 	- Used in private specialized networks, eg a nuclear plant or some type of critical infrastructure where a delay or loss cannot be tolerated
+	- Constant Data stream
+	- Highly reliable once secured
+	- Wasted bandwidth when data is not being sent over the connection
 	- Modes
 		- Explained in the next note [[CNET 1 Feb, 2023]]

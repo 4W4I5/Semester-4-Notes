@@ -21,12 +21,12 @@
 - CNET
 	- 23 jan (Complete) | Introduction Lecture
 	- 25 jan (Complete) | Lecture 2 - Network Media and Packet Switching
-	- 1 feb (Refactor) | Lecture 2 - Circuit Switching
-	- 6 feb (Refactor)
-	- 8 feb (Refactor)
-	- 13 feb (Refactor)
-	- 20 feb (Complete)
-	- 22 feb (Complete)
+	- 1 feb (Complete) | Lecture 2 - Circuit Switching Modes & Lecture 3 - Internet Structure
+	- 6 feb (Refactor) | Lecture 4 - Network Delays
+	- 8 feb (Refactor) | Lecture 5 - Protocols & Service Models
+	- 13 feb (Refactor) | Lecture 7 - Application Layer
+	- 20 feb (Complete) | Lecture 8 - Web & HTTP
+	- 22 feb (Complete) | Lecture 8 - Web & HTTP (cont.) & Lecture 9 - Web Caches & FTP
 - FOM
 	- 26 jan (N/A)
 	- 3 FEB (N/A)
