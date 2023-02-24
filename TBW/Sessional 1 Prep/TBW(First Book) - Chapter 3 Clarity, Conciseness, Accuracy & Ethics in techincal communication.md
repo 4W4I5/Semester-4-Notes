@@ -64,15 +64,84 @@
 	- Break up a long sentence into smaller concise to the point sentences
 	- no more than 4 to 6 lines of text or roughly 50 words
 - ###### Limit Word and sentence length
+	- Use meat cleaver method of revision
+		- Cut sentences in halves or thirds
+	- Avoid shun words
+		- Words ending in
+			- -ion
+			- -sion
+	- Avoid camouflaged words
+		- Words with extra words like
+			- With the exception of 
+				- Here the key word is except
+		- Examples:
+			- Make an amendment | amend
+			- Make an adjustment | adjust
+			- have a meeting | meet
+			- thanking you in advance | thank you 
+			- for the purpose of discussing | discuss
+			- arrive at an agreement | agree
+			- at a later moment | later
+	- Avoid the expletive pattern (filler words)
+		- Words like (not a perfect example but look for words that add no extra meaning)
+			- there is/are/was/were/will be
+			- it is/was
+	- Omit redundancies
+		- no need to say the same thing twice in a different way
+			- during the year of 2021
+			- in the month of decemeber
+			- needless to say (No need to say it then lol)
+			- the computer will cost a sum of $1000 (Already a sum)
+			- the results so fat achieved prove (result is something that is achieved)
+			- our regular monthly status reports (regular anyways if its monthly)
+			- we collaborated together on a project (together means the same thing as collaborate)
+			- the consensus of the opinion is to (consensus implies opinion)
+	- Avoid Wordy phrases
+		- common sense if getting rid of shun words or expletive phrases
+	- Avoid words ending in -ing (<- just like that)
 
 ---
 ## 3.3 Achieving Accuracy in Technical Communication
+- Accuracy types
+	- Grammatical 
+		- English grammar should be on point
+	- Contextual
+		- The context should be correctly representing the background information required to process the evidence being presented
+- Basically, proofread your work/writing
+	- Let someone else read it
+	- Use the gestation approach
+		- Let your words marinate for a bit then read it
+	- Read backwards
+		- Only to catch typos
+	- Read one line at a time or print it out
+		- Like with a scale/ruler so you can read out typos in larger words
+	- Read long words syllable by syllable
+		- ^ same point
+	- Use technology
+		- Spellchecks
+	- Check figures, scientific equations and abbreviations
+	- Read it out loud
+		- If it sounds wrong, it is wrong
+	- Try scattershot proofing
+		- Pick a random word and see if you catch the error
+	- Use a dictionary
+		- Make it make sense
 
 ---
 ## 3.4 Organizing Technical Communication
 - ###### Spatial
+	- Talking about location of a particular object/person
+		- Helps reader visualize what the reader sees
+		- Placement, Direction, Facing X,Y,Z
+		- Examples: top/bottom, right/left, inside/outside, clockwise/anticlockwise
 - ###### Chronological
+	- Documents details by time or by steps i.e. Step 1, Step 2, Step 3....
 - ###### Importance
+	- Some points are more important than others
+	- Organized by higher importance over lower importance
 - ###### Comparison/Contrast
+	- Compare similarities and Contrast Differences
 - ###### Problem/Solution
+	- Offer solution to an existing problem
+	- Reader must be addressed (to the problem)
 

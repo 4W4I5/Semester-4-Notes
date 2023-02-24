@@ -1,2 +1,38 @@
-# 4.1 Sentence Strategies
-# 4.2 Write Clear Paragraphs for your Reader
+## 4.1 Sentence Strategies
+- Write in the active voice
+	- Subject + Verb + Object
+	- Move the person acting out of preposition phase
+	- Supply a subject 
+	- Substitute an active verb for a passive one
+	- Use passive voice only if it is accurate, can be used to emphasize certain words
+		- Milk samples are preserved by the additive (Milk samples is emphasized) passive
+		- The additive preserves the milk samples (additive is emphasized) active
+- Use parallelism
+	- If a list of stuff in series has a discrepency like
+		- "My duties included coming in early in the morning and doing preparation work, to cook on the front line, trained new employees, and took inventory"
+		- It just sounds off, everything shouldve had an -ing 
+- Use There is/are Sparingly (Indefinite phrase)
+- Avoid Nominalizations
+	- Avoid turning verbs into nouns by adding
+			- ion, expression
+			- ity, vicinity
+			- ment, excitement
+			- ness, fullness
+- Put the Main Idea First
+	- Get the main idea out early so people who get bored quicker do not miss it
+- Write sentences of 12 to 25 words
+	- Meat cleaver approach
+- Use "You" correctly
+	- Can not use this in formal reports either, as well as "I"
+- Avoid Sexist language
+	- Instead of he/she use they/their
+---
+## 4.2 Write Clear Paragraphs for your Reader
+- Put the topic sentence first
+	- Top-down strat
+	- Topic sentence at the top, Main sentence after in the next paragraph
+- Arrange sentences by level
+	- Topic sentence on the first level
+	- Suppporting setences for the topic sentence on the second level
+	- Third level consists of sentences that expand on the second level sentences
+	- Fourth level sentences can be use to conclude or have mutliple relationships with other sentences

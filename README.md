@@ -24,8 +24,8 @@
 | 10 feb | N/A, Rec available      |                  |
 | 14 feb | Refactor, Rec available |                  |
 | 16 feb | Refactor, Rec available |                  |
-| 22 feb | N/A, Rec available      |                  |
-| 23 feb | N/A, Rec available      |                  |
+| 21 feb | Refactor, Rec available      |                  |
+| 23 feb | Refactor, Rec available      |                  |
 
 ### FSE
 | Date   | Status                                            | Content      |
