@@ -37,13 +37,26 @@
 
 ---
 ## 1.3 The importance of Technical Communication
+- ##### Technical VS Business Writing
+	- ###### Technical 
+		- Piece of writing that covers instructions/information about a certain product/service
+		- Simplify difficult info
+		- Tend to be natural and objective
+		- Technique of communicating about or explaining something and how it works in a clear and effective manner
+	- ###### Business
+		- Communication with internal and external audiences
+		- Some of these do not have to be persuasive i.e project proposals, sales, emails
+
 - ###### In business
 	- Follow up Letters | Maintain Good customer-client relations
 	- Directive Memos or Email | Ensure work is accomplished on time
 	- Progress Reports | Documentation on completed work
 	- Sales Letters, Brochures & Files | Generate income
 	- Instant Messages or Text messages
-	- User manuals
+	- User manuals | Tangible Technical Writing
+	- Instruction Manuals | Tangible Technical Writing
+	- Policy Manuals | Abstract Technical Writing
+	- Datasheets | Abstract Technical Writing
 	- Technical Descriptions
 	- Oral Communication
 	- Resumes
