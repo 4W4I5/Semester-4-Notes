@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "0997ef4a482bc38f",
+        "id": "540c521a271fdfae",
         "type": "tabs",
         "children": [
           {
-            "id": "b2ae85a20375480b",
+            "id": "06481778bb9f03ff",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TBW/Sessional 1 Prep/TBW(First book) Chapter 1 - Introduction to technical communication.md",
+                "file": "TBW/Sessional 1 Prep/TBW(First Book) - Chapter 3 Clarity, Conciseness, Accuracy & Ethics in techincal communication.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TBW/Sessional 1 Prep/TBW(First book) Chapter 1 - Introduction to technical communication.md",
+                "file": "TBW/Sessional 1 Prep/TBW(First Book) - Chapter 3 Clarity, Conciseness, Accuracy & Ethics in techincal communication.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TBW/Sessional 1 Prep/TBW(First book) Chapter 1 - Introduction to technical communication.md",
+                "file": "TBW/Sessional 1 Prep/TBW(First Book) - Chapter 3 Clarity, Conciseness, Accuracy & Ethics in techincal communication.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TBW/Sessional 1 Prep/TBW(First book) Chapter 1 - Introduction to technical communication.md"
+                "file": "TBW/Sessional 1 Prep/TBW(First Book) - Chapter 3 Clarity, Conciseness, Accuracy & Ethics in techincal communication.md"
               }
             }
           },
@@ -156,7 +156,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "b2ae85a20375480b",
+  "active": "06481778bb9f03ff",
   "lastOpenFiles": [
     "TBW/Sessional 1 Prep/TBW(First Book) - Chapter 3 Clarity, Conciseness, Accuracy & Ethics in techincal communication.md",
     "TBW/Sessional 1 Prep/TBW(First book) Chapter 1 - Introduction to technical communication.md",
