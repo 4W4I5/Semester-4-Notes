@@ -6,7 +6,9 @@
 	- 16 feb (N/A)
 - CLC
 	- 24 jan (Introductory, Skipped)
-	- 7 feb (Refactor)
+	- 31 jan (N/A, Absent)
+	- 2 feb (N/A, Absent)
+	- 7 feb (Refactor) | Slide 2 Module 1: 
 	- 9 feb (N/A)
 	- 10 feb (N/A)
 	- 14 feb (Refactor)
