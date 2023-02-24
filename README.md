@@ -14,18 +14,19 @@
 | 21 feb | N/A, Rec available |         |
 
 ### CLC
-| Date   | Status                  | Content          |
-| ------ | ----------------------- | ---------------- |
-| 24 jan | Skipped                 | Introductory     |
-| 31 jan | N/A, Absent             |                  |
-| 2 feb  | N/A, Absent             |                  |
-| 7 feb  | Refactor                | Slide 2 Module 1 |
-| 9 feb  | N/A, Rec available      |                  |
-| 10 feb | N/A, Rec available      |                  |
-| 14 feb | Refactor, Rec available |                  |
-| 16 feb | Refactor, Rec available |                  |
-| 21 feb | Refactor, Rec available      |                  |
-| 23 feb | Refactor, Rec available      |                  |
+| Date   | Status                  | Content                                              |
+| ------ | ----------------------- | ---------------------------------------------------- |
+| 24 jan | Skipped                 | Introductory                                         |
+| 31 jan | N/A, Absent             |                                                      |
+| 2 feb  | N/A, Absent             |                                                      |
+| 7 feb  | Refactor                | Cloud benefits & AWS CAF                             |
+| 9 feb  | N/A, Rec available      |                                                      |
+| 10 feb | N/A, Rec available      |                                                      |
+| 14 feb | Refactor, Rec available | AWS Service Models & AWS Shared responsibility Model |
+| 16 feb | Refactor, Rec available | AWS IAM                                              |
+| 21 feb | Refactor, Rec available | AWS IAM (cont.)                                      |
+| 23 feb | Refactor, Rec available | AWS CloudTrail & AWS Organizations                   |
+
 
 ### FSE
 | Date   | Status                                            | Content      |
@@ -38,7 +39,7 @@
 | 13 feb | N/A, Reason unknown                               |              |
 | 15 feb | Refactor, Rec availble                            |              |
 | 20 feb | Refactor High priority, Incomplete, Rec available |              |
-| 22 feb | Incomplete, Rec available                                                  |              |
+| 22 feb | Incomplete, Rec available                         |              |
 
 ### CNET
 | Date   | Status                  | Content                                                        |

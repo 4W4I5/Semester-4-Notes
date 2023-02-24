@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TBW/TBW 21 Feb, 2023.md",
+                "file": "CLC/CLC 23 Feb, 2023.md",
                 "mode": "source",
                 "source": false
               }
@@ -103,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TBW/TBW 21 Feb, 2023.md",
+                "file": "CLC/CLC 23 Feb, 2023.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TBW/TBW 21 Feb, 2023.md",
+                "file": "CLC/CLC 23 Feb, 2023.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TBW/TBW 21 Feb, 2023.md"
+                "file": "CLC/CLC 23 Feb, 2023.md"
               }
             }
           },
@@ -177,8 +177,12 @@
   "active": "2cb5192254e3ee61",
   "lastOpenFiles": [
     "README.md",
-    "TBW/TBW 21 Feb, 2023.md",
+    "CLC/CLC 23 Feb, 2023.md",
+    "CLC/CLC 21 Feb, 2023.md",
+    "CLC/CLC 16 Feb, 2023.md",
+    "CLC/CLC 14 Feb, 2023.md",
     "CLC/CLC 7 Feb, 2023.md",
+    "TBW/TBW 21 Feb, 2023.md",
     "TBW/Sessional 1 Prep/TBW(Second Book) - Chapter 4 Technical Communication Style.md",
     "TBW/Sessional 1 Prep/TBW(First Book) - Chapter 3 Clarity, Conciseness, Accuracy & Ethics in techincal communication.md",
     "TBW/Sessional 1 Prep/TBW(First book) Chapter 1 - Introduction to technical communication.md",
@@ -194,13 +198,10 @@
     "CNET/CNET 22 Feb, 2023.md",
     "FOM/FOM 16 Feb, 2023.md",
     "FOM/FOM 23 Feb, 2023.md",
-    "CLC/CLC 23 Feb, 2023.md",
-    "CLC/CLC 21 Feb, 2023.md",
     "FSE/FSE 22 Feb, 2023.md",
     "FSE/FSE 20 Feb, 2023.md",
     "FSE/FSE Project/Project Deliverable 1.md",
     "FSE/FSE 15 Feb, 2023.md",
-    "FSE/FSE 8 Feb, 2023 (XP Programming).md",
-    "FSE/FSE 6 Feb, 2023 (Traditional Models).md"
+    "FSE/FSE 8 Feb, 2023 (XP Programming).md"
   ]
 }
