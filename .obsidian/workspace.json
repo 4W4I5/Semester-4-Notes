@@ -13,31 +13,50 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "TBW/TBW 7 Feb,  2023.md",
                 "mode": "source",
                 "source": false
               }
             }
-          }
-        ]
-      },
-      {
-        "id": "0c21f9736ab55428",
-        "type": "tabs",
-        "children": [
+          },
           {
-            "id": "a5468b83ac310a9e",
+            "id": "fbb16efbee3f51f4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "TBW/Sessional 1 Prep/TBW(First book) Chapter 1 - Introduction to technical communication.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f7095fe45de41008",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "TBW/Sessional 1 Prep/TBW(First Book) - Chapter 3 Clarity, Conciseness, Accuracy & Ethics in techincal communication.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b2ae85a20375480b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "TBW/Sessional 1 Prep/TBW(Second Book) - Chapter 4 Technical Communication Style.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -103,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "TBW/Sessional 1 Prep/TBW(First book) Chapter 1 - Introduction to technical communication.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "TBW/Sessional 1 Prep/TBW(First book) Chapter 1 - Introduction to technical communication.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "TBW/Sessional 1 Prep/TBW(First book) Chapter 1 - Introduction to technical communication.md"
               }
             }
           },
@@ -156,11 +175,12 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -173,18 +193,24 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "0ce6913a706f0f18",
+  "active": "fbb16efbee3f51f4",
   "lastOpenFiles": [
-    "CLC/CLC 7 Feb, 2023.md",
+    "TBW/Sessional 1 Prep/TBW(Second Book) - Chapter 4 Technical Communication Style.md",
+    "TBW/TBW 7 Feb,  2023.md",
+    "TBW/Sessional 1 Prep/TBW(First Book) - Chapter 3 Clarity, Conciseness, Accuracy & Ethics in techincal communication.md",
+    "TBW/Sessional 1 Prep/TBW(First book) Chapter 1 - Introduction to technical communication.md",
     "README.md",
+    "TBW/Sessional 1 Prep",
+    "TBW/TBW 21 Feb, 2023.md",
+    "CLC/CLC 7 Feb, 2023.md",
     "CNET/CNET 20 Feb, 2023.md",
-    "CNET/CNET 22 Feb, 2023.md",
     "CNET/CNET 13 Feb, 2023.md",
     "CNET/CNET 8 Feb, 2023.md",
     "CNET/CNET 6 Feb, 2023.md",
     "CNET/CNET 1 Feb, 2023.md",
     "CNET/CNET 25 Jan, 2023.md",
     "CNET/CNET 23 Jan, 2023.md",
+    "CNET/CNET 22 Feb, 2023.md",
     "FOM/FOM 16 Feb, 2023.md",
     "FOM/FOM 23 Feb, 2023.md",
     "CLC/CLC 23 Feb, 2023.md",

@@ -1,6 +1,7 @@
 #### Notes Status
 
 ### TBW
+- Didn't record lectures till sessional 1, made notes on chapters 1 and 3 of first book (Last topics excluded) and chapter 4 of second book
 | Date   | Status             | Content |
 | ------ | ------------------ | ------- |
 | 24 jan | N/A                |         |
