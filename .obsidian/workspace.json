@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CLC/CLC 7 Feb, 2023.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
@@ -160,8 +160,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -174,7 +173,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "a5468b83ac310a9e",
+  "active": "0ce6913a706f0f18",
   "lastOpenFiles": [
     "CLC/CLC 7 Feb, 2023.md",
     "README.md",

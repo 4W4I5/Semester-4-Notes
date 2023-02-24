@@ -43,3 +43,9 @@
 	- 9 FEB (N/A)
 	- 16 FEB (N/A)
 	- 23 Feb (N/A, Sir left early, gave presentation on books of management)
+
+### TBW
+| Date        | Status | Content |
+| ----------- | ------ | ------- |
+| 24 jan 2023 | N/A    |         |
+| asdas            |        |         |
