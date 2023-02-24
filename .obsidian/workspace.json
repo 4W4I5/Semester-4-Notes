@@ -8,43 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "4c6e876abc304c14",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "TBW/TBW 7 Feb,  2023.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f7095fe45de41008",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "README.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "b2ae85a20375480b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TBW/Sessional 1 Prep/TBW(Second Book) - Chapter 4 Technical Communication Style.md",
+                "file": "TBW/Sessional 1 Prep/TBW(First book) Chapter 1 - Introduction to technical communication.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -110,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "TBW/Sessional 1 Prep/TBW(First book) Chapter 1 - Introduction to technical communication.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "TBW/Sessional 1 Prep/TBW(First book) Chapter 1 - Introduction to technical communication.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "TBW/Sessional 1 Prep/TBW(First book) Chapter 1 - Introduction to technical communication.md"
               }
             }
           },
@@ -181,13 +156,13 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "f7095fe45de41008",
+  "active": "b2ae85a20375480b",
   "lastOpenFiles": [
-    "TBW/Sessional 1 Prep/TBW(First book) Chapter 1 - Introduction to technical communication.md",
     "TBW/Sessional 1 Prep/TBW(First Book) - Chapter 3 Clarity, Conciseness, Accuracy & Ethics in techincal communication.md",
-    "TBW/TBW 7 Feb,  2023.md",
     "TBW/Sessional 1 Prep/TBW(Second Book) - Chapter 4 Technical Communication Style.md",
+    "TBW/TBW 7 Feb,  2023.md",
     "README.md",
+    "TBW/Sessional 1 Prep/TBW(First book) Chapter 1 - Introduction to technical communication.md",
     "TBW/Sessional 1 Prep",
     "TBW/TBW 21 Feb, 2023.md",
     "CLC/CLC 7 Feb, 2023.md",

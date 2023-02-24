@@ -141,11 +141,15 @@
 			- Teams need money for staffing, personnel or equipment
 			- Support is also managerial as well. Managers boost morale
 		- Wellness
-			- 
+			- A person's health and wellbeing is also an important factor, a stressed individual is more susceptible to arguments, missed deadlines, erratic work schedules and poor quality
 		- Acknowledgement
+			- Upon success management needs to reward staff with promotions, merit raises, bonuses and awards
 		- Trust
+			- Team members who trust each other are open in their brainstorming, compliment each others' efforts and work effectively towards a common goal
 		- Leadership
+			- A team needs a direction, successful teams work well when their leaders provide clear deadlines, responsibilities, task goals and fair-minded leadership 
 		- Efficient Communication
+		- Too much emailing back and forth is overwhelming, only send what needs to be sent and keep it short
 - ###### HPI Intervention Techniques
 	- Improved compensation
 	- Employee recognition
