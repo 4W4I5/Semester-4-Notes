@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CLC/CLC 10 Feb, 2023.md",
+                "file": "CLC/CLC 9 Feb, 2023.md",
                 "mode": "source",
                 "source": false
               }
@@ -140,7 +140,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CLC/CLC 10 Feb, 2023.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -157,7 +157,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CLC/CLC 10 Feb, 2023.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -180,7 +180,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CLC/CLC 10 Feb, 2023.md"
+                "file": "README.md"
               }
             }
           },
@@ -211,14 +211,14 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "429b6a6aa24a72af",
+  "active": "f6bb95cbadaf667a",
   "lastOpenFiles": [
     "CLC/CLC 9 Feb, 2023.md",
     "CLC/CLC 10 Feb, 2023.md",
+    "README.md",
     "CLC/CLC 2 Feb, 2023.md",
     "CLC/CLC 31 Jan, 2023.md",
     "CLC/CLC 23 Feb, 2023.md",
-    "README.md",
     "CLC/CLC 21 Feb, 2023.md",
     "CLC/CLC 16 Feb, 2023.md",
     "CLC/CLC 14 Feb, 2023.md",
