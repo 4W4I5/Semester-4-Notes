@@ -15,6 +15,7 @@
 
 ### CLC
 - Notes upto the first sessional are scarce as of writing. Prepped using slides
+
 | Date   | Status                  | Content                                              |
 | ------ | ----------------------- | ---------------------------------------------------- |
 | 24 jan | Skipped                 | Introductory                                         |
