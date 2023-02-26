@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CNET/CNET 1 Feb, 2023.md",
+                "file": "CNET/CNET 6 Feb, 2023.md",
                 "mode": "source",
                 "source": false
               }
@@ -103,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CNET/CNET 1 Feb, 2023.md",
+                "file": "CNET/CNET 6 Feb, 2023.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CNET/CNET 1 Feb, 2023.md",
+                "file": "CNET/CNET 6 Feb, 2023.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CNET/CNET 1 Feb, 2023.md"
+                "file": "CNET/CNET 6 Feb, 2023.md"
               }
             }
           },
@@ -176,6 +176,7 @@
   },
   "active": "429b6a6aa24a72af",
   "lastOpenFiles": [
+    "CNET/CNET 1 Feb, 2023.md",
     "CNET/CNET 25 Jan, 2023.md",
     "CNET/CNET 23 Jan, 2023.md",
     "FSE/FSE 20 Feb, 2023.md",
@@ -201,7 +202,6 @@
     "TBW/TBW 7 Feb,  2023.md",
     "TBW/Sessional 1 Prep",
     "CNET/CNET 20 Feb, 2023.md",
-    "CNET/CNET 13 Feb, 2023.md",
-    "CNET/CNET 8 Feb, 2023.md"
+    "CNET/CNET 13 Feb, 2023.md"
   ]
 }

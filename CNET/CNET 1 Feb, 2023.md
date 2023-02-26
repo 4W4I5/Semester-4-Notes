@@ -24,29 +24,30 @@
 	- A better option: Have a central ISP that governs/routes traffic from local ISPs but the central ISP will run a monopoly
 		- Also thinking from a business standpoint, other central ISPs might not connect with other central ISPs
 		- Central ISPs also have Peering links (hardware connections) with a bridge router and IXP (Internet Exchange Point) 
-			- IXPs take responsibilty and setup the hardware to route data b/w two central ISPs when peering isnt possible
+			- IXPs take responsibility and setup the hardware to route data b/w two central ISPs when peering isn't possible
 			- It is also how internet infrastructure companies such as ISPs, CDNs (Content Delivery Network), web enterprises, CSPs(communication service providers), Cloud providers, SaaS providers connect to each other
 - Content Delivery Network
 	- A CDN is a geographically distributed group of servers that work together to provide fast delivery of internet content
-	- Usually used for fast delivery including html pages, javascript files, css sheets, images and videos
+	- Usually used for fast delivery including html pages, JavaScript files, CSS sheets, images and videos
 	- Synced together to allow for faster local data delivery
 	- Essentially created a temp data store that holds the most requested data
 	- CDN deploys servers globally
 		- Known as Point of Presence (PoP)
 		- A server in the PoP is known as a edge server
 		- Edge servers act as proxy with a huge content cache
-		- CDNs will also communicate with the originating server to deliver any content that wasnt previosuly cached
-		- Static content is usally cached
+		- CDNs will also communicate with the originating server to deliver any content that wasn't previously cached
+		- Static content is usually cached
 	- Content Request Method
 		- DNS Based Routing
 			- Each PoP has its own IP assigned.
 			- User looks up IP for CDN(the entire network not the server nearby) 
 			- The DNS returns the IP of the PoP instead
 		- AnyCast
-			- All Edge servers have the same IP
-			- A request to the anycast network to the DNS
-			- The DNS returns the IP of the PoP that is closest to the repeater
-			- `Look up more information on this topic`
+			- How does it work?
+				- All Edge servers have the same IP
+				- A request to the anycast network to the DNS
+				- The DNS returns the IP of the PoP that is closest to the repeater
+			- It is an example of a 1-to-1 of many association
 			- How do the servers talk to each other, if they have the same IP?
 				- MAC addresses might be cached
 
