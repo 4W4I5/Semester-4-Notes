@@ -25,7 +25,7 @@
 		- Also thinking from a business standpoint, other central ISPs might not connect with other central ISPs
 		- Central ISPs also have Peering links (hardware connections) with a bridge router and IXP (Internet Exchange Point) 
 			- IXPs take responsibilty and setup the hardware to route data b/w two central ISPs when peering isnt possible
-			- It is also how internet infrastructure companies such as ISPs, CDNs (Content Delivery Network), web enterprises, CSPs(communication service providers), Cloud providers, SaaS providers
+			- It is also how internet infrastructure companies such as ISPs, CDNs (Content Delivery Network), web enterprises, CSPs(communication service providers), Cloud providers, SaaS providers connect to each other
 - Content Delivery Network
 	- A CDN is a geographically distributed group of servers that work together to provide fast delivery of internet content
 	- Usually used for fast delivery including html pages, javascript files, css sheets, images and videos

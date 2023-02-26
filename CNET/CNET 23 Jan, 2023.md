@@ -12,13 +12,12 @@ cnet is a group of computers connected together to communicate, exchange data, a
 - networks: collection of devices, routers, links, managed by an organization 
 - protocols: a common language/ground to interface with other devices 
 	- its just a set of a rules. they define format, order, how the message is sent and received
+
 - ###### Internet Standards
 	- internet RFC
 		- Request for comments, contains all the info about the particular protocol 
 	- IETF
 		- Internet Engineer Task Force
-
-
 
 #### Internet structure
 - Network core
