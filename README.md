@@ -39,7 +39,7 @@
 | 6 feb  | Complete                                          | Traditional Models      |
 | 8 feb  | Complete                                          | Agile & XP              |
 | 13 feb | N/A, Only had quiz that day                       |                         |
-| 15 feb | Refactor, Rec availble                            | Scrum                   |
+| 15 feb | Complete                                          | Scrum                   |
 | 20 feb | Refactor High priority, Incomplete, Rec available | Requirement Engineering |
 | 22 feb | Incomplete, Rec available                         |                         |
 
