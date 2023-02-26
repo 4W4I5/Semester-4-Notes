@@ -82,7 +82,36 @@ SLIDES: Lecture 7, Application Layer Principles
 - Security
 	- Encryption, but not much to be expected of it
 
+#### Why TCP/UDP
+- ### TCP
+	- Reliable Transport
+	- Flow Control
+		- Sender wont overwhelm receiver
+	- Congestion Control
+		- Throttle sender when network is overloaded
+	- Connection-Oriented
+		- Setup required b/w client and server processes
+	- Does not however provide
+		- Timing
+		- Minimum throughput guarantee
+		- Security
+- ### UDP
+	- Unreliable
+	- Does not provide
+		- Reliability
+		- Flow Control
+		- Congestion Control
+		- Timing
+		- Throughput guarantee
+		- security
+		- connection setup
+	- Used cause these things take time and overhead, if a packet has to be sent as fast as possible UDP is the way
+
 ##### Securing TCP/UDP
+- As is the connection is not encrypted
+	- Everything is sent in cleartext
 - Use of SSL
 	- Located in between application and transport layer
-	- 
+	- Used at the application layer via an SSL library
+
+---

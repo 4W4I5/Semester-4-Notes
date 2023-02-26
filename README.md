@@ -44,16 +44,16 @@
 | 22 feb | Incomplete, Rec available                         |                         |
 
 ### CNET
-| Date   | Status                  | Content                                                        |
-| ------ | ----------------------- | -------------------------------------------------------------- |
-| 23 jan | Complete                | Introduction                                                   |
-| 25 jan | Complete                | Lecture 2 - Network Media & Packet Switching                   |
-| 1 feb  | Complete                | Lecture 2 - Circuit Switching & Lecture 3 - Internet Structure |
-| 6 feb  | Refactor, Rec available | Lecture 4 - Network Delays                                     |
-| 8 feb  | Refactor                | Lecture 5 - Protocols & Service Models                         |
-| 13 feb | Refactor                | Lecture 7 - Application Layer                                  |
-| 20 feb | Complete                | Lecture 8 - Web & HTTP                                         |
-| 22 feb | Complete                | Lecture 8 - Web & HTTP (cont.) & Lecture 9 - Web cache, FTP, SMTP         |
+| Date   | Status   | Content                                                           |
+| ------ | -------- | ----------------------------------------------------------------- |
+| 23 jan | Complete | Introduction                                                      |
+| 25 jan | Complete | Lecture 2 - Network Media & Packet Switching                      |
+| 1 feb  | Complete | Lecture 2 - Circuit Switching & Lecture 3 - Internet Structure    |
+| 6 feb  | Complete | Lecture 4 - Network Delays                                        |
+| 8 feb  | Complete | Lecture 5 - TCP/IP Service Model & OSI Model                      | 
+| 13 feb | Complete | Lecture 7 - Application Layer                                     |
+| 20 feb | Complete | Lecture 8 - Web & HTTP                                            |
+| 22 feb | Complete | Lecture 8 - Web & HTTP (cont.) & Lecture 9 - Web cache, FTP, SMTP |
 
 ### FOM
 | Date   | Status                                                  | Content |

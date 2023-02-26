@@ -10,7 +10,7 @@ Why Layers?
 - Everything is modular, a change in one layer will not affect not the layers its based off on.
 
 # TCP/IP Model
-- Application
+- #### Application
 	- Supporting Network Apps
 		- FTP (File Transfer Protocol)
 		- SMTP (Secure Mail Transfer Protocol)
@@ -18,7 +18,7 @@ Why Layers?
 		- DNS (Domain Name Service)
 		- DHCP (Dynamic Host Configuration Protocol)
 	- This layer generates data
-- Transport
+- #### Transport
 	- Process-Process Data Transfer
 		- TCP (Transfer Control Protocol)
 		- UDP (User Datagram Protocol)
@@ -29,14 +29,15 @@ Why Layers?
 		- UDP is fast but not reliable
 	- The header of the chosen protocol is appended alongside the port number
 		- Port number is used to respond back to the application on the response both source port and destination port
-- Network
+- #### Network
 	- Routing of Datagrams from source to destination
 		- IP
 		- Routing Protocols
 	- Appends destination and source IP, whatever the routing protocol has determined as well
+	- Based on the Logical Addressing (IP), the "Best path determination" is also made here
 	- Every segment from the Transport Layer is now converted into a Packet
 	- Physical Equipment would be called a Router at this stage
-- Link
+- #### Link
 	- Data Transfer b/w neighboring elements
 		- Ethernet
 		- 802.111 Wireless
@@ -44,12 +45,13 @@ Why Layers?
 	- Error Checking also happens at this stage
 	- Packets are also encapsulated, decapsulated at this stage. Depending on the medium used.
 	- MAC address is also appended to the header. Both source and destination address.
-- Physical
+		- If the medium is shared, this is what is used to identify the different packets
+- #### Physical
 	- Bits on wire
 
 ### Understanding TCP/IP or OSI
 - Standard OSI model has 7 Layers (Application, Presentation, Session, Transport, Network, Data Link, Physical)
 - TCP/IP has 5 Layers (Application, Transport, Network, Data link, Physical)
-- Start bottom up, i.e Physical is Layer 1 and Application is Layer 5
+- Start bottom up, i.e. Physical is Layer 1 and Application is Layer 5
 - Application layer provides services for an application to facilitate communication b/w another application
 
