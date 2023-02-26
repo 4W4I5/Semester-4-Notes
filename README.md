@@ -38,7 +38,7 @@
 | 1 feb  | N/A, Maam was late to class                       |                         |
 | 6 feb  | Complete                                          | Traditional Models      |
 | 8 feb  | Complete                                          | Agile & XP              |
-| 13 feb | N/A, Reason unknown                               |                         |
+| 13 feb | N/A, Only had quiz that day                       |                         |
 | 15 feb | Refactor, Rec availble                            | Scrum                   |
 | 20 feb | Refactor High priority, Incomplete, Rec available | Requirement Engineering |
 | 22 feb | Incomplete, Rec available                         |                         |
