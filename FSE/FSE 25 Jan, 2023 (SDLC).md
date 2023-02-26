@@ -39,3 +39,12 @@ LOOKUP: Ariane 5 Flight 501 failure
 - Testing
 - Deployment
 - Maintenance
+
+Quality Assurance vs Quality Control
+- Assurance is done in parallel with all SDLC lifecycle components
+- Control is done in the control phase, before handover. The product is tested for flaws and errors.
+	- Errors found in this phase are usually more detrimental to the project as to fix them the entire project is usually restructured and built up again. This costs more and hence why Assurance is important
+
+Verification vs Validation
+- Verification is used to check if product is upto mark while in its development
+- Validation is used to check if the final product is functioning as intended by the customer

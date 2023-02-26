@@ -1,15 +1,22 @@
-Quality Assurance vs Quality Control
-- Assurance is done in parallel with all SDLC lifecycle components
-- Control is done in the control phase, before handover. The product is tested for flaws and errors.
-	- Errors found in this phase are usually more detrimental to the project as to fix them the entire project is usually restructured and built up again. This costs more and hence why Assurance is important
-
-Verification vs Validation
-- Verification is used to check if product is upto mark while in its development
-- Validation is used to check if the final product is functioning as intended by the customer
-
-# Software Models
-
 ### Waterfall Model (Obsolete)
+- Phases
+	- Communication
+		- Project initiation
+		- Requirements Gathering
+	- Planning
+		- Estimating
+		- Scheduling
+		- Tracking
+	- Modelling
+		- Analysis
+		- Design
+	- Construction
+		- Code
+		- Test
+	- Deployment
+		- Delivery
+		- Support
+		- Feedback
 - Requirement Gathering 
 - Software & System Design
 - Implementation & Unit Design
@@ -25,18 +32,43 @@ Verification vs Validation
 - Iteration is not possible, any change causes confusion
 - Customer wont always state all the requirements up front, change is inevitable
 - Working version is not ready until the final phase
-- 
 
 ##### Waterfall Model With Feedback (Iterative)
-- 
+- Each phase has a feedback session which allows for easier error correction in the next iteration
+- Cons
+	- Even though it is iterative, there is still no incremental delivery of the product
+	- Phase overlapping not supported
+	- Risk handling not supported
+	- Customer interaction only occurs during the start and the end of the project
 
+---
 ### Incremental Model (Traditional)
+
 - Divides system functionality into small increments that are delivered one after the other in quick succession
 - Every increment expands on the previous one until everything has been updated and implemented
 	- It passes through requirement, design, coding and testing stages
-- It lets stakeholders and developers see results with the first incrememnt, if anyone doesnt like anything everyone finds out a lot sooner.
+- It lets stakeholders and developers see results with the first increment, if anyone doesn't like anything everyone finds out a lot sooner.
 - Such a style of model is great for projects that have loosely coupled parts and have complete and clear requirements
 
+- Pros
+	- Useful when staffing is low for full-scale dev
+	- Needed functionality set is provided before the optional components
+	- Iterative in nature
+		- Every product made is operational at some level
+- Cons
+	- Requirements must be well understood
+	- Project style must have independent modules
+- Phases
+	- Communication
+	- Quick Planning
+	- Quick Design (Modelling)
+	- Prototype
+	- Deployment
+		- Delivery
+		- Feedback
+	- Repeat
+
+###### Example of the incremental process
 - Outline Description
 - Specification
 	- Initial Version
@@ -45,7 +77,8 @@ Verification vs Validation
 - Validation
 	- Final Version
 
-### Prototyping/Iterative Model
+---
+### Prototyping Model (Evolutionary)
 - Unsure requirements from customer, this is when it is used the best
 - Throw out a prototype that might work, and see if itll happen
 - Hard to convince the customer that the original isn't the project you were working on
@@ -77,8 +110,10 @@ Best used for developing Online systems where users are expected to fill forms o
 		- Confusing or difficult functions can be identified and changed accordingly
 	- Cons
 		- Risk of insufficient requirement analysis owing to too much dependency on the prototype
-		- Users might get confused between the prototype and the actual intended deployed systems
+		- Users see the prototype and attempt to buy it after a few fixes, resulting in a bad product
+			- Very important to define rules up front, before starting the project
 		- Devs may try to reuse existing prototypes to build the actual system even when its not technically feasible
+			- They also try to compromise on implementation in order to get the prototype up and running
 		- ###### Effort invested in building prototypes may be too much if not checked/monitored properly
 - Types of Prototyping
 	- Throwaway/Rapid
@@ -100,7 +135,31 @@ Best used for developing Online systems where users are expected to fill forms o
 			- Services are implemented into the final prototype 
 		- Endgoal is draw attention to the second phase. where a fully functional UI is developed with very little regard to the actual services
 
-### Spiral Model
+---
+### Spiral Model (Evolutionary)
 
-
+- Phases
+	- Communication
+	- Planning
+	- Modelling
+	- Construction
+	- Deployment
+	- Repeat
+- Points
+	- Is an evolutionary approach to programming
+	- Used when requirements are not understood and risks are high
+	- At first, gather information on software requirements and risks until understood
+	- Afterwards, run the loop one more time using the classic waterfall approach but with iterations in mind.
+		- Every new spiral(loop) will be a new iteration of the product
+	- At the end of each spiral, risk assessment determines which features are to be kept and which to discard
+	- Risk assessment expertise required
+	- Realistic model for large scale deployment
+- Cons
+	- Number of iterations are always unknown
+		- Cause of the way requirements are not understood, the spiral keeps on going until requirements are finalized
+	- Max speed of evolution unknown
+		- Too fast and something will be missing
+		- Too slow and productivity suffers
+	- Software development should be flexible to future changes
+		- After which the defects can be worked out and we can start to focus on quality
 
