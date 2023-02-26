@@ -126,7 +126,7 @@ How important is change in XP, very important. Software houses that embrace chan
 	- Even if there are lots of tests a program might not fully be tested for flaws
 ###### Key Points
 - Extreme programming includes practices such as systematic testing, continuous improvement and customer involvement
-	- Theres always refactoring, test cases and customer feedback and input
+	- There's always refactoring, test cases and customer feedback and input
 - Customers are involved in developing requirements which are expressed as simple scenarios
 	- Customers are required to specify their requirements which are converted into scenarios by the team
 - The approach to testing in XP is a particular strength where executable tests are developed before the code is written
