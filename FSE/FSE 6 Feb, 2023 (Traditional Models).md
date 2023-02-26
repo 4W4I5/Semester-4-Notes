@@ -21,6 +21,15 @@ Verification vs Validation
 - Waterfall might be a viable choice only when you are sure that you have successfully completed the requirement gathering phase (which rarely happens)
 - Overall it provides very low accommodation to changes
 
+###### Cons of Waterfall
+- Iteration is not possible, any change causes confusion
+- Customer wont always state all the requirements up front, change is inevitable
+- Working version is not ready until the final phase
+- 
+
+##### Waterfall Model With Feedback (Iterative)
+- 
+
 ### Incremental Model (Traditional)
 - Divides system functionality into small increments that are delivered one after the other in quick succession
 - Every increment expands on the previous one until everything has been updated and implemented

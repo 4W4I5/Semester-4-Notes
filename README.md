@@ -34,7 +34,7 @@
 | Date   | Status                                            | Content                 |
 | ------ | ------------------------------------------------- | ----------------------- |
 | 23 jan | Skipped                                           | Introductory            |
-| 25 jan | Complete                                          | SDLC                    |
+| 25 jan | Complete                                          | SDLC Overview           |
 | 1 feb  | N/A, Maam was late to class                       |                         |
 | 6 feb  | Complete                                          | Traditional Models      |
 | 8 feb  | Complete                                          | Agile & XP              |

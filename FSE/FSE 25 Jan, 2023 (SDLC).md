@@ -13,7 +13,7 @@ Most software houses are on untraditional approaches.
 		- Not have a certain tech
 		- Not have enough Time
 		- Not have enough money
-	- Also prioritises certain requirements at first depending on customer needs.
+	- Also prioritizes certain requirements at first depending on customer needs.
 	- Lays down the foundation for the software testing
 	- Essentially negotiate with the customer to get requirements in a feasible and timely manner.
 - ###### Design phase 3 role: Software analyst
