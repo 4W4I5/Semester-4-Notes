@@ -22,6 +22,7 @@ HTTP
 		- Handshake, transfer data and then close connection
 		- Need multiple connections to download files
 		- 1 object per handshake + base Page
+		- Used in HTTP 1.0 only
 		- Response Time
 			- RTT, Time for small packet to travel from client to server and back
 			- 2xRTT + File Transmission time

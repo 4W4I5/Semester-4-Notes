@@ -1,19 +1,20 @@
 Lecture 8: Continued
 
-- HTTP
-	- HTTP is a PULL protocol
-	- Connections
-		- Persistent HTTP
-			- Server leaves connection open after sending response
-			- Costs 1 RTT + one more for handshake (N+1)
-			- Types:
-				- Without Pipeline
+- ## HTTP
+	- ### HTTP is a PULL protocol
+	- ### Connections
+		- #### Persistent HTTP
+			- ##### Server leaves connection open after sending response
+			- ##### Costs 1 RTT + one more for handshake (N+1)
+			- ##### Used in both HTTP 1.1 and HTTP 2
+			- ##### Types:
+				- ###### Without Pipeline
 					- Keep-Alive method not specified
 					- Objects are sent one by one
 						- Cannot send request for the next object while current object is being transferred
 					- Problem:
 						- TCP connection is kept idle while the request is being fulfilled
-				- With Pipeline
+				- ###### With Pipeline
 					- Keep-Alive method specified
 					- Allows for multiple requests to receive multiple responses
 						- Each GET request is its own pipeline think of it like that
@@ -27,8 +28,8 @@ Lecture 8: Continued
 							- Another Issue is Retransmission
 								- Packet loss during transmission results in the rest of the download restarting from the start or the last sent packet
 									- e.g. if 5 failed then the rest wont be sent until 5 is sent successful
-	- Requests
-		- Conditional GET
+	- ### Requests
+		- #### Conditional GET
 			- Specify date of cached object requested
 			- Method: if-modified-since: date
 			- Used mostly by proxy servers

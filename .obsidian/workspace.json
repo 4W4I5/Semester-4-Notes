@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CNET/CNET 13 Feb, 2023.md",
+                "file": "FSE/FSE Project/Project Deliverable 1.md",
                 "mode": "source",
                 "source": false
               }
@@ -103,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CNET/CNET 13 Feb, 2023.md",
+                "file": "FSE/FSE Project/Project Deliverable 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CNET/CNET 13 Feb, 2023.md",
+                "file": "FSE/FSE Project/Project Deliverable 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CNET/CNET 13 Feb, 2023.md"
+                "file": "FSE/FSE Project/Project Deliverable 1.md"
               }
             }
           },
@@ -176,8 +176,10 @@
   },
   "active": "429b6a6aa24a72af",
   "lastOpenFiles": [
-    "README.md",
+    "CNET/CNET 22 Feb, 2023.md",
+    "CNET/CNET 20 Feb, 2023.md",
     "CNET/CNET 13 Feb, 2023.md",
+    "README.md",
     "CNET/CNET 8 Feb, 2023.md",
     "CNET/CNET 6 Feb, 2023.md",
     "CNET/CNET 1 Feb, 2023.md",
@@ -200,8 +202,6 @@
     "CLC/CLC 7 Feb, 2023.md",
     "TBW/TBW 21 Feb, 2023.md",
     "TBW/Sessional 1 Prep/TBW(Second Book) - Chapter 4 Technical Communication Style.md",
-    "TBW/Sessional 1 Prep/TBW(First Book) - Chapter 3 Clarity, Conciseness, Accuracy & Ethics in techincal communication.md",
-    "TBW/Sessional 1 Prep/TBW(First book) Chapter 1 - Introduction to technical communication.md",
     "TBW/Sessional 1 Prep"
   ]
 }
