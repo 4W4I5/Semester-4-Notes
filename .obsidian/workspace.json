@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "68a69bf95f819b98",
+        "id": "c1a104daa51fc017",
         "type": "tabs",
         "children": [
           {
-            "id": "429b6a6aa24a72af",
+            "id": "7f09f1ab007b54ac",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "FSE/FSE 22 Feb, 2023 (Elicitation).md",
+                "file": "FSE/FSE 6 Feb, 2023 (Traditional Models).md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "FSE/FSE 22 Feb, 2023 (Elicitation).md",
+                "file": "FSE/FSE 6 Feb, 2023 (Traditional Models).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "FSE/FSE 22 Feb, 2023 (Elicitation).md",
+                "file": "FSE/FSE 6 Feb, 2023 (Traditional Models).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "FSE/FSE 22 Feb, 2023 (Elicitation).md"
+                "file": "FSE/FSE 6 Feb, 2023 (Traditional Models).md"
               }
             }
           },
@@ -156,14 +156,14 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "429b6a6aa24a72af",
+  "active": "7f09f1ab007b54ac",
   "lastOpenFiles": [
+    "FSE/FSE 25 Jan, 2023 (SDLC).md",
+    "FSE/FSE 22 Feb, 2023 (Elicitation).md",
     "FSE/FSE 20 Feb, 2023 (Inception).md",
     "FSE/FSE 6 Feb, 2023 (Traditional Models).md",
-    "FSE/FSE 25 Jan, 2023 (SDLC).md",
     "FSE/FSE 8 Feb, 2023 (Agile & XP Programming).md",
     "FSE/FSE 15 Feb, 2023 (Scrum).md",
-    "FSE/FSE 22 Feb, 2023 (Elicitation).md",
     "CNET/CNET 20 Feb, 2023.md",
     "FSE/Images",
     "FSE/Images/Pasted image 20230227111109.png",

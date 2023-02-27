@@ -67,6 +67,11 @@
 				- Avoids loss of information
 				- Preventive tool for improving quality
 			- ##### Cons
+				- The matrix can get very complex very quickly for a large project
+				- Heavily dependent on the customer
+				- Adapting to the market trends is tough due to the nature of observing the market and processing data
+				- Focus on customer satisfaction
+					- Cost, lifecycle and other strats take a heavy hit
 			- Image
 				- ![[Pasted image 20230227111109.png]]
 				- Whats are on the left
@@ -76,3 +81,7 @@
 				- Target Values
 					- Competitive Evaluation
 					- Importance weighting
+				- Relationship Matrix
+					- Rows are requirement
+					- Cols are Measurable response to demanded quality
+						- in short its the measure
