@@ -111,7 +111,7 @@ Some examples of agile process models are:
 		- The role of the customer is to:
 			- Develop stories that refine the requirements
 			- Prioritize features to be implemented in the next release
-			- Develop acceptance test which asses whether or not the system meets its requirements
+			- Develop acceptance test which assess whether or not the system meets its requirements
 		- User Requirements
 			- These are expressed as scenarios/stories
 			- Written on story cards which are broken into task cards. These cards are the basis of schedule and cost estimates

@@ -22,7 +22,7 @@
 
 #### Scrum Roles
 - Product Owner
-	- Customer
+	- Customer or selling to the customer
 	- Gives requirements
 	- Develops acceptance tests
 - Scrum Master
