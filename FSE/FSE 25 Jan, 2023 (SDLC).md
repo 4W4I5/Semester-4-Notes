@@ -1,6 +1,4 @@
 #  SDLC (Software Dev Life Cycle)
-- 7 steps
-
 Most software houses are on untraditional approaches.
 
 - Requirement Engineering (Requirement Engineer Role + Manager(Project Lead) + Some dude to record the meeting)
@@ -18,7 +16,7 @@ Most software houses are on untraditional approaches.
 	- Essentially negotiate with the customer to get requirements in a feasible and timely manner.
 - ###### Design phase 3 role: Software analyst
 	- Use of UML Diagrams. TRD, ERD, Sequence Diagrams
-		- Archetechchutal level design
+		- Architectural level design
 		- Component level design
 		- Modular level design
 - ###### Code phase 4 role: programmer
