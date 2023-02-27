@@ -30,6 +30,17 @@
 	- Banda ziada important ha process ki jagah, Focus more on practicality instead of by book
 - ##### Very important to understand the divide and conquer rule, Divide a very big problem into small chunks that can be programmed into quick functioning prototypes
 
+- ##### Pros
+	- Working software is delivered frequently in weeks instead of months
+	- Face-to-Face is the best form of communication b/w a dev team and the customer
+	- Continious attention to techinical excellence and good design
+	- Even late changes are welcomed
+- ##### Cons
+	- Large software deliverables are hard to assess for level of difficulty
+	- Lack of emphasis on nessacary documentation
+	- Easily taken off track if customer is not clear on the final outcome
+	- Advanced technique, newbie programmer are better off with traditional models
+
 Some examples of agile process models are:
 - eXtreme Programming
 - Scrum

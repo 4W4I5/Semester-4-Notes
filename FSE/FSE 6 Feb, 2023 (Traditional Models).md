@@ -45,17 +45,18 @@
 - Divides system functionality into small increments that are delivered one after the other in quick succession
 - Every increment expands on the previous one until everything has been updated and implemented
 	- It passes through requirement, design, coding and testing stages
-- Pros
+- ##### Pros
 	- Useful when staffing is low for full-scale dev
 	- It lets stakeholders and developers see results with the first increment, if anyone doesn't like anything everyone finds out a lot sooner.
 	- Needed functionality set is provided before the optional components
 	- Such a style of model is great for projects that have loosely coupled parts and have complete and clear requirements
 	- Iterative in nature
 		- Every product made is operational at some level
-- Cons
+- ##### Cons
 	- Requirements must be well understood
 	- Project style must have independent modules
-- Phases
+	- Total cost is higher than waterfall
+- ##### Phases
 	- Communication
 	- Quick Planning
 	- Quick Design (Modelling)
@@ -95,33 +96,32 @@ Best used for developing Online systems where users are expected to fill forms o
 		- Horizontal Prototype displays the UI and gives a broader view of the entire system
 			- Little to no work is done on the internal systems
 		- Vertical Prototypes are technical in nature and are used to get details of the exact functioning of the sub systems. It gives a more detailed elaboration on a specific function
-- ##### Pros & Cons
-	- Pros
+- ##### Pros
 		- Increased User involvement before its implementation
 		- Users get a better understanding of the product as it is a working model albeit a little rough
 		- Reduces Time and Cost as defects can be found much earlier
 		- Missing functionality is identified earlier
 		- Confusing or difficult functions can be identified and changed accordingly
-	- Cons
-		- Risk of insufficient requirement analysis owing to too much dependency on the prototype
+- ##### Cons
+	- Risk of insufficient requirement analysis owing to too much dependency on the prototype
 		- Users see the prototype and attempt to buy it after a few fixes, resulting in a bad product
-			- Very important to define rules up front, before starting the project
+		- Very important to define rules up front, before starting the project
 		- Devs may try to reuse existing prototypes to build the actual system even when its not technically feasible
 			- They also try to compromise on implementation in order to get the prototype up and running
-		- ###### Effort invested in building prototypes may be too much if not checked/monitored properly
+		-  Effort invested in building prototypes may be too much if not checked/monitored properly
 - ##### Types of Prototyping
-	- Throwaway/Rapid
+	- **Throwaway/Rapid**
 		- Keep generating prototypes with minimum requirement analysis and minimal effort
 		- Once target product is understood, discard all prototypes and develop the new prototype to completion
-	- Evolutionary
+	- **Evolutionary**
 		- Build all functions with minimal functionality 
 		- Early product prototypes are the foundations for future product prototypes
 		- Requirements are well understood and added as needed
-	- Incremental
+	- **Incremental**
 		- Building multiple functional prototypes of various subsystems
 		- Divide and conquer rule 
 		- Integrate all available prototypes near the end of the development phase to complete the system
-	- Extreme
+	- **Extreme**
 		- Mostly used in the Web Dev domain
 		- 3 Sequential Phases
 			- Basic prototype with all existing pages is presented in HTML format
