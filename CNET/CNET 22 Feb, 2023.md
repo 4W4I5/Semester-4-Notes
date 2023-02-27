@@ -22,7 +22,7 @@ Lecture 8: Continued
 						- HOL (Head of line Blocking)
 							- Occurs with multiple pipelines over the same connection
 							- One large response data will block other later smaller data from reaching (It has to be in order)
-							- Solution:
+							- Solution (HTTP 2.0):
 								- Divide Larger and smaller objects into frames
 								- Interleave all of those frames and send them 
 									- This allows for smaller files to be downloaded at the same time as the larger one is being downloaded in the background
@@ -95,15 +95,18 @@ Lecture 9: Web Caches & FTP
 			- These are PULL protocols
 			- POP3
 				- Cannot create custom layouts and access from multiple devices under the same interface
+				- Is stateless across sessions
 				- Download and Delete
 					- Authorize
 						- Client declares User and Password
 						- After +OK from server go to Transaction Phase
 					- Transaction
-						- 
+					- Cannot re read messages after changing a client
 				- Download and Keep
+					- Keep copies on different clients
 			- IMAP
 				- Cloud-Based
+				- Is Stateful
 				- View as is on all devices, Layouts are allowed. Everything is mobile and exists on server
 		- Mail Servers
 			- Usually companies prefer their own mail exchanges
