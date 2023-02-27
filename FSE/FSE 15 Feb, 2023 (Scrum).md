@@ -3,7 +3,7 @@
 - ### Emphasizes the use of a set of software patterns
 	- One person does all and delivers it to the next person who also has the same idea
 	- Sprint is also known as an iteration 
-		- Whats an iteration? It is an iteration of every step of the SDLC process
+		- What's an iteration? It is an iteration of every step of the SDLC process
 #### Product Backlog
 - Prioritized by customer(product owner)
 - Created using the analysis and specification document is made

@@ -1,17 +1,3 @@
-Collaborative Requirement Gathering
-- Meetings are conducted and attended by stakeholders, customer and software devs
-- Rules for prep and participation are established
-- Agenda is suggested that is formal enough to cover the important values but informal enough to encourage the free flow of ideas
-- Roles 
-	- Facilitator
-		- Can be customer, dev or outsider
-		- Controls the meeting
-	- Definition Mechanism
-		- Basically any other kind of media
-- Goal
-
-Quality Function Deployment
-
 # NOTE:: Do not mix customer with user. Marks will be deducted on this
 ---
 - ### Elicitation
@@ -41,9 +27,9 @@ Quality Function Deployment
 		- Most communication intensive
 		- Requires expertise
 	- ###### Difficulty during this phase
-		- Hard to define scope 
-		- Hard to understand what is wanted
-		- Hard to focus on a require
+		- Hard to define scope, the boundaries of the system, what it can do and what it can not do. Too much technical detail instead of overall system objectives
+		- Hard to understand what is wanted, obvious info is often omitted
+		- Hard to focus on a requirement, as they change over time
 	- ##### Procedure
 		- ##### Collaborative Requirements Gathering (CRG)
 			- Meetings organized by **Facilitator** and attended by
@@ -58,17 +44,29 @@ Quality Function Deployment
 				- Negotiate different approaches
 				- Specify a prelim set of requirements
 		- ###### Quality Function Deployment (QFD) 
-			- Construct basic relationship matrices b/w 
+			- ##### Definition
+				- Construct basic relationship matrices b/w 
 				- Customer needs
 				- Technical Requirements
 				- Priorities
 				- Competitor Assessment (Optional, on a need basis)
-			- Done by
+			- ##### Done by
 				- Identifying stakeholder requirements
 				- Identify technical features of requirements
 				- Relate requirements to the technical features
 				- Evaluate features and specify a target value for each
 				- Prioritize features for dev effort
+			- ##### Pros
+				- Improves
+					- User involvement
+					- Management support and involvement
+					- Project Development
+				- Shortens dev lifecycle
+				- Supports team involvement
+				- Structures communication process
+				- Avoids loss of information
+				- Preventive tool for improving quality
+			- ##### Cons
 			- Image
 				- ![[Pasted image 20230227111109.png]]
 				- Whats are on the left
