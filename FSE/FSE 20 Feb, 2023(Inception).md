@@ -39,6 +39,7 @@ Lecture 1
 		- ###### Validation
 		- ###### Requirements Management
 ---
+# NOTE:: Do not mix customer with user. Marks will be deducted on this
 
 - ### Inception
 	- Scope of the project
