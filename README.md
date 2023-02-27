@@ -31,17 +31,17 @@
 
 
 ### FSE
-| Date   | Status                                            | Content                 |
-| ------ | ------------------------------------------------- | ----------------------- |
-| 23 jan | Skipped                                           | Introductory            |
-| 25 jan | Complete                                          | SDLC Overview           |
-| 1 feb  | N/A, Maam was late to class                       |                         |
-| 6 feb  | Complete                                          | Traditional Models      |
-| 8 feb  | Complete                                          | Agile & XP              |
-| 13 feb | N/A, Only had quiz that day                       |                         |
-| 15 feb | Complete                                          | Scrum                   |
-| 20 feb | Refactor High priority, Incomplete, Rec available | Requirement Engineering |
-| 22 feb | Incomplete, Rec available                         |                         |
+| Date   | Status                      | Content            |
+| ------ | --------------------------- | ------------------ |
+| 23 jan | Skipped                     | Introductory       |
+| 25 jan | Complete                    | SDLC Overview      |
+| 1 feb  | N/A, Maam was late to class |                    |
+| 6 feb  | Complete                    | Traditional Models |
+| 8 feb  | Complete                    | Agile & XP         |
+| 13 feb | N/A, Only had quiz that day |                    |
+| 15 feb | Complete                    | Scrum              |
+| 20 feb | Complete                    | Inception          |
+| 22 feb | Complete                    | Elicitation        |
 
 ### CNET
 | Date   | Status   | Content                                                           |

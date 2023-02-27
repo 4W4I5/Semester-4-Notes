@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "FSE/FSE Project/Project Deliverable 1.md",
+                "file": "FSE/FSE 20 Feb, 2023(Inception).md",
                 "mode": "source",
                 "source": false
               }
@@ -103,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "FSE/FSE Project/Project Deliverable 1.md",
+                "file": "FSE/FSE 20 Feb, 2023(Inception).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "FSE/FSE Project/Project Deliverable 1.md",
+                "file": "FSE/FSE 20 Feb, 2023(Inception).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "FSE/FSE Project/Project Deliverable 1.md"
+                "file": "FSE/FSE 20 Feb, 2023(Inception).md"
               }
             }
           },
@@ -176,16 +176,17 @@
   },
   "active": "429b6a6aa24a72af",
   "lastOpenFiles": [
+    "README.md",
+    "FSE/FSE 20 Feb, 2023(Inception).md",
+    "FSE/FSE Project/Project Deliverable 1.md",
     "CNET/CNET 22 Feb, 2023.md",
     "CNET/CNET 20 Feb, 2023.md",
     "CNET/CNET 13 Feb, 2023.md",
-    "README.md",
     "CNET/CNET 8 Feb, 2023.md",
     "CNET/CNET 6 Feb, 2023.md",
     "CNET/CNET 1 Feb, 2023.md",
     "CNET/CNET 25 Jan, 2023.md",
     "CNET/CNET 23 Jan, 2023.md",
-    "FSE/FSE 20 Feb, 2023.md",
     "FSE/FSE 15 Feb, 2023.md",
     "FSE/FSE 8 Feb, 2023 (XP Programming).md",
     "FSE/FSE 6 Feb, 2023 (Traditional Models).md",
@@ -201,7 +202,6 @@
     "CLC/CLC 14 Feb, 2023.md",
     "CLC/CLC 7 Feb, 2023.md",
     "TBW/TBW 21 Feb, 2023.md",
-    "TBW/Sessional 1 Prep/TBW(Second Book) - Chapter 4 Technical Communication Style.md",
     "TBW/Sessional 1 Prep"
   ]
 }
