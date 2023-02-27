@@ -33,11 +33,11 @@
 - ##### Pros
 	- Working software is delivered frequently in weeks instead of months
 	- Face-to-Face is the best form of communication b/w a dev team and the customer
-	- Continious attention to techinical excellence and good design
+	- Continuous attention to technical excellence and good design
 	- Even late changes are welcomed
 - ##### Cons
 	- Large software deliverables are hard to assess for level of difficulty
-	- Lack of emphasis on nessacary documentation
+	- Lack of emphasis on necessary documentation
 	- Easily taken off track if customer is not clear on the final outcome
 	- Advanced technique, newbie programmer are better off with traditional models
 
