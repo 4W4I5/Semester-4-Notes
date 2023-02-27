@@ -20,6 +20,7 @@ Lecture 8: Continued
 						- Each GET request is its own pipeline think of it like that
 					- Problem:
 						- HOL (Head of line Blocking)
+							- Occurs with multiple pipelines over the same connection
 							- One large response data will block other later smaller data from reaching (It has to be in order)
 							- Solution:
 								- Divide Larger and smaller objects into frames
@@ -114,8 +115,8 @@ Lecture 9: Web Caches & FTP
 				- SMTP used to send mail in between servers
 	- SMTP itself is a PUSH protocol
 	- ASCII Codes (Return Codes)
-		- 220
+		- 220 Service Ready
 		- 250 Acknowledge request
-		- 354
-		- 250
+		- 354 Start mail input
+		- 250 Mail Action ok, completed
 		- 221 Close connection
