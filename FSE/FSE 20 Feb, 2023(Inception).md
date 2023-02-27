@@ -44,7 +44,7 @@ Lecture 1
 	- Scope of the project
 	- Understand the Problem being addressed
 	- Figure out the domain of the problem
-	- Identify Stakeholders
+	- Identify Stakeholders and study them
 	- Reg Engr Asks Questions to:
 		- understand the problem
 		- Who is behind the request for this work
