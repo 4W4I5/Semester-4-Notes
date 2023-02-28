@@ -16,7 +16,7 @@
 -   Managers must also be skilled in areas such as communication, decision-making, problem-solving, and leadership.
 -   The four functions of management (planning, organizing, leading, and controlling) remain important, but there is a greater emphasis on flexibility and adaptability.
 
-## The Evolution of Management Thought
+## The Evolution of Management Thought  (not included)
 
 -   Management theory has evolved over time, with different perspectives emerging at different times.
 -   Classical management approaches (such as scientific management and administrative management) emphasized efficiency and structure.
@@ -54,7 +54,7 @@
 -   Good managers can help organizations adapt to changes in the environment and achieve their objectives.
 -   Poor management can lead to organizational failure and negative consequences for stakeholders.
 
-### Historical Perspectives on Management
+### Historical Perspectives on Management (not included)
 
 -   The classical approach to management emphasized rationality and efficiency.
 -   The behavioral approach focused on the social and psychological aspects of work.
