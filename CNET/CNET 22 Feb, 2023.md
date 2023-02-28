@@ -87,6 +87,7 @@ Lecture 9: Web Caches & FTP
 	- Three phases of transfer:
 		- Handshake
 		- Transfer of messages
+		- Closure
 	- RFC 2821
 	- Three major components
 		- User agents
