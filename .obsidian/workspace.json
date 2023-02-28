@@ -42,9 +42,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "d075028021986aa4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "FOM/Sessional 1 Prep/Technology and management.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -110,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "FOM/Sessional 1 Prep/Merged notes.md",
+                "file": "FOM/Sessional 1 Prep/Technology and management.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "FOM/Sessional 1 Prep/Merged notes.md",
+                "file": "FOM/Sessional 1 Prep/Technology and management.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "FOM/Sessional 1 Prep/Merged notes.md"
+                "file": "FOM/Sessional 1 Prep/Technology and management.md"
               }
             }
           },
@@ -181,10 +193,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "9a5e299b3c33c0e5",
+  "active": "d075028021986aa4",
   "lastOpenFiles": [
-    "FOM/Sessional 1 Prep/Chapter 1 notes.md",
     "FOM/Sessional 1 Prep/Merged notes.md",
+    "FOM/Sessional 1 Prep/Technology and management.md",
+    "FOM/Sessional 1 Prep/Chapter 1 notes.md",
     "Untitled.md",
     "CNET/CNET 22 Feb, 2023.md",
     "FOM/Sessional 1 Prep",
@@ -211,7 +224,6 @@
     "CLC/CLC 31 Jan, 2023.md",
     "CLC/CLC 23 Feb, 2023.md",
     "CLC/CLC 21 Feb, 2023.md",
-    "CLC/CLC 16 Feb, 2023.md",
     "TBW/Sessional 1 Prep"
   ]
 }
