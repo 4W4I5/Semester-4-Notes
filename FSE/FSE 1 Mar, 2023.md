@@ -23,4 +23,29 @@
 		- Functions/Classes should not be interconnected as intended until the final product
 	- #### Provide values to all stakeholders
 	- #### Keep as simple as possible
-- ### 
+- ### Approaches to modelling
+	- ##### Structured analysis (Focus on the "What")
+		- Overall analysis of the structure of the system
+		- Data and processes that transform that data are treated separately
+			- Data is modelled in terms of attributes and relationships (But no operations)
+			- Processes are modelled to show
+				- Input Data
+				- Transformation that occurs on the data
+				- Resulting Output Data
+		- Flow-Oriented
+	- ##### Object-Oriented analysis (Focus on the "How")
+		- Use of CRCs
+		- Different types of modelling
+			- Class based
+				- Class diagram
+				- CRC models
+				- Analysis package
+				- Collaboration Diagram
+			- Scenario based
+				- Use case text
+				- Use case diagram
+				- User stories and task cards
+				- Swim lane diagrams
+			- Behavioral based
+				- State Diagrams
+				- Sequence Diagrams
