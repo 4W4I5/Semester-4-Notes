@@ -23,7 +23,7 @@
 		- Functions/Classes should not be interconnected as intended until the final product
 	- #### Provide values to all stakeholders
 	- #### Keep as simple as possible
-- ### Approaches to modelling
+- ### Approaches to modelling (Elements of modelling)
 	- ##### Structured analysis (Focus on the "What")
 		- Overall analysis of the structure of the system
 		- Data and processes that transform that data are treated separately
@@ -32,20 +32,35 @@
 				- Input Data
 				- Transformation that occurs on the data
 				- Resulting Output Data
-		- Flow-Oriented
+		- ##### Flow-Oriented
+			- Data Structure diagrams
+			- Data flow Diagrams
+			- Control-Flow Diagrams
+			- Processing narratives
 	- ##### Object-Oriented analysis (Focus on the "How")
-		- Use of CRCs
-		- Different types of modelling
-			- Class based
+		- ##### Use of CRCs
+		- ##### Different types of modelling
+			- ##### Class based
 				- Class diagram
 				- CRC models
 				- Analysis package
 				- Collaboration Diagram
-			- Scenario based
+			- ##### Scenario based
 				- Use case text
 				- Use case diagram
 				- User stories and task cards
+				- Activity diagrams
 				- Swim lane diagrams
-			- Behavioral based
+			- ##### Behavioral based
 				- State Diagrams
 				- Sequence Diagrams
+---
+# Scenario Based Modelling
+- ### Developing Use Cases
+	- Define Actors
+		- Actors can be people, devices, other systems or an external system that is communicating with the developing system
+	- Develop Use cases, where each one answers a set of questions
+		- Via a Use case Diagram/Text
+		- Via a Flowchart
+			- Activity Diagram
+			- Swimlane Diagram
