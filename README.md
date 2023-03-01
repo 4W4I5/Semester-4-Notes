@@ -42,18 +42,20 @@
 | 15 feb | Complete                    | Scrum              |
 | 20 feb | Complete                    | Inception          |
 | 22 feb | Complete                    | Elicitation        |
+| 1 mar  | Refactor, Rec available     |                    |
 
 ### CNET
-| Date   | Status   | Content                                                           |
-| ------ | -------- | ----------------------------------------------------------------- |
-| 23 jan | Complete | Introduction                                                      |
-| 25 jan | Complete | Lecture 2 - Network Media & Packet Switching                      |
-| 1 feb  | Complete | Lecture 2 - Circuit Switching & Lecture 3 - Internet Structure    |
-| 6 feb  | Complete | Lecture 4 - Network Delays                                        |
-| 8 feb  | Complete | Lecture 5 - TCP/IP Service Model & OSI Model                      | 
-| 13 feb | Complete | Lecture 7 - Application Layer                                     |
-| 20 feb | Complete | Lecture 8 - Web & HTTP                                            |
-| 22 feb | Complete | Lecture 8 - Web & HTTP (cont.) & Lecture 9 - Web cache, FTP, SMTP |
+| Date   | Status                            | Content                                                           |
+| ------ | --------------------------------- | ----------------------------------------------------------------- |
+| 23 jan | Complete                          | Introduction                                                      |
+| 25 jan | Complete                          | Lecture 2 - Network Media & Packet Switching                      |
+| 1 feb  | Complete                          | Lecture 2 - Circuit Switching & Lecture 3 - Internet Structure    |
+| 6 feb  | Complete                          | Lecture 4 - Network Delays                                        |
+| 8 feb  | Complete                          | Lecture 5 - TCP/IP Service Model & OSI Model                      |
+| 13 feb | Complete                          | Lecture 7 - Application Layer                                     |
+| 20 feb | Complete                          | Lecture 8 - Web & HTTP                                            |
+| 22 feb | Complete                          | Lecture 8 - Web & HTTP (cont.) & Lecture 9 - Web cache, FTP, SMTP |
+| 1 mar  | N/A, Rec available, Late to class | DNS                                                               | 
 
 ### FOM
 | Date   | Status                                                  | Content |

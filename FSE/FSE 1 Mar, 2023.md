@@ -1,0 +1,26 @@
+# Elaboration (Analysis Modelling)
+- ### Goals
+	- First Technical Representation of a system
+		- Can be in diagrams or some base code
+	- Easy to understand & maintain
+	- Deals with problem of size by dividing the problem into smaller chunks
+	- Use of graphics whenever possible
+	- Differentiates b/w essential info & implementation info
+	- Tracking and Evaluation of interfaces
+	- Tools other than narrative text to describe software logic and policy
+- ### Rules of Thumb
+	- #### High level of abstraction
+		- Model should focus on requirements that are visible within the problem or business domain
+		- Focus on the problem by avoiding the solution
+		- Delay consideration of the infrastructure and other non-functional models until design phase
+			- Fully Analyze the problem delay first
+	- #### Each element of the model should add to the overall understanding of software requirements
+		- Provide insight to 
+			- Information Domain
+			- Function
+			- Behavior of the system
+	- #### Model should minimize coupling throughout the system
+		- Functions/Classes should not be interconnected as intended until the final product
+	- #### Provide values to all stakeholders
+	- #### Keep as simple as possible
+- ### 
