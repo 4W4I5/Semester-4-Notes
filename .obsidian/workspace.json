@@ -8,18 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "5dafee92c3fb794b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CNET/CNET 22 Feb, 2023.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "13bf8d7c91758a91",
             "type": "leaf",
             "state": {
@@ -31,8 +19,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -172,12 +159,12 @@
   "active": "13bf8d7c91758a91",
   "lastOpenFiles": [
     "README.md",
+    "CNET/CNET 22 Feb, 2023.md",
     "CLC/CLC 2 Mar, 2023.md",
     "Untitled.md",
     "FSE/FSE 1 Mar, 2023.md",
     "FSE/FSE 20 Feb, 2023 (Inception).md",
     "FSE/FSE 22 Feb, 2023 (Elicitation).md",
-    "CNET/CNET 22 Feb, 2023.md",
     "FSE/FSE 8 Feb, 2023 (Agile & XP Programming).md",
     "FOM/Sessional 1 Prep/Chapter 1 notes.md",
     "FOM/Sessional 1 Prep/Technology and management.md",

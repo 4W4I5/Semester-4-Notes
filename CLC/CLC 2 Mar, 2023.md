@@ -9,7 +9,6 @@
 - Uses hardware security modules HSMs that are validated by the Federal Information Processing Standards (FIPS 140-2) to protect keys
 
 # Encryption of Data
-
 ### Encryption of Data at Rest
 - Encryption is done with a secret key
 	- AWS KMS manages that secret key
@@ -23,3 +22,47 @@
 	- AWS Certificate Manager
 		- Provides a way to manage, deploy and renew TLS/SSL Certs
 - AWS Services support data in transit encryption
+
+# AWS Cognito
+- Adds the following to your web and mobile application
+	- User
+		- Sign in 
+		- Sign Up
+		- Access Control
+- Scales to millions of users
+- Supports 3rd party identity providers such as
+	- Facebook
+	- Google
+	- Microsoft Active Directory via Security Assertion Markup Language (SAML 2.0)
+# AWS Shield
+- DDOS Protection Service
+- Available for all AWS applications and services
+- Provides always-on detection and automatic inline mitigations
+- Advanced Shield
+	- Paid service
+	- Protects against advanced attacks that implement a faint using DOS
+	- Used to minimize application downtime and latency
+
+# AWS compliance programs
+- Customers are subject to many different security & compliance regulations and requirements
+- Engages with certifying bodies and independent auditors to provide customer with detailed information about the policies, processes, and controls that are established and are operated by AWS
+- These are broadly categorized
+	- Certifications & Attestations
+		- Assessed by a third party, independent auditor
+		- Example
+			- ISO 27001
+			- ISO 27017
+			- ISO 27018
+			- ISO/IEC 9001
+	- Laws, Regulations, & Privacy
+		- AWS provides security features and legal agreements to support compliance
+		- Example
+			- EU general data protection regulation (GDPR)
+			- HIPAA
+	- Alignments & Frameworks
+	- Industry or Function specific or compliance requirements
+		- Examples
+			- Center for internet security (CIS)
+			- EU-US Privacy Shield certified
+# Securing S3 Buckets & Objects
+- Newly created S3 buckets & Objects are Private and Protected by default

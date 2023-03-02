@@ -28,7 +28,7 @@
 | 16 feb | Refactor, Rec available | AWS IAM                                                        |
 | 21 feb | Refactor, Rec available | AWS IAM (cont.)                                                |
 | 23 feb | Refactor, Rec available | AWS CloudTrail & AWS Organizations                             |
-| 2 mar  | Refactor, Rec available | AWS Key Management System                                                               |
+| 2 mar  | Refactor, Rec available | AWS Key Management System & AWS Cognito                        | 
 
 
 ### FSE
