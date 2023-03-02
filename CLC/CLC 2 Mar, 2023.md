@@ -64,5 +64,20 @@
 		- Examples
 			- Center for internet security (CIS)
 			- EU-US Privacy Shield certified
+### AWS Config 
+- Simplify compliance auditing and security analysis
+- Assess, Audit and Evaluate the configurations of AWS Resources
+- Use for continuous monitoring of configs
+- Automatically evaluate recorded configs vs desired configs
+- Review config changes
+- View detailed config histories
+### AWS Artifact
+- Resource for compliance-related information
+- Provide access to security and compliance reports
+	- Select online agreements
+- Can access example downloads
+	- AWS ISO certs
+	- Payment card industry (PCI) and Service Organization Control (SOC) reports 
+- Access AWS Artifacts directly from the AWS management console
 # Securing S3 Buckets & Objects
 - Newly created S3 buckets & Objects are Private and Protected by default
