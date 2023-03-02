@@ -25,18 +25,6 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c45ebd55f4acfdbc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
                 "file": "CLC/CLC 2 Mar, 2023.md",
                 "mode": "source",
                 "source": false
@@ -44,7 +32,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -181,10 +169,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "c45ebd55f4acfdbc",
+  "active": "13bf8d7c91758a91",
   "lastOpenFiles": [
-    "README.md",
+    "Untitled.md",
     "CLC/CLC 2 Mar, 2023.md",
+    "README.md",
     "FSE/FSE 1 Mar, 2023.md",
     "FSE/FSE 20 Feb, 2023 (Inception).md",
     "FSE/FSE 22 Feb, 2023 (Elicitation).md",
@@ -193,7 +182,6 @@
     "FOM/Sessional 1 Prep/Chapter 1 notes.md",
     "FOM/Sessional 1 Prep/Technology and management.md",
     "FOM/Sessional 1 Prep/Merged notes.md",
-    "Untitled.md",
     "FOM/Sessional 1 Prep",
     "CNET/CNET 20 Feb, 2023.md",
     "CNET/CNET 13 Feb, 2023.md",
