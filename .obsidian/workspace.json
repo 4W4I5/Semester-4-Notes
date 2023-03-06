@@ -8,43 +8,25 @@
         "type": "tabs",
         "children": [
           {
-            "id": "13bf8d7c91758a91",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CNET/CNET 22 Feb, 2023.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f9b76ec188716865",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CNET/CNET 1 Mar, 2023.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "bf0c8a1c83588686",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CNET/CNET 6 Mar, 2023.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "7be852009b525b53",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "FSE/FSE 1 Mar, 2023.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "0a4e9a1aa7501b1d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "335db04422bef72d",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -55,8 +37,7 @@
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -193,15 +174,15 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "7be852009b525b53",
+  "active": "335db04422bef72d",
   "lastOpenFiles": [
-    "CNET/CNET 6 Mar, 2023.md",
+    "FSE/FSE 1 Mar, 2023.md",
     "FSE/FSE 6 Mar, 2023.md",
+    "CNET/CNET 6 Mar, 2023.md",
     "CNET/CNET 1 Mar, 2023.md",
     "CNET/CNET 22 Feb, 2023.md",
     "CLC/CLC 2 Mar, 2023.md",
     "README.md",
-    "FSE/FSE 1 Mar, 2023.md",
     "FSE/FSE 20 Feb, 2023 (Inception).md",
     "FSE/FSE 22 Feb, 2023 (Elicitation).md",
     "FSE/FSE 8 Feb, 2023 (Agile & XP Programming).md",
