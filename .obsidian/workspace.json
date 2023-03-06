@@ -42,9 +42,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "7be852009b525b53",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "FSE/FSE 6 Mar, 2023.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -110,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CNET/CNET 6 Mar, 2023.md",
+                "file": "FSE/FSE 6 Mar, 2023.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CNET/CNET 6 Mar, 2023.md",
+                "file": "FSE/FSE 6 Mar, 2023.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CNET/CNET 6 Mar, 2023.md"
+                "file": "FSE/FSE 6 Mar, 2023.md"
               }
             }
           },
@@ -181,10 +193,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "bf0c8a1c83588686",
+  "active": "7be852009b525b53",
   "lastOpenFiles": [
-    "CNET/CNET 1 Mar, 2023.md",
     "CNET/CNET 6 Mar, 2023.md",
+    "FSE/FSE 6 Mar, 2023.md",
+    "CNET/CNET 1 Mar, 2023.md",
     "CNET/CNET 22 Feb, 2023.md",
     "CLC/CLC 2 Mar, 2023.md",
     "README.md",
@@ -211,7 +224,6 @@
     "FSE/FSE Project/Project Deliverable 1.md",
     "CLC/CLC 9 Feb, 2023.md",
     "CLC/CLC 10 Feb, 2023.md",
-    "CLC/CLC 2 Feb, 2023.md",
     "TBW/Sessional 1 Prep"
   ]
 }
