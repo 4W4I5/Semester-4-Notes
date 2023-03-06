@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CLC/CLC 2 Mar, 2023.md",
+                "file": "CNET/CNET 22 Feb, 2023.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f9b76ec188716865",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CNET/CNET 1 Mar, 2023.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CLC/CLC 2 Mar, 2023.md",
+                "file": "CNET/CNET 1 Mar, 2023.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CLC/CLC 2 Mar, 2023.md",
+                "file": "CNET/CNET 1 Mar, 2023.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CLC/CLC 2 Mar, 2023.md"
+                "file": "CNET/CNET 1 Mar, 2023.md"
               }
             }
           },
@@ -156,11 +169,12 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "13bf8d7c91758a91",
+  "active": "f9b76ec188716865",
   "lastOpenFiles": [
-    "README.md",
     "CNET/CNET 22 Feb, 2023.md",
+    "CNET/CNET 1 Mar, 2023.md",
     "CLC/CLC 2 Mar, 2023.md",
+    "README.md",
     "Untitled.md",
     "FSE/FSE 1 Mar, 2023.md",
     "FSE/FSE 20 Feb, 2023 (Inception).md",
@@ -186,7 +200,6 @@
     "CLC/CLC 9 Feb, 2023.md",
     "CLC/CLC 10 Feb, 2023.md",
     "CLC/CLC 2 Feb, 2023.md",
-    "CLC/CLC 31 Jan, 2023.md",
     "TBW/Sessional 1 Prep"
   ]
 }
