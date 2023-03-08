@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "FSE/FSE 6 Mar, 2023.md",
+                "file": "CNET/CNET 8 Mar, 2023.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "FSE/FSE 6 Mar, 2023.md",
+                "file": "CNET/CNET 8 Mar, 2023.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "FSE/FSE 6 Mar, 2023.md",
+                "file": "CNET/CNET 8 Mar, 2023.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "FSE/FSE 6 Mar, 2023.md"
+                "file": "CNET/CNET 8 Mar, 2023.md"
               }
             }
           },
@@ -159,8 +159,9 @@
   "active": "335db04422bef72d",
   "lastOpenFiles": [
     "README.md",
-    "CLC/CLC 7 Mar, 2023.md",
+    "CNET/CNET 8 Mar, 2023.md",
     "FSE/FSE 6 Mar, 2023.md",
+    "CLC/CLC 7 Mar, 2023.md",
     "FSE/FSE 1 Mar, 2023.md",
     "CNET/CNET 6 Mar, 2023.md",
     "CNET/CNET 1 Mar, 2023.md",
@@ -186,7 +187,6 @@
     "FSE/Images",
     "FSE/Images/Pasted image 20230227111109.png",
     "FSE/FSE Project/Project Deliverable 1.md",
-    "CLC/CLC 9 Feb, 2023.md",
     "TBW/Sessional 1 Prep"
   ]
 }

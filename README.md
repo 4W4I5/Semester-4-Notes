@@ -61,7 +61,8 @@
 | 20 feb | Complete                                | Lecture 8 - Web & HTTP                                            |
 | 22 feb | Complete                                | Lecture 8 - Web & HTTP (cont.) & Lecture 9 - Web cache, FTP, SMTP |
 | 1 mar  | N/A, Rec available, Late to class       | DNS                                                               |
-| 6 mar  | Review, Incomplete, Quiz, Rec Available | DNS cont.                                                                  |
+| 6 mar  | Review, Incomplete, Quiz, Rec Available | DNS cont.                                                         |
+| 8 mar  | Incomplete, Rec Available                           | Lecture 14 - Transport Layer Services                             | 
 
 ### FOM
 | Date   | Status                                                  | Content |
