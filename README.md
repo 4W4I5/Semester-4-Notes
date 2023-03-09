@@ -39,16 +39,16 @@
 | Date   | Status                      | Content            |
 | ------ | --------------------------- | ------------------ |
 | 23 jan | Skipped                     | Introductory       |
-| [Semester-4-Notes/FSE 25 Jan, 2023 (SDLC).md at main · 4W4I5/Semester-4-Notes · GitHub](https://github.com/4W4I5/Semester-4-Notes/blob/main/FSE/FSE%2025%20Jan%2C%202023%20(SDLC).md) | Complete                    | SDLC Overview      |
+| [25 jan](https://github.com/4W4I5/Semester-4-Notes/blob/main/FSE/FSE%2025%20Jan%2C%202023%20(SDLC).md) | Complete                    | SDLC Overview      |
 | 1 feb  | N/A, Maam was late to class | ------------------ |
-| 6 feb  | Complete                    | Traditional Models |
-| 8 feb  | Complete                    | Agile & XP         |
-| 13 feb | N/A, Only had quiz that day | ------------------ |
-| 15 feb | Complete                    | Scrum              |
-| 20 feb | Complete                    | Inception          |
-| 22 feb | Complete                    | Elicitation        |
-| 1 mar  | Refactor, Rec available     |                    |
-| 6 mar  | Incomplete, Rec Available   |                    |
+| [6 feb](https://github.com/4W4I5/Semester-4-Notes/blob/main/FSE/FSE%206%20Feb%2C%202023%20(Traditional%20Models).md)  | Complete                    | Traditional Models |
+| [8 feb](https://github.com/4W4I5/Semester-4-Notes/blob/main/FSE/FSE%208%20Feb%2C%202023%20(Agile%20%26%20XP%20Programming).md)  | Complete                    | Agile & XP         |
+| [13 feb](https://github.com/4W4I5/Semester-4-Notes/blob/main/FSE/FSE%2013%20Feb%2C%202023%20(Scrum).md) | N/A, Only had quiz that day | ------------------ |
+| [15 feb](https://github.com/4W4I5/Semester-4-Notes/blob/main/FSE/FSE%2015%20Feb%2C%202023%20(Scrum).md) | Complete                    | Scrum              |
+| [20 feb](https://github.com/4W4I5/Semester-4-Notes/blob/main/FSE/FSE%2020%20Feb%2C%202023%20(Scrum).md) | Complete                    | Inception          |
+| [22 feb](https://github.com/4W4I5/Semester-4-Notes/blob/main/FSE/FSE%2022%20Feb%2C%202023%20(Scrum).md) | Complete                    | Elicitation        |
+| [1 mar](https://github.com/4W4I5/Semester-4-Notes/blob/main/FSE/FSE%201%20Mar%2C%202023.md)  | Refactor, Rec available     |                    |
+| [6 mar](https://github.com/4W4I5/Semester-4-Notes/blob/main/FSE/FSE%206%20Mar%2C%202023.md)  | Incomplete, Rec Available   |                    |
 | 8 mar  | N/A, Only had quiz that day | ------------------ |
 
 ### CNET
