@@ -32,7 +32,7 @@
 | 23 feb | Refactor, Rec available   | AWS CloudTrail & AWS Organizations                             |
 | 2 mar  | Refactor, Rec available   | AWS Key Management System & AWS Cognito                        |
 | 7 mar  | Incomplete, Rec available | AWS VPC & Subnetting                                           |
-| 9 mar  | Rec available             | AWS VPC & Subnetting cont. &                                   | 
+| 9 mar  | Rec available             | AWS VPC & Subnetting cont.                                  | 
 
 
 ### FSE
