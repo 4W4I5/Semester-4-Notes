@@ -43,7 +43,7 @@
 	- This bias occurs when people are influenced by the way information is presented or "framed," even if the information itself is the same.    
 - ##### Experimenter Bias: 
 	- This bias occurs when the experimenter conducting a study influences the results, either intentionally or unintentionally.    
--##### Anchoring Bias: 
+- ##### Anchoring Bias: 
 	- This is the tendency to rely too heavily on the first piece of information we receive when making a decision, even if it's not the most important or relevant information.    
 - ##### Representativeness Bias: 
 	- This bias occurs when people rely too much on stereotypes or generalizations, leading them to make assumptions about a situation or person that may not be accurate.    
