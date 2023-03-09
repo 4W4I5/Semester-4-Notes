@@ -26,3 +26,8 @@
 		- If target == "Local" then at the VPC level any destination is within the VPC network of multiple subnets
 	- Each subnet must be associated with at least one route table
 	- By default, every table contains a local route for communication within the VPC
+	- Defines outgoing connections
+		- 0.0.0.0/0  to Gateway means all internal IPs in the VPC
+### Internet Gateway
+- Final piece of the puzzle that connects to the internet
+- An ip with a fixed bit length of 32 is sent to the gateway in the routing table
