@@ -90,7 +90,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -181,7 +182,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "14db84fe31609bff",
+  "active": "b34ba22847b01e70",
   "lastOpenFiles": [
     "README.md",
     "FOM/FOM 9 Mar, 2023.md",
