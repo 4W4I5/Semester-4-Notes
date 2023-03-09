@@ -1,0 +1,27 @@
+- ### Types of Decision Making Bias
+	- #### Overconfidence bias 
+		- When decision makers tend to think they know more than they do or hold unrealistically positive views of themselves and their performance.
+	- #### Immediate gratification bias 
+		- Decision makers who tend to want immediate rewards and to avoid immediate costs. For these individuals, decision choices that provide	quick payoffs are more appealing than those in the future. 
+	- #### Anchoring effect 
+		- When decision makers fixate on initial information as a starting 	point and then, once set, fail to adequately adjust for subsequent information. First impressions, ideas, prices, and estimates carry unwarranted weight relative to information received later.
+	- #### Selective perception bias 
+		- Decision makers selectively organize and interpret events	based on their biased perceptions. This influences the information they pay attention to,	the problems they identify, and the alternatives they develop
+	- #### Confirmation bias
+		- Decision makers seek out information that reaffirms their past choices and discount information that contradicts past judgments. These people tend to accept at face value information that confirms their preconceived views and are critical and skeptical of information that challenges these views. 
+	- #### Framing bias
+		- Decision makers select and highlight certain aspects of a situation while excluding others. By drawing attention to specific aspects of a situation and highlighting them, while at the same time downplaying or omitting other aspects, they distort what they see and create incorrect reference points. 
+	- #### Availability bias 
+		- Decision makers tend to remember events that are the most recent and vivid in their memory. The result? It distorts their ability to recall events in an objective manner and results in distorted judgments and probability estimates. 
+	- #### Representation bias 
+		- Decision makers assess the likelihood of an event based on how closely it resembles other events or sets of events. Managers exhibiting this bias draw analogies and see identical situations where they don’t exist. 
+	- #### Randomness bias
+		- Decision makers try to create meaning out of random events. They do this because most decision makers have difficulty dealing with chance even though random events happen to everyone and there’s nothing that can be done to predict them. 
+	- #### Sunk costs error 
+		- Decision makers forget that current choices can’t correct the past. They incorrectly fixate on past expenditures of time, money, or effort in assessing choices rather than on future consequences. Instead of ignoring sunk costs, they can’t forget them. 
+	- #### Self-serving bias 
+		- Decision makers who are quick to take credit for their successes and to blame failure on outside factors. 
+	- #### Hindsight bias
+		- Decision makers tend to falsely believe that they would have accurately predicted the outcome of an event once that outcome is actually known. 
+	- #### Revision bias
+		- Decision makers tend to assume that when an object or idea has been changed (revised) in some way, it’s actually been improved and is better than the original, regardless of whether it truly is better

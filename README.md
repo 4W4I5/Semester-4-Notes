@@ -40,15 +40,16 @@
 | ------ | --------------------------- | ------------------ |
 | 23 jan | Skipped                     | Introductory       |
 | 25 jan | Complete                    | SDLC Overview      |
-| 1 feb  | N/A, Maam was late to class |                    |
+| 1 feb  | N/A, Maam was late to class | ------------------ |
 | 6 feb  | Complete                    | Traditional Models |
 | 8 feb  | Complete                    | Agile & XP         |
-| 13 feb | N/A, Only had quiz that day |                    |
+| 13 feb | N/A, Only had quiz that day | ------------------ |
 | 15 feb | Complete                    | Scrum              |
 | 20 feb | Complete                    | Inception          |
 | 22 feb | Complete                    | Elicitation        |
 | 1 mar  | Refactor, Rec available     |                    |
 | 6 mar  | Incomplete, Rec Available   |                    |
+| 8 mar  | N/A, Only had quiz that day | ------------------ |
 
 ### CNET
 | Date   | Status                                  | Content                                                           |
@@ -73,3 +74,4 @@
 | 9 feb  | N/A                                                     |         |
 | 16 feb | N/A                                                     |         |
 | 23 feb | N/A, sir left early, we gave presentation on management |         |
+| 9 mar  | N/A, Rec available                                      |         |
