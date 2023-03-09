@@ -1,6 +1,6 @@
 - ### Types of Decision Making Bias
 	- #### Overconfidence bias 
-		- When decision makers tend to think they know more than they do or hold unrealistically positive views of themselves and their performance.
+		- Decision makers tend to think they know more than they do or hold unrealistically positive views of themselves and their performance.
 	- #### Immediate gratification bias 
 		- Decision makers who tend to want immediate rewards and to avoid immediate costs. For these individuals, decision choices that provide	quick payoffs are more appealing than those in the future. 
 	- #### Anchoring effect 
@@ -25,3 +25,18 @@
 		- Decision makers tend to falsely believe that they would have accurately predicted the outcome of an event once that outcome is actually known. 
 	- #### Revision bias
 		- Decision makers tend to assume that when an object or idea has been changed (revised) in some way, it’s actually been improved and is better than the original, regardless of whether it truly is better
+---
+## ChatGPT Answer
+
+COINS FEARS
+1.  Confirmation Bias: This is the tendency to look for information that confirms our existing beliefs and ignore information that contradicts them.    
+2.  Overconfidence Bias: This bias refers to people's tendency to be too confident in their own abilities or the accuracy of their predictions, leading them to take risks they shouldn't or make decisions that aren't as well-informed as they should be.    
+3.  Information Bias: This bias occurs when people gather too much information or seek out irrelevant information that doesn't actually help them make a better decision.    
+4.  Negativity Bias: This is the tendency to focus on negative information or potential negative outcomes, even when there is more positive information available.    
+5.  Sunk Cost Bias: This bias occurs when people continue to invest time, money, or other resources into a project or decision, even if it's not the best choice, because they've already invested so much.    
+6.  Framing Effect: This bias occurs when people are influenced by the way information is presented or "framed," even if the information itself is the same.    
+7.  Experimenter Bias: This bias occurs when the experimenter conducting a study influences the results, either intentionally or unintentionally.    
+8.  Anchoring Bias: This is the tendency to rely too heavily on the first piece of information we receive when making a decision, even if it's not the most important or relevant information.    
+9.  Representativeness Bias: This bias occurs when people rely too much on stereotypes or generalizations, leading them to make assumptions about a situation or person that may not be accurate.    
+10.  Status Quo Bias: This is the tendency to prefer things to stay the way they are, even if a change might be better. People may resist change because they fear the unknown or are comfortable with the current situation.
+
