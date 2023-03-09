@@ -3,17 +3,17 @@
 ### TBW
 - Didn't record lectures till sessional 1, made notes on chapters 1 and 3 of first book (Last topics excluded) and chapter 4 of second book
 
-| Date   | Status             | Content |
-| ------ | ------------------ | ------- |
-| 24 jan | N/A                |         |
-| 2 feb  | N/A, Absent        |         |
-| 7 feb  | Complete           |         |
-| 9 feb  | N/A, Rec available |         |
-| 14 feb | N/A, Rec available |         |
-| 16 feb | N/A, Rec available |         |
-| 21 feb | N/A, Rec available |         |
-| 2 mar  | N/A, Rec available |         |
-| 7 mar  | N/A, Rec available |         |
+| Date                 | Status             | Content |
+| -------------------- | ------------------ | ------- |
+| 24 jan               | N/A                |         |
+| 2 feb                | N/A, Absent        |         |
+| [[TBW 7 Feb,  2023]] | Complete           |         |
+| 9 feb                | N/A, Rec available |         |
+| 14 feb               | N/A, Rec available |         |
+| 16 feb               | N/A, Rec available |         |
+| 21 feb               | N/A, Rec available |         |
+| 2 mar                | N/A, Rec available |         |
+| 7 mar                | N/A, Rec available |         |
 
 ### CLC
 - Notes upto the first sessional are scarce as of writing. Prepped using slides
