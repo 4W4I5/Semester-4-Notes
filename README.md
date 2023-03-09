@@ -7,7 +7,7 @@
 | ----------------------------------------------------------------------------------------------- | ------------------ | ------- |
 | 24 jan                                                                                          | N/A                |         |
 | 2 feb                                                                                           | N/A, Absent        |         |
-| [7 feb](https://github.com/4W4I5/Semester-4-Notes/blob/main/TBW/TBW%207%20Feb%2C%20%202023.md)) | Complete           |         |
+| [7 feb](https://github.com/4W4I5/Semester-4-Notes/blob/main/TBW/TBW%207%20Feb%2C%20%202023.md)| Complete           |         |
 | 9 feb                                                                                           | N/A, Rec available |         |
 | 14 feb                                                                                          | N/A, Rec available |         |
 | 16 feb                                                                                          | N/A, Rec available |         |
