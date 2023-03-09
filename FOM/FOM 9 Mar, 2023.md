@@ -26,7 +26,7 @@
 	- #### Revision bias
 		- Decision makers tend to assume that when an object or idea has been changed (revised) in some way, it’s actually been improved and is better than the original, regardless of whether it truly is better
 ---
-## ChatGPT Answer
+## ChatGPT Answer to make it easier to remember
 
 ## COINS FEARS
 - ##### Confirmation Bias: 

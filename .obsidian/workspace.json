@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "FOM/FOM 9 Mar, 2023.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               }
             }
@@ -26,6 +26,24 @@
               "type": "markdown",
               "state": {
                 "file": "CLC/CLC 9 Mar, 2023.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "9320256f0432e491",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "be1991ce19f46bf5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "FOM/FOM 9 Mar, 2023.md",
                 "mode": "source",
                 "source": false
               }
@@ -169,7 +187,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "335db04422bef72d",
+  "active": "be1991ce19f46bf5",
   "lastOpenFiles": [
     "README.md",
     "TBW/TBW 21 Feb, 2023.md",
