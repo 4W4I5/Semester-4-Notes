@@ -54,17 +54,17 @@
 ### CNET
 | Date   | Status                                  | Content                                                           |
 | ------ | --------------------------------------- | ----------------------------------------------------------------- |
-| 23 jan | Complete                                | Introduction                                                      |
-| 25 jan | Complete                                | Lecture 2 - Network Media & Packet Switching                      |
-| 1 feb  | Complete                                | Lecture 2 - Circuit Switching & Lecture 3 - Internet Structure    |
-| 6 feb  | Complete                                | Lecture 4 - Network Delays                                        |
-| 8 feb  | Complete                                | Lecture 5 - TCP/IP Service Model & OSI Model                      |
-| 13 feb | Complete                                | Lecture 7 - Application Layer                                     |
-| 20 feb | Complete                                | Lecture 8 - Web & HTTP                                            |
-| 22 feb | Complete                                | Lecture 8 - Web & HTTP (cont.) & Lecture 9 - Web cache, FTP, SMTP |
-| 1 mar  | N/A, Rec available, Late to class       | DNS                                                               |
-| 6 mar  | Review, Incomplete, Quiz, Rec Available | DNS cont.                                                         |
-| 8 mar  | Incomplete, Rec Available                           | Lecture 14 - Transport Layer Services                             | 
+| [23 jan](https://github.com/4W4I5/Semester-4-Notes/blob/main/CNET/CNET%2023%20Jan%2C%202023.md) | Complete                                | Introduction                                                      |
+| [25 jan](https://github.com/4W4I5/Semester-4-Notes/blob/main/CNET/CNET%2025%20Jan%2C%202023.md) | Complete                                | Lecture 2 - Network Media & Packet Switching                      |
+| [1 feb](https://github.com/4W4I5/Semester-4-Notes/blob/main/CNET/CNET%201%20Feb%2C%202023.md)  | Complete                                | Lecture 2 - Circuit Switching & Lecture 3 - Internet Structure    |
+| [6 feb](https://github.com/4W4I5/Semester-4-Notes/blob/main/CNET/CNET%206%20Feb%2C%202023.md)  | Complete                                | Lecture 4 - Network Delays                                        |
+| [8 feb](https://github.com/4W4I5/Semester-4-Notes/blob/main/CNET/CNET%208%20Feb%2C%202023.md)  | Complete                                | Lecture 5 - TCP/IP Service Model & OSI Model                      |
+| [13 feb](https://github.com/4W4I5/Semester-4-Notes/blob/main/CNET/CNET%2013%20Feb%2C%202023.md) | Complete                                | Lecture 7 - Application Layer                                     |
+| [20 feb](https://github.com/4W4I5/Semester-4-Notes/blob/main/CNET/CNET%2020%20Feb%2C%202023.md) | Complete                                | Lecture 8 - Web & HTTP                                            |
+| [22 feb](https://github.com/4W4I5/Semester-4-Notes/blob/main/CNET/CNET%2022%20Feb%2C%202023.md) | Complete                                | Lecture 8 - Web & HTTP (cont.) & Lecture 9 - Web cache, FTP, SMTP |
+| [1 mar](https://github.com/4W4I5/Semester-4-Notes/blob/main/CNET/CNET%201%20Mar%2C%202023.md)  | N/A, Rec available, Late to class       | DNS                                                               |
+| [6 mar](https://github.com/4W4I5/Semester-4-Notes/blob/main/CNET/CNET%206%20Mar%2C%202023.md)  | Review, Incomplete, Quiz, Rec Available | DNS cont.                                                         |
+| [8 mar](https://github.com/4W4I5/Semester-4-Notes/blob/main/CNET/CNET%208%20Mar%2C%202023.md)  | Incomplete, Rec Available                           | Lecture 14 - Transport Layer Services                             | 
 
 ### FOM
 | Date   | Status                                                  | Content |
