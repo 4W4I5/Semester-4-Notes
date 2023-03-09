@@ -81,7 +81,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 175.5
+    "width": 175.5,
+    "collapsed": true
   },
   "right": {
     "id": "1010b0dc0ef48981",
@@ -168,7 +169,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "335db04422bef72d",
+  "active": "c6bb1a0b5ef1e3e9",
   "lastOpenFiles": [
     "TBW/TBW 21 Feb, 2023.md",
     "TBW/TBW 7 Feb,  2023.md",

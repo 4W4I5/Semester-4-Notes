@@ -23,23 +23,23 @@
 | 24 jan | Skipped                   | Introductory                                                   |
 | 31 jan | N/A, Absent               |                                                                |
 | 2 feb  | N/A, Absent               |                                                                |
-| 7 feb  | Refactor                  | Module 2 Cloud benefits & AWS CAF                              |
+| [7 feb](https://github.com/4W4I5/Semester-4-Notes/blob/main/CLC/CLC%207%20Feb%2C%202023.md)  | Refactor                  | Module 2 Cloud benefits & AWS CAF                              |
 | 9 feb  | N/A, Rec available        | Seems like CAF (cont.) & Module 3-1 AWS Zones                  |
 | 10 feb | N/A, Rec available        | AWS Zones (cont.) & Module 4-1 AWS Shared responsibility Model |
-| 14 feb | Refactor, Rec available   | AWS Service Models & AWS Shared responsibility Model (cont.)   |
-| 16 feb | Refactor, Rec available   | AWS IAM                                                        |
-| 21 feb | Refactor, Rec available   | AWS IAM (cont.)                                                |
-| 23 feb | Refactor, Rec available   | AWS CloudTrail & AWS Organizations                             |
-| 2 mar  | Refactor, Rec available   | AWS Key Management System & AWS Cognito                        |
-| 7 mar  | Incomplete, Rec available | AWS VPC & Subnetting                                           |
-| 9 mar  | Rec available             | AWS VPC & Subnetting cont.                                  | 
+| [14 feb](https://github.com/4W4I5/Semester-4-Notes/blob/main/CLC/CLC%2014%20Feb%2C%202023.md) | Refactor, Rec available   | AWS Service Models & AWS Shared responsibility Model (cont.)   |
+| [16 feb](https://github.com/4W4I5/Semester-4-Notes/blob/main/CLC/CLC%2016%20Feb%2C%202023.md) | Refactor, Rec available   | AWS IAM                                                        |
+| [21 feb](https://github.com/4W4I5/Semester-4-Notes/blob/main/CLC/CLC%2021%20Feb%2C%202023.md) | Refactor, Rec available   | AWS IAM (cont.)                                                |
+| [23 feb](https://github.com/4W4I5/Semester-4-Notes/blob/main/CLC/CLC%2023%20Feb%2C%202023.md) | Refactor, Rec available   | AWS CloudTrail & AWS Organizations                             |
+| [2 mar](https://github.com/4W4I5/Semester-4-Notes/blob/main/CLC/CLC%202%20Mar%2C%202023.md)  | Refactor, Rec available   | AWS Key Management System & AWS Cognito                        |
+| [7 mar](https://github.com/4W4I5/Semester-4-Notes/blob/main/CLC/CLC%207%20Mar%2C%202023.md)  | Incomplete, Rec available | AWS VPC & Subnetting                                           |
+| [9 mar](https://github.com/4W4I5/Semester-4-Notes/blob/main/CLC/CLC%209%20Mar%2C%202023.md)  | Rec available             | AWS VPC & Subnetting cont.                                  | 
 
 
 ### FSE
 | Date   | Status                      | Content            |
 | ------ | --------------------------- | ------------------ |
 | 23 jan | Skipped                     | Introductory       |
-| 25 jan | Complete                    | SDLC Overview      |
+| [Semester-4-Notes/FSE 25 Jan, 2023 (SDLC).md at main · 4W4I5/Semester-4-Notes · GitHub](https://github.com/4W4I5/Semester-4-Notes/blob/main/FSE/FSE%2025%20Jan%2C%202023%20(SDLC).md) | Complete                    | SDLC Overview      |
 | 1 feb  | N/A, Maam was late to class | ------------------ |
 | 6 feb  | Complete                    | Traditional Models |
 | 8 feb  | Complete                    | Agile & XP         |
