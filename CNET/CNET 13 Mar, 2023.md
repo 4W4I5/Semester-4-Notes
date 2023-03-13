@@ -32,3 +32,8 @@ Uses of UDP
 - Streaming apps
 - UDP is used to carry network management SNMP
 - UDP is used for RIP routing protocol
+
+---
+### Reliability in general
+Principles of Reliable Data Transfer
+- 
