@@ -17,6 +17,13 @@ TCP & UDP
 			- add them up and if carry on MSB then wrap around
 			- Take ones complement
 			- Place result in CHKSUM field in the header of the segment
+			- To verify
+				- Do not recalc checksum at the recviing end
+				- Instead
+					- Slice data up into 16 bits
+					- Add the chksum
+					- If result has
+						- All bits set to 1 = CHKSUM Valid
 	- All layers have their own errorchecking methods
 - mux/demux
 
