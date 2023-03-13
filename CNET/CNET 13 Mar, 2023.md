@@ -16,6 +16,7 @@ TCP & UDP
 			- Divide segment into 16 bit parts
 			- add them up and if carry on MSB then wrap around
 			- Take ones complement
+			- Place result in CHKSUM field in the header of the segment
 	- All layers have their own errorchecking methods
 - mux/demux
 
