@@ -36,4 +36,4 @@ Uses of UDP
 ---
 ### Reliability in general
 Principles of Reliable Data Transfer
-- THis was more important to listen to, rather than note down. rec is available
+- THis was more important to listen to, rather than note down. rec is availabl

@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "c80bccf2d3de18ef",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "FSE/FSE 13 Mar, 2023.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CNET/CNET 13 Mar, 2023.md",
+                "file": "FSE/FSE 13 Mar, 2023.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CNET/CNET 13 Mar, 2023.md",
+                "file": "FSE/FSE 13 Mar, 2023.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CNET/CNET 13 Mar, 2023.md"
+                "file": "FSE/FSE 13 Mar, 2023.md"
               }
             }
           },
@@ -156,10 +169,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "1b8d84e09f35f2ca",
+  "active": "c80bccf2d3de18ef",
   "lastOpenFiles": [
-    "README.md",
     "CNET/CNET 13 Mar, 2023.md",
+    "FSE/FSE 13 Mar, 2023.md",
+    "README.md",
     "FOM/FOM 9 Mar, 2023.md",
     "TBW/TBW 21 Feb, 2023.md",
     "TBW/TBW 7 Feb,  2023.md",
@@ -184,7 +198,6 @@
     "CNET/CNET 20 Feb, 2023.md",
     "CNET/CNET 13 Feb, 2023.md",
     "CNET/CNET 8 Feb, 2023.md",
-    "CNET/CNET 6 Feb, 2023.md",
     "FSE/Images",
     "FSE/Images/Pasted image 20230227111109.png",
     "TBW/Sessional 1 Prep"
