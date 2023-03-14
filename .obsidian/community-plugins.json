@@ -1,5 +1,8 @@
 [
   "table-editor-obsidian",
   "obsidian-linter",
-  "obsidian-git"
+  "obsidian-git",
+  "better-word-count",
+  "markdown-prettifier",
+  "obsidian-minimal-settings"
 ]

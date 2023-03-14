@@ -35,4 +35,3 @@
 
 
  For private subnets there has to be a way for them to connect to the internet without acutally being public to the internet
-### NAT Gateway
