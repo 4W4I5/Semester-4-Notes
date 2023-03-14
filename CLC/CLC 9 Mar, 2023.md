@@ -31,6 +31,7 @@
 ### Internet Gateway
 - Final piece of the puzzle that connects to the internet
 - An ip with a fixed bit length of 32 is sent to the gateway in the routing table
+- Each gateway has its own IP as well assigned to it
 
 
  For private subnets there has to be a way for them to connect to the internet without acutally being public to the internet
