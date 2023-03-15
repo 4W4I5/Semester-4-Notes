@@ -18,3 +18,12 @@ Introduce Packet loss now into the equation
 	- If ACK is lost then sender resends duplicate and it is dropped by reciever
 	- If ACK is delayed, same scene, itll just drop the ack/set it as seen
 - Very resource intensive, consumes bandwidth
+`Add in formulas from notes to calculate consumption`
+
+---
+Lecture 17: Pipelined Protocols
+- Two protocols besides stop n wait
+	- Go-Back-N
+		- Send a batch of packets
+		- If any is corrupted or missed, resend all
+	- Selective Repeat
