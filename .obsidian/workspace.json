@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "FSE/FSE 15 Mar, 2023.md",
+                "file": "FSE/FSE 1 Mar, 2023.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 175.5
+    "width": 257.5
   },
   "right": {
     "id": "1010b0dc0ef48981",
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "FSE/FSE 15 Mar, 2023.md",
+                "file": "FSE/FSE 1 Mar, 2023.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "FSE/FSE 15 Mar, 2023.md",
+                "file": "FSE/FSE 1 Mar, 2023.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "FSE/FSE 15 Mar, 2023.md"
+                "file": "FSE/FSE 1 Mar, 2023.md"
               }
             }
           },
@@ -158,11 +158,13 @@
   },
   "active": "ed1d23825b5d3fda",
   "lastOpenFiles": [
-    "README.md",
-    "FSE/FSE 8 Feb, 2023 (Agile & XP Programming).md",
     "FSE/FSE 13 Mar, 2023.md",
-    "FSE/FSE 6 Mar, 2023.md",
+    "FSE/FSE 22 Feb, 2023 (Elicitation).md",
+    "FSE/FSE 8 Feb, 2023 (Agile & XP Programming).md",
+    "FSE/FSE 20 Feb, 2023 (Inception).md",
     "FSE/FSE 15 Mar, 2023.md",
+    "README.md",
+    "FSE/FSE 6 Mar, 2023.md",
     "CNET/CNET 15 Mar, 2023.md",
     "CNET/CNET 13 Mar, 2023.md",
     "CLC/CLC 14 Mar, 2023.md",
@@ -178,8 +180,6 @@
     "CNET/CNET 1 Mar, 2023.md",
     "CNET/CNET 22 Feb, 2023.md",
     "CLC/CLC 2 Mar, 2023.md",
-    "FSE/FSE 20 Feb, 2023 (Inception).md",
-    "FSE/FSE 22 Feb, 2023 (Elicitation).md",
     "FOM/Sessional 1 Prep/Chapter 1 notes.md",
     "FOM/Sessional 1 Prep/Technology and management.md",
     "FOM/Sessional 1 Prep/Merged notes.md",
