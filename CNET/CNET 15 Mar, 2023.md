@@ -5,4 +5,4 @@ RDT2.1
 fixed duplication error by adding XOR of prev packet number
 twice as many states as rdt2.0
 - Get rid of NACK
-	- 
+	- ACK the packet # being received
