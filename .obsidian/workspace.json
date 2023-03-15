@@ -4,59 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "137cb638a779694b",
+        "id": "a7fb8a63b3a93d9c",
         "type": "tabs",
         "children": [
           {
-            "id": "1b8d84e09f35f2ca",
+            "id": "ed1d23825b5d3fda",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CNET/CNET 13 Mar, 2023.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c80bccf2d3de18ef",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "FSE/FSE 13 Mar, 2023.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a02118955b43bfd0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CLC/CLC 14 Mar, 2023.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "74f668168e045c62",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CNET/CNET 15 Mar, 2023.md",
+                "file": "FSE/FSE 15 Mar, 2023.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -122,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CNET/CNET 15 Mar, 2023.md",
+                "file": "FSE/FSE 15 Mar, 2023.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CNET/CNET 15 Mar, 2023.md",
+                "file": "FSE/FSE 15 Mar, 2023.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CNET/CNET 15 Mar, 2023.md"
+                "file": "FSE/FSE 15 Mar, 2023.md"
               }
             }
           },
@@ -193,16 +156,17 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "74f668168e045c62",
+  "active": "ed1d23825b5d3fda",
   "lastOpenFiles": [
-    "CNET/CNET 13 Mar, 2023.md",
-    "CNET/CNET 15 Mar, 2023.md",
-    "CLC/CLC 14 Mar, 2023.md",
-    "CLC/CLC 9 Mar, 2023.md",
+    "README.md",
+    "FSE/FSE 8 Feb, 2023 (Agile & XP Programming).md",
     "FSE/FSE 13 Mar, 2023.md",
     "FSE/FSE 6 Mar, 2023.md",
-    "FSE/FSE 8 Feb, 2023 (Agile & XP Programming).md",
-    "README.md",
+    "FSE/FSE 15 Mar, 2023.md",
+    "CNET/CNET 15 Mar, 2023.md",
+    "CNET/CNET 13 Mar, 2023.md",
+    "CLC/CLC 14 Mar, 2023.md",
+    "CLC/CLC 9 Mar, 2023.md",
     "FOM/FOM 9 Mar, 2023.md",
     "TBW/TBW 21 Feb, 2023.md",
     "TBW/TBW 7 Feb,  2023.md",
@@ -221,7 +185,6 @@
     "FOM/Sessional 1 Prep/Merged notes.md",
     "FOM/Sessional 1 Prep",
     "CNET/CNET 20 Feb, 2023.md",
-    "CNET/CNET 13 Feb, 2023.md",
     "FSE/Images",
     "FSE/Images/Pasted image 20230227111109.png",
     "TBW/Sessional 1 Prep"
