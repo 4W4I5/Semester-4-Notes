@@ -26,7 +26,8 @@ Lecture 17: Pipelined Protocols
 - Two protocols besides stop n wait
 	- Go-Back-N
 		- Send a batch of packets
-		- If any is corrupted or missed, resend all
+		- If any is corrupted or missed, resend all from missed packet
+			- Reciever will keep responding with SegNum(PcktNum n-1)
 		- Sender
 			- Maintains two pointers, sendbase and nextseqnum
 	- Selective Repeat
