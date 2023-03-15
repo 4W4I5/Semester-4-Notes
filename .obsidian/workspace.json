@@ -42,9 +42,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "74f668168e045c62",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CNET/CNET 15 Mar, 2023.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -110,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CLC/CLC 14 Mar, 2023.md",
+                "file": "CNET/CNET 15 Mar, 2023.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CLC/CLC 14 Mar, 2023.md",
+                "file": "CNET/CNET 15 Mar, 2023.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CLC/CLC 14 Mar, 2023.md"
+                "file": "CNET/CNET 15 Mar, 2023.md"
               }
             }
           },
@@ -181,21 +193,21 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "a02118955b43bfd0",
+  "active": "74f668168e045c62",
   "lastOpenFiles": [
-    "CLC/CLC 9 Mar, 2023.md",
+    "CNET/CNET 13 Mar, 2023.md",
+    "CNET/CNET 15 Mar, 2023.md",
     "CLC/CLC 14 Mar, 2023.md",
+    "CLC/CLC 9 Mar, 2023.md",
     "FSE/FSE 13 Mar, 2023.md",
     "FSE/FSE 6 Mar, 2023.md",
     "FSE/FSE 8 Feb, 2023 (Agile & XP Programming).md",
-    "CNET/CNET 13 Mar, 2023.md",
     "README.md",
     "FOM/FOM 9 Mar, 2023.md",
     "TBW/TBW 21 Feb, 2023.md",
     "TBW/TBW 7 Feb,  2023.md",
     "24 jan.md",
     "CLC/CLC 7 Mar, 2023.md",
-    "CNET/Untitled.md",
     "CNET/CNET 8 Mar, 2023.md",
     "FSE/FSE 1 Mar, 2023.md",
     "CNET/CNET 6 Mar, 2023.md",
