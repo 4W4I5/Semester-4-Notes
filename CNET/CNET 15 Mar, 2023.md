@@ -14,3 +14,7 @@ RDT2.2
 RDT3.0
 Introduce Packet loss now into the equation
 - introduce countdown timer, waits for ACK after sending packet
+	- If ACK is not sent, resent packet for ACK
+	- If ACK is lost then sender resends duplicate and it is dropped by reciever
+	- If ACK is delayed, same scene, itll just drop the ack/set it as seen
+- Very resource intensive, consumes bandwidth
