@@ -17,9 +17,7 @@ Introduce Packet loss now into the equation
 	- If ACK is not sent, resent packet for ACK
 	- If ACK is lost then sender resends duplicate and it is dropped by reciever
 	- If ACK is delayed, same scene, itll just drop the ack/set it as seen
-	- Sender
-		- Maintains two pointers, sendbase and nextseqnum
-	- 
+	
 - Very resource intensive, consumes bandwidth
 `Add in formulas from notes to calculate consumption`
 
@@ -29,4 +27,6 @@ Lecture 17: Pipelined Protocols
 	- Go-Back-N
 		- Send a batch of packets
 		- If any is corrupted or missed, resend all
+		- Sender
+			- Maintains two pointers, sendbase and nextseqnum
 	- Selective Repeat
