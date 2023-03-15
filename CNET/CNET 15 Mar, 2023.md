@@ -31,3 +31,4 @@ Lecture 17: Pipelined Protocols
 		- Sender
 			- Maintains two pointers, sendbase and nextseqnum
 	- Selective Repeat
+		- Complete from slides
