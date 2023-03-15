@@ -8,4 +8,9 @@ twice as many states as rdt2.0
 RDT2.2
 - Get rid of NACK
 	- ACK the packet # being received
+	- think of it as XNOR(packetRecived, packetSent) == 0)
 - Go back to 2 states
+
+RDT3.0
+Introduce Packet loss now into the equation
+- introduce countdown timer, waits for ACK after sending packet
