@@ -42,9 +42,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "9294fd0ea5cf9939",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "FOM/FOM 16 Mar, 2023.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -110,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TBW/TBW 16 Mar, 2023.md",
+                "file": "FOM/FOM 16 Mar, 2023.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TBW/TBW 16 Mar, 2023.md",
+                "file": "FOM/FOM 16 Mar, 2023.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TBW/TBW 16 Mar, 2023.md"
+                "file": "FOM/FOM 16 Mar, 2023.md"
               }
             }
           },
@@ -181,10 +193,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "426d7e0a25bf98bd",
+  "active": "9294fd0ea5cf9939",
   "lastOpenFiles": [
-    "CLC/CLC 16 Mar, 2023.md",
     "TBW/TBW 16 Mar, 2023.md",
+    "FOM/FOM 16 Mar, 2023.md",
+    "CLC/CLC 16 Mar, 2023.md",
     "FSE/FSE 15 Mar, 2023.md",
     "FSE/FSE 13 Mar, 2023.md",
     "FSE/FSE 1 Mar, 2023.md",
@@ -208,7 +221,6 @@
     "CNET/CNET 22 Feb, 2023.md",
     "CLC/CLC 2 Mar, 2023.md",
     "FOM/Sessional 1 Prep/Chapter 1 notes.md",
-    "FOM/Sessional 1 Prep/Technology and management.md",
     "FOM/Sessional 1 Prep",
     "FSE/Images",
     "FSE/Images/Pasted image 20230227111109.png",
