@@ -53,3 +53,10 @@ NOTE:: nothing is stored in the network elements i.e routers, switches, repeater
 	- flags = SYN, ACK, RESET, PUSH, URGENT, FIN
 	- app data, can be variable length
 	- urgent data pointer
+
+### TCP Sequence Numbers
+- Bytestream
+- packet is divided into segments based on MSS, div total size by MSS
+
+### TCP Acknowledgement Numbers
+- indicates which byte in the stream is expected next and thus which bytes have been received
