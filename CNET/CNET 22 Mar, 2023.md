@@ -64,3 +64,4 @@ NOTE:: nothing is stored in the network elements i.e routers, switches, repeater
 - inital number is randomly chosen at handshake
 - wait for the lowest seq num packet to recieve
 
+NOTE:: These are swapped b/w sender and receiver. They will still increment.
