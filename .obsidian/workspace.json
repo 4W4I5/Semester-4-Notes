@@ -8,54 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "ed1d23825b5d3fda",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "FSE/FSE 15 Mar, 2023.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6a72626552ab60b9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CLC/CLC 16 Mar, 2023.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "426d7e0a25bf98bd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "TBW/TBW 16 Mar, 2023.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9294fd0ea5cf9939",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CNET/CNET 15 Mar, 2023.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "d39d6886895c366a",
             "type": "leaf",
             "state": {
@@ -67,8 +19,25 @@
               }
             }
           }
-        ],
-        "currentTab": 4
+        ]
+      },
+      {
+        "id": "684adf7df488cbd1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "06b4d2c35ed6f5e4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CNET/CNET 22 Mar, 2023.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -118,7 +87,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 257.5
+    "width": 257.5,
+    "collapsed": true
   },
   "right": {
     "id": "1010b0dc0ef48981",
@@ -134,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CNET/CNET 15 Mar, 2023.md",
+                "file": "CNET/CNET 22 Mar, 2023.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +121,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CNET/CNET 15 Mar, 2023.md",
+                "file": "CNET/CNET 22 Mar, 2023.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +144,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CNET/CNET 15 Mar, 2023.md"
+                "file": "CNET/CNET 22 Mar, 2023.md"
               }
             }
           },
@@ -205,10 +175,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "d39d6886895c366a",
+  "active": "06b4d2c35ed6f5e4",
   "lastOpenFiles": [
-    "CNET/CNET 22 Mar, 2023.md",
     "CNET/CNET 15 Mar, 2023.md",
+    "CNET/CNET 22 Mar, 2023.md",
     "FOM/FOM 16 Mar, 2023.md",
     "TBW/TBW 16 Mar, 2023.md",
     "CLC/CLC 16 Mar, 2023.md",
