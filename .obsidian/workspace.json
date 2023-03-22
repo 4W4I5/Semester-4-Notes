@@ -49,14 +49,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "FOM/FOM 16 Mar, 2023.md",
+                "file": "CNET/CNET 15 Mar, 2023.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d39d6886895c366a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CNET/CNET 15 Mar, 2023.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -122,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "FOM/FOM 16 Mar, 2023.md",
+                "file": "CNET/CNET 15 Mar, 2023.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "FOM/FOM 16 Mar, 2023.md",
+                "file": "CNET/CNET 15 Mar, 2023.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "FOM/FOM 16 Mar, 2023.md"
+                "file": "CNET/CNET 15 Mar, 2023.md"
               }
             }
           },
@@ -193,10 +205,12 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "9294fd0ea5cf9939",
+  "active": "d39d6886895c366a",
   "lastOpenFiles": [
-    "TBW/TBW 16 Mar, 2023.md",
+    "CNET/CNET 22 Mar, 2023.md",
+    "CNET/CNET 15 Mar, 2023.md",
     "FOM/FOM 16 Mar, 2023.md",
+    "TBW/TBW 16 Mar, 2023.md",
     "CLC/CLC 16 Mar, 2023.md",
     "FSE/FSE 15 Mar, 2023.md",
     "FSE/FSE 13 Mar, 2023.md",
@@ -206,7 +220,6 @@
     "FSE/FSE 20 Feb, 2023 (Inception).md",
     "README.md",
     "FSE/FSE 6 Mar, 2023.md",
-    "CNET/CNET 15 Mar, 2023.md",
     "CNET/CNET 13 Mar, 2023.md",
     "CLC/CLC 14 Mar, 2023.md",
     "CLC/CLC 9 Mar, 2023.md",
@@ -220,7 +233,6 @@
     "CNET/CNET 1 Mar, 2023.md",
     "CNET/CNET 22 Feb, 2023.md",
     "CLC/CLC 2 Mar, 2023.md",
-    "FOM/Sessional 1 Prep/Chapter 1 notes.md",
     "FOM/Sessional 1 Prep",
     "FSE/Images",
     "FSE/Images/Pasted image 20230227111109.png",
