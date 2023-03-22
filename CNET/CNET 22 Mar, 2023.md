@@ -32,6 +32,22 @@ Lecture 18: TCP Segment Structure
 		- excludes the frame header, in other words, the max bytes to transmit a packet\
 
 ### TCP Send/Receive Buffers
-- Send
-	- 
-- Receive
+- Unique to every process, aka it is unique to every socket 
+- set after the 3 way handshake
+
+### TCP Connection
+- Consists of 
+	- Buffers & Variables
+	- Socket connection to a process in one host, and another set of buffers, variables & a socket connection to a process in another host
+NOTE:: nothing is stored in the network elements i.e routers, switches, repeaters b/w the hosts
+
+### TCP Segment Structure
+- consists of
+	- src/dest port
+	- sequence number
+	- ack number
+	- len
+	- recieve windows
+		- num of bytes receiver is willing to accept
+	- chksum
+	- flags = SYN, ACK, RESET
