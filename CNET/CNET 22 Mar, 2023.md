@@ -29,4 +29,9 @@ Lecture 18: TCP Segment Structure
 			- 40 bytes as TCP header is encapsulated by IP header
 		- dependent on the medium used to transmit
 			- usually standardized
-		- excludes the frame header, in other words, the max bytes to transmit a packet
+		- excludes the frame header, in other words, the max bytes to transmit a packet\
+
+### TCP Send/Receive Buffers
+- Send
+	- 
+- Receive
