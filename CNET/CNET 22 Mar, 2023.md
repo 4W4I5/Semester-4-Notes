@@ -50,4 +50,6 @@ NOTE:: nothing is stored in the network elements i.e routers, switches, repeater
 	- recieve windows
 		- num of bytes receiver is willing to accept
 	- chksum
-	- flags = SYN, ACK, RESET
+	- flags = SYN, ACK, RESET, PUSH, URGENT, FIN
+	- app data, can be variable length
+	- urgent data pointer
