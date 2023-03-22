@@ -57,6 +57,10 @@ NOTE:: nothing is stored in the network elements i.e routers, switches, repeater
 ### TCP Sequence Numbers
 - Bytestream
 - packet is divided into segments based on MSS, div total size by MSS
+- inital number is randomly chosen at handshake
 
 ### TCP Acknowledgement Numbers
 - indicates which byte in the stream is expected next and thus which bytes have been received
+- inital number is randomly chosen at handshake
+- wait for the lowest seq num packet to recieve
+
