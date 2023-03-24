@@ -18,7 +18,7 @@
 | 14 mar                                                                                         | N/A, Rec available |         |
 | 16 mar                                                                                         | N/A, Rec available |         |
 
-### CLC (XXXXX)
+### CLC (XXXX)
 - Notes upto the first sessional are scarce as of writing. Prepped using slides
 
 | Date                                                                                          | Status                      | Content                                                        |
