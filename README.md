@@ -39,20 +39,22 @@
 
 
 ### FSE
-| Date   | Status                      | Content            |
-| ------ | --------------------------- | ------------------ |
-| 23 jan | Skipped                     | Introductory       |
-| [25 jan](https://github.com/4W4I5/Semester-4-Notes/blob/main/FSE/FSE%2025%20Jan%2C%202023%20(SDLC).md) | Complete                    | SDLC Overview      |
-| 1 feb  | N/A, Maam was late to class | ------------------ |
-| [6 feb](https://github.com/4W4I5/Semester-4-Notes/blob/main/FSE/FSE%206%20Feb%2C%202023%20(Traditional%20Models).md)  | Complete                    | Traditional Models |
-| [8 feb](https://github.com/4W4I5/Semester-4-Notes/blob/main/FSE/FSE%208%20Feb%2C%202023%20(Agile%20%26%20XP%20Programming).md)  | Complete                    | Agile & XP         |
-| [13 feb](https://github.com/4W4I5/Semester-4-Notes/blob/main/FSE/FSE%2013%20Feb%2C%202023%20(Scrum).md) | N/A, Only had quiz that day | ------------------ |
-| [15 feb](https://github.com/4W4I5/Semester-4-Notes/blob/main/FSE/FSE%2015%20Feb%2C%202023%20(Scrum).md) | Complete                    | Scrum              |
-| [20 feb](https://github.com/4W4I5/Semester-4-Notes/blob/main/FSE/FSE%2020%20Feb%2C%202023%20(Scrum).md) | Complete                    | Inception          |
-| [22 feb](https://github.com/4W4I5/Semester-4-Notes/blob/main/FSE/FSE%2022%20Feb%2C%202023%20(Scrum).md) | Complete                    | Elicitation        |
-| [1 mar](https://github.com/4W4I5/Semester-4-Notes/blob/main/FSE/FSE%201%20Mar%2C%202023.md)  | Refactor, Rec available     |                    |
-| [6 mar](https://github.com/4W4I5/Semester-4-Notes/blob/main/FSE/FSE%206%20Mar%2C%202023.md)  | Incomplete, Rec Available   |                    |
-| 8 mar  | N/A, Only had quiz that day | ------------------ |
+| Date                                                                                                                           | Status                      | Content            |
+| ------------------------------------------------------------------------------------------------------------------------------ | --------------------------- | ------------------ |
+| 23 jan                                                                                                                         | Skipped                     | Introductory       |
+| [25 jan](https://github.com/4W4I5/Semester-4-Notes/blob/main/FSE/FSE%2025%20Jan%2C%202023%20(SDLC).md)                         | Complete                    | SDLC Overview      |
+| 1 feb                                                                                                                          | N/A, Maam was late to class | ------------------ |
+| [6 feb](https://github.com/4W4I5/Semester-4-Notes/blob/main/FSE/FSE%206%20Feb%2C%202023%20(Traditional%20Models).md)           | Complete                    | Traditional Models |
+| [8 feb](https://github.com/4W4I5/Semester-4-Notes/blob/main/FSE/FSE%208%20Feb%2C%202023%20(Agile%20%26%20XP%20Programming).md) | Complete                    | Agile & XP         |
+| [13 feb](https://github.com/4W4I5/Semester-4-Notes/blob/main/FSE/FSE%2013%20Feb%2C%202023%20(Scrum).md)                        | N/A, Only had quiz that day | ------------------ |
+| [15 feb](https://github.com/4W4I5/Semester-4-Notes/blob/main/FSE/FSE%2015%20Feb%2C%202023%20(Scrum).md)                        | Complete                    | Scrum              |
+| [20 feb](https://github.com/4W4I5/Semester-4-Notes/blob/main/FSE/FSE%2020%20Feb%2C%202023%20(Scrum).md)                        | Complete                    | Inception          |
+| [22 feb](https://github.com/4W4I5/Semester-4-Notes/blob/main/FSE/FSE%2022%20Feb%2C%202023%20(Scrum).md)                        | Complete                    | Elicitation        |
+| [1 mar](https://github.com/4W4I5/Semester-4-Notes/blob/main/FSE/FSE%201%20Mar%2C%202023.md)                                    | Refactor, Rec available     |                    |
+| [6 mar](https://github.com/4W4I5/Semester-4-Notes/blob/main/FSE/FSE%206%20Mar%2C%202023.md)                                    | Incomplete, Rec Available   |                    |
+| 8 mar                                                                                                                          | N/A, Only had quiz that day | ------------------ |
+| 13 mar                                                                                                                         | N/A, Rec available          |                    |
+| 15 mar                                                                                                                         | N/A, Rec available                            |                    |
 
 ### CNET
 | Date                                                                                            | Status                                  | Content                                                           |
@@ -69,6 +71,8 @@
 | [6 mar](https://github.com/4W4I5/Semester-4-Notes/blob/main/CNET/CNET%206%20Mar%2C%202023.md)   | Review, Incomplete, Quiz, Rec Available | DNS cont.                                                         |
 | [8 mar](https://github.com/4W4I5/Semester-4-Notes/blob/main/CNET/CNET%208%20Mar%2C%202023.md)   | Incomplete, Rec Available               | Lecture 14 - Transport Layer Services                             |
 | 13 mar                                                                                          | Rec available                           |                                                                   |
+| 15 mar                                                                                          | N/A, Rec available                      |                                                                   |
+| 22 mar                                                                                          | N/A, Rec available                                        |                                                                   |
 
 ### FOM
 | Date   | Status                                                  | Content |
@@ -79,3 +83,4 @@
 | 16 feb | N/A                                                     |         |
 | 23 feb | N/A, sir left early, we gave presentation on management |         |
 | 9 mar  | N/A, Rec available                                      |         |
+| 16 mar | N/A, Rec available                                                        |         |
