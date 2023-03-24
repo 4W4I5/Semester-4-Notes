@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CNET/CNET 13 Mar, 2023.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CNET/CNET 13 Mar, 2023.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CNET/CNET 13 Mar, 2023.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CNET/CNET 13 Mar, 2023.md"
+                "file": "README.md"
               }
             }
           },
@@ -171,6 +171,7 @@
   },
   "active": "0a9e8054c5934d36",
   "lastOpenFiles": [
+    "CNET/CNET 13 Mar, 2023.md",
     "CNET/CNET 15 Mar, 2023.md",
     "CNET/CNET 22 Mar, 2023.md",
     "CLC/CLC 16 Mar, 2023.md",
@@ -188,7 +189,6 @@
     "FSE/FSE 8 Feb, 2023 (Agile & XP Programming).md",
     "FSE/FSE 20 Feb, 2023 (Inception).md",
     "FSE/FSE 6 Mar, 2023.md",
-    "CNET/CNET 13 Mar, 2023.md",
     "FOM/FOM 9 Mar, 2023.md",
     "TBW/TBW 21 Feb, 2023.md",
     "TBW/TBW 7 Feb,  2023.md",
