@@ -1,6 +1,6 @@
 #### Notes Status
 
-### TBW
+### TBW (XXXXX)
 - Didn't record lectures till sessional 1, made notes on chapters 1 and 3 of first book (Last topics excluded) and chapter 4 of second book
 
 | Date                                                                                           | Status             | Content |
@@ -18,7 +18,7 @@
 | 14 mar                                                                                         | N/A, Rec available |         |
 | 16 mar                                                                                         | N/A, Rec available |         |
 
-### CLC
+### CLC (XXXXX)
 - Notes upto the first sessional are scarce as of writing. Prepped using slides
 
 | Date                                                                                          | Status                      | Content                                                        |
@@ -41,7 +41,7 @@
 | 24 mar                                                                                        | N/A, No Rec, Failed Lecture |                                                                |
 
 
-### FSE
+### FSE (XXX)
 | Date                                                                                                                           | Status                      | Content            |
 | ------------------------------------------------------------------------------------------------------------------------------ | --------------------------- | ------------------ |
 | 23 jan                                                                                                                         | Skipped                     | Introductory       |
@@ -59,7 +59,7 @@
 | 13 mar                                                                                                                         | N/A, Rec available          |                    |
 | 15 mar                                                                                                                         | N/A, Rec available                            |                    |
 
-### CNET
+### CNET (X)
 | Date                                                                                            | Status                                  | Content                                                           |
 | ----------------------------------------------------------------------------------------------- | --------------------------------------- | ----------------------------------------------------------------- |
 | [23 jan](https://github.com/4W4I5/Semester-4-Notes/blob/main/CNET/CNET%2023%20Jan%2C%202023.md) | Complete                                | Introduction                                                      |
@@ -77,7 +77,7 @@
 | 15 mar                                                                                          | N/A, Rec available                      |                                                                   |
 | 22 mar                                                                                          | N/A, Rec available                                        |                                                                   |
 
-### FOM
+### FOM (XX)
 | Date   | Status                                                  | Content |
 | ------ | ------------------------------------------------------- | ------- |
 | 26 jan | N/A                                                     |         |
