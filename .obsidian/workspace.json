@@ -30,9 +30,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "c0e820f83fcaac6a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "FSE/FSE 25 Mar, 2023.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -82,8 +94,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 257.5,
-    "collapsed": true
+    "width": 257.5
   },
   "right": {
     "id": "1010b0dc0ef48981",
@@ -99,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CNET/CNET 25 Mar, 2023.md",
+                "file": "FSE/FSE 25 Mar, 2023.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CNET/CNET 25 Mar, 2023.md",
+                "file": "FSE/FSE 25 Mar, 2023.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CNET/CNET 25 Mar, 2023.md"
+                "file": "FSE/FSE 25 Mar, 2023.md"
               }
             }
           },
@@ -170,10 +181,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "7051b40b13c65110",
+  "active": "c0e820f83fcaac6a",
   "lastOpenFiles": [
-    "CLC/CLC 2 Mar, 2023.md",
     "CNET/CNET 25 Mar, 2023.md",
+    "FSE/FSE 25 Mar, 2023.md",
+    "CLC/CLC 2 Mar, 2023.md",
     "README.md",
     "CLC/CLC 24 Mar, 2023.md",
     "TBW/TBW 14 Mar, 2023.md",
@@ -197,7 +209,6 @@
     "FSE/FSE 20 Feb, 2023 (Inception).md",
     "FSE/FSE 6 Mar, 2023.md",
     "FOM/FOM 9 Mar, 2023.md",
-    "TBW/TBW 21 Feb, 2023.md",
     "FOM/Sessional 1 Prep",
     "FSE/Images",
     "FSE/Images/Pasted image 20230227111109.png",
