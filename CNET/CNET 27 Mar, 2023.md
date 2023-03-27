@@ -8,4 +8,8 @@ Lecture 20: TCP Flow Control
 		- Both values are stored in the receive window
 
 ### Calculate Window Size
+- Variables
+	- RWND
+	- RCVBUFFER
+- Happens on both sender/receiver side
 - 
