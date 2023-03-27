@@ -6,4 +6,6 @@ Lecture 20: TCP Flow Control
 	- During SYN sent by client, it sends the size of its buffer in bytes
 	- During SYN-ACK response by server, it sends the size of its buffer in bytes
 		- Both values are stored in the receive window
-	- 
+
+### Calculate Window Size
+- 
