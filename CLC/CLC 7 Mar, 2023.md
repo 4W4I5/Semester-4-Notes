@@ -13,7 +13,7 @@ Module 5: Networking & content Delivery
 - Logically isolated from other VPCs
 	- Hosted on a ENI (Elastic Network Interface) which can host multiple VPCs
 		- ENI's can be attached/detached to an instance to redirect network traffic
-			- Attaching to a new instance also persists old attributes
+			- Attaching to a new VPC also persists old attributes
 - VPC dedicated to AWS Account
 - Single AWS region / Spans multiple Availability Zones
 

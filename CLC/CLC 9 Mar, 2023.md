@@ -7,19 +7,6 @@
 	- This gives the VPC 4 equally sized subnets
 	- out of which each subnet only has 251 usable IP addresses
 
-### Public IP
-- Manually assigned through an Elastic IP address
-	- Elastic IP
-		- Associated with AWS Account
-		- Can be allocated and remapped at any time
-		- Additional costs
-- Auto-assigned using the PublicIP settings at the subnet level
-
-### Elastic Network Interface
-- Can be attached/detached and then reattached to an instance
-- Attriubtes follow when reattached to a new instance
-- Each instance has a default network interface that is assigned a private IPv4 address from the range of the IPv4 range in VPC
-
 ### Route Tables & Routes
 - Route Table contains a set of rules that you can configure to direct traffic from your subnet
 	- Each route specifies a destination and a target

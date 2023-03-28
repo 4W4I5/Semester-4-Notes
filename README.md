@@ -34,7 +34,7 @@
 | [21 feb](https://github.com/4W4I5/Semester-4-Notes/blob/main/CLC/CLC%2021%20Feb%2C%202023.md) | Refactor     | AWS IAM (cont.)                                                |
 | [23 feb](https://github.com/4W4I5/Semester-4-Notes/blob/main/CLC/CLC%2023%20Feb%2C%202023.md) | Refactor     | AWS CloudTrail & AWS Organizations                             |
 | [2 mar](https://github.com/4W4I5/Semester-4-Notes/blob/main/CLC/CLC%202%20Mar%2C%202023.md)   | Refactor, Rec available     | AWS Key Management System & AWS Cognito                        |
-| [7 mar](https://github.com/4W4I5/Semester-4-Notes/blob/main/CLC/CLC%207%20Mar%2C%202023.md)   | Incomplete, Rec available   | AWS VPC & Subnetting                                           |
+| [7 mar](https://github.com/4W4I5/Semester-4-Notes/blob/main/CLC/CLC%207%20Mar%2C%202023.md)   | Rec available   | AWS VPC & Subnetting                                           |
 | [9 mar](https://github.com/4W4I5/Semester-4-Notes/blob/main/CLC/CLC%209%20Mar%2C%202023.md)   | Rec available               | AWS VPC & Subnetting cont.                                     |
 | 14 Mar                                                                                        | N/A, Rec available          |                                                                |
 | 16 mar                                                                                        | N/A, Rec available          |                                                                |
