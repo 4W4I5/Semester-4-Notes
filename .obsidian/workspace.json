@@ -4,41 +4,8 @@
     "type": "split",
     "children": [
       {
-        "id": "87391104e7919fdb",
-        "type": "tabs",
-        "dimension": 61.86650185414091,
-        "children": [
-          {
-            "id": "c24172fd9baf4c35",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CLC/CLC 7 Mar, 2023.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "fc65df60d9ce284e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CLC/CLC 9 Mar, 2023.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ],
-        "currentTab": 1
-      },
-      {
         "id": "06e1ef29cf5990c7",
         "type": "tabs",
-        "dimension": 38.133498145859086,
         "children": [
           {
             "id": "44be2cf0103af26c",
@@ -46,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "CLC/CLC 9 Mar, 2023.md",
                 "mode": "source",
                 "source": false
               }
@@ -189,14 +156,14 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "fc65df60d9ce284e",
+  "active": "44be2cf0103af26c",
   "lastOpenFiles": [
-    "CLC/CLC 7 Mar, 2023.md",
-    "CLC/CLC 9 Mar, 2023.md",
-    "README.md",
-    "CLC/CLC 16 Mar, 2023.md",
     "CLC/CLC 14 Mar, 2023.md",
+    "CLC/CLC 16 Mar, 2023.md",
+    "README.md",
     "CLC/CLC 24 Mar, 2023.md",
+    "CLC/CLC 9 Mar, 2023.md",
+    "CLC/CLC 7 Mar, 2023.md",
     "CLC/CLC 28 Mar, 2023.md",
     "CLC/CLC 31 Jan, 2023.md",
     "CLC/CLC 2 Mar, 2023.md",

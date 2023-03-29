@@ -69,3 +69,23 @@
 	- Routing control using a Routing Table for VPCs and on-premises networks
 	- Network Segmentation, create multiple route tables and associating with different VPCs
 	- Centralized Network traffic and management
+
+
+### Security Groups
+- Act at the instance level
+- By default deny all inbound traffic and allow all outbound traffic
+- Stateful groups
+	- Return traffic is automatically allowed
+- Users can only specify allow rules not deny rules
+- Rules are evaluated before the decision to allow traffic
+
+### Network ACLs (Access-Control Lists)
+- Act at the subnet level
+- Has separate inbound & outbound rules
+	- Each rule can deny/allow traffic
+- By default allow inbound and outbound traffic
+	- Custom ACLs however deny all inbound/outbound traffic unless specified
+	- Can specifiy both allow/deny rules
+	- Evaluated in number order starting from lowest first
+- Stateless
+	- Return traffic must be explicitly allowed through rules
