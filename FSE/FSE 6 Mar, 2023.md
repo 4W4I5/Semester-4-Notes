@@ -1,5 +1,4 @@
 ### Approaches to modelling cont.
-%%NOTE:: Use presmann books for note completions after slides%%
 - ##### Structure Oriented Analysis
 	- ###### Flow Oriented
 		- ##### Data Flow Diagrams
@@ -16,5 +15,5 @@
 			- Talks about states 
 		- #### Processing Narratives
 			- Textual Form of both DFD and CFD
-- ###### Object-Oriented analysis
-	- ###### Class Based
+	- ###### Class/Object-Oriented analysis
+		- ###### Class Based
