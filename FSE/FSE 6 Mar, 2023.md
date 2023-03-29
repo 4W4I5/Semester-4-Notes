@@ -12,7 +12,9 @@
 			- Refine one bubble at a time
 				- Input and output should not be affected
 		- #### Control Flow Diagrams
-			- Talks about states 
+			- State diagram of a system
+			- Each state has its own box with possible processes
+			- State transition is shown by an arrow
 		- #### Processing Narratives
 			- Textual Form of both DFD and CFD
 	- ###### Class/Object-Oriented analysis
