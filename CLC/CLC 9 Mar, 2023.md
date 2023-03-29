@@ -56,6 +56,16 @@
 - Amazon buys infrastructure to provide direct connections. Bypasses the internet entirely
 - Same as site-to-site VPN however due to infrastructure costs, its costs more than the site to site VPN
 - Requires more setup time
-- Used for large-scale data transfer, high-volume workloads and applicatins that require low latency and bandwidth
+- Used for large-scale data transfer, high-volume workloads and applications that require low latency and bandwidth
 ### AWS Transit Gateway
-- 
+- Supports
+	- VPC Attachments
+	- VPN Connections
+	- Direct Connect Gateway
+	- Peeing Connections
+	- VPC Sharing
+- Allows
+	- Connect VPCs across different regions & accounts, sharing resources with them
+	- Routing control using a Routing Table for VPCs and on-premises networks
+	- Network Segmentation, create multiple route tables and associating with different VPCs
+	- Centralized Network traffic and management
