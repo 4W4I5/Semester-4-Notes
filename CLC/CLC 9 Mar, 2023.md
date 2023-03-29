@@ -36,7 +36,9 @@
 ### VPC Peering
 
 - VPC can also be chained to each other to allow communication b/w
-	- your own AWS account
+	- your own AWS account via VPC Sharing
+		- they wont need to create their own VPC but can deploy their own AWS resources and will have access to your VPC
+		- Isolated resources from your account
 	- multiple AWS accounts
 	- multiple AWS Regions
 - Restrictions
@@ -46,4 +48,9 @@
 - Routing Table Entry
 	- IP of target VPC | pcx-id
 
-### VPC Sharing 
+### AWS Site-To-Site VPN
+- Route using Virtual Gateway (vgw-id) 
+- Allows to connect the private subnet to say a data center off site using a VPN connection
+### AWS Direct Connect
+- Amazon buys infrastructure to provide direct connections
+- Same as site-to-site VPN 
