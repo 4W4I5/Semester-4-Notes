@@ -19,6 +19,8 @@
 | 9 mar                                                                                          | N/A, Rec available |             |
 | 14 mar                                                                                         | N/A, Rec available |             |
 | 16 mar                                                                                         | N/A, Rec available |             |
+| 24 mar                                                                                         | N/A, Rec available |             |
+| 28 mar                                                                                         | N/A, Rec available                   |             |
 
 ### CLC (XXXX)
 
@@ -65,8 +67,10 @@ NOTE:: VPC Notes are spread all over 2nd, 7th, 9th & 14th Mar. Dw about duplicat
 | 8 mar                                                                                                                          | N/A, Only had quiz that day | ------------------               |
 | 13 mar                                                                                                                         | N/A, Rec available          |                                  |
 | 15 mar                                                                                                                         | N/A, Rec available          |                                  |
-| 22 mar                                                                                                                         |                             |                                  |
-| 25 mar                                                                                                                               |                             |                                  |
+| 22 mar                                                                                                                         | N/A, Rec available          |                                  |
+| 25 mar                                                                                                                         | N/A, Rec available          |                                  |
+| 27 mar                                                                                                                         | Lost the rec                |                                  |
+| 29 mar                                                                                                                         | N/A, Rec available                            |                                  |
 
 ### CNET (X)
 
@@ -80,13 +84,15 @@ NOTE:: VPC Notes are spread all over 2nd, 7th, 9th & 14th Mar. Dw about duplicat
 | [13 feb](https://github.com/4W4I5/Semester-4-Notes/blob/main/CNET/CNET%2013%20Feb%2C%202023.md) | Complete                                | Lecture 7 - Application Layer                                     |
 | [20 feb](https://github.com/4W4I5/Semester-4-Notes/blob/main/CNET/CNET%2020%20Feb%2C%202023.md) | Complete                                | Lecture 8 - Web & HTTP                                            |
 | [22 feb](https://github.com/4W4I5/Semester-4-Notes/blob/main/CNET/CNET%2022%20Feb%2C%202023.md) | Complete                                | Lecture 8 - Web & HTTP (cont.) & Lecture 9 - Web cache, FTP, SMTP |
-| Sessional 1                                                                                     | Sessional 1                             | Sessional 1                                                                  |
+| Sessional 1                                                                                     | Sessional 1                             | Sessional 1                                                       |
 | [1 mar](https://github.com/4W4I5/Semester-4-Notes/blob/main/CNET/CNET%201%20Mar%2C%202023.md)   | N/A, Rec available, Late to class       | DNS                                                               |
 | [6 mar](https://github.com/4W4I5/Semester-4-Notes/blob/main/CNET/CNET%206%20Mar%2C%202023.md)   | Review, Incomplete, Quiz, Rec Available | DNS cont.                                                         |
 | [8 mar](https://github.com/4W4I5/Semester-4-Notes/blob/main/CNET/CNET%208%20Mar%2C%202023.md)   | Incomplete, Rec Available               | Lecture 14 - Transport Layer Services                             |
 | 13 mar                                                                                          | Rec available                           |                                                                   |
 | 15 mar                                                                                          | N/A, Rec available                      |                                                                   |
 | 22 mar                                                                                          | N/A, Rec available                      |                                                                   |
+| 27 mar                                                                                          | N/A, Rec available                      |                                                                   |
+| 29 mar                                                                                          | N/A, Rec available                                        |                                                                   |
 
 ### FOM (XX)
 
