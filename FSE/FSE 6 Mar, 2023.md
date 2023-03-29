@@ -31,3 +31,33 @@
 			-   **Code reuse**: By promoting inheritance and polymorphism, OOA can help to promote code reuse and reduce code duplication.
 			-   **Flexibility**: OOA provides a flexible framework for modeling systems, allowing for changes to be made easily as requirements evolve.
 		- ###### Class Based
+			- Class Attributes
+				- Found using nouns that reasonably belong to a class
+				- Can be values that describe the current properties or the state of a class
+				- Can also be a rejected class that was reclassified as an attribute
+				- Not an attribute if more than one is associated with a class
+			- Class Operations
+				- Found using verbs that relate to a problem domain which was previously identified
+				- Behavior of an Object
+				- Four categories
+					- Data manipulation to change state of Object
+					- Perform a computation
+					- Inquire about State of Object
+					- Monitor an Object for the occurrence of a controlling event
+				- Has knowledge about state of the class and nature of its associations
+				- Operation action is based on current values of attributes of class
+			- Class Diagrams
+				- Attributes on the top (Data members)
+				- Operations on the bottom (Functions)
+				- Public members/methods are shown with a '+'
+				- Private members/methods are shown with a '-'
+			- CRC Modelling (Class-Responsibility-Collaborator)
+				- Identify Classes, their responsibilities and collaborations b/w them
+				- Process
+					- Identify Classes
+					- Define Class Responsibilities
+						- Responsibilities are tasks or functions that a class is responsible for performing
+					- Identify Collaborations
+						- Collaborations define how classes work together to achieve their responsibilities 
+					- Iterate and Refine
+				- CRC Cards are used to create Class diagrams later on

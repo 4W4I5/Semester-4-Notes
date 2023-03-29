@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "FSE/FSE 6 Mar, 2023.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "FSE/FSE 6 Mar, 2023.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "FSE/FSE 6 Mar, 2023.md"
+                "file": "README.md"
               }
             }
           },
@@ -176,15 +176,15 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "df4f442898ba23a9",
+  "active": "44be2cf0103af26c",
   "lastOpenFiles": [
-    "FSE/FSE 1 Mar, 2023.md",
     "FSE/FSE 6 Mar, 2023.md",
+    "README.md",
+    "FSE/FSE 1 Mar, 2023.md",
     "FSE/FSE 25 Mar, 2023.md",
     "FSE/FSE 22 Mar, 2023.md",
     "FSE/FSE 15 Mar, 2023.md",
     "FSE/FSE 13 Mar, 2023.md",
-    "README.md",
     "CLC/CLC 16 Mar, 2023.md",
     "CLC/CLC 28 Mar, 2023.md",
     "CLC/CLC 9 Mar, 2023.md",

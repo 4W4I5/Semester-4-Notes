@@ -61,7 +61,7 @@ NOTE:: VPC Notes are spread all over 2nd, 7th, 9th & 14th Mar. Dw about duplicat
 | [22 feb](https://github.com/4W4I5/Semester-4-Notes/blob/main/FSE/FSE%2022%20Feb%2C%202023%20(Scrum).md)                        | Complete                    | Elicitation        |
 | Sessional 1                                                                                                                    | Sessional 1                 | Sessional 1                   |
 | [1 mar](https://github.com/4W4I5/Semester-4-Notes/blob/main/FSE/FSE%201%20Mar%2C%202023.md)                                    | Refactor, Rec available     |                    |
-| [6 mar](https://github.com/4W4I5/Semester-4-Notes/blob/main/FSE/FSE%206%20Mar%2C%202023.md)                                    | Incomplete, Rec Available   |                    |
+| [6 mar](https://github.com/4W4I5/Semester-4-Notes/blob/main/FSE/FSE%206%20Mar%2C%202023.md)                                    | Rec Available   | Structure/Flow Oriented Analysis                   |
 | 8 mar                                                                                                                          | N/A, Only had quiz that day | ------------------ |
 | 13 mar                                                                                                                         | N/A, Rec available          |                    |
 | 15 mar                                                                                                                         | N/A, Rec available          |                    |
