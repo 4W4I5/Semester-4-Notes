@@ -17,5 +17,6 @@
 			- State transition is shown by an arrow
 		- #### Processing Narratives
 			- Textual Form of both DFD and CFD
+			- Defines all data that is expected to flow between processes and the states the system will be expected to be in
 	- ###### Class/Object-Oriented analysis
 		- ###### Class Based
