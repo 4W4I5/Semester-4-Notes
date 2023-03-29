@@ -45,3 +45,5 @@
 	- Only one peering resource is established b/w two VPCs
 - Routing Table Entry
 	- IP of target VPC | pcx-id
+
+### VPC Sharing
