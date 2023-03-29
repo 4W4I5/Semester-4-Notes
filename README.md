@@ -1,6 +1,7 @@
 #### Notes Status
 
 ### TBW (XXXXX)
+
 - Didn't record lectures till sessional 1, made notes on chapters 1 and 3 of first book (Last topics excluded) and chapter 4 of second book
 
 | Date                                                                                           | Status             | Content     |
@@ -12,7 +13,7 @@
 | 14 feb                                                                                         | N/A, Rec available |             |
 | 16 feb                                                                                         | N/A, Rec available |             |
 | 21 feb                                                                                         | N/A, Rec available |             |
-| Sessional 1                                                                                    | Sessional 1        | Sessional 1 | 
+| Sessional 1                                                                                    | Sessional 1        | Sessional 1 |
 | 2 mar                                                                                          | N/A, Rec available |             |
 | 7 mar                                                                                          | N/A, Rec available |             |
 | 9 mar                                                                                          | N/A, Rec available |             |
@@ -20,6 +21,7 @@
 | 16 mar                                                                                         | N/A, Rec available |             |
 
 ### CLC (XXXX)
+
 - Notes upto the first sessional are scarce as of writing. Prepped using slides
 
 | Date                                                                                          | Status                      | Content                                                        |
@@ -34,17 +36,18 @@
 | [16 feb](https://github.com/4W4I5/Semester-4-Notes/blob/main/CLC/CLC%2016%20Feb%2C%202023.md) | Refactor                    | AWS IAM                                                        |
 | [21 feb](https://github.com/4W4I5/Semester-4-Notes/blob/main/CLC/CLC%2021%20Feb%2C%202023.md) | Refactor                    | AWS IAM (cont.)                                                |
 | [23 feb](https://github.com/4W4I5/Semester-4-Notes/blob/main/CLC/CLC%2023%20Feb%2C%202023.md) | Refactor                    | AWS CloudTrail & AWS Organizations                             |
-| Sessional 1                                                                                   | Sessional 1                 | Sessional 1                                                               |
+| Sessional 1  | Sessional 1                 | Sessional 1                                                               |
 | [2 mar](https://github.com/4W4I5/Semester-4-Notes/blob/main/CLC/CLC%202%20Mar%2C%202023.md)   | Refactor, Rec available     | AWS Key Management System & AWS Cognito                        |
 | [7 mar](https://github.com/4W4I5/Semester-4-Notes/blob/main/CLC/CLC%207%20Mar%2C%202023.md)   | Rec available               | AWS VPC & Subnetting                                           |
 | [9 mar](https://github.com/4W4I5/Semester-4-Notes/blob/main/CLC/CLC%209%20Mar%2C%202023.md)   | Rec available               | AWS VPC & Subnetting cont.                                     |
-| 14 Mar                                                                                        | N/A, Rec available          | AWS VPC & Subnetting cont.                                     |
-| 16 mar                                                                                        | N/A, Rec available          | AWS VPC & Subnetting cont.                                     |
-| 24 mar                                                                                        | N/A, No Rec, Failed Lecture |                                                                |
-| 28 mar                                                                                        | Storage, Rec Available      | Storage cont.                                                  |
+| 14 Mar    | Rec available          | AWS VPC & Subnetting cont.                                     |
+| 16 mar    | Rec available          | AWS VPC & Subnetting cont.                                     |
+| 24 mar    | N/A, No Rec, Failed Lecture |                                                                |
+| 28 mar    | Storage, Rec Available      | Storage cont.                                                  |
 NOTE:: VPC Notes are spread all over 2nd, 7th, 9th & 14th Mar. Dw about duplicate topics
 
 ### FSE (XXX)
+
 | Date                                                                                                                           | Status                      | Content            |
 | ------------------------------------------------------------------------------------------------------------------------------ | --------------------------- | ------------------ |
 | 23 jan                                                                                                                         | Skipped                     | Introductory       |
@@ -64,6 +67,7 @@ NOTE:: VPC Notes are spread all over 2nd, 7th, 9th & 14th Mar. Dw about duplicat
 | 15 mar                                                                                                                         | N/A, Rec available          |                    |
 
 ### CNET (X)
+
 | Date                                                                                            | Status                                  | Content                                                           |
 | ----------------------------------------------------------------------------------------------- | --------------------------------------- | ----------------------------------------------------------------- |
 | [23 jan](https://github.com/4W4I5/Semester-4-Notes/blob/main/CNET/CNET%2023%20Jan%2C%202023.md) | Complete                                | Introduction                                                      |
@@ -83,6 +87,7 @@ NOTE:: VPC Notes are spread all over 2nd, 7th, 9th & 14th Mar. Dw about duplicat
 | 22 mar                                                                                          | N/A, Rec available                      |                                                                   |
 
 ### FOM (XX)
+
 | Date        | Status                                                  | Content     |
 | ----------- | ------------------------------------------------------- | ----------- |
 | 26 jan      | N/A                                                     |             |

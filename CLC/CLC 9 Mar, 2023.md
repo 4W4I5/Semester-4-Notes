@@ -25,42 +25,9 @@
 - Routing Table Entry
 	- Outgoing Connection 0.0.0.0/0 | igw-id
 
-### NAT Gateway (Network Address Resolution)
-
-- Private subnet can not communicate with the outside world
-	- To provision for outside comms, a private routing table is used
-	- This means that the Private subnet is routed to the NAT gateway which is routed to the Public route table which is then routed to the Internet Gateway
-- Routing Table Entry
-	- 0.0.0.0/0 | nat-gw-id
-
-### VPC Peering
-
-- VPC can also be chained to each other to allow communication b/w
-	- your own AWS account via VPC Sharing
-		- they wont need to create their own VPC but can deploy their own AWS resources and will have access to your VPC
-		- Isolated resources from your account
-	- multiple AWS accounts
-	- multiple AWS Regions
-- Restrictions
-	- CIDR IP spaces cannot overlap
-	- Transitive peering is not allowed
-	- Only one peering resource is established b/w two VPCs
-- Routing Table Entry
-	- IP of target VPC | pcx-id
-
-### AWS Site-To-Site VPN
-- Route using Virtual Gateway (vgw-id) 
-- Allows to connect the private subnet to say a data center off site using a VPN connection over the internet
-- generally used as a backup connection to AWS Direct Connect
-### AWS Direct Connect
-- Amazon buys infrastructure to provide direct connections. Bypasses the internet entirely
-- Same as site-to-site VPN however due to infrastructure costs, its costs more than the site to site VPN
-- Requires more setup time
-- Used for large-scale data transfer, high-volume workloads and applications that require low latency and bandwidth
-
-
 
 ### Security Groups
+
 - Act at the instance level
 - By default deny all inbound traffic and allow all outbound traffic
 - Stateful groups
@@ -69,6 +36,7 @@
 - Rules are evaluated before the decision to allow traffic
 
 ### Network ACLs (Access-Control Lists)
+
 - Act at the subnet level
 - Has separate inbound & outbound rules
 	- Each rule can deny/allow traffic
