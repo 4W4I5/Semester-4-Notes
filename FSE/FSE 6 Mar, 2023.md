@@ -18,5 +18,16 @@
 		- #### Processing Narratives
 			- Textual Form of both DFD and CFD
 			- Defines all data that is expected to flow between processes and the states the system will be expected to be in
-	- ###### Class/Object-Oriented analysis
+	- ###### Object-Oriented analysis
+		- ###### Steps in OOA
+			- **Identify the objects**: Identify the objects that make up the system being modeled. This involves analyzing the requirements of the system and identifying the entities that are relevant to the problem being solved.
+			- **Define the attributes**: For each object identified, define the attributes (or properties) that are relevant to that object. Attributes describe the state of an object.
+			- **Define the methods**: For each object identified, define the methods (or behaviors) that are relevant to that object. Methods describe the behavior of an object.
+			- **Identify the relationships**: Identify the relationships between the objects in the system. This includes identifying the associations (or connections) between objects, as well as any inheritance relationships.
+			- **Create a class diagram**: Use the information gathered in steps 1-4 to create a class diagram. A class diagram is a visual representation of the classes, attributes, and relationships in the system being modeled.
+		- ###### Benefits of OOA
+			-   **Improved understanding of the problem**: OOA helps to ensure that the problem being solved is well understood, by breaking it down into smaller, more manageable pieces.
+			-   **Improved communication**: By using a common set of terms and concepts, OOA helps to improve communication between the various stakeholders involved in the software development process.
+			-   **Code reuse**: By promoting inheritance and polymorphism, OOA can help to promote code reuse and reduce code duplication.
+			-   **Flexibility**: OOA provides a flexible framework for modeling systems, allowing for changes to be made easily as requirements evolve.
 		- ###### Class Based
