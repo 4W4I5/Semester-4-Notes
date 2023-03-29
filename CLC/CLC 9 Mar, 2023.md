@@ -50,7 +50,12 @@
 
 ### AWS Site-To-Site VPN
 - Route using Virtual Gateway (vgw-id) 
-- Allows to connect the private subnet to say a data center off site using a VPN connection
+- Allows to connect the private subnet to say a data center off site using a VPN connection over the internet
+- generally used as a backup connection to AWS Direct Connect
 ### AWS Direct Connect
-- Amazon buys infrastructure to provide direct connections
-- Same as site-to-site VPN 
+- Amazon buys infrastructure to provide direct connections. Bypasses the internet entirely
+- Same as site-to-site VPN however due to infrastructure costs, its costs more than the site to site VPN
+- Requires more setup time
+- Used for large-scale data transfer, high-volume workloads and applicatins that require low latency and bandwidth
+### AWS Transit Gateway
+- 
