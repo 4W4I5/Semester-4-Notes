@@ -46,7 +46,7 @@
 | 16 mar                                                                                        | Rec available               | AWS VPC & Subnetting cont.                                     |
 | 24 mar                                                                                        | N/A, No Rec, Failed Lecture |                                                                |
 | 28 mar                                                                                        | Storage, Rec Available      | Storage cont.                                                  |
-| 30 mar                                                                                        | Storage Cont, Rec Available                            |                                                                |
+| 30 mar                                                                                        | Storage Cont, Rec Available                            | Storage Cont. & VPC & Subnetting Cont.(Route 53)                                                                |
 NOTE:: VPC Notes are spread all over 2nd, 7th, 9th & 14th Mar. Dw about duplicate topics
 
 ### FSE (XXX)
