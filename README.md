@@ -38,14 +38,15 @@
 | [16 feb](https://github.com/4W4I5/Semester-4-Notes/blob/main/CLC/CLC%2016%20Feb%2C%202023.md) | Refactor                    | AWS IAM                                                        |
 | [21 feb](https://github.com/4W4I5/Semester-4-Notes/blob/main/CLC/CLC%2021%20Feb%2C%202023.md) | Refactor                    | AWS IAM (cont.)                                                |
 | [23 feb](https://github.com/4W4I5/Semester-4-Notes/blob/main/CLC/CLC%2023%20Feb%2C%202023.md) | Refactor                    | AWS CloudTrail & AWS Organizations                             |
-| Sessional 1  | Sessional 1                 | Sessional 1                                                               |
+| Sessional 1                                                                                   | Sessional 1                 | Sessional 1                                                    |
 | [2 mar](https://github.com/4W4I5/Semester-4-Notes/blob/main/CLC/CLC%202%20Mar%2C%202023.md)   | Refactor, Rec available     | AWS Key Management System & AWS Cognito                        |
 | [7 mar](https://github.com/4W4I5/Semester-4-Notes/blob/main/CLC/CLC%207%20Mar%2C%202023.md)   | Rec available               | AWS VPC & Subnetting                                           |
 | [9 mar](https://github.com/4W4I5/Semester-4-Notes/blob/main/CLC/CLC%209%20Mar%2C%202023.md)   | Rec available               | AWS VPC & Subnetting cont.                                     |
-| 14 Mar    | Rec available          | AWS VPC & Subnetting cont.                                     |
-| 16 mar    | Rec available          | AWS VPC & Subnetting cont.                                     |
-| 24 mar    | N/A, No Rec, Failed Lecture |                                                                |
-| 28 mar    | Storage, Rec Available      | Storage cont.                                                  |
+| 14 Mar                                                                                        | Rec available               | AWS VPC & Subnetting cont.                                     |
+| 16 mar                                                                                        | Rec available               | AWS VPC & Subnetting cont.                                     |
+| 24 mar                                                                                        | N/A, No Rec, Failed Lecture |                                                                |
+| 28 mar                                                                                        | Storage, Rec Available      | Storage cont.                                                  |
+| 30 mar                                                                                        | Storage Cont, Rec Available                            |                                                                |
 NOTE:: VPC Notes are spread all over 2nd, 7th, 9th & 14th Mar. Dw about duplicate topics
 
 ### FSE (XXX)
