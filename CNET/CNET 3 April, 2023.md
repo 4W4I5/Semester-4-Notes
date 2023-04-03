@@ -13,4 +13,8 @@ TCP Flow vs Congestion control
 
 
 ### TCP handshake
- 
+
+
+
+---
+Congestion control graphs is what i came back to 
