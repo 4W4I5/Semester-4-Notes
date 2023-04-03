@@ -10,4 +10,6 @@ TCP Flow vs Congestion control
 - For Flow control
 	- Size of packets is reduced
 - Out of congestion widnow size and reciever buffer size, the loewr one is chosen
-- 
+
+
+### TCP handshake
