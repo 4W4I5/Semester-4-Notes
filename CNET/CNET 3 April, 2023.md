@@ -18,3 +18,16 @@ TCP Flow vs Congestion control
 
 ---
 Congestion control graphs is what i came back to 
+
+
+### Congestion aviodance
+- increase MSS bytes 
+- Slow start with congestion avoidance
+	- Occurs after a timeout
+		- CWND is set back to 1. Cannot be 0 as that would be division error
+		- SSTHRESH is set to half of CWND_PREV
+- Drawbacks
+	- Slow recovery from losses
+### Congestion Control
+- TCP Tahoe
+- TCP Reno
