@@ -1,0 +1,7 @@
+- [ ] Technical Writing Process
+- [ ] Audience Analysis & Types
+- [ ] Routine Correspondences
+	- [ ] Memos, letters & emails
+	- [ ] Difference b/w memo's & letters
+	- [ ] Polite Tone (Achieving politeness in technical writing)
+- [ ] Conciseness in writing & Parallelism

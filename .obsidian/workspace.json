@@ -30,9 +30,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "0e4e34c3fe25e272",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "TBW/Sessional 2 Prep/TBW Syallabus.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -98,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CNET/CNET 3 April, 2023.md",
+                "file": "TBW/Sessional 2 Prep/TBW Syallabus.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CNET/CNET 3 April, 2023.md",
+                "file": "TBW/Sessional 2 Prep/TBW Syallabus.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CNET/CNET 3 April, 2023.md"
+                "file": "TBW/Sessional 2 Prep/TBW Syallabus.md"
               }
             }
           },
@@ -169,10 +181,12 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "1dedfa1e55291cc2",
+  "active": "0e4e34c3fe25e272",
   "lastOpenFiles": [
-    "README.md",
     "CNET/CNET 3 April, 2023.md",
+    "TBW/Sessional 2 Prep/TBW Syallabus.md",
+    "TBW/Sessional 2 Prep",
+    "README.md",
     "CLC/CLC 30 Mar, 2023.md",
     "CLC/CLC 28 Mar, 2023.md",
     "FSE/FSE 13 Mar, 2023.md",
@@ -196,7 +210,6 @@
     "TBW/TBW 14 Mar, 2023.md",
     "TBW/TBW 9 Mar, 2023.md",
     "TBW/TBW 7 Mar, 2023.md",
-    "TBW/TBW 2 Mar, 2023.md",
     "FOM/Sessional 1 Prep",
     "FSE/Images",
     "FSE/Images/Pasted image 20230227111109.png",
