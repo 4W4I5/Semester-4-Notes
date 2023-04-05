@@ -42,9 +42,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "06ac5991dacf2dbf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CNET/CNET 5 Apr, 2023.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -110,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "FOM/FOM 16 Mar, 2023.md",
+                "file": "CNET/CNET 5 Apr, 2023.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "FOM/FOM 16 Mar, 2023.md",
+                "file": "CNET/CNET 5 Apr, 2023.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "FOM/FOM 16 Mar, 2023.md"
+                "file": "CNET/CNET 5 Apr, 2023.md"
               }
             }
           },
@@ -181,11 +193,12 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "0e4e34c3fe25e272",
+  "active": "06ac5991dacf2dbf",
   "lastOpenFiles": [
+    "FOM/FOM 16 Mar, 2023.md",
+    "CNET/CNET 5 Apr, 2023.md",
     "FOM/FOM 23 Feb, 2023.md",
     "FOM/FOM 9 Mar, 2023.md",
-    "FOM/FOM 16 Mar, 2023.md",
     "FOM/Sessional 1 Prep/Technology and management.md",
     "FSE/FSE 25 Mar, 2023.md",
     "FSE/FSE 1 Mar, 2023.md",
@@ -209,7 +222,6 @@
     "CLC/CLC 7 Feb, 2023.md",
     "CLC/CLC 2 Feb, 2023.md",
     "CNET/CNET 25 Mar, 2023.md",
-    "CNET/CNET 22 Mar, 2023.md",
     "FOM/Sessional 1 Prep",
     "FSE/Images",
     "FSE/Images/Pasted image 20230227111109.png",
