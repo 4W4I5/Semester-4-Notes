@@ -1,4 +1,4 @@
-SSD (System Sequence Diagrams)
+SSD (Sequence System Diagrams)
 - Created from use case description
 	- Actors give a brief description
 	- Actions take place
