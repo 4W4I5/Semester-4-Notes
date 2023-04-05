@@ -8,4 +8,13 @@ SSD (System Sequence Diagrams)
 		- Before the use case can begin i.e, include
 	- Postconditions
 		- After the use case i.e, extend
+	- Structure of SSD 
+		- Use case name
+		- Actor
+		- Description
+		- Normal Course
+		- Alternate Course
+		- Precondition
+		- Postcondition
+		- Assumptions
 - Identify Objects and Operations
