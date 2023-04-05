@@ -26,3 +26,12 @@ SSD (Sequence System Diagrams)
 			- Identify from NOUNS
 		- Operations
 			- Identify from VERBS
+	- member::
+		- Instance name
+			- For example, member: LibraryMember
+			- member is the object name
+			- LibraryMember is the class name
+	- X-Axis
+		- All Objects
+	- Y-Axis
+		- Time
