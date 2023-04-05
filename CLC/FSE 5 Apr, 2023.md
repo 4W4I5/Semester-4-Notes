@@ -1,1 +1,11 @@
 SSD (System Sequence Diagrams)
+- Created from use case description
+	- Actors give a brief description
+	- Actions take place
+	- Scnenario is a flow of evenets
+		- Can have multiple scenarios
+	- Preconditions
+		- Before the use case can begin i.e, include
+	- Postconditions
+		- After the use case i.e, extend
+- Identify Objects and Operations
