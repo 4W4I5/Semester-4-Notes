@@ -9,4 +9,4 @@ Fast recovery avoidance
 Congestion Control
 - Timeout causes multiplicative decrease where CWND is halved
 - Upon threshold hit, additive increase by 1
-	- until congestion detected in other words a duplicate ack is recieved
+	- until congestion detected in other words a duplicate ack is received
