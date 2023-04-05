@@ -18,3 +18,11 @@ SSD (System Sequence Diagrams)
 		- Postcondition
 		- Assumptions
 - Identify Objects and Operations
+
+---
+- Constructing an SSD from a UseCase
+	- Actors
+		- Objects
+			- Identify from NOUNS
+		- Operations
+			- Identify from VERBS
