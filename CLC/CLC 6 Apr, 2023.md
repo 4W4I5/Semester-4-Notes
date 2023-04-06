@@ -23,7 +23,10 @@ Categories of Compute Services
 ---
 ### Amazon EC2
 - Provides VMs
+	- Allows user spec of hardware to use for a specific instance
 - Can run into any availability zone
 - Use of AMI, Amazon Machine Images
-	- Custom images cannot be used
+	- Custom images can also be used either from the community or your own
+	- Amazon Marketplace can also provide 3rd party AMIs
+	- Besides these two, Amazon provides quick start AMIs
 - Can manage traffic to active instances
