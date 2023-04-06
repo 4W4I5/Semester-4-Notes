@@ -22,4 +22,8 @@ Categories of Compute Services
 		- Used for WebApps
 ---
 ### Amazon EC2
-- 
+- Provides VMs
+- Can run into any availability zone
+- Use of AMI, Amazon Machine Images
+	- Custom images cannot be used
+- Can manage traffic to active instances
