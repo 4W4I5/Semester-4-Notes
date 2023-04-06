@@ -6,9 +6,9 @@ Categories of Compute Services
 - Serverless computing
 	- AWS Lambda
 - Container-Based computing
-	- AWS ECS
-	- AWS EKS
-	- AWS ECR
+	- AWS ECS (Amazon Elastic Container Service)
+	- AWS EKS (Amazon Elastic Kubernetes Service)
+	- AWS ECR (Amazon Elastic Container Registry)
 	- AWS Fargate
 - Platform-As-A-Service
 	- AWS Beanstalk
