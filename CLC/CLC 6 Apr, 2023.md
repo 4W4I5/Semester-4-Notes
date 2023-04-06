@@ -30,3 +30,9 @@ Categories of Compute Services
 	- Amazon Marketplace can also provide 3rd party AMIs
 	- Besides these two, Amazon provides quick start AMIs
 - Can manage traffic to active instances
+- Instance Types determine RAM, CPU, Storage & Network performance
+	- General purpose
+	- Compute Optimized
+	- Memory Optimized
+	- Storage Optimized
+	- Accelerated Computing
