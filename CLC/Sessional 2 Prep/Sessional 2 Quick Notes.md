@@ -87,4 +87,11 @@
 		- Route 53
 	- To contact DDOS Response team an Enterprise or Business support from AWS Support will be required
 ## Securing S3 Buckets & Objects
-- Newly created S3 buckets & Objects are Private and Protected by default
+- New S3 Buckets are private & protected by default
+- Permissions following the principle of least privilege are used alongside S3 Encryption to allow access to the data stored in the bucket
+- Tools
+	- S3 Block Public Access
+	- IAM Policies
+	- Bucket Policies
+	- Access Control Lists
+	- AWS Trusted Advisor
