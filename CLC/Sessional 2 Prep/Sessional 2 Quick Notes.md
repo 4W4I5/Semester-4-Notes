@@ -417,7 +417,7 @@ Multivalue answer routing – Use when you want Route 53 to respond to DNS quer
 
 ---
 
-### Module 6: Compute
+# Module 6: Compute
 
 Categories of Compute Services
 - Virtual Machines | Instance based
@@ -426,19 +426,24 @@ Categories of Compute Services
 	- AWS Lambda
 		- Called serverless as it just runs code as it is given
 			- Called a lambda function
+			- Pay only for the time the code was run
 		- AWS manages the infrastructure
 		- Scheduled run of code or by run of event
 - Container-Based computing
 	- Diff types
 		- AWS ECS (Amazon Elastic Container Service)
+			- Manages running multiple docker containers on a single OS host
 		- AWS EKS (Amazon Elastic Kubernetes Service)
+			- Manages running multiple Kubernetes containers on multiple docker hosts
 		- AWS ECR (Amazon Elastic Container Registry)
+			- Store, manage and deploy docker containers
 		- AWS Fargate
 			- Requires administrative overhead but provides more control
 	- Used to spin up and run jobs more quickly
 - Platform-As-A-Service
 	- AWS Beanstalk
 		- Used for WebApps
+		- AWS automatically handles the deployment. All you need is to upload the code
 
 ### Amazon EC2
 
@@ -456,10 +461,36 @@ Categories of Compute Services
 	- Memory Optimized
 	- Storage Optimized
 	- Accelerated Computing
+- Instance Type Naming
+	- t3.large
+		- Here 't' is the family of the instance
+		- 3 is the generation number 
+		- large is the size of the instance
+- Use case based instances
+	- General Purpose
+		- A1, M4, M5, T2, T3
+		- Broad use case
+	- Compute Optimized
+		- C4, C5
+		- High performance use case
+		- High CPU workloads expected
+	- Memory Optimized
+		- R4, R5, X1, Z1
+		- In-Memory Databases
+		- Large amounts of RAM required
+		- Faster memory processing expected
+	- Storage Optimized
+		- D2, H1, I3
+		- Distributed file systems or Databases
+		- Large storage volumes provisioned and bandwidth improved
+	- Accelerated Computing
+		- F1, G3, G4, P2, P3
+		- GPU-Acceleration expected
+		- AI or machine learning workload expected
 
 ---
-
-### Amazon EBS (Elastic Block Storage)
+# Module 7: Storage
+## Amazon EBS (Elastic Block Storage)
 
 - Uses
 	- Root/Boot volumes & storage for EC2
