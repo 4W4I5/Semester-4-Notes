@@ -17,20 +17,20 @@ Found nothing worthwhile in Chapter 2
 	- **Format:** Identification Lines. {Date, To, From, Subject}
 	- **Audience:** Business Colleagues
 	- **Topic:** Internal corporate information. Abbreviations & Acronyms allowed
-	- **Complexity:** 
-	- **Tone:**
-	- **Attachments:**
-	- **Delivery Time:**
-	- **Security:**
+	- **Complexity:** Single page
+	- **Tone:** Informal
+	- **Attachments:** HardCopy Stapled
+	- **Delivery Time:** Determined by company procedure
+	- **Security:** Depends on ethics of workplace
 - ### Letters
-	- **Destination:**
-	- **Format:**
-	- **Audience:**
-	- **Topic:**
-	- **Complexity:**
-	- **Tone:**
-	- **Attachments:**
-	- **Delivery Time:**
+	- **Destination:** External
+	- **Format:** {Letterhead, Address, Date, Reader's Address, Salutation, Text, Complimentary Close, Signature}
+	- **Audience:** Leyman
+	- **Topic:** Related to buisness poeple, Abbreviations & Acronyms defined
+	- **Complexity:** Single Page
+	- **Tone:** Formal
+	- **Attachments:** Can be enclosed in an envelope with other letters
+	- **Delivery Time:** 
 	- **Security:**
 - ### Email
 	- **Destination: **
