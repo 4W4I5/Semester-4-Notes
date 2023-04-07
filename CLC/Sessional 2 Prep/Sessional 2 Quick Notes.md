@@ -401,23 +401,20 @@ CIDR
 	- Geolocation
 		- Localized Content
 		- Route based on location of users
+		- Within location
 	- Geoproximity
 		- Use when you want to route traffic based on the location of your resources and, optionally, shift traffic from resources in one location to resources in another. 
+		- Closest IP is returned based on location of server/resources
 	- Failover
 		- Fail over to backup site if primary site is unreachable
+		- Active-Passive Failover
+		- Redirects to alternate locations based on availibility
 	- Multivalue Answer
 		- Respond to DNS queries with upto 8 healthy records selected at random
 
-From slides
-"**
-- Geolocation routing – Use when you want to route traffic based on the location of your users. When you use geolocation routing, you can localize your content and present some or all of your website in the language of your users. You can also use geolocation routing to restrict the distribution of content to only the locations where you have distribution rights. Another possible use is for balancing the load across endpoints in a predictable, easy-to-manage way, so that each user location is consistently routed to the same endpoint. 
 
-- Failover routing (DNS failover) – Use when you want to configure active-passive failover. Amazon Route 53 can help detect an outage of your website and redirect your users to alternate locations where your application is operating properly. When you enable this feature, Amazon Route 53 health-checking agents will monitor each location or endpoint of your application to determine its availability. You can take advantage of this feature to increase the availability of your customer-facing application. 
+### AWS CloudFront
 
-
-Multivalue answer routing – Use when you want Route 53 to respond to DNS queries with up to eight healthy records that are selected at random. You can configure Amazon Route 53 to return multiple values—such as IP addresses for your web servers—in response to DNS queries. You can specify multiple values for almost any record, but multivalue answer routing also enables you to check the health of each resource so that Route 53 returns only values for healthy resources. It's not a substitute for a load balancer, but the ability to return multiple health-checkable IP addresses is a way to use DNS to improve availability and load balancing.**"
-
-### AWS Cloudfront
 
 ---
 
