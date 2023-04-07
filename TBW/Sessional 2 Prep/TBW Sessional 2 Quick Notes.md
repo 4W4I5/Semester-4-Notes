@@ -7,6 +7,13 @@
 - [ ] Conciseness in writing & Parallelism
 
 ---
+
+
+
+
+
+---
+
 1.  Technical Writing Process: Technical writing is a process that involves systematically planning, creating, and revising technical documents for a specific audience with the goal of conveying technical information effectively. The technical writing process typically consists of the following stages:
 
 a) Planning: This stage involves identifying the purpose and scope of the document, understanding the target audience, and determining the goals and objectives of the document. It also involves conducting research and gathering information needed for the document.

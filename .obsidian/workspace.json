@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CLC/Sessional 2 Prep/Sessional 2 Quick Notes.md",
+                "file": "TBW/Sessional 2 Prep/TBW Sessional 2 Quick Notes.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 257.5,
-    "collapsed": true
+    "width": 257.5
   },
   "right": {
     "id": "1010b0dc0ef48981",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CLC/Sessional 2 Prep/Sessional 2 Quick Notes.md",
+                "file": "TBW/Sessional 2 Prep/TBW Sessional 2 Quick Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CLC/Sessional 2 Prep/Sessional 2 Quick Notes.md",
+                "file": "TBW/Sessional 2 Prep/TBW Sessional 2 Quick Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CLC/Sessional 2 Prep/Sessional 2 Quick Notes.md"
+                "file": "TBW/Sessional 2 Prep/TBW Sessional 2 Quick Notes.md"
               }
             }
           },
@@ -159,8 +158,9 @@
   },
   "active": "13d45dd2665918b1",
   "lastOpenFiles": [
+    "CLC/Sessional 2 Prep/CLC Sessional 2 Quick Notes.md",
+    "TBW/Sessional 2 Prep/TBW Sessional 2 Quick Notes.md",
     "CLC/CLC 6 Apr, 2023.md",
-    "CLC/Sessional 2 Prep/Sessional 2 Quick Notes.md",
     "CLC/CLC 30 Mar, 2023.md",
     "CLC/CLC 28 Mar, 2023.md",
     "CLC/CLC 24 Mar, 2023.md",
@@ -185,7 +185,6 @@
     "FSE/FSE 25 Mar, 2023.md",
     "FSE/FSE 1 Mar, 2023.md",
     "FSE/FSE 6 Mar, 2023.md",
-    "FSE/FSE 13 Mar, 2023.md",
     "TBW/Sessional 2 Prep",
     "FOM/Sessional 1 Prep",
     "FSE/Images",
