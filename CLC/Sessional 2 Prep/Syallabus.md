@@ -3,15 +3,20 @@
 - [ ] Module 6: Compute slides 1 to 16
 - [ ] Module 7: Storage EBS only
 ---
+
 # Module 4: AWS IAM (KMS onwards from 65)
 
 ## Encryption of Data
+
 ##### Encryption of Data at Rest
+
 - Encryption is done with a secret key
 	- AWS KMS manages that secret key
 - Data At Rest
 	- Defined as Data stored physically
+
 ##### Encryption of Data in Transit
+
 - Data In Transit
 	- Data moving across a Network
 - Encryption is done using TLS (Transport Layer Security)
@@ -21,13 +26,14 @@
 - AWS Services support data in transit encryption
 
 ## AWS KMS (Key management system)
+
 - Enables you to
 	- Create & Manage encryption keys
 	- Control the use of encryption across AWS services and in your apps
 - Integrated with CloudTrail to log all key usage to ensure regulatory & compliance needs
 - HSMs (Hardware Security Modules) provided by FIPS (Federal Information Processing Standards) to protect the keys physically
 - CMKs (Customer Master Keys)
-	- Used to 
+	- Used to
 		- Control access to data encryption keys
 		- Create new keys
 		- Manage access to keys
@@ -43,3 +49,30 @@
 					- Define policies for the key
 
 ## AWS Cognito
+
+- Adds the following to your web and mobile application
+	- User
+		- Sign in
+		- Sign Up
+		- Access Control
+- Scales to millions of users
+- Provides
+	- Multi-Factor Authentication
+	- Secure token exchange
+	- Encryption of data in transit or at rest
+- Supports 3rd party identity providers known as Federated Identity such as
+	- Facebook
+	- Google
+	- Microsoft Active Directory via Security Assertion Markup Language (SAML 2.0)
+		- Allows single sign-on (SSO)
+- Compliant with healthcare & merchant companies
+
+## AWS Shield
+
+- DDOS Protection Service
+- Available for all AWS applications and services
+- Provides always-on detection and automatic inline mitigations
+- Advanced Shield
+	- Paid service
+	- Protects against advanced attacks that implement a faint using DOS
+	- Used to minimize application downtime and latency
