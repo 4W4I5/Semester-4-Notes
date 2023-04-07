@@ -80,7 +80,7 @@
 	- Protects against advanced attacks
 		- Multivector
 		- Specific App target
-		- 
+		- API Endpoints
 	- Used to minimize application downtime and latency
 	- Protects apps that run on 
 		- EC2
