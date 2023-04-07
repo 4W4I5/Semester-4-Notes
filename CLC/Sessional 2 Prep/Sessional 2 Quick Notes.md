@@ -408,13 +408,22 @@ CIDR
 	- Failover
 		- Fail over to backup site if primary site is unreachable
 		- Active-Passive Failover
-		- Redirects to alternate locations based on availibility
+		- Redirects to alternate locations based on availability
+		- Used 
+			- when secondary IP of a maintenance HTML page is returned if load balancer is down
 	- Multivalue Answer
 		- Respond to DNS queries with upto 8 healthy records selected at random
 
 
 ### AWS CloudFront
-
+- CDN Service
+- AWS's Global network of edge locations and regional edge caches
+	- Edge Locations: Network of data centers used to serve popular content
+	- Regional Edge Caches: A middleman server to cache content based on location, used for less popular content
+- Pay as you go pricing
+	- Data Transfer Out
+	- HTTP(s) Requests
+	- Dedicated IP custom SSL
 
 ---
 
