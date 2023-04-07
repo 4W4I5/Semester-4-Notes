@@ -253,7 +253,6 @@ CIDR
 - Routing Table Entry
 	- Outgoing Connection 0.0.0.0/0 | igw-id
 
-
 ### Security Groups
 
 - Act at the instance level
@@ -275,7 +274,6 @@ CIDR
 - Stateless
 	- Return traffic must be explicitly allowed through rules
 
-
 ### NAT Gateway
 
 - Used to communicate with the private subnet
@@ -290,8 +288,6 @@ CIDR
 	- This means that the Private subnet is routed to the NAT gateway which is routed to the Public route table which is then routed to the Internet Gateway
 - Routing Table Entry
 	- 0.0.0.0/0 | nat-gw-id
-
----
 
 ### AWS Site-To-Site VPN
 
@@ -313,7 +309,6 @@ CIDR
 - Requires more setup time
 - Used for large-scale data transfer, high-volume workloads and applications that require low latency and bandwidth
 
-
 ## VPC Peering
 
 - Restrictions
@@ -327,7 +322,7 @@ CIDR
 	- Can be used within an AWS account, b/w AWS accounts, or b/w AWS Regions
 - After establishing a connection
 	- Modify the routing table to target traffic to the Peering connection's IP and the destination IP will be the host IP
--  VPC can also be chained to each other to allow communication b/w
+- VPC can also be chained to each other to allow communication b/w
 	- your own AWS account via VPC Sharing
 		- they wont need to create their own VPC but can deploy their own AWS resources and will have access to your VPC
 		- Isolated resources from your account
@@ -355,7 +350,7 @@ CIDR
 - Points
 	- Allow to privately connect VPC to supported AWS Services without requiring a gateway, NAT, VPN connection or Internet gateway
 	- Keeps traffic within the AWS Network
-	- 
+	-
 - Routing Table Entry
 	- ID of AWS Resource | vpcep-id
 
@@ -378,6 +373,7 @@ CIDR
 	- Centralized Network traffic and management
 
 ### AWS Route 53
+
 - DNS Service
 - 53 is the port number for DNS servers
 - Features
@@ -388,8 +384,8 @@ CIDR
 - Supported Routing Types
 	- Simple
 		- Used in single-server environments
-	- Weighted Round Robin 
-		- Assign weights to resource records sets to specify the frequency 
+	- Weighted Round Robin
+		- Assign weights to resource records sets to specify the frequency
 			- Its a turn by turn system that gives weights to each resource
 			- Itll wait till first resource is full of requests before proceeding to send requests to the next one
 		- Not a form of load balancing, however it is a routing mechanism where traffic flow is dictated in a route table
@@ -408,18 +404,18 @@ CIDR
 From slides
 "**
 
--   Simple routing (round robin) – Use for a single resource that performs a given function for your domain (such as a web server that serves content for the example.com website).
-    
--   Weighted round robin routing – Use to route traffic to multiple resources in proportions that you specify. Enables you to assign weights to resource record sets to specify the frequency with which different responses are served. You might want to use this capability to do A/B testing, which is when you send a small portion of traffic to a server where you made a software change. For instance, suppose you have two record sets that are associated with one DNS name: one with weight 3 and one with weight 1. In this case, 75 percent of the time, Amazon Route 53 will return the record set with weight 3, and 25 percent of the time, Amazon Route 53 will return the record set with weight 1. Weights can be any number between 0 and 255.
-    
--   Latency routing (LBR) – Use when you have resources in multiple AWS Regions and you want to route traffic to the Region that provides the best latency. Latency routing works by routing your customers to the AWS endpoint (for example, Amazon EC2 instances, Elastic IP addresses, or load balancers) that provides the fastest experience based on actual performance measurements of the different AWS Regions where your application runs. 
-    
--   Geolocation routing – Use when you want to route traffic based on the location of your users. When you use geolocation routing, you can localize your content and present some or all of your website in the language of your users. You can also use geolocation routing to restrict the distribution of content to only the locations where you have distribution rights. Another possible use is for balancing the load across endpoints in a predictable, easy-to-manage way, so that each user location is consistently routed to the same endpoint. 
-    
--   Geoproximity routing – Use when you want to route traffic based on the location of your resources and, optionally, shift traffic from resources in one location to resources in another. 
-    
--   Failover routing (DNS failover) – Use when you want to configure active-passive failover. Amazon Route 53 can help detect an outage of your website and redirect your users to alternate locations where your application is operating properly. When you enable this feature, Amazon Route 53 health-checking agents will monitor each location or endpoint of your application to determine its availability. You can take advantage of this feature to increase the availability of your customer-facing application. 
-    
+- Simple routing (round robin) – Use for a single resource that performs a given function for your domain (such as a web server that serves content for the example.com website).
+
+- Weighted round robin routing – Use to route traffic to multiple resources in proportions that you specify. Enables you to assign weights to resource record sets to specify the frequency with which different responses are served. You might want to use this capability to do A/B testing, which is when you send a small portion of traffic to a server where you made a software change. For instance, suppose you have two record sets that are associated with one DNS name: one with weight 3 and one with weight 1. In this case, 75 percent of the time, Amazon Route 53 will return the record set with weight 3, and 25 percent of the time, Amazon Route 53 will return the record set with weight 1. Weights can be any number between 0 and 255.
+
+- Latency routing (LBR) – Use when you have resources in multiple AWS Regions and you want to route traffic to the Region that provides the best latency. Latency routing works by routing your customers to the AWS endpoint (for example, Amazon EC2 instances, Elastic IP addresses, or load balancers) that provides the fastest experience based on actual performance measurements of the different AWS Regions where your application runs. 
+
+- Geolocation routing – Use when you want to route traffic based on the location of your users. When you use geolocation routing, you can localize your content and present some or all of your website in the language of your users. You can also use geolocation routing to restrict the distribution of content to only the locations where you have distribution rights. Another possible use is for balancing the load across endpoints in a predictable, easy-to-manage way, so that each user location is consistently routed to the same endpoint. 
+
+- Geoproximity routing – Use when you want to route traffic based on the location of your resources and, optionally, shift traffic from resources in one location to resources in another. 
+
+- Failover routing (DNS failover) – Use when you want to configure active-passive failover. Amazon Route 53 can help detect an outage of your website and redirect your users to alternate locations where your application is operating properly. When you enable this feature, Amazon Route 53 health-checking agents will monitor each location or endpoint of your application to determine its availability. You can take advantage of this feature to increase the availability of your customer-facing application. 
+
 
 Multivalue answer routing – Use when you want Route 53 to respond to DNS queries with up to eight healthy records that are selected at random. You can configure Amazon Route 53 to return multiple values—such as IP addresses for your web servers—in response to DNS queries. You can specify multiple values for almost any record, but multivalue answer routing also enables you to check the health of each resource so that Route 53 returns only values for healthy resources. It's not a substitute for a load balancer, but the ability to return multiple health-checkable IP addresses is a way to use DNS to improve availability and load balancing.**"
 
@@ -448,8 +444,10 @@ Categories of Compute Services
 - Platform-As-A-Service
 	- AWS Beanstalk
 		- Used for WebApps
----
+
+
 ### Amazon EC2
+
 - Provides VMs
 	- Allows user spec of hardware to use for a specific instance
 - Can run into any availability zone
@@ -466,6 +464,7 @@ Categories of Compute Services
 	- Accelerated Computing
 
 ---
+
 ### Amazon EBS (Elastic Block Storage)
 
 - Uses
