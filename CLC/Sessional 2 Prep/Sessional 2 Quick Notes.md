@@ -6,6 +6,8 @@
 
 # Module 4: AWS IAM (KMS onwards from 65)
 
+# Section 4: Securing Accounts
+
 ## Encryption of Data (AWS Cert Manager)
 
 - ##### Encryption of Data at Rest
@@ -70,7 +72,7 @@
 - Available for all AWS applications and services
 - Provides always-on detection and automatic inline mitigations
 - Standard Shield
-	- Integrated into 
+	- Integrated into
 		- CloudFront
 - Advanced Shield
 	- Paid service
@@ -79,14 +81,18 @@
 		- Specific App target
 		- API Endpoints
 	- Used to minimize application downtime and latency
-	- Protects apps that run on 
+	- Protects apps that run on
 		- EC2
 		- ELB (Elastic Load Balancing)
 		- CloudFront
 		- Global Accelerator
 		- Route 53
 	- To contact DDOS Response team an Enterprise or Business support from AWS Support will be required
+
+# Section 5: Securing data on AWS
+
 ## Securing S3 Buckets & Objects
+
 - New S3 Buckets are private & protected by default
 - Permissions following the principle of least privilege are used alongside S3 Encryption to allow access to the data stored in the bucket
 - Tools
@@ -121,4 +127,13 @@
 				- ACLs provide access to a small number of trusted accounts or make an object publicly accessible
 				- IAMs manage access for a large number of users, groups or roles within you AWS account
 	- AWS Trusted Advisor
-		- 
+		- Provides recommendations for optimizing AWS resources
+		- Offers guidance for securing S3 Buckets & Objects
+			- Analyze S3 config and provide recommendations based on industry practices and AWS security guidelines
+			- Provides guidance on configuring S3 bucket policies and/or ACLs
+			- Recommends enabling S3 server-side encryption and configure versioning, protecting against data loss & unauthorized access
+		- Alerts to
+			- any S3 buckets that are not in spec of the AWS security guidelines or out of date
+			- buckets that are publicly accessible or have open permissions
+
+# Section 6: Working to Ensure Compliance
