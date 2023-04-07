@@ -72,7 +72,20 @@
 - DDOS Protection Service
 - Available for all AWS applications and services
 - Provides always-on detection and automatic inline mitigations
+- Standard Shield
+	- Integrated into 
+		- CloudFront
 - Advanced Shield
 	- Paid service
-	- Protects against advanced attacks that implement a faint using DOS
+	- Protects against advanced attacks
+		- Multivector
+		- Specific App target
+		- 
 	- Used to minimize application downtime and latency
+	- Protects apps that run on 
+		- EC2
+		- ELB (Elastic Load Balancing)
+		- CloudFront
+		- Global Accelerator
+		- Route 53
+	- To contact DDOS Response team an Enterprise or Business support from AWS Support will be required
