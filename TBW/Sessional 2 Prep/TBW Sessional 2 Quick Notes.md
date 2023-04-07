@@ -13,45 +13,45 @@ Found nothing worthwhile in Chapter 2
 
 ## Difference b/w Routine Comms channels
 - ### Memos
-	- Destination: Internal
-	- Format: Identification Lines. {Date, To, From, Subject}
-	- Audience: Business Colleagues
-	- Topic: Internal cor
-	- Complexity:
-	- Tone:
-	- Attachments:
-	- Delivery Time:
-	- Security:
+	- **Destination:** Internal
+	- **Format:** Identification Lines. {Date, To, From, Subject}
+	- **Audience:** Business Colleagues
+	- **Topic:** Internal corporate information. Abbreviations & Acronyms allowed
+	- **Complexity:** 
+	- **Tone:**
+	- **Attachments:**
+	- **Delivery Time:**
+	- **Security:**
 - ### Letters
-	- Destination: 
-	- Format:
-	- Audience:
-	- Topic:
-	- Complexity:
-	- Tone:
-	- Attachments:
-	- Delivery Time:
-	- Security:
+	- **Destination:**
+	- **Format:**
+	- **Audience:**
+	- **Topic:**
+	- **Complexity:**
+	- **Tone:**
+	- **Attachments:**
+	- **Delivery Time:**
+	- **Security:**
 - ### Email
-	- Destination: 
-	- Format:
-	- Audience:
-	- Topic:
-	- Complexity:
-	- Tone:
-	- Attachments:
-	- Delivery Time:
-	- Security:
+	- **Destination: **
+	- **Format: **
+	- **Audience:**
+	- **Topic:**
+	- **Complexity:**
+	- **Tone:**
+	- **Attachments:**
+	- **Delivery Time:**
+	- **Security:**
 - ### Text Message
-	- Destination: 
-	- Format:
-	- Audience:
-	- Topic:
-	- Complexity:
-	- Tone:
-	- Attachments:
-	- Delivery Time:
-	- Security:
+	- **Destination: **
+	- **Format: **
+	- **Audience:**
+	- **Topic:**
+	- **Complexity:**
+	- **Tone:**
+	- **Attachments:**
+	- **Delivery Time:**
+	- **Security:**
 
 
 ---
@@ -78,7 +78,7 @@ c) End Users: These are individuals who will be using a product or service and n
 
 d) Decision Makers: These are individuals who make decisions based on technical documents. They may require summaries, executive summaries, or reports that provide a high-level overview of technical information in a concise and easily understandable format.
 
-e) General Audience: These are individuals who have a general interest in the topic but may not have any technical background. They may require information that is presented in a non-technical, reader-friendly language.
+e) General **Audience:** These are individuals who have a general interest in the topic but may not have any technical background. They may require information that is presented in a non-technical, reader-friendly language.
 
 3.  Routine Correspondences: Memos, Letters & Emails: Routine correspondences such as memos, letters, and emails are common forms of communication in technical writing. These documents serve different purposes and have specific conventions:
 
@@ -88,13 +88,13 @@ b) Letters: Letters are formal documents used for external communication, such a
 
 c) Emails: Emails are electronic messages used for both internal and external communication. They are often used for routine correspondences within an organization, as well as for external communication with clients, customers, or other stakeholders. Emails can be more informal than memos or letters, but it is still important to maintain a professional tone and follow proper email etiquette. Emails should be concise, clear, and to the point, with a subject line that summarizes the purpose of the email.
 
-Difference between Memos and Letters: Memos and letters are both written forms of communication, but they differ in their purpose, format, and audience:
+Difference between Memos and Letters: Memos and letters are both written forms of communication, but they differ in their purpose, format, and **Audience:**
 
 -   Purpose: Memos are usually used for internal communication within an organization, while letters are typically used for external communication with clients, customers, or other stakeholders.
     
--   Format: Memos typically follow a standardized format with headings, to, from, date, and subject lines, and are usually shorter and more concise. Letters, on the other hand, follow a formal business letter format with a salutation, body, and closing, and are usually longer and more detailed.
+-   **Format: ** Memos typically follow a standardized format with headings, to, from, date, and subject lines, and are usually shorter and more concise. Letters, on the other hand, follow a formal business letter format with a salutation, body, and closing, and are usually longer and more detailed.
     
--   Audience: Memos are usually written for employees or team members within an organization, while letters are addressed to external recipients, such as clients, customers, or business partners.
+-   **Audience:** Memos are usually written for employees or team members within an organization, while letters are addressed to external recipients, such as clients, customers, or business partners.
     
 
 Polite Tone in Technical Writing: Achieving politeness in technical writing is important to maintain a professional and respectful tone. Here are some tips for achieving politeness in technical writing:

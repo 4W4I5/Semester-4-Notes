@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "\"Destination: \"",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,7 +65,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -156,7 +157,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "13d45dd2665918b1",
+  "active": "b34ba22847b01e70",
   "lastOpenFiles": [
     "CLC/Sessional 2 Prep/CLC Sessional 2 Quick Notes.md",
     "TBW/Sessional 2 Prep/TBW Sessional 2 Quick Notes.md",
