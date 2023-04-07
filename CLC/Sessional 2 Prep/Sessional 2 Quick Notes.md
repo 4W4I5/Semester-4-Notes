@@ -471,11 +471,28 @@ Categories of Compute Services
 		- Which are also in two types divided on IOPS and Bandwidth
 		- Note that HDD cannot be used as boot volumes
 	- Ascending order of quality (Complete from slides)
-		- Cold (HDD)
-		- Throughput-Optimized (HDD)
-		- General Purpose (SSD)
-		- Provisioned IOPS (SSD)
+		- Cold (HDD) 250 IOPS
+			- Used for data that is infrequently accessed, throughput oriented for large volumes
+			- Good when looking for low storage costs
+			- Cannot be boot volume
+		- Throughput-Optimized (HDD) 500 IOPS
+			- Streaming workloads that require consistent, fast throughput at a low price
+			- Used
+				- Big data
+				- Data warehouses
+				- Log processing
+			- Cannot be a boot volume
+		- General Purpose (SSD) 16k IOPS
+			- Recommended for most workloads
+			- Used
+				- Virtual Desktops
+				- Low latency interactive applications
+				- Dev and test environments
+		- Provisioned IOPS (SSD) 64k IOPS
+			- Critical businesses that require sustained IOPS or more than 16k IOPS
+			- Large Database workloads
 - Features
+	- MAX volume size capped at 16TiB or roughly 17TB
 	- Enables you to create individual storage volumes & attach them to an EC2 instance
 	- Block-Level Storage
 	- All volumes persist independent from the instance
@@ -485,20 +502,22 @@ Categories of Compute Services
 	- Encrypted EBS volumes at no additional cost
 	- Change to diff types or scale capacity
 	- Snapshots allows to revert back in time
-		- Can be stored locally, on a EBS or on a S3 Bucket
-- Cost
+		- Can be stored locally, on a EBS or on a S3 Bucket but generally stored in S3
+- Pricing
 	- Volume
-		- Direct cost of storage consumed
+		- Direct cost of storage provision in GB/Month until released
 	- Snapshots
 		- Added Cost of Amazon EBS snapshots to S3 is per GB-Month of data stored
 	- Data Transfer
 		- Inbound data transfer is free
 		- Outbound data transfer across regions incurs charges
-	- According to Type (IOPS)
+		- Copying EBS snapshots incurs charges across regions after which standard EBS snapshot charges apply for storage in the destination region
+	- According to IOPS
 		- Cold (HDD)
 			- Charged by number of requests to volume
 		- Throughput-Optimized (HDD)
+			- Charged by number of requests to volume
 		- General Purpose (SSD)
 			- Charged by amount of GB per month until storage is released
 		- Provisioned IOPS (SSD)
-		- Charged by amount of IOPS x percentage of days that you provision for the month
+			- Charged by amount of IOPS provisioned x percentage of days that you provision for the month
