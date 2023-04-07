@@ -1,4 +1,4 @@
-- [ ] Module 4 KMS onwards
+- [ ] Module 4 KMS, slide 65 onwards
 - [ ] Module 5: Networking & Content Delivery
 - [ ] Module 6: Compute slides 1 to 16
 - [ ] Module 7: Storage EBS only
