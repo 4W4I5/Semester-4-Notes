@@ -15,7 +15,7 @@
 	- Used to 
 		- Control access to data encryption keys
 		- Create new keys
-		- Import your own
 		- Manage access to keys
+	- AWS-Managed or 
 
 ## AWS Cognito
