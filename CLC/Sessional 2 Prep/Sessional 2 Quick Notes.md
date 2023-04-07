@@ -422,8 +422,14 @@ CIDR
 	- Regional Edge Caches: A middleman server to cache content based on location, used for less popular content
 - Pay as you go pricing
 	- Data Transfer Out
+		- Charged for volume of data in GB transferred out from Amazon CloudFront edge location to the internet or to your origin
 	- HTTP(s) Requests
+		- Charged from number of HTTP requests
 	- Dedicated IP custom SSL
+		- 600$ per month for a custom SSL cert that is associated with one or more cloudfront distributions that use the dedicated IP version of custom SSL certs
+	- Invalidation Requests
+		- Request to invalidate data, basically remove old data from the internet
+		- 1000 invalidation requests are allowed after which 0.005$ is charged per path
 
 ---
 
