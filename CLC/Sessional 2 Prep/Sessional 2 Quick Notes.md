@@ -245,6 +245,8 @@ CIDR
 	- Defines outgoing connections
 		- 0.0.0.0/0 to Gateway means all internal IPs in the VPC
 
+## Section 3: VPC Networking
+
 ### Internet Gateway
 
 - Final piece of the puzzle that connects to the internet
@@ -414,6 +416,7 @@ From slides
 
 Multivalue answer routing – Use when you want Route 53 to respond to DNS queries with up to eight healthy records that are selected at random. You can configure Amazon Route 53 to return multiple values—such as IP addresses for your web servers—in response to DNS queries. You can specify multiple values for almost any record, but multivalue answer routing also enables you to check the health of each resource so that Route 53 returns only values for healthy resources. It's not a substitute for a load balancer, but the ability to return multiple health-checkable IP addresses is a way to use DNS to improve availability and load balancing.**"
 
+### AWS Cloudfront
 
 ---
 
