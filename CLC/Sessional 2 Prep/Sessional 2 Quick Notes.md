@@ -405,15 +405,10 @@ From slides
 "**
 
 - Simple routing (round robin) – Use for a single resource that performs a given function for your domain (such as a web server that serves content for the example.com website).
-
 - Weighted round robin routing – Use to route traffic to multiple resources in proportions that you specify. Enables you to assign weights to resource record sets to specify the frequency with which different responses are served. You might want to use this capability to do A/B testing, which is when you send a small portion of traffic to a server where you made a software change. For instance, suppose you have two record sets that are associated with one DNS name: one with weight 3 and one with weight 1. In this case, 75 percent of the time, Amazon Route 53 will return the record set with weight 3, and 25 percent of the time, Amazon Route 53 will return the record set with weight 1. Weights can be any number between 0 and 255.
-
 - Latency routing (LBR) – Use when you have resources in multiple AWS Regions and you want to route traffic to the Region that provides the best latency. Latency routing works by routing your customers to the AWS endpoint (for example, Amazon EC2 instances, Elastic IP addresses, or load balancers) that provides the fastest experience based on actual performance measurements of the different AWS Regions where your application runs. 
-
 - Geolocation routing – Use when you want to route traffic based on the location of your users. When you use geolocation routing, you can localize your content and present some or all of your website in the language of your users. You can also use geolocation routing to restrict the distribution of content to only the locations where you have distribution rights. Another possible use is for balancing the load across endpoints in a predictable, easy-to-manage way, so that each user location is consistently routed to the same endpoint. 
-
 - Geoproximity routing – Use when you want to route traffic based on the location of your resources and, optionally, shift traffic from resources in one location to resources in another. 
-
 - Failover routing (DNS failover) – Use when you want to configure active-passive failover. Amazon Route 53 can help detect an outage of your website and redirect your users to alternate locations where your application is operating properly. When you enable this feature, Amazon Route 53 health-checking agents will monitor each location or endpoint of your application to determine its availability. You can take advantage of this feature to increase the availability of your customer-facing application. 
 
 
@@ -444,7 +439,6 @@ Categories of Compute Services
 - Platform-As-A-Service
 	- AWS Beanstalk
 		- Used for WebApps
-
 
 ### Amazon EC2
 
@@ -485,26 +479,26 @@ Categories of Compute Services
 	- Enables you to create individual storage volumes & attach them to an EC2 instance
 	- Block-Level Storage
 	- All volumes persist independent from the instance
-	- Volumes are auto-replicated in its availability zone
+	- Volumes are auto-replicated within its availability zone
 	- Backed up automatically to S3 using snapshots'
 	- Recreate a new volume at any time
 	- Encrypted EBS volumes at no additional cost
 	- Change to diff types or scale capacity
 	- Snapshots allows to revert back in time
 		- Can be stored locally, on a EBS or on a S3 Bucket
-- ### Cost
-- Volume
-	- Direct cost of storage consumed
-- Snapshots
-	- Added Cost of Amazon EBS snapshots to S3 is per GB-Month of data stored
-- Data Transfer
-	- Inbound data transfer is free
-	- Outbound data transfer across regions incurs charges
-- According to Type (IOPS)
-	- Cold (HDD)
-		- Charged by number of requests to volume
-	- Throughput-Optimized (HDD)
-	- General Purpose (SSD)
-		- Charged by amount of GB per month until storage is released
-	- Provisioned IOPS (SSD)
-	- Charged by amount of IOPS x percentage of days that you provision for the month
+- Cost
+	- Volume
+		- Direct cost of storage consumed
+	- Snapshots
+		- Added Cost of Amazon EBS snapshots to S3 is per GB-Month of data stored
+	- Data Transfer
+		- Inbound data transfer is free
+		- Outbound data transfer across regions incurs charges
+	- According to Type (IOPS)
+		- Cold (HDD)
+			- Charged by number of requests to volume
+		- Throughput-Optimized (HDD)
+		- General Purpose (SSD)
+			- Charged by amount of GB per month until storage is released
+		- Provisioned IOPS (SSD)
+		- Charged by amount of IOPS x percentage of days that you provision for the month
