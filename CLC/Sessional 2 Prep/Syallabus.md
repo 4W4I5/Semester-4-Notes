@@ -16,6 +16,15 @@
 		- Control access to data encryption keys
 		- Create new keys
 		- Manage access to keys
-	- AWS-Managed or 
+	- Management of keys
+		- AWS-Managed
+			- Rotated on a regular basis
+			- Used by some AWS services
+		- Customer-Managed
+			- Full control passed to the user
+				- Own responsibility to
+					- Rotate
+					- Audit
+					- Define policies for the key
 
 ## AWS Cognito
