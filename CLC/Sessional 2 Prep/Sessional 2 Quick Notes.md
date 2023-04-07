@@ -94,8 +94,15 @@
 		- Blocks all public access to S3 Bucket
 		- Overrides other policies or permissions
 	- IAM Policies
-		- Specify which user can access which bucket/object
+		- Specify which user or role can access which bucket/object
+		- More granular and specify permissions for specific actions
 	- Bucket Policies
-		- 
+		- Define access to specific buckets/objects.
+		- Used when IAM cannot authenticate a user
+		- Attached directly to a S3 Bucket, Applied to all requests made to that bucket
+		- Grant access to
+			- Public
+			- Anonymous
+			- AWS accounts
 	- Access Control Lists
 	- AWS Trusted Advisor
