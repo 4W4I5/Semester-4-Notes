@@ -91,7 +91,11 @@
 - Permissions following the principle of least privilege are used alongside S3 Encryption to allow access to the data stored in the bucket
 - Tools
 	- S3 Block Public Access
+		- Blocks all public access to S3 Bucket
+		- Overrides other policies or permissions
 	- IAM Policies
+		- Specify which user can access which bucket/object
 	- Bucket Policies
+		- 
 	- Access Control Lists
 	- AWS Trusted Advisor
