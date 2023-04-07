@@ -8,8 +8,50 @@
 
 ---
 
+Found nothing worthwhile in Chapter 2
+# Chapter 6: Written Correspondence
 
-
+## Difference b/w Routine Comms channels
+- ### Memos
+	- Destination: 
+	- Format:
+	- Audience:
+	- Topic:
+	- Complexity:
+	- Tone:
+	- Attachments:
+	- Delivery Time:
+	- Security:
+- ### Letters
+	- Destination: 
+	- Format:
+	- Audience:
+	- Topic:
+	- Complexity:
+	- Tone:
+	- Attachments:
+	- Delivery Time:
+	- Security:
+- ### Email
+	- Destination: 
+	- Format:
+	- Audience:
+	- Topic:
+	- Complexity:
+	- Tone:
+	- Attachments:
+	- Delivery Time:
+	- Security:
+- ### Text Message
+	- Destination: 
+	- Format:
+	- Audience:
+	- Topic:
+	- Complexity:
+	- Tone:
+	- Attachments:
+	- Delivery Time:
+	- Security:
 
 
 ---
