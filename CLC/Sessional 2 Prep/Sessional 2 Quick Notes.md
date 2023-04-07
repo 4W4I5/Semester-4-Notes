@@ -105,5 +105,18 @@
 			- Anonymous
 			- AWS accounts
 	- Access Control Lists
-		- 
+		- Older way of IAM
+		- Written in XML
+		- Differences b/w ACL & IAM
+			- Scope
+				- ACLs are attached to individual objects
+				- IAMs are attached to IAM users, groups or roles
+			- Granularity
+				- ACLs grant/deny access to individual objects in a bucket
+				- IAMs specify permissions for specific actions on a bucket or object
+			- Level of Control
+				- Less granular than IAM
+				- IAMs can specify fine-grained permissions for users & groups, restrict access based on IP address or time of the day & manage permissions across multiple AWS services
+			- Access Management
+				- ACLs provide 
 	- AWS Trusted Advisor
