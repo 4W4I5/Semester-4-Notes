@@ -86,3 +86,5 @@
 		- Global Accelerator
 		- Route 53
 	- To contact DDOS Response team an Enterprise or Business support from AWS Support will be required
+## Securing S3 Buckets & Objects
+- Newly created S3 buckets & Objects are Private and Protected by default
