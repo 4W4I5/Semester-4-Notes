@@ -118,5 +118,7 @@
 				- Less granular than IAM
 				- IAMs can specify fine-grained permissions for users & groups, restrict access based on IP address or time of the day & manage permissions across multiple AWS services
 			- Access Management
-				- ACLs provide 
+				- ACLs provide access to a small number of trusted accounts or make an object publicly accessible
+				- IAMs manage access for a large number of users, groups or roles within you AWS account
 	- AWS Trusted Advisor
+		- 

@@ -25,6 +25,7 @@
 ### CLC (XXXX)
 
 - Notes upto the first sessional are scarce as of writing. Prepped using slides
+- **2nd Sessional Prep** can be done from the 'Sessional 2 Quick Notes' file
 
 | Date                                                                                          | Status                      | Content                                                        |
 | --------------------------------------------------------------------------------------------- | --------------------------- | -------------------------------------------------------------- |
