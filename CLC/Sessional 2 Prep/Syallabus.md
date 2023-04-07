@@ -5,6 +5,21 @@
 ---
 # Module 4: AWS IAM (KMS onwards from 65)
 
+## Encryption of Data
+##### Encryption of Data at Rest
+- Encryption is done with a secret key
+	- AWS KMS manages that secret key
+- Data At Rest
+	- Defined as Data stored physically
+##### Encryption of Data in Transit
+- Data In Transit
+	- Data moving across a Network
+- Encryption is done using TLS (Transport Layer Security)
+	- Creates a secure tunnel using HTTPS
+	- AWS Certificate Manager
+		- Provides a way to manage, deploy and renew TLS/SSL Certs
+- AWS Services support data in transit encryption
+
 ## AWS KMS (Key management system)
 - Enables you to
 	- Create & Manage encryption keys
