@@ -13,10 +13,10 @@ Found nothing worthwhile in Chapter 2
 
 ## Difference b/w Routine Comms channels
 - ### Memos
-	- Destination: 
-	- Format:
-	- Audience:
-	- Topic:
+	- Destination: Internal
+	- Format: Identification Lines. {Date, To, From, Subject}
+	- Audience: Business Colleagues
+	- Topic: Internal cor
 	- Complexity:
 	- Tone:
 	- Attachments:
