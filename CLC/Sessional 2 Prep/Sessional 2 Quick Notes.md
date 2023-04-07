@@ -137,3 +137,39 @@
 			- buckets that are publicly accessible or have open permissions
 
 # Section 6: Working to Ensure Compliance
+## AWS compliance programs
+- Customers are subject to many different security & compliance regulations and requirements
+- Engages with certifying bodies and independent auditors to provide customer with detailed information about the policies, processes, and controls that are established and are operated by AWS
+- These are broadly categorized
+	- Certifications & Attestations
+		- Assessed by a third party, independent auditor
+		- Example
+			- ISO 27001
+			- ISO 27017
+			- ISO 27018
+			- ISO/IEC 9001
+	- Laws, Regulations, & Privacy
+		- AWS provides security features and legal agreements to support compliance
+		- Example
+			- EU general data protection regulation (GDPR)
+			- HIPAA
+	- Alignments & Frameworks
+	- Industry or Function specific or compliance requirements
+		- Examples
+			- Center for internet security (CIS)
+			- EU-US Privacy Shield certified
+### AWS Config 
+- Simplify compliance auditing and security analysis
+- Assess, Audit and Evaluate the configurations of AWS Resources
+- Use for continuous monitoring of configs
+- Automatically evaluate recorded configs vs desired configs
+- Review config changes
+- View detailed config histories
+### AWS Artifact
+- Resource for compliance-related information
+- Provide access to security and compliance reports
+	- Select online agreements
+- Can access example downloads
+	- AWS ISO certs
+	- Payment card industry (PCI) and Service Organization Control (SOC) reports 
+- Access AWS Artifacts directly from the AWS management console
