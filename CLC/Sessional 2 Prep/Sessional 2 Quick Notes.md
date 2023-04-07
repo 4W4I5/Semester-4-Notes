@@ -395,12 +395,14 @@ CIDR
 		- Each server is assigned a weight value. 
 		- Ensures that each server receives a fair share of traffic based on its weight, and it is useful for load balancing when some servers have a higher capacity or processing power than others.
 	- Latency
-		- Improve global applications (How?)
+		- Improve global applications 
+		- Works by routing packets thru the path of lowest latency
+		- Route AWS endpoints depending on the lowest time in flight
 	- Geolocation
 		- Localized Content
 		- Route based on location of users
 	- Geoproximity
-		- Route based on location of resources
+		- Use when you want to route traffic based on the location of your resources and, optionally, shift traffic from resources in one location to resources in another. 
 	- Failover
 		- Fail over to backup site if primary site is unreachable
 	- Multivalue Answer
@@ -408,10 +410,8 @@ CIDR
 
 From slides
 "**
-
-- Latency routing (LBR) – Use when you have resources in multiple AWS Regions and you want to route traffic to the Region that provides the best latency. Latency routing works by routing your customers to the AWS endpoint (for example, Amazon EC2 instances, Elastic IP addresses, or load balancers) that provides the fastest experience based on actual performance measurements of the different AWS Regions where your application runs. 
 - Geolocation routing – Use when you want to route traffic based on the location of your users. When you use geolocation routing, you can localize your content and present some or all of your website in the language of your users. You can also use geolocation routing to restrict the distribution of content to only the locations where you have distribution rights. Another possible use is for balancing the load across endpoints in a predictable, easy-to-manage way, so that each user location is consistently routed to the same endpoint. 
-- Geoproximity routing – Use when you want to route traffic based on the location of your resources and, optionally, shift traffic from resources in one location to resources in another. 
+
 - Failover routing (DNS failover) – Use when you want to configure active-passive failover. Amazon Route 53 can help detect an outage of your website and redirect your users to alternate locations where your application is operating properly. When you enable this feature, Amazon Route 53 health-checking agents will monitor each location or endpoint of your application to determine its availability. You can take advantage of this feature to increase the availability of your customer-facing application. 
 
 
