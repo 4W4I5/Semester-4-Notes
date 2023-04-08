@@ -44,6 +44,7 @@ Found nothing worthwhile in Chapter 2
 		- Simplified
 			- Subject line
 			- No space b/w para
+			- More informal compared to Block
 	- **Types**
 		- Complaint 
 		- Adjustment
