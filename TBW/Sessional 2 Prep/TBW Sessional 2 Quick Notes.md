@@ -32,6 +32,18 @@ Found nothing worthwhile in Chapter 2
 	- **Attachments:** Can be enclosed in an envelope with other letters
 	- **Delivery Time:** 3 days - 1 week
 	- **Security:** Depends on postal service
+	- Types:
+		- Full Block
+			- Margin Spacing
+			- 2-4 Spaces around date & salutations
+			- 2 before sincerely and 4 after
+			- 2 line space b/w para and within 1 line space
+		- Full Block with Subject Line
+			- Subject will be above salutations
+			- No space b/w para
+		- Simplified
+			- Subject line
+			- No space b/w para
 - ### Email
 	- **Destination:** Internal/External 
 	- **Format:** {Identification Lines, To & Subject, Date-From computer generated, Optional= "CC, Forward, Reply"}
@@ -52,6 +64,11 @@ Found nothing worthwhile in Chapter 2
 	- **Attachments:** Same as Email
 	- **Delivery Time:** Same as Email
 	- **Security:** Same as Email
+
+#### Difference b/w Letters & Memos
+- Purpose and audience: memos – internal / within organization. Letter – external / outside organization
+- Format and structure: memos – identification lines, concise. Letter – addresses, more formal. Subject line (optional in letter but a must in memo), signature (in letters but not in memo). Letter has 3 formats, memo has one.
+
 
 
 ---
