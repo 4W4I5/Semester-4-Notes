@@ -26,7 +26,7 @@ Found nothing worthwhile in Chapter 2
 	- **Destination:** External
 	- **Format:** {Letterhead, Address, Date, Reader's Address, Salutation, Text, Complimentary Close, Signature}
 	- **Audience:** Leyman
-	- **Topic:** Related to buisness poeple, Abbreviations & Acronyms defined
+	- **Topic:** Related to business people, Abbreviations & Acronyms defined
 	- **Complexity:** Single Page
 	- **Tone:** Formal
 	- **Attachments:** Can be enclosed in an envelope with other letters
@@ -45,6 +45,9 @@ Found nothing worthwhile in Chapter 2
 			- Subject line
 			- No space b/w para
 			- More informal compared to Block
+				- Sender Name and address omitted
+				- Date in the upper right corner
+				- No line spacing
 	- **Types**
 		- Complaint 
 		- Adjustment
@@ -56,7 +59,7 @@ Found nothing worthwhile in Chapter 2
 	- **Omit Salutations**
 		- If reader is unknown, do not write to whom it may concern
 		- Name is not gender specific (They/Them)
-		- Skip closing if salutation omittedd
+		- Skip closing if salutation omitted
 - ### Email
 	- **Destination:** Internal/External 
 	- **Format:** {Identification Lines, To & Subject, Date-From computer generated, Optional= "CC, Forward, Reply"}
