@@ -30,28 +30,28 @@ Found nothing worthwhile in Chapter 2
 	- **Complexity:** Single Page
 	- **Tone:** Formal
 	- **Attachments:** Can be enclosed in an envelope with other letters
-	- **Delivery Time:** 
-	- **Security:**
+	- **Delivery Time:** 3 days - 1 week
+	- **Security:** Depends on postal service
 - ### Email
-	- **Destination: **
-	- **Format: **
-	- **Audience:**
-	- **Topic:**
-	- **Complexity:**
-	- **Tone:**
-	- **Attachments:**
-	- **Delivery Time:**
-	- **Security:**
+	- **Destination:** Internal/External 
+	- **Format:** {Identification Lines, To & Subject, Date-From computer generated, Optional= "CC, Forward, Reply"}
+	- **Audience:** Multiple readers
+	- **Topic:** Diverse topics, based on audience
+	- **Complexity:** Limited to one viewable screen, if more needed then write a report
+	- **Tone:** Informal/Formal
+	- **Attachments:** Digital
+	- **Delivery Time:** Instantaneous, within minutes
+	- **Security:** Not secure
 - ### Text Message
-	- **Destination: **
-	- **Format: **
-	- **Audience:**
-	- **Topic:**
-	- **Complexity:**
-	- **Tone:**
-	- **Attachments:**
-	- **Delivery Time:**
-	- **Security:**
+	- **Destination:** Same as Email
+	- **Format:** None
+	- **Audience:** Same as Email
+	- **Topic:** Same as Email
+	- **Complexity:** Brief, limited to 200 char
+	- **Tone:** Informal
+	- **Attachments:** Same as Email
+	- **Delivery Time:** Same as Email
+	- **Security:** Same as Email
 
 
 ---
