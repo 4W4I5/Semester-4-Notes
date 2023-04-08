@@ -32,7 +32,7 @@ Found nothing worthwhile in Chapter 2
 	- **Attachments:** Can be enclosed in an envelope with other letters
 	- **Delivery Time:** 3 days - 1 week
 	- **Security:** Depends on postal service
-	- Types:
+	- **Format Styles**:
 		- Full Block
 			- Margin Spacing
 			- 2-4 Spaces around date & salutations
@@ -44,6 +44,18 @@ Found nothing worthwhile in Chapter 2
 		- Simplified
 			- Subject line
 			- No space b/w para
+	- **Types**
+		- Complaint 
+		- Adjustment
+		- Cover
+		- Inquiry
+		- Confirmation
+		- Bad news
+		- Recommendation
+	- **Omit Salutations**
+		- If reader is unknown, do not write to whom it may concern
+		- Name is not gender specific (They/Them)
+		- Skip closing if salutation omittedd
 - ### Email
 	- **Destination:** Internal/External 
 	- **Format:** {Identification Lines, To & Subject, Date-From computer generated, Optional= "CC, Forward, Reply"}
