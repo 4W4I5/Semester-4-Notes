@@ -235,8 +235,8 @@ TCP & UDP
 	- Seems unreal but chksum is used
 		- Internet CHKSUM
 			- Divide segment into 16 bit parts
-			- add them up and if carry on MSB then wrap around
-			- Take ones complement
+			- add them up and if carry on MSB then wrap around and sum it again
+			- Take ones complement of the result
 			- Place result in CHKSUM field in the header of the segment
 			- To verify
 				- Do not recalc checksum at the recieving end
