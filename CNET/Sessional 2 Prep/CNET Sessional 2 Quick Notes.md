@@ -196,6 +196,14 @@ Pretty simple stuff. IP points to the HOST. Ports point to the PROCESS/SOCKET
 			- Different IP's using the same port can be differentiated
 			- Different Ports used by the same IP can be differentiated 
 
+### Socket
+- A listening process is always running on the server
+	- One can tell if a process is a listening type by examining the destination fields
+		- They'll be empty and source fields will be the server's IP and listening port number
+- Once an ACK is sent by the client
+	- The server spawns a new socket using the client IP/Port+Server IP/Port
+	- This is closed after connection close
+
 ---
 
 # UDP
