@@ -94,6 +94,24 @@ Stored in Resource Records formatting: (Name, Value, Type, TTL)
 ## Query & Reply
 
 - Both of them have the same format, differentiated by flags
+- Structure:
+	- 2 bytes for 
+		- Identification
+			- Same ID is used for the reply
+		- Flags
+			- isQuery or isReply
+			- reply is authoritative
+			- Recursion Desired 
+			- Recursion Available
+		- Number of Questions
+		- Number of Answer Records
+		- Number of Authority Records
+		- Number of Additional RR
+	- 4 bytes for
+		- Questions
+		- Answers
+		- Authority
+		- Additional Info
 
 ## DNS Name Resolution
 
