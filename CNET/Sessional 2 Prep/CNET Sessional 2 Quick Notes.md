@@ -86,7 +86,7 @@ Stored in Resource Records formatting: (Name, Value, Type, TTL)
 	- the URL behind the TLD dns
 - #### Local
 	- Also known as 'Default Name Server'
-	- Doesnt belong to the hierarchy
+	- Doesn't belong to the hierarchy
 	- Local to the Host itself
 	- It is basically a DNS Cache of previous requested addresses
 		- If not found in the cache then it is sent to the DNS query
@@ -126,7 +126,7 @@ Stored in Resource Records formatting: (Name, Value, Type, TTL)
 
 ## DNS Caching
 
-- Once a server learns a mapping, it is cached and sent in response to the query the next it recieves it
+- Once a server learns a mapping, it is cached and sent in response to the query the next it receives it
 	- Improves response time
 	- Cached Entries Timeout after a set time (TTL)
 	- TLD servers are cached in local nameservers
