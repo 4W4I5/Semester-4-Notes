@@ -366,6 +366,15 @@ Introduce Packet loss now into the equation
 			- IF ack is dropped
 				- Skip over onto the next ack received if in window
 				- if not in window then wait for timeout and resend ACK
+		- Complex Logic (Bigger picture)
+			- Send packets within window
+			- Sender
+				- If next ack not received, start a timer
+					- If timeout, retransmit all from last ack'ed packet
+				- if next ack received, move window forward and send new packets within
+			- Receiver
+				- If packet with correct sequence number received, send ack with current seq num
+					- If packet lost, send ack for last good packet received for any packet with seq num greater than the last good packet
 	- ### Selective Repeat
 		- Complete from slides
 	-
