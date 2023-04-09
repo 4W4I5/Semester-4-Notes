@@ -122,7 +122,7 @@ Stored in Resource Records formatting: (Name, Value, Type, TTL)
 	- Query starts at the Root level then is forwarded to the TLD level and then the authoritative level
 	- Every server is pinged for the requested domain this way
 - #### Recursive Query
-	- A server is pinged at the Local domain and it will further ping a higher level server. This process is repeated for higher level domains until a domain is found 
+	- A DNS resolver sends a query to the DNS server, if the server is not authoritative for the domain then it will attempt to query other DNS Servers at the behalf of the resolver until a domain is returned
 
 ## DNS Caching
 
