@@ -169,7 +169,10 @@ Stored in Resource Records formatting: (Name, Value, Type, TTL)
 		- Consists of IP address & port number
 			- 192.168.1.1:8080 -> this is a socket with ip and port
 	- Network layer provides comms link b/w systems
-- Does
+- At base layer, Internet Protocol is what works on the transport layer
+	- It tries its best effort to deliver segments but does not gurantee 
+		- Segment delivery aka packet loss
+		- Integrity of data in segments aka out of order packets
 
 ### Mux/Demux
 
