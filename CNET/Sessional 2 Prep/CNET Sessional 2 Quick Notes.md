@@ -58,8 +58,9 @@ Stored in Resource Records formatting: (Name, Value, Type, TTL)
 	- 'Glues' together the domain and its nameservers that answer the query for that domain
 	- IF a nameserver is located in a different domain than the one being queried from the nameserver above the current one, a glue record is used to change domains. 
 		- Without one, additional dns queries are requiered or possibly even a loop can be encountered
-	- 
-
+	- Usually needed when two domains use the same nameservers, creating a cyclic redundency
+		- A records can usually include both nameservers for a single domain
+	- Also usually needed when hosting your own authoritative name servers
 ## DNS Hierarchy
 
 - #### ROOT
