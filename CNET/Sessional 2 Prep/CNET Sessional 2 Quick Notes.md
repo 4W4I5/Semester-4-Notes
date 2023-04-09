@@ -227,6 +227,8 @@ TCP VS UDP
 
 UDP segment header
 - 32 bits / 4 Bytes
+- Says 8 Bytes in the comparision tho
+- Source
 
 TCP & UDP
 - error checking
