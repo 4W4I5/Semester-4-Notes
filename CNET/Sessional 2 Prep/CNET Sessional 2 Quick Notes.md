@@ -120,7 +120,8 @@ Stored in Resource Records formatting: (Name, Value, Type, TTL)
 
 - #### Iterated Query
 	- Query starts at the Root level then is forwarded to the TLD level and then the authoritative level
-	- Every server is pinged for the requested domain this way
+	- Every server is pinged for the requested domain this way. 
+	- No resolvers are involved
 - #### Recursive Query
 	- A DNS resolver sends a query to the DNS server, if the server is not authoritative for the domain then it will attempt to query other DNS Servers at the behalf of the resolver until a domain is returned
 
