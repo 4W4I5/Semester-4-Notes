@@ -269,14 +269,34 @@ Stored in Resource Records formatting: (Name, Value, Type, TTL)
 		- extracts into segment
 		- passes segments up into application layer
 
-#### RDT 2.0 (Assume bit corruption is possible, bits can be flipped due to external factors)
+#### RDT 2.0 (Assume bit corruption is possible, but no packet loss still)
 - That means a small error can occur during transmission
 - CHKSUM can detect the error but how to fix it?
 	- Use of ACK & NACK (Acknowledgements & Negative-Acknowledgements)
 - New mechanisms
 	- Error Detection
 	- Feedback
+	- Stop & wait Protocol
+		- Sends a packet and then halt next packet transmission until a response is received
 - Finite-State Machine
+	- Sender
+		- Wait for packet response from receiver
+		- IF NACK
+			- Resend previous packet and wait for response
+		- IF ACK
+			- Send new Packet and wait for response
+	- Receiver
+		- Wait for packet from sender
+		- Extract data from packet received
+		- Run CHKSUM
+			- IF CHKSUM VALID
+				- Send ACK
+				- Deliver data to application layer
+			- IF CHKSUM INVALID
+				- Send NACK
+				- Wait for new packet
+
+
 RDT 2.0 cont.
 duplication error, state stuck in forever wait if ack is corrupted
 
