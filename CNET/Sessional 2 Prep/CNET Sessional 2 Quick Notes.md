@@ -254,7 +254,29 @@ Stored in Resource Records formatting: (Name, Value, Type, TTL)
 
 Principles of Reliable Data Transfer
 - Try as much as possible, bits can be flipped leading to corruption during transmission
+- TCP is made complex by addressing the problems of IP
 
+RDT 1.0 (Assume a perfect underlying channel)
+- That means
+	- No loss of packets
+	- No bit errors
+- Finite-State Machines
+	- Sender
+		- creates a packet from segments
+		- sends packet over to unreliable data channel
+	- Receiver
+		- receives packet
+		- extracts into segment
+		- passes segments up into application layer
+
+RDT 2.0 (Assume bit corruption is possible, bits can be flipped due to external factors)
+- That means a small error can occur during transmission
+- CHKSUM can detect the error but how to fix it?
+	- Use of ACK & NACK (Acknowledgements & Negative-Acknowledgements)
+- New mechanisms
+	- Error Detection
+	- Feedback
+- Finite-State Machine
 RDT 2.0 cont.
 duplication error, state stuck in forever wait if ack is corrupted
 
