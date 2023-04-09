@@ -295,6 +295,8 @@ Stored in Resource Records formatting: (Name, Value, Type, TTL)
 			- IF CHKSUM INVALID
 				- Send NACK
 				- Wait for new packet
+	- Flaw
+		- If ACK/NACKis corrupted, packet is retransmitted according to system design
 
 
 RDT 2.0 cont.
