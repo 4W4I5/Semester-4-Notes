@@ -253,7 +253,7 @@ Stored in Resource Records formatting: (Name, Value, Type, TTL)
 ## Reliability in general
 
 Principles of Reliable Data Transfer
-- This was more important to listen to, rather than note down. rec is available
+- Try as much as possible, bits can be flipped leading to corruption during transmission
 
 RDT 2.0 cont.
 duplication error, state stuck in forever wait if ack is corrupted
