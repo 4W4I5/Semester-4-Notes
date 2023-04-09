@@ -33,9 +33,13 @@ Stored in Resource Records formatting: (Name, Value, Type, TTL)
 - ##### Type A
 	- Name is Hostname
 	- Value is IP
+	- Example:
+		- google.com (google.com, 192.21.42.1, A, 255)
 - ##### Type NS
 	- Name is Domain
 	- Value is Hostname of AUTHORITATIVE server for this domain
+	- Example: DNS name googledns
+		- google.com, googledns.com, NS, 255)
 - ##### Type CNAME
 	- Aliased name for the real name
 	- Value is the CNAME
