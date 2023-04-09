@@ -52,15 +52,16 @@ Stored in Resource Records formatting: (Name, Value, Type, TTL)
 		- (bit.ly/24Sd, google.com, CNAME, 255)
 - ##### Type MX
 	- Mail Server
-	- priority value returned 
+	- priority value returned
 	- Value is name of SMTP Mail Server associated with Name
 - #### Glue Records
 	- 'Glues' together the domain and its nameservers that answer the query for that domain
-	- IF a nameserver is located in a different domain than the one being queried from the nameserver above the current one, a glue record is used to change domains. 
+	- IF a nameserver is located in a different domain than the one being queried from the nameserver above the current one, a glue record is used to change domains.
 		- Without one, additional dns queries are requiered or possibly even a loop can be encountered
 	- Usually needed when two domains use the same nameservers, creating a cyclic redundency
 		- A records can usually include both nameservers for a single domain
 	- Also usually needed when hosting your own authoritative name servers
+
 ## DNS Hierarchy
 
 - #### ROOT
@@ -95,13 +96,13 @@ Stored in Resource Records formatting: (Name, Value, Type, TTL)
 
 - Both of them have the same format, differentiated by flags
 - Structure:
-	- 2 bytes for 
+	- 2 bytes for
 		- Identification
 			- Same ID is used for the reply
 		- Flags
 			- isReply
 			- isReplyAuthoritative
-			- isRecursionDesired 
+			- isRecursionDesired
 				- If false, only if the DNS server is authoritative will it send a response for the query or if it has the domain cached. If not authoritative it will set the isRecursionAvailable flag off
 				- if true, the DNS server will attempt to query for the record on its own when it can not find the record in its own domain
 			- isRecursionAvailable
@@ -120,7 +121,7 @@ Stored in Resource Records formatting: (Name, Value, Type, TTL)
 
 - #### Iterated Query
 	- Query starts at the Root level then is forwarded to the TLD level and then the authoritative level
-	- Every server is pinged for the requested domain this way. 
+	- Every server is pinged for the requested domain this way.
 	- No resolvers are involved
 - #### Recursive Query
 	- A DNS resolver sends a query to the DNS server, if the server is not authoritative for the domain then it will attempt to query other DNS Servers at the behalf of the resolver until a domain is returned
@@ -170,20 +171,25 @@ Stored in Resource Records formatting: (Name, Value, Type, TTL)
 			- 192.168.1.1:8080 -> this is a socket with ip and port
 	- Network layer provides comms link b/w systems
 - At base layer, Internet Protocol is what works on the transport layer
-	- It tries its best effort to deliver segments but does not gurantee 
+	- It tries its best effort to deliver segments but does not gurantee
 		- Segment delivery aka packet loss
 		- Integrity of data in segments aka out of order packets
 
 ### Mux/Demux
-
+Pretty simple stuff. IP points to the HOST. Ports point to the PROCESS/SOCKET
 - Handle data from multiple sockets, add transport header
 	- Demux-ed using port numbers
-	- Multiplexing requires
+	- **Connectionless-Multiplexing requires**
 		- Sockets have unique identifiers
 		- each segment have special fields that indicate the socket to which the segment is to be delivered
 		- special fields are the src port num and the dest port num
-	- Demux requires
-		-
+	- **Connectionless-Demux requires**
+		- Each datagram to have src IP and dest IP
+			- Each segement within has a src Port and dest Port
+	- **Connection-Oriented Mux requires** 
+		- Used by TCP
+		- 4-tuple Data {srcIP, destIP, srcPort, destPort}
+	- **Connection-Oriented DeMux requires**
 
 ---
 
@@ -247,7 +253,6 @@ Introduce Packet loss now into the equation
 	- If ACK is not sent, resent packet for ACK
 	- If ACK is lost then sender resends duplicate and it is dropped by reciever
 	- If ACK is delayed, same scene, itll just drop the ack/set it as seen
-
 - Very resource intensive, consumes bandwidth
 `Add in formulas from notes to calculate consumption`
 
