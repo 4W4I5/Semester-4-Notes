@@ -188,8 +188,13 @@ Pretty simple stuff. IP points to the HOST. Ports point to the PROCESS/SOCKET
 			- Each segement within has a src Port and dest Port
 	- **Connection-Oriented Mux requires** 
 		- Used by TCP
+			- Establishes a connection first before transmission
 		- 4-tuple Data {srcIP, destIP, srcPort, destPort}
 	- **Connection-Oriented DeMux requires**
+		- 4tuple data to determine appropriate socket
+			- Used 4tuple as multiple connections can share the same socket
+			- Different IP's using the same port can be differentiated
+			- Different Ports used by the same IP can be differentiated 
 
 ---
 
