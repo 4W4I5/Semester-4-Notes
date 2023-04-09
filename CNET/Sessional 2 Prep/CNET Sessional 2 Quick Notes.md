@@ -53,7 +53,10 @@ Stored in Resource Records formatting: (Name, Value, Type, TTL)
 	- Mail Server
 	- priority value returned 
 	- Value is name of SMTP Mail Server associated with Name
-- NOTE::Glue records missing
+- #### Glue Records
+	- IF a nameserver is located in a different domain than the one being queried a glue record is returned
+		- Without one, additional dns queries are requiered or possibly even a loop can be encountered
+	- 
 
 ## DNS Hierarchy
 
