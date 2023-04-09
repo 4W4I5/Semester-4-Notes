@@ -4,16 +4,34 @@
     "type": "split",
     "children": [
       {
-        "id": "15dac337e5079deb",
+        "id": "34de26befb8804a0",
         "type": "tabs",
         "children": [
           {
-            "id": "b495ee208d566040",
+            "id": "27b2d8835e8b8b8c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CLC/Sessional 2 Prep/CLC Sessional 2 Quick Notes.md",
+                "file": "CNET/Sessional 2 Prep/CNET Sessional 2 Quick Notes.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "8610a15b0df38640",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bfdc9bc791a0aa1d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CNET/CNET 8 Mar, 2023.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CLC/Sessional 2 Prep/CLC Sessional 2 Quick Notes.md",
+                "file": "CNET/Sessional 2 Prep/CNET Sessional 2 Quick Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CLC/Sessional 2 Prep/CLC Sessional 2 Quick Notes.md",
+                "file": "CNET/Sessional 2 Prep/CNET Sessional 2 Quick Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CLC/Sessional 2 Prep/CLC Sessional 2 Quick Notes.md"
+                "file": "CNET/Sessional 2 Prep/CNET Sessional 2 Quick Notes.md"
               }
             }
           },
@@ -156,10 +174,15 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "b495ee208d566040",
+  "active": "27b2d8835e8b8b8c",
   "lastOpenFiles": [
-    "TBW/Sessional 2 Prep/TBW Sessional 2 Quick Notes.md",
+    "CNET/CNET 8 Mar, 2023.md",
+    "CNET/Sessional 2 Prep/CNET Sessional 2 Quick Notes.md",
+    "CNET/CNET 6 Mar, 2023.md",
+    "CNET/CNET 1 Mar, 2023.md",
+    "CNET/Sessional 2 Prep",
     "CLC/Sessional 2 Prep/CLC Sessional 2 Quick Notes.md",
+    "TBW/Sessional 2 Prep/TBW Sessional 2 Quick Notes.md",
     "README.md",
     "CLC/CLC 6 Apr, 2023.md",
     "CLC/CLC 30 Mar, 2023.md",
@@ -181,10 +204,6 @@
     "CLC/Sessional 2 Prep",
     "FOM/FOM 23 Feb, 2023.md",
     "FOM/FOM 9 Mar, 2023.md",
-    "FOM/Sessional 1 Prep/Technology and management.md",
-    "FSE/FSE 25 Mar, 2023.md",
-    "FSE/FSE 1 Mar, 2023.md",
-    "FSE/FSE 6 Mar, 2023.md",
     "TBW/Sessional 2 Prep",
     "FOM/Sessional 1 Prep",
     "FSE/Images",
