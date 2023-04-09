@@ -252,11 +252,11 @@ Stored in Resource Records formatting: (Name, Value, Type, TTL)
 
 ## Reliability in general
 
-Principles of Reliable Data Transfer
+#### Principles of Reliable Data Transfer
 - Try as much as possible, bits can be flipped leading to corruption during transmission
 - TCP is made complex by addressing the problems of IP
 
-RDT 1.0 (Assume a perfect underlying channel)
+#### RDT 1.0 (Assume a perfect underlying channel)
 - That means
 	- No loss of packets
 	- No bit errors
@@ -269,7 +269,7 @@ RDT 1.0 (Assume a perfect underlying channel)
 		- extracts into segment
 		- passes segments up into application layer
 
-RDT 2.0 (Assume bit corruption is possible, bits can be flipped due to external factors)
+#### RDT 2.0 (Assume bit corruption is possible, bits can be flipped due to external factors)
 - That means a small error can occur during transmission
 - CHKSUM can detect the error but how to fix it?
 	- Use of ACK & NACK (Acknowledgements & Negative-Acknowledgements)
@@ -280,17 +280,17 @@ RDT 2.0 (Assume bit corruption is possible, bits can be flipped due to external 
 RDT 2.0 cont.
 duplication error, state stuck in forever wait if ack is corrupted
 
-RDT2.1
+#### RDT2.1
 fixed duplication error by adding XOR of prev packet number
 twice as many states as rdt2.0
 
-RDT2.2
+#### RDT2.2
 - Get rid of NACK
 	- ACK the packet # being received
 	- think of it as XNOR(packetRecived, packetSent) == 0)
 - Go back to 2 states
 
-RDT3.0
+#### RDT3.0
 Introduce Packet loss now into the equation
 - introduce countdown timer, waits for ACK after sending packet
 	- If ACK is not sent, resent packet for ACK
