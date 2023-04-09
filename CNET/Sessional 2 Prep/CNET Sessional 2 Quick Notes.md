@@ -149,9 +149,7 @@ Stored in Resource Records formatting: (Name, Value, Type, TTL)
 
 ---
 
-# Chapter 3: Transport Layer
-
-### Transport Layer Protocols
+# Transport Layer Protocols
 
 - UDP
 	- Connectionless Transport
@@ -175,28 +173,6 @@ Stored in Resource Records formatting: (Name, Value, Type, TTL)
 		- Segment delivery aka packet loss
 		- Integrity of data in segments aka out of order packets
 
-### Mux/Demux
-
-Pretty simple stuff. IP points to the HOST. Ports point to the PROCESS/SOCKET
-- Handle data from multiple sockets, add transport header
-	- Demux-ed using port numbers
-	- **Connectionless-Multiplexing requires**
-		- Sockets have unique identifiers
-		- each segment have special fields that indicate the socket to which the segment is to be delivered
-		- special fields are the src port num and the dest port num
-	- **Connectionless-Demux requires**
-		- Each datagram to have src IP and dest IP
-			- Each segement within has a src Port and dest Port
-	- **Connection-Oriented Mux requires**
-		- Used by TCP
-			- Establishes a connection first before transmission
-		- 4-tuple Data {srcIP, destIP, srcPort, destPort}
-	- **Connection-Oriented DeMux requires**
-		- 4tuple data to determine appropriate socket
-			- Used 4tuple as multiple connections can share the same socket
-			- Different IP's using the same port can be differentiated
-			- Different Ports used by the same IP can be differentiated
-
 ### Socket
 
 - A listening process is always running on the server
@@ -214,8 +190,14 @@ Pretty simple stuff. IP points to the HOST. Ports point to the PROCESS/SOCKET
 - UDP itself will not provide any reliability
 	- If it is required and use of TCP is not possible
 		- Implement Reliability in the Application Layer
+- Uses of UDP
+	- DNS & DHCP usually uses UDP
+	- Streaming apps
+	- UDP is used to carry network management SNMP
+	- UDP is used for RIP routing protocol
 
-TCP VS UDP
+#### TCP VS UDP
+
 - No connection State
 	- No ack numbers
 	- No seq numbers
@@ -223,14 +205,14 @@ TCP VS UDP
 	- No congestion-control parameters (MSS & MTU)
 - Small Packet Header
 	- 8 Bytes for UDP
+		- 2 bytes for the source port number
+		- 2 bytes for the destination port number
+		- 2 bytes for the length field (which specifies the length of the entire UDP datagram, including the header and the data)
+		- 2 bytes for the checksum field (used for error detection)
 	- 20 Bytes for TCP
 
-UDP segment header
-- 32 bits / 4 Bytes
-- Says 8 Bytes in the comparision tho
-- Source
+#### Both TCP & UDP have:
 
-TCP & UDP
 - error checking
 	- Seems unreal but chksum is used
 		- Internet CHKSUM
@@ -247,19 +229,32 @@ TCP & UDP
 						- All bits set to 1 = CHKSUM Valid
 	- All layers have their own error checking methods
 - mux/demux
+	- Handle data from multiple sockets, add transport header
+	- Demux-ed using port numbers
+		- **Connectionless-Multiplexing requires**
+			- Sockets have unique identifiers
+			- each segment have special fields that indicate the socket to which the segment is to be delivered
+			- special fields are the src port num and the dest port num
+		- **Connectionless-Demux requires**
+			- Each datagram to have src IP and dest IP
+				- Each segement within has a src Port and dest Port
+		- **Connection-Oriented Mux requires**
+			- Used by TCP
+				- Establishes a connection first before transmission
+			- 4-tuple Data {srcIP, destIP, srcPort, destPort}
+		- **Connection-Oriented DeMux requires**
+			- 4tuple data to determine appropriate socket
+				- Used 4tuple as multiple connections can share the same socket
+				- Different IP's using the same port can be differentiated
+				- Different Ports used by the same IP can be differentiated
 
-Uses of UDP
-- DNS & DHCP usually uses UDP
-- Streaming apps
-- UDP is used to carry network management SNMP
-- UDP is used for RIP routing protocol
+---
 
-### Reliability in general
+## Reliability in general
 
 Principles of Reliable Data Transfer
 - This was more important to listen to, rather than note down. rec is available
 
----
 RDT 2.0 cont.
 duplication error, state stuck in forever wait if ack is corrupted
 
