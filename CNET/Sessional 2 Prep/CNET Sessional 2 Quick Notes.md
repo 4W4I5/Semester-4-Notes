@@ -375,10 +375,16 @@ Introduce Packet loss now into the equation
 			- Receiver
 				- If packet with correct sequence number received, send ack with current seq num
 					- If packet lost, send ack for last good packet received for any packet with seq num greater than the last good packet
+			- KEY FACTS (IGNORE DUPLICATES, NOT ENOUGH TIME TO REFINE)
+				- **Sender resends all unacknowledged packets:** When a timeout or NAK occurs in Go-Back-N, the sender resends all unacknowledged packets from the first unacknowledged packet.
+				- **Receiver buffers packets in order:** In Go-Back-N, the receiver buffers packets in order and only delivers them to the upper layer when all previous packets have been received.
+				- **Does not allow out-of-order packets:** Go-Back-N does not allow out-of-order packets, so the receiver must discard any packets that arrive out of sequence.
+				- **Requires smaller buffer space:** Go-Back-N requires a smaller buffer space at the receiver, since packets are delivered in order and can be discarded once they have been delivered.
 	- ### Selective Repeat
-		- Complete from slides
-	-
-
+		- **Receiver buffers individual packets:** In Selective Repeat, the receiver buffers and acknowledges each packet individually.
+		- **Sender only resends lost packets:** When the sender receives a NAK or timeout, it only resends the lost packet(s), rather than retransmitting all packets that were sent after the lost one.
+		- **Allows out-of-order packets:** The receiver can accept and buffer out-of-order packets, and then deliver them to the upper layer in order.
+		- **Requires larger buffer space:** Selective Repeat requires a larger buffer space at the receiver to store out-of-order packets.
 
 
 ---
