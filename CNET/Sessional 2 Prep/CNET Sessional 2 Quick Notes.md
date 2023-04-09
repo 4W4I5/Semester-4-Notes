@@ -334,8 +334,13 @@ Introduce Packet loss now into the equation
 	- If ACK is not sent, resent packet for ACK
 	- If ACK is lost then sender resends duplicate and it is dropped by reciever
 	- If ACK is delayed, same scene, itll just drop the ack/set it as seen
-- Very resource intensive, consumes bandwidth
-`Add in formulas from notes to calculate consumption`
+- Very resource intensive, consumes bandwidth due to stop and wait. Only one packet is sent at a time
+	- Utilization
+		- U = D/(RTT + D)
+		- D = L/R
+			- L = Length of packet in bits
+			- R = Link speed in bits per second
+
 
 ---
 Lecture 17: Pipelined Protocols
