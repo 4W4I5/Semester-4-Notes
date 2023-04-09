@@ -39,15 +39,18 @@ Stored in Resource Records formatting: (Name, Value, Type, TTL)
 	- Name is Domain
 	- Value is Hostname of AUTHORITATIVE server for this domain
 	- Example: DNS name googledns
-		- google.com, googledns.com, NS, 255)
+		- (google.com, s1.googledns.com, NS, 255)
+		- (google.com, s2.googledns.com, NS, 255)
 - ##### Type CNAME
 	- Aliased name for the real name
 	- Can NEVER point to an IP address
+		- can however point to another CNAME
 	- Value is the CNAME
 	- Example can be the same as NS as well but usually used for link shortening
 		- (bit.ly/24Sd, google.com, CNAME, 255)
 - ##### Type MX
 	- Mail Server
+	- priority value returned 
 	- Value is name of SMTP Mail Server associated with Name
 - NOTE::Glue records missing
 
