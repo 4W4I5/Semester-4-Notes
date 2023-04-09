@@ -225,6 +225,9 @@ TCP VS UDP
 	- 8 Bytes for UDP
 	- 20 Bytes for TCP
 
+UDP segment header
+- 32 bits / 4 Bytes
+
 TCP & UDP
 - error checking
 	- Seems unreal but chksum is used
