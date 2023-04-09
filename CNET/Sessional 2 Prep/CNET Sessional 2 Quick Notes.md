@@ -136,9 +136,8 @@ Stored in Resource Records formatting: (Name, Value, Type, TTL)
 
 ## Setting up a website and Updating the DNS
 
-- Example you have a new startup by networkutopia
-	- Reigster name at DNS registrar
-		- Provides names, IP addresses of Authoritative Name
+- Assuming a domain is purchased, the registrar will associate an Authoritative server to point to their own DNS servers (NS records created)
+		- Modifications to your domain modifies the NS records in the Authoritative server
 
 
 
