@@ -4,28 +4,8 @@
     "type": "split",
     "children": [
       {
-        "id": "00af9ac8f2128988",
-        "type": "tabs",
-        "dimension": 53.399258343634116,
-        "children": [
-          {
-            "id": "13d45dd2665918b1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "TBW/Sessional 2 Prep/TBW Sessional 2 Quick Notes.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
         "id": "15dac337e5079deb",
         "type": "tabs",
-        "dimension": 46.600741656365884,
         "children": [
           {
             "id": "b495ee208d566040",
@@ -89,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 257.5,
-    "collapsed": true
+    "width": 257.5
   },
   "right": {
     "id": "1010b0dc0ef48981",
@@ -106,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TBW/Sessional 2 Prep/TBW Sessional 2 Quick Notes.md",
+                "file": "CLC/Sessional 2 Prep/CLC Sessional 2 Quick Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TBW/Sessional 2 Prep/TBW Sessional 2 Quick Notes.md",
+                "file": "CLC/Sessional 2 Prep/CLC Sessional 2 Quick Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TBW/Sessional 2 Prep/TBW Sessional 2 Quick Notes.md"
+                "file": "CLC/Sessional 2 Prep/CLC Sessional 2 Quick Notes.md"
               }
             }
           },
@@ -177,10 +156,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "13d45dd2665918b1",
+  "active": "b495ee208d566040",
   "lastOpenFiles": [
-    "CLC/Sessional 2 Prep/CLC Sessional 2 Quick Notes.md",
     "TBW/Sessional 2 Prep/TBW Sessional 2 Quick Notes.md",
+    "CLC/Sessional 2 Prep/CLC Sessional 2 Quick Notes.md",
+    "README.md",
     "CLC/CLC 6 Apr, 2023.md",
     "CLC/CLC 30 Mar, 2023.md",
     "CLC/CLC 28 Mar, 2023.md",
@@ -194,7 +174,6 @@
     "CLC/CLC 14 Feb, 2023.md",
     "CLC/CLC 16 Feb, 2023.md",
     "CLC/CLC 21 Feb, 2023.md",
-    "README.md",
     "CNET/CNET 3 April, 2023.md",
     "FOM/FOM 16 Mar, 2023.md",
     "CNET/CNET 5 Apr, 2023.md",
