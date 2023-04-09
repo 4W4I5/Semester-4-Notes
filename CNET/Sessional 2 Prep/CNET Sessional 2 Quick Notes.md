@@ -1,17 +1,17 @@
 # DNS (Domain Name System)
 
-- Distributed Database implemented in the hierarchy of many many nameservers
-	- Core internet Function
+- ### Distributed Database implemented in the hierarchy of many many nameservers
+	- #### Core internet Function
 		- Resolve Names to IP addresses
-	- Host Aliasing
+	- #### Host Aliasing
 		- Canonical Alias Names
 		- Convert a complicated name into a simpler name
 			- Example: enterprise.com can be a CNAME for 'www.enterprize.com'
-	- Mail Server Aliasing
-	- Load Distribution
+	- #### Mail Server Aliasing
+	- #### Load Distribution
 		- Replicated web servers
 			- Many IP Addresses correspond to one name
-	- Why Not Centralize DNS?
+	- #### Why Not Centralize DNS?
 		- Single point of Failure
 		- Traffic Volume
 		- Distant Centralized Database
@@ -19,7 +19,7 @@
 		- Doesn't scale at all
 			- COMCAST DNS 600B DNS queries/Day
 			- AKAMAI DNS 2.2T queries/Day
-	- Trivia
+	- #### Trivia
 		- Billions of records, each of them simple
 		- Handles Trillions of queries per day
 			- A lot more reads than writes
@@ -42,6 +42,7 @@ Stored in Resource Records formatting: (Name, Value, Type, TTL)
 - ##### Type MX
 	- Mail Server
 	- Value is name of SMTP Mail Server associated with Name
+- NOTE::Glue records missing
 
 ## DNS Hierarchy
 
@@ -70,6 +71,10 @@ Stored in Resource Records formatting: (Name, Value, Type, TTL)
 	- It is basically a DNS Cache of previous requested addresses
 		- If not found in the cache then it is sent to the DNS query
 
+## Query & Reply
+
+- Both of them have the same format, differentiated by flags
+
 ## DNS Name Resolution
 
 - #### Iterated Query
@@ -92,13 +97,7 @@ Stored in Resource Records formatting: (Name, Value, Type, TTL)
 
 
 
-NOTE::Glue records missing
 
-## DNS
-
-Query & Reply
-
-- Both of them have the same format, differentiated by flags
 
 ---
 
@@ -133,7 +132,9 @@ Query & Reply
 		-
 
 ---
+
 # UDP
+
 - Is meant to do as little as a transport protocol is supposed to do
 - UDP itself will not provide an reliablity
 	- If it is requied and use of TCP is not possible
@@ -167,8 +168,8 @@ Uses of UDP
 - UDP is used to carry network management SNMP
 - UDP is used for RIP routing protocol
 
-
 ### Reliability in general
+
 Principles of Reliable Data Transfer
 - THis was more important to listen to, rather than note down. rec is availabl
 
@@ -192,7 +193,7 @@ Introduce Packet loss now into the equation
 	- If ACK is not sent, resent packet for ACK
 	- If ACK is lost then sender resends duplicate and it is dropped by reciever
 	- If ACK is delayed, same scene, itll just drop the ack/set it as seen
-	
+
 - Very resource intensive, consumes bandwidth
 `Add in formulas from notes to calculate consumption`
 
@@ -207,7 +208,7 @@ Lecture 17: Pipelined Protocols
 			- Maintains two pointers, sendbase and nextseqnum
 	- Selective Repeat
 		- Complete from slides
-	- 
+	-
 
 
 
@@ -232,6 +233,7 @@ Lecture 18: TCP Segment Structure
 	- flow controlled
 
 ### MSS & MTU
+
 - MSS (Max Segment Size)
 		- Max amount of data in a segment
 			- TCP header is a fixed 20 bytes
@@ -247,16 +249,19 @@ Lecture 18: TCP Segment Structure
 		- excludes the frame header, in other words, the max bytes to transmit a packet\
 
 ### TCP Send/Receive Buffers
-- Unique to every process, aka it is unique to every socket 
+
+- Unique to every process, aka it is unique to every socket
 - set after the 3 way handshake
 
 ### TCP Connection
-- Consists of 
+
+- Consists of
 	- Buffers & Variables
 	- Socket connection to a process in one host, and another set of buffers, variables & a socket connection to a process in another host
 NOTE:: nothing is stored in the network elements i.e routers, switches, repeaters b/w the hosts
 
 ### TCP Segment Structure
+
 - consists of
 	- src/dest port
 	- sequence number
@@ -270,11 +275,13 @@ NOTE:: nothing is stored in the network elements i.e routers, switches, repeater
 	- urgent data pointer
 
 ### TCP Sequence Numbers
+
 - Bytestream
 - packet is divided into segments based on MSS, div total size by MSS
 - inital number is randomly chosen at handshake
 
 ### TCP Acknowledgement Numbers
+
 - indicates which byte in the stream is expected next and thus which bytes have been received
 - inital number is randomly chosen at handshake
 - wait for the lowest seq num packet to recieve
@@ -291,16 +298,16 @@ NOTE:: These are swapped b/w sender and receiver. They will still increment.
 - EstimatedRTT = (1 - a).EstimatedRTT + a.SampleRTT
 	- typical value for a is 0.125
 - TimeoutInterval = EstimatedRTT + 4xSampleRTT
-
 - TCP creates RDT service on top of IP's unreliable service
 	- Pipelined segments
 	- Cumulative Acks
 	- Single retransmission timer
-- Retransmission is triggered 
+- Retransmission is triggered
 	- timeout events
 	- if duplicate acks are received
 
 ### TCP sender events (fill from recording)
+
 - Data received from app
 - Timeout
 - Ack received
@@ -318,6 +325,7 @@ Lecture 20: TCP Flow Control
 		- Both values are stored in the receive window
 
 ### Calculate Window Size
+
 - Variables
 	- RWND
 	- RCVBUFFER
@@ -338,32 +346,31 @@ TCP Flow vs Congestion control
 - How would a connection determine flow or congestion issues
 	- Timeouts or Packet loss, or Duplicate packets
 		- Packet loss is more severe as no ack is sent back
-- For congestion 
+- For congestion
 	- Number of packets is reduced
 - For Flow control
 	- Size of packets is reduced
 - Out of congestion widnow size and reciever buffer size, the loewr one is chosen
 
-
 ### TCP handshake
 
-
-
 ---
-Congestion control graphs is what i came back to 
-
+Congestion control graphs is what i came back to
 
 ### Congestion aviodance
-- increase MSS bytes 
+
+- increase MSS bytes
 - Slow start with congestion avoidance
 	- Occurs after a timeout
 		- CWND is set back to 1. Cannot be 0 as that would be division error
 		- SSTHRESH is set to half of CWND_PREV
 - Drawbacks
 	- Slow recovery from losses
+
 ### Congestion Control
+
 - TCP Tahoe
-- TCP Reno 
+- TCP Reno
 
 ---
 
@@ -372,7 +379,7 @@ When do we go into congestion avoidance state
 		- Threshold is increased by one for every ack
 
 Fast recovery avoidance
--  When 3 dupes are received, fast retransmission is used. Skip the timeout period
+- When 3 dupes are received, fast retransmission is used. Skip the timeout period
 - Used in TCP Reno
 
 Congestion Control
