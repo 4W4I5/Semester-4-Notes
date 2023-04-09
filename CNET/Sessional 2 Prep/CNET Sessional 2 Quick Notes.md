@@ -304,7 +304,7 @@ Stored in Resource Records formatting: (Name, Value, Type, TTL)
 
 
 #### RDT2.1
-- Improvement to the 
+- Improvement to RDT 2.0
 
 #### RDT2.2
 - Get rid of NACK
