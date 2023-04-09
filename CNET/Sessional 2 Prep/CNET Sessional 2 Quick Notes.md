@@ -358,6 +358,14 @@ Introduce Packet loss now into the equation
 			- Reciever will keep responding with SegNum(PcktNum n-1)
 		- Sender
 			- Maintains two pointers, sendbase and nextseqnum
+		- Simplified Logic
+			- IF Packet is dropped
+				- Sender buffer does not advance
+				- Receiver sends last known ACK
+				- Timeout results in the sender buffer being sent all at once
+			- IF ack is dropped
+				- Skip over onto the next ack received if in window
+				- if not in window then wait for timeout and resend ACK
 	- ### Selective Repeat
 		- Complete from slides
 	-
