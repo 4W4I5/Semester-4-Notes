@@ -386,10 +386,11 @@ Introduce Packet loss now into the equation
 		- **Allows out-of-order packets:** The receiver can accept and buffer out-of-order packets, and then deliver them to the upper layer in order.
 		- **Requires larger buffer space:** Selective Repeat requires a larger buffer space at the receiver to store out-of-order packets.
 
+##### NOTE:: A packet cannot live in the network for more than approx 3 min 
 
 ---
 
-Lecture 18: TCP Segment Structure
+# TCP (Transmission Control Protocol)
 
 - TCP is a hybrid of GO-BACK-N & Selective Repeat
 	- Takes the timer and cumulative acknowledgement
@@ -433,34 +434,42 @@ Lecture 18: TCP Segment Structure
 - Consists of
 	- Buffers & Variables
 	- Socket connection to a process in one host, and another set of buffers, variables & a socket connection to a process in another host
-NOTE:: nothing is stored in the network elements i.e routers, switches, repeaters b/w the hosts
+NOTE:: nothing is stored in the network elements i.e. routers, switches, repeaters b/w the hosts
 
 ### TCP Segment Structure
 
 - consists of
-	- src/dest port
-	- sequence number
-	- ack number
-	- len
-	- recieve windows
+	- src/dest port (32 BITS)
+	- sequence number (64 BITS)
+	- ack number (64 BITS)
+	- len (8 BITS)
+	- UNUSED SECTION (8 BITS)
+	- recieve windows (32 BITS)
 		- num of bytes receiver is willing to accept
-	- chksum
-	- flags = SYN, ACK, RESET, PUSH, URGENT, FIN
+	- chksum (32 BITS)
+	- flags = SYN, ACK, RESET, PUSH, URGENT, FIN (16 BITS)
+		- PUSH: App informs that data should be pushed up the stack in the receiving app
+		- URGENT: Transmit everything right now, used for remote interrupts
+		- ACK: acknowledge
+		- RESET: Abort connection
+		- FIN: Close connection
+		- SYN: Sync
 	- app data, can be variable length
-	- urgent data pointer
+	- urgent data pointer (32 BITS)
+	- TOTAL SIZE = 20 BYTES
 
 ### TCP Sequence Numbers
 
 - Bytestream
 - packet is divided into segments based on MSS, div total size by MSS
-- inital number is randomly chosen at handshake
+- initial number is randomly chosen at handshake
 
 ### TCP Acknowledgement Numbers
 
 - indicates which byte in the stream is expected next and thus which bytes have been received
-- inital number is randomly chosen at handshake
-- wait for the lowest seq num packet to recieve
-
+- initial number is randomly chosen at handshake
+- wait for the lowest seq num packet to receive
+#### Cumulative ACK vs Accumulative ACK
 NOTE:: These are swapped b/w sender and receiver. They will still increment.
 
 
