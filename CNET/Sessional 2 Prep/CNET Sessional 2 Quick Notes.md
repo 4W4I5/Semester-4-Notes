@@ -309,7 +309,7 @@ Stored in Resource Records formatting: (Name, Value, Type, TTL)
 - Sender/Receiver must remember last state of packet to determine if it is a duplicate
 	- Receiver does not know if ACK/NACK was ok at sender
 - 4 States, N can be 0 or 1
-	- Wait for Packet with N sequence number
+	- Wait for Packet with N sequence number or ACK/NACK of previous packet
 		- Assume on invalid chksum or dropped ACK/NACK the packet is resent 
 		- On stuck waiting state, 
 	- IF ACK, then next Packet is sent with N+1 Sequence Number
