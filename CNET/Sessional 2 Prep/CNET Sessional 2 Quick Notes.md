@@ -57,8 +57,8 @@ Stored in Resource Records formatting: (Name, Value, Type, TTL)
 - #### Glue Records
 	- 'Glues' together the domain and its nameservers that answer the query for that domain
 	- IF a nameserver is located in a different domain than the one being queried from the nameserver above the current one, a glue record is used to change domains.
-		- Without one, additional dns queries are requiered or possibly even a loop can be encountered
-	- Usually needed when two domains use the same nameservers, creating a cyclic redundency
+		- Without one, additional dns queries are required or possibly even a loop can be encountered
+	- Usually needed when two domains use the same nameservers, creating a cyclic redundancy
 		- A records can usually include both nameservers for a single domain
 	- Also usually needed when hosting your own authoritative name servers
 
@@ -161,21 +161,22 @@ Stored in Resource Records formatting: (Name, Value, Type, TTL)
 
 ### Transport Services & Protocols
 
-- Provide logical communication b/w app processes running on different hosts
+- **Provide logical communication b/w app processes running on different hosts**
 	- Not on application layer but on transport layer
 	- Port is assigned hence Transport layer is the layer that provides the comms link
 	- Application layer only provides the data
 		- Endpoint for process/application on a host
 		- Comes in two types UDP & TCP
 		- Consists of IP address & port number
-			- 192.168.1.1:8080 -> this is a socket with ip and port
+			- 192.168.1.1:8080 -> this is a socket with Ip and port
 	- Network layer provides comms link b/w systems
-- At base layer, Internet Protocol is what works on the transport layer
-	- It tries its best effort to deliver segments but does not gurantee
+- **At base layer, Internet Protocol is what works on the transport layer**
+	- It tries its best effort to deliver segments but does not guarantee
 		- Segment delivery aka packet loss
 		- Integrity of data in segments aka out of order packets
 
 ### Mux/Demux
+
 Pretty simple stuff. IP points to the HOST. Ports point to the PROCESS/SOCKET
 - Handle data from multiple sockets, add transport header
 	- Demux-ed using port numbers
@@ -186,7 +187,7 @@ Pretty simple stuff. IP points to the HOST. Ports point to the PROCESS/SOCKET
 	- **Connectionless-Demux requires**
 		- Each datagram to have src IP and dest IP
 			- Each segement within has a src Port and dest Port
-	- **Connection-Oriented Mux requires** 
+	- **Connection-Oriented Mux requires**
 		- Used by TCP
 			- Establishes a connection first before transmission
 		- 4-tuple Data {srcIP, destIP, srcPort, destPort}
@@ -194,14 +195,15 @@ Pretty simple stuff. IP points to the HOST. Ports point to the PROCESS/SOCKET
 		- 4tuple data to determine appropriate socket
 			- Used 4tuple as multiple connections can share the same socket
 			- Different IP's using the same port can be differentiated
-			- Different Ports used by the same IP can be differentiated 
+			- Different Ports used by the same IP can be differentiated
 
 ### Socket
+
 - A listening process is always running on the server
 	- One can tell if a process is a listening type by examining the destination fields
 		- They'll be empty and source fields will be the server's IP and listening port number
 - Once an ACK is sent by the client
-	- The server spawns a new socket using the client IP/Port+Server IP/Port
+	- The server spawns a new socket using the client IP/Port + Server IP/Port
 	- This is closed after connection close
 
 ---
@@ -209,30 +211,36 @@ Pretty simple stuff. IP points to the HOST. Ports point to the PROCESS/SOCKET
 # UDP
 
 - Is meant to do as little as a transport protocol is supposed to do
-- UDP itself will not provide an reliablity
-	- If it is requied and use of TCP is not possible
-		- Implement Reliablity in the Applicaiton Layer
+- UDP itself will not provide any reliability
+	- If it is required and use of TCP is not possible
+		- Implement Reliability in the Application Layer
 
 TCP VS UDP
 - No connection State
+	- No ack numbers
+	- No seq numbers
+	- No send/receive buffers
+	- No congestion-control parameters (MSS & MTU)
 - Small Packet Header
+	- 8 Bytes for UDP
+	- 20 Bytes for TCP
 
 TCP & UDP
 - error checking
-	- Seems unreal but use of chksum is used
+	- Seems unreal but chksum is used
 		- Internet CHKSUM
 			- Divide segment into 16 bit parts
 			- add them up and if carry on MSB then wrap around
 			- Take ones complement
 			- Place result in CHKSUM field in the header of the segment
 			- To verify
-				- Do not recalc checksum at the recviing end
+				- Do not recalc checksum at the recieving end
 				- Instead
 					- Slice data up into 16 bits
 					- Add the chksum
 					- If result has
 						- All bits set to 1 = CHKSUM Valid
-	- All layers have their own errorchecking methods
+	- All layers have their own error checking methods
 - mux/demux
 
 Uses of UDP
@@ -244,7 +252,7 @@ Uses of UDP
 ### Reliability in general
 
 Principles of Reliable Data Transfer
-- THis was more important to listen to, rather than note down. rec is availabl
+- This was more important to listen to, rather than note down. rec is available
 
 ---
 RDT 2.0 cont.
