@@ -59,13 +59,16 @@ Stored in Resource Records formatting: (Name, Value, Type, TTL)
 	- DNSSEC - Provides security. Mostly Authentication and message integrity
 - #### Top-Level Domain
 	- Responsible for all top level country and normal domains such as
-		- .com, .edu, .net, .org
-		- .pk, .uk, etc
+		- Generic TLDs
+			- .com, .edu, .net, .org
+		- ccTLDs (Country Code TLD)
+			- .pk, .uk, etc
 - #### Authoritative
 	- Organization's own DNS servers providing hostname to IP mappings for organizations
 	- Maintained by the organization itself or the service provider
 	- the URL behind the TLD dns
 - #### Local
+	- Also known as 'Default Name Server'
 	- Doesnt belong to the hierarchy
 	- Local to the Host itself
 	- It is basically a DNS Cache of previous requested addresses
