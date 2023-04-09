@@ -253,10 +253,12 @@ Stored in Resource Records formatting: (Name, Value, Type, TTL)
 ## Reliability in general
 
 #### Principles of Reliable Data Transfer
+
 - Try as much as possible, bits can be flipped leading to corruption during transmission
 - TCP is made complex by addressing the problems of IP
 
 #### RDT 1.0 (Assume a perfect underlying channel)
+
 - That means
 	- No loss of packets
 	- No bit errors
@@ -270,6 +272,7 @@ Stored in Resource Records formatting: (Name, Value, Type, TTL)
 		- passes segments up into application layer
 
 #### RDT 2.0 (Assume bit corruption is possible, but no packet loss still)
+
 - That means a small error can occur during transmission
 - CHKSUM can detect the error but how to fix it?
 	- Use of ACK & NACK (Acknowledgements & Negative-Acknowledgements)
@@ -300,24 +303,25 @@ Stored in Resource Records formatting: (Name, Value, Type, TTL)
 			- No way of knowing if everything is alright if the feedback is corrupted
 		- Sender system has two states, waiting for response and then sending a packet
 			- Corrupted feedback means that it will forever be stuck in a waiting state as new data cannot be processed until the current response is heard
-		- If CHKSUM has two bits toggle then the error is cancelled out and a ACK will be sent back 
-
+		- If CHKSUM has two bits toggle then the error is cancelled out and a ACK will be sent back
 
 #### RDT2.1
+
 - Improvement to RDT 2.0
 	- Handles lost ACK/NACK
 - Sender/Receiver must remember last state of packet to determine if it is a duplicate
 	- Receiver does not know if ACK/NACK was ok at sender
 - 4 States, N can be 0 or 1
 	- Wait for Packet with N sequence number or ACK/NACK of previous packet
-		- Assume on invalid chksum or dropped ACK/NACK the packet is resent 
-		- On stuck waiting state, 
+		- Assume on invalid chksum or dropped ACK/NACK the packet is resent
+		- On stuck waiting state,
 	- IF ACK, then next Packet is sent with N+1 Sequence Number
 	- IF NACK, then Nth Packet is sent again
 - Flaw
 	- If sender does not wait for ACK/NACK, this will fail
 
 #### RDT2.2
+
 - Get rid of NACK
 	- ACK the packet # being received
 	- think of it as XNOR(packetRecived, packetSent) == 0)
@@ -325,10 +329,11 @@ Stored in Resource Records formatting: (Name, Value, Type, TTL)
 - Go back to 2 states
 	- Send packet with N sequence
 	- Expect ACK of N
-	- If ACK N + 1, then invalid. Retransmit. 
+	- If ACK N + 1, then invalid. Retransmit.
 		- Duplicate packets get dropped
 
 #### RDT3.0
+
 Introduce Packet loss now into the equation
 - introduce countdown timer, waits for ACK after sending packet
 	- If ACK is not sent, resent packet for ACK
@@ -343,15 +348,17 @@ Introduce Packet loss now into the equation
 
 
 ---
-Lecture 17: Pipelined Protocols
-- Two protocols besides stop n wait
-	- Go-Back-N
+
+# PipeLined Protocols (Go Back N & Selective Repeat)
+
+- ## Two protocols besides stop n wait
+	- #### Go-Back-N
 		- Send a batch of packets
 		- If any is corrupted or missed, resend all from missed packet
 			- Reciever will keep responding with SegNum(PcktNum n-1)
 		- Sender
 			- Maintains two pointers, sendbase and nextseqnum
-	- Selective Repeat
+	- ### Selective Repeat
 		- Complete from slides
 	-
 
