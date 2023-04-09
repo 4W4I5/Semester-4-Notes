@@ -137,8 +137,11 @@ Stored in Resource Records formatting: (Name, Value, Type, TTL)
 ## Setting up a website and Updating the DNS
 
 - Assuming a domain is purchased, the registrar will associate an Authoritative server to point to their own DNS servers (NS records created)
-		- Modifications to your domain modifies the NS records in the Authoritative server
-
+	- Modifications to your domain modifies the NS records in the Authoritative server
+- People queried the website will query the Root
+	- Root will redirect to TLD + provide glue records
+- TLD will query Authoritative servers
+	- When the correct one is found till return the IP of the domain or redirect until the correct one is found
 
 
 
