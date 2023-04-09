@@ -570,3 +570,39 @@ Congestion Control
 - Timeout causes multiplicative decrease where CWND is halved
 - Upon threshold hit, additive increase by 1
 	- until congestion detected in other words a duplicate ack is received
+
+
+---
+GOT FROM CHATGPT
+## Slow Start
+
+-   When a TCP connection is established, the sender starts in slow-start mode.
+-   In this mode, the sender starts by sending a small number of packets and then gradually increases the number of packets it sends until it detects congestion.
+-   The number of packets sent is controlled by a congestion window (cwnd) parameter that starts with a small value and doubles with each successful round-trip transmission until it reaches a maximum value.
+-   If congestion is detected (e.g., through packet loss or an explicit congestion notification), the sender reduces the cwnd and switches to congestion avoidance mode.
+
+## Congestion Avoidance
+
+-   In congestion avoidance mode, the sender continues to increase the cwnd but at a slower rate than in slow-start mode.
+-   Instead of doubling the cwnd with each successful transmission, the cwnd is increased by a smaller amount for each successful transmission.
+-   If congestion is detected, the sender reduces the cwnd and switches to slow start mode.
+
+## Fast Retransmit
+
+-   When a sender detects that a packet has been lost (e.g., through a timeout or duplicate ACKs), it retransmits the lost packet.
+-   However, in some cases, the receiver may have already received subsequent packets, which means that the retransmitted packet is unnecessary.
+-   To address this issue, TCP includes a fast retransmit mechanism, which allows the sender to retransmit a lost packet as soon as it receives three duplicate ACKs (i.e., three ACKs that acknowledge the same packet number).
+-   This avoids the need to wait for a timeout to occur, which can significantly reduce the retransmission delay.
+
+## Fast Recovery
+
+-   After a fast retransmit, the sender enters fast recovery mode.
+-   In this mode, the sender reduces the cwnd by half to account for the loss of the retransmitted packet.
+-   However, instead of switching back to slow start mode, the sender continues to transmit packets at a reduced rate.
+-   The sender also uses duplicate ACKs received during this time to update the congestion window and gradually increase the transmission rate back to its previous level.
+
+## Timeout
+
+-   If a sender does not receive an ACK for a transmitted packet within a certain period of time (i.e., the timeout period), it assumes that the packet has been lost and retransmits it.
+-   However, relying solely on timeouts can lead to long delays and reduced throughput, especially in networks with high latency or high packet loss rates.
+-   To address this issue, TCP uses a combination of timeout and congestion control mechanisms to minimize retransmission delays while avoiding network congestion.
