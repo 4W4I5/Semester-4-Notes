@@ -321,7 +321,12 @@ Stored in Resource Records formatting: (Name, Value, Type, TTL)
 - Get rid of NACK
 	- ACK the packet # being received
 	- think of it as XNOR(packetRecived, packetSent) == 0)
+		- Retransmit packet if ACK of prevPacket is the same as the ACK of the currentPacket
 - Go back to 2 states
+	- Send packet with N sequence
+	- Expect ACK of N
+	- If ACK N + 1, then invalid. Retransmit. 
+		- Duplicate packets get dropped
 
 #### RDT3.0
 Introduce Packet loss now into the equation
