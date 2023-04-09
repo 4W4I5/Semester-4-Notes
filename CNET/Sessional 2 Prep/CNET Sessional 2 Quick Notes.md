@@ -119,7 +119,10 @@ Stored in Resource Records formatting: (Name, Value, Type, TTL)
 ## DNS Name Resolution
 
 - #### Iterated Query
+	- Query starts at the Root level then is forwarded to the TLD level and then the authoritative level
+	- Every server is pinged for the requested domain this way
 - #### Recursive Query
+	- A server is pinged at the Local domain and it will further ping a higher level server. This process is repeated for higher level domains until a domain is found 
 
 ## DNS Caching
 
