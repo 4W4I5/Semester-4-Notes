@@ -39,6 +39,7 @@ Stored in Resource Records formatting: (Name, Value, Type, TTL)
 - ##### Type NS
 	- Name is Domain
 	- Value is Hostname of AUTHORITATIVE server for this domain
+	- CANNOT have an IP in the record
 	- Example: DNS name googledns
 		- (google.com, s1.googledns.com, NS, 255)
 		- (google.com, s2.googledns.com, NS, 255)
