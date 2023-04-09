@@ -33,6 +33,7 @@ Stored in Resource Records formatting: (Name, Value, Type, TTL)
 - ##### Type A
 	- Name is Hostname
 	- Value is IP
+	- Technically also a glue record when address of DNS server is given
 	- Example:
 		- google.com (google.com, 192.21.42.1, A, 255)
 - ##### Type NS
