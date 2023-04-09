@@ -296,15 +296,15 @@ Stored in Resource Records formatting: (Name, Value, Type, TTL)
 				- Send NACK
 				- Wait for new packet
 	- Flaw
-		- If ACK/NACKis corrupted, packet is retransmitted according to system design
+		- If ACK/NACK is corrupted sender will assume data was successfully delivered and send the next packet
+			- No way of knowing if everything is alright if the feedback is corrupted
+		- Sender system has two states, waiting for response and then sending a packet
+			- Corrupted feedback means that it will forever be stuck in a waiting state as new data cannot be processed until the current response is heard
+		- If CHKSUM has two bits toggle then the error is cancelled out and a ACK will be sent back 
 
-
-RDT 2.0 cont.
-duplication error, state stuck in forever wait if ack is corrupted
 
 #### RDT2.1
-fixed duplication error by adding XOR of prev packet number
-twice as many states as rdt2.0
+- Improvement to the 
 
 #### RDT2.2
 - Get rid of NACK
