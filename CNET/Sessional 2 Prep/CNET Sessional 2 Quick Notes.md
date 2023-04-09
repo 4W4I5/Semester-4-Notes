@@ -99,10 +99,11 @@ Stored in Resource Records formatting: (Name, Value, Type, TTL)
 		- Identification
 			- Same ID is used for the reply
 		- Flags
-			- isQuery or isReply
+			- isReply
 			- isReplyAuthoritative
 			- isRecursionDesired 
 				- If false, only if the DNS server is authoritative will it send a response for the query or if it has the domain cached. If not authoritative it will set the isRecursionAvailable flag off
+				- if true, the DNS server will attempt to query for the record on its own when it can not find the record in its own domain
 			- isRecursionAvailable
 				- Affected by the isRecursionDesired flag
 		- Number of Questions
