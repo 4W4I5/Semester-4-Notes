@@ -5,6 +5,8 @@
 		- Resolve Names to IP addresses
 	- Host Aliasing
 		- Canonical Alias Names
+		- Convert a complicated name into a simpler name
+			- Example: enterprise.com can be a CNAME for 'www.enterprize.com'
 	- Mail Server Aliasing
 	- Load Distribution
 		- Replicated web servers
