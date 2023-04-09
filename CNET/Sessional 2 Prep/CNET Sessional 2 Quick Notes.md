@@ -156,7 +156,7 @@ Stored in Resource Records formatting: (Name, Value, Type, TTL)
 	- Connectionless Transport
 - TCP
 	- Connection-Oriented Reliable Transport
-	- missed a point
+	- Congestion & Flow control
 
 ### Transport Services & Protocols
 
@@ -164,8 +164,12 @@ Stored in Resource Records formatting: (Name, Value, Type, TTL)
 	- Not on application layer but on transport layer
 	- Port is assigned hence Transport layer is the layer that provides the comms link
 	- Application layer only provides the data
-		- %%Check up on what sockets actually do then%%
+		- Endpoint for process/application on a host
+		- Comes in two types UDP & TCP
+		- Consists of IP address & port number
+			- 192.168.1.1:8080 -> this is a socket with ip and port
 	- Network layer provides comms link b/w systems
+- Does
 
 ### Mux/Demux
 
