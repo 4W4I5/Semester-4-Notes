@@ -42,7 +42,10 @@ Stored in Resource Records formatting: (Name, Value, Type, TTL)
 		- google.com, googledns.com, NS, 255)
 - ##### Type CNAME
 	- Aliased name for the real name
+	- Can NEVER point to an IP address
 	- Value is the CNAME
+	- Example can be the same as NS as well but usually used for link shortening
+		- (bit.ly/24Sd, google.com, CNAME, 255)
 - ##### Type MX
 	- Mail Server
 	- Value is name of SMTP Mail Server associated with Name
