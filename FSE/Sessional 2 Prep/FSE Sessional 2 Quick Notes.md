@@ -70,6 +70,7 @@
 ---
 
 ## Intro to Agile Development
+
 - ##### Agility
 	- Rapid response to change
 	- Customer involvement in team
@@ -100,6 +101,7 @@
 ---
 
 ## XP Programming
+
 - ##### Best used
 	- Extreme approach – iterative
 	- Increments delivered every 2 weeks
@@ -138,7 +140,9 @@
  ![](./media/image1.png)
  ![](./media/image2.png)
  ![](./media/image3.png)
+
 # Scrum
+
 - ##### Backlog
 - ##### Scrum meetings
 	- Plan meeting (Product owner- > team // priorities are discussed)
@@ -175,7 +179,7 @@
 		- Agile processes are adaptive therefore not suitable for situations where there is high uncertainty in both requirements and technical degree (This point is kinda meh)
 		- High chance of a failed project if team chemistry is not good enough
 		- Daily meeting sounds annoying
-		- Team member leaving during a project is no buneo 
+		- Team member leaving during a project is no buneo
 
  ![](./media/image4.png)
  ![](./media/image6.png)
@@ -184,7 +188,9 @@
 ---
 
 ## Requirement Engineering
+
 # NOTE:: Do not mix customer with user. Marks will be deducted on this
+
 - ##### Why?
 	- No understanding
 	- Disorganized
@@ -249,9 +255,9 @@
 				- Propose elements of the solution
 				- Negotiate different approaches
 				- Specify a prelim set of requirements
-		- ###### Quality Function Deployment (QFD) 
+		- ###### Quality Function Deployment (QFD)
 			- ##### Definition
-				- Construct basic relationship matrices b/w 
+				- Construct basic relationship matrices b/w
 				- Technical Requirements
 				- Priorities
 				- Competitor Assessment (Optional, on a need basis)
@@ -310,17 +316,17 @@
 
  ![](./media/image11.png)
 - ##### Class based= extract nouns (class attributes) and verbs (operations) from a paragraph, CRC
-	- ###### Steps in OOA
+	 - ###### Steps in OOA
 			- **Identify the objects**: Identify the objects that make up the system being modeled. This involves analyzing the requirements of the system and identifying the entities that are relevant to the problem being solved.
 			- **Define the attributes**: For each object identified, define the attributes (or properties) that are relevant to that object. Attributes describe the state of an object.
 			- **Define the methods**: For each object identified, define the methods (or behaviors) that are relevant to that object. Methods describe the behavior of an object.
 			- **Identify the relationships**: Identify the relationships between the objects in the system. This includes identifying the associations (or connections) between objects, as well as any inheritance relationships.
 			- **Create a class diagram**: Use the information gathered in steps 1-4 to create a class diagram. A class diagram is a visual representation of the classes, attributes, and relationships in the system being modeled.
-	- ###### Benefits of OOA
-			-   **Improved understanding of the problem**: OOA helps to ensure that the problem being solved is well understood, by breaking it down into smaller, more manageable pieces.
-			-   **Improved communication**: By using a common set of terms and concepts, OOA helps to improve communication between the various stakeholders involved in the software development process.
-			-   **Code reuse**: By promoting inheritance and polymorphism, OOA can help to promote code reuse and reduce code duplication.
-			-   **Flexibility**: OOA provides a flexible framework for modeling systems, allowing for changes to be made easily as requirements evolve.
+	   - ###### Benefits of OOA
+			- **Improved understanding of the problem**: OOA helps to ensure that the problem being solved is well understood, by breaking it down into smaller, more manageable pieces.
+			- **Improved communication**: By using a common set of terms and concepts, OOA helps to improve communication between the various stakeholders involved in the software development process.
+			- **Code reuse**: By promoting inheritance and polymorphism, OOA can help to promote code reuse and reduce code duplication.
+			- **Flexibility**: OOA provides a flexible framework for modeling systems, allowing for changes to be made easily as requirements evolve.
 		- ###### Class Based
 			- Class Attributes
 				- Found using nouns that reasonably belong to a class
@@ -349,7 +355,7 @@
 					- Define Class Responsibilities
 						- Responsibilities are tasks or functions that a class is responsible for performing
 					- Identify Collaborations
-						- Collaborations define how classes work together to achieve their responsibilities 
+						- Collaborations define how classes work together to achieve their responsibilities
 					- Iterate and Refine
 				- CRC Cards are used to create Class diagrams later on
   ![](./media/image12.png)
