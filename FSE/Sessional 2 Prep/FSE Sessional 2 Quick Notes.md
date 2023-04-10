@@ -201,6 +201,10 @@
 	- Requirements Management
 - ##### Inception
 	- Requirement Engineer asks questions to understand clearly (customer, stakeholder, benefits) // problem and solution, effectiveness of communication
+	- Scope of the project
+	- Understand the Problem being addressed
+	- Figure out the domain of the problem
+	- Identify Stakeholders and study them
 - ##### Elicitation
 	- To extract information
 	- Has problems (scope, understanding, volatility)
