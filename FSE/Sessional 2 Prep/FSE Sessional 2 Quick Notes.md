@@ -184,7 +184,7 @@
 ---
 
 ## Requirement Engineering
-
+# NOTE:: Do not mix customer with user. Marks will be deducted on this
 - ##### Why?
 	- No understanding
 	- Disorganized
