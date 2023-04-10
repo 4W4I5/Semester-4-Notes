@@ -470,7 +470,7 @@ NOTE:: nothing is stored in the network elements i.e. routers, switches, repeate
 - initial number is randomly chosen at handshake
 - wait for the lowest seq num packet to receive
 
-#### Cumulative ACK vs Accumulative ACK
+#### Cumulative ACK vs Accumulative ACK (UNKNOWN)
 
 NOTE:: These are swapped b/w sender and receiver. They will still increment.
 
@@ -518,6 +518,16 @@ Lecture 20: TCP Flow Control
 - Happens on both sender/receiver side
 
 What happens if rcvBUFFER is full
+
+### TCP FLOW CONTROL (CHATGPT)
+1.  Sender and receiver agree on the initial value of the receiver's advertised window size (rwnd) before data transmission begins.
+2.  The sender transmits data in segments of a fixed size (MSS), and the receiver acknowledges each segment as it arrives.
+3.  The receiver's advertised window size (rwnd) is calculated as the difference between the maximum receive buffer size and the number of bytes already in the buffer.
+4.  If the receiver's buffer becomes full, the receiver sets the rwnd to 0 to indicate that it cannot receive any more data.
+5.  The sender receives the updated rwnd value from the receiver in the ACK packets and adjusts its sending rate accordingly.
+6.  If the rwnd value becomes zero, the sender must stop transmitting data until it receives an ACK with a non-zero rwnd value.
+7.  When the receiver has more space in its buffer, it updates the rwnd value and sends an ACK with the new value to the sender.
+8.  The sender resumes sending data, based on the updated rwnd value.
 
 
 Lecture 21: TCP Connection Management
@@ -575,7 +585,7 @@ Congestion Control
 
 
 ---
-GOT FROM CHATGPT
+GOT FROM CHATGPT (TCP CONGESTION
 1. Slow Start:
 
 - The initial window size is set to a small value, e.g. 1 MSS (maximum segment size).
