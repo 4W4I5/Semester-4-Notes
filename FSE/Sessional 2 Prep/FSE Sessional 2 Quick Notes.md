@@ -83,7 +83,7 @@ XP Programming
 	⦁	Architectural design (costly)
 	⦁	Test complacency (more positive tests != good program)
 
- ![[image1.png]]
+ ![](image1.png)
  ![[image2.png]]
  ![[image3.png]]
 Scrum
