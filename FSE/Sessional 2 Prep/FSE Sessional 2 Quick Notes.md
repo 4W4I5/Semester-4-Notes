@@ -252,10 +252,14 @@
 		- ###### Quality Function Deployment (QFD) 
 			- ##### Definition
 				- Construct basic relationship matrices b/w 
-				- Customer needs
 				- Technical Requirements
 				- Priorities
 				- Competitor Assessment (Optional, on a need basis)
+				- Customer needs- > technical document
+				- Normal requirements = normal goals
+				- Expected requirements = not explicitly mentioned
+				- Exciting requirements = extra features without extra pay
+				- Benefits = avoid loss of information, improves user and team involvement, saves time of cycle, better quality product
 			- ##### Done by
 				- Identifying stakeholder requirements
 				- Identify technical features of requirements
@@ -291,13 +295,6 @@
 					- Rows are requirement
 					- Cols are Measurable response to demanded quality
 						- in short its the measure
-	- ##### Quality function deployment (QFD)
-		- Customer needs- > technical document
-		- Normal requirements = normal goals
-		- Expected requirements = not explicitly mentioned
-		- Exciting requirements = extra features without extra pay
-		- R/s matrix
-		- Benefits = avoid loss of information, improves user and team involvement, saves time of cycle, better quality product
   ![](./media/image8.png)
 - ##### Elaboration
 	- Analysis modelling
