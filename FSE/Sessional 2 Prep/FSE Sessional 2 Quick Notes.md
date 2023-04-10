@@ -368,8 +368,8 @@ Flow based = DFD, CFD
 - ### Data Flow Diagram
 - ### Control Flow Diagram
 	- Aka flowchart
-	- Graphed as a sequence of steps and in what order they are executed. 
-	- Refer to the 
+	- Graphed as a sequence of steps and in what order they are executed.
+	- Refer to the
 Behavior model = State diagram, sequence diagram
 
 - ##### Negotiation
@@ -424,4 +424,71 @@ Use cases
 		- data store = holds data persistently like a database
 
 
-Activity diagram
+Activity diagram (CHATGPT)
+**Object Nodes:**
+
+1. Object Nodes are UML elements that represent an instance of a class or an object in a UML activity diagram.
+2. Object Nodes can have a type and can be connected to other nodes through control and object flows.
+3. Object Nodes can be used in a variety of ways, including to represent input/output data or to represent objects that are created or destroyed during the execution of an activity.
+
+**Activity Parameter, Pins, Central Buffer, Data Stores:**
+
+1. Activity Parameters are UML elements that represent data inputs or outputs for an activity.
+2. Pins are UML elements that represent specific types of activity parameters, including input pins, output pins, and inout pins.
+3. Central Buffers are UML elements that represent a shared buffer that can be used to exchange data between different parts of an activity.
+4. Data Stores are UML elements that represent a place where data can be stored and retrieved during the execution of an activity.
+
+**Multiplicities, Upper Bound, Effect, Ordering:**
+
+1. Multiplicities are used in UML to specify the number of times an element can occur.
+2. Upper Bound is used to specify the maximum number of times an element can occur.
+3. Effect is used in UML to specify the effect that an operation or activity has on an object or data.
+4. Ordering is used in UML to specify the order in which objects or data are processed within an activity.
+
+**Activity Edges:**
+
+1. Activity Edges are UML elements that represent the flow of control or data between nodes in an activity diagram.
+2. There are several types of activity edges, including control flows, object flows, and exception flows.
+3. Activity Edges can be labeled to provide additional information about the flow of control or data.
+
+**Labels, Transformations, Selection:**
+
+1. Labels are used in UML to provide additional information about an element or edge in a diagram.
+2. Transformations are used in UML to specify how an object or data is transformed or modified during the execution of an activity.
+3. Selection is used in UML to specify which objects or data are selected or processed within an activity.
+
+**Activity Partitioning:**
+
+1. Activity Partitioning is used in UML to divide an activity into smaller, more manageable parts.
+2. Activity partitions are represented in a swim lane diagram, with each partition representing a different actor, system, or process.
+3. Activity partitioning can be used to improve the clarity and organization of an activity diagram.
+
+**Pre/Post conditions:**
+
+1. Pre-conditions are used in UML to specify the conditions that must be true before an activity can be executed.
+2. Post-conditions are used in UML to specify the conditions that must be true after an activity has been executed.
+3. Pre/Post conditions are useful for specifying the expected behavior of an activity and for verifying that the activity has been executed correctly.
+
+**Event actions:**
+
+1. Event actions are UML elements that represent the occurrence of an event within an activity.
+2. There are several types of event actions, including SendSignalAction, AcceptEventAction, WaitTimeAction, Time trigger, and time events.
+3. Event actions can be used to trigger other activities or to respond to external events.
+
+**Interruptible activity region:**
+
+1. An Interruptible Activity Region is a UML element that represents a region within an activity that can be interrupted by an external event.
+2. Interruptible Activity Regions can be used to model activities that can be interrupted by a user or a system event, such as a timeout or an error condition.
+3. Interruptible Activity Regions can also be used to model
+
+**Expansion region:**
+
+1. An Expansion Region is a UML element that represents a region within an activity that can be expanded into a set of parallel activities.
+2. Expansion Regions are used to model activities that can be performed in parallel or that can be performed multiple times.
+3. Expansion Regions can be used to improve the performance and efficiency of an activity.
+
+**Swim lane diagrams:**
+
+1. Swim Lane Diagrams are UML diagrams that are used to represent the flow of activities between different actors, systems, or processes.
+2. Swim Lane Diagrams consist of a series of parallel lanes, with each lane representing a different actor, system, or process.
+3. Swim Lane Diagrams can be used to model complex workflows and to improve the clarity and organization of an activity diagram.
