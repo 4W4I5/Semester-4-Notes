@@ -36,7 +36,7 @@ Software Process Models
 	⦁	 Should focus on flexibility and extensibility > high quality. Speed > zero defects 
 
 
-
+---
 
 Intro to Agile Development
 ⦁	Agility
@@ -55,6 +55,9 @@ Intro to Agile Development
 ⦁	Agile Process models
 	⦁	XP programming
 	⦁	Scrum 
+
+---
+
 XP Programming
 ⦁	Best used
 	⦁	Extreme approach – iterative 
@@ -104,6 +107,8 @@ v. Sprint Retrospective (Product owner, scrum master, team) , meeting to review 
 ![[image5.png]]
 ![[image6.png]]
 ![[image7.png]]
+
+---
 
 Requirement Engineering
 ⦁	Why?
