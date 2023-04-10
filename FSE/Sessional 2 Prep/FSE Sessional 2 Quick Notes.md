@@ -294,7 +294,7 @@
 				- Hows on the top
 				- Competitive and importance weightages are on the right
 				- Bottom (in order)
-					- Target Values
+				- Target Values
 					- Competitive Evaluation
 					- Importance weighting
 				- Relationship Matrix
@@ -315,49 +315,50 @@
  ![](./media/image10.png)
 
  ![](./media/image11.png)
+
 - ##### Class based= extract nouns (class attributes) and verbs (operations) from a paragraph, CRC
-	 - ###### Steps in OOA
-			- **Identify the objects**: Identify the objects that make up the system being modeled. This involves analyzing the requirements of the system and identifying the entities that are relevant to the problem being solved.
-			- **Define the attributes**: For each object identified, define the attributes (or properties) that are relevant to that object. Attributes describe the state of an object.
-			- **Define the methods**: For each object identified, define the methods (or behaviors) that are relevant to that object. Methods describe the behavior of an object.
-			- **Identify the relationships**: Identify the relationships between the objects in the system. This includes identifying the associations (or connections) between objects, as well as any inheritance relationships.
-			- **Create a class diagram**: Use the information gathered in steps 1-4 to create a class diagram. A class diagram is a visual representation of the classes, attributes, and relationships in the system being modeled.
-	   - ###### Benefits of OOA
-			- **Improved understanding of the problem**: OOA helps to ensure that the problem being solved is well understood, by breaking it down into smaller, more manageable pieces.
-			- **Improved communication**: By using a common set of terms and concepts, OOA helps to improve communication between the various stakeholders involved in the software development process.
-			- **Code reuse**: By promoting inheritance and polymorphism, OOA can help to promote code reuse and reduce code duplication.
-			- **Flexibility**: OOA provides a flexible framework for modeling systems, allowing for changes to be made easily as requirements evolve.
-		- ###### Class Based
-			- Class Attributes
-				- Found using nouns that reasonably belong to a class
-				- Can be values that describe the current properties or the state of a class
-				- Can also be a rejected class that was reclassified as an attribute
-				- Not an attribute if more than one is associated with a class
-			- Class Operations
-				- Found using verbs that relate to a problem domain which was previously identified
-				- Behavior of an Object
-				- Four categories
-					- Data manipulation to change state of Object
-					- Perform a computation
-					- Inquire about State of Object
-					- Monitor an Object for the occurrence of a controlling event
-				- Has knowledge about state of the class and nature of its associations
-				- Operation action is based on current values of attributes of class
-			- Class Diagrams
-				- Attributes on the top (Data members)
-				- Operations on the bottom (Functions)
-				- Public members/methods are shown with a '+'
-				- Private members/methods are shown with a '-'
-			- CRC Modelling (Class-Responsibility-Collaborator)
-				- Identify Classes, their responsibilities and collaborations b/w them
-				- Process
-					- Identify Classes
-					- Define Class Responsibilities
-						- Responsibilities are tasks or functions that a class is responsible for performing
-					- Identify Collaborations
-						- Collaborations define how classes work together to achieve their responsibilities
-					- Iterate and Refine
-				- CRC Cards are used to create Class diagrams later on
+	- ###### Steps in OOA
+		- **Identify the objects**: Identify the objects that make up the system being modeled. This involves analyzing the requirements of the system and identifying the entities that are relevant to the problem being solved.
+		- **Define the attributes**: For each object identified, define the attributes (or properties) that are relevant to that object. Attributes describe the state of an object.
+		- **Define the methods**: For each object identified, define the methods (or behaviors) that are relevant to that object. Methods describe the behavior of an object.
+		- **Identify the relationships**: Identify the relationships between the objects in the system. This includes identifying the associations (or connections) between objects, as well as any inheritance relationships.
+		- **Create a class diagram**: Use the information gathered in steps 1-4 to create a class diagram. A class diagram is a visual representation of the classes, attributes, and relationships in the system being modeled.
+	- ###### Benefits of OOA
+		- **Improved understanding of the problem**: OOA helps to ensure that the problem being solved is well understood, by breaking it down into smaller, more manageable pieces.
+		- **Improved communication**: By using a common set of terms and concepts, OOA helps to improve communication between the various stakeholders involved in the software development process.
+		- **Code reuse**: By promoting inheritance and polymorphism, OOA can help to promote code reuse and reduce code duplication.
+		- **Flexibility**: OOA provides a flexible framework for modeling systems, allowing for changes to be made easily as requirements evolve.
+			- ###### Class Based
+				- Class Attributes
+					- Found using nouns that reasonably belong to a class
+					- Can be values that describe the current properties or the state of a class
+					- Can also be a rejected class that was reclassified as an attribute
+					- Not an attribute if more than one is associated with a class
+				- Class Operations
+					- Found using verbs that relate to a problem domain which was previously identified
+					- Behavior of an Object
+					- Four categories
+						- Data manipulation to change state of Object
+						- Perform a computation
+						- Inquire about State of Object
+						- Monitor an Object for the occurrence of a controlling event
+					- Has knowledge about state of the class and nature of its associations
+					- Operation action is based on current values of attributes of class
+				- Class Diagrams
+					- Attributes on the top (Data members)
+					- Operations on the bottom (Functions)
+					- Public members/methods are shown with a '+'
+					- Private members/methods are shown with a '-'
+				- CRC Modelling (Class-Responsibility-Collaborator)
+					- Identify Classes, their responsibilities and collaborations b/w them
+					- Process
+						- Identify Classes
+						- Define Class Responsibilities
+							- Responsibilities are tasks or functions that a class is responsible for performing
+						- Identify Collaborations
+							- Collaborations define how classes work together to achieve their responsibilities
+						- Iterate and Refine
+					- CRC Cards are used to create Class diagrams later on
   ![](./media/image12.png)
   ![](./media/image13.png)
  ![](./media/image14.png)
