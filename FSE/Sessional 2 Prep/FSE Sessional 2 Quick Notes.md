@@ -1,79 +1,78 @@
 Software Process Models
 ⦁	Generic process framework
-⦁	Communication
-⦁	Planning
-⦁	Modelling (analyze, design)
-⦁	Construction (code, testing)
-⦁	Deployment 
+	⦁	Communication
+	⦁	Planning
+	⦁	Modelling (analyze, design)
+	⦁	Construction (code, testing)
+	⦁	Deployment 
 ⦁	Waterfall model
-⦁	Oldest
-⦁	When 100% requirements are accurate
-⦁	Linear
-⦁	No iteration, Final product is the only product produced
+	⦁	Oldest
+	⦁	When 100% requirements are accurate
+	⦁	Linear
+	⦁	No iteration, Final product is the only product produced
 ⦁	Waterfall model with feedback loop
-⦁	Flexible 
-⦁	Risk mitigation 
-⦁	Time-taking, Complex
+	⦁	Flexible 
+	⦁	Risk mitigation 
+	⦁	Time-taking, Complex
 ⦁	Incremental Model
-⦁	When requirements are well understood
-⦁	Multiple independent deliveries
-⦁	Workflow is linear in increment but staggered between increments
+	⦁	When requirements are well understood
+	⦁	Multiple independent deliveries
+	⦁	Workflow is linear in increment but staggered between increments
 ⦁	Iterative 
-⦁	Less workforce required
-⦁	Costly, non-satisfactory usually for customers
+	⦁	Less workforce required
+	⦁	Costly, non-satisfactory usually for customers
 ⦁	 Prototyping Model
-⦁	Creates a model of product before final product
-⦁	Iterative 
-⦁	When requirements are not that well understood
-⦁	Focuses on visibility of product
-⦁	Time taking, customer accepts “demo”, developers get lazy thus implementation compromises so discard model after getting it approved.
+	⦁	Creates a model of product before final product
+	⦁	Iterative 
+	⦁	When requirements are not that well understood
+	⦁	Focuses on visibility of product
+	⦁	Time taking, customer accepts “demo”, developers get lazy thus implementation compromises so discard model after getting it approved.
 ⦁	Spiral Model
-⦁	When risks are high and requirements are not well understood
-⦁	Evolutionary approach (incremental + iterative)
-⦁	Inner spiral = taking requirements. Outer spiral = waterfall approach but allow changes
-⦁	Requires expertise, uncertain iterations (too much= chaos, too less= very slow)
-⦁	A decision is made after every complete spiral
-⦁	 Should focus on flexibility and extensibility > high quality. Speed > zero defects 
+	⦁	When risks are high and requirements are not well understood
+	⦁	Evolutionary approach (incremental + iterative)
+	⦁	Inner spiral = taking requirements. Outer spiral = waterfall approach but allow changes
+	⦁	Requires expertise, uncertain iterations (too much= chaos, too less= very slow)
+	⦁	A decision is made after every complete spiral
+	⦁	 Should focus on flexibility and extensibility > high quality. Speed > zero defects 
 
 
 
 
 Intro to Agile Development
 ⦁	Agility
-⦁	Rapid response to change
-⦁	Customer involvement in team
-⦁	Organization team to control work
-⦁	Incremental delivery of product
+	⦁	Rapid response to change
+	⦁	Customer involvement in team
+	⦁	Organization team to control work
+	⦁	Incremental delivery of product
 ⦁	Agile process
-⦁	User stories/scenarios
-⦁	Plans are short-lived
-⦁	Iterative
-⦁	Adapts to change
-⦁	Incremental product
-⦁	People, not process
-⦁	Simplicity 
+	⦁	User stories/scenarios
+	⦁	Plans are short-lived
+	⦁	Iterative
+	⦁	Adapts to change
+	⦁	Incremental product
+	⦁	People, not process
+	⦁	Simplicity 
 ⦁	Agile Process models
-⦁	XP programming
-⦁	Scrum 
+	⦁	XP programming
+	⦁	Scrum 
 XP Programming
-⦁	XP Programming
 ⦁	Best used
-⦁	Extreme approach – iterative 
-⦁	Increments delivered every 2 weeks
+	⦁	Extreme approach – iterative 
+	⦁	Increments delivered every 2 weeks
 ⦁	Steps involved 
-⦁	Planning= user stories, values, acceptance test criteria, iteration plan, deadline, costs
-⦁	Design= CRC cards, spike solutions(prototypes), follows KIS principal
-⦁	Coding= pair programming, unit testing, refactoring (change code to reduce complexity, shouldn’t change functionality, automated test cases used to check running code)
-⦁	Testing = unit tests, acceptance test criteria, automated test cases 
-⦁	= Software increment 
+	⦁	Planning= user stories, values, acceptance test criteria, iteration plan, deadline, costs
+	⦁	Design= CRC cards, spike solutions(prototypes), follows KIS principal
+	⦁	Coding= pair programming, unit testing, refactoring (change code to reduce complexity, shouldn’t change functionality, automated test cases used to check running code)
+	⦁	Testing = unit tests, acceptance test criteria, automated test cases 
+	⦁	= Software increment 
 ⦁	Customer role
-⦁	User stories (cards -> implementation task)
-⦁	Prioritize features
-⦁	Acceptance test
+	⦁	User stories (cards -> implementation task)
+	⦁	Prioritize features
+	⦁	Acceptance test
 ⦁	Problems 
-⦁	Customer involvement (not always representative)
-⦁	Architectural design (costly)
-⦁	Test complacency (more positive tests != good program)
+	⦁	Customer involvement (not always representative)
+	⦁	Architectural design (costly)
+	⦁	Test complacency (more positive tests != good program)
 
  
  
