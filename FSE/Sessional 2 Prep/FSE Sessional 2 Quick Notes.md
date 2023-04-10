@@ -294,7 +294,7 @@
 				- Hows on the top
 				- Competitive and importance weightages are on the right
 				- Bottom (in order)
-				- Target Values
+					- Target Values
 					- Competitive Evaluation
 					- Importance weighting
 				- Relationship Matrix
