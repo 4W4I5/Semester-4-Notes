@@ -121,7 +121,7 @@
  ![](./media/image1.png)
  ![](./media/image2.png)
  ![](./media/image3.png)
-Scrum
+# Scrum
 - ##### Backlog
 - ##### Scrum meetings
 	- Plan meeting (Product owner- > team // priorities are discussed)
