@@ -9,7 +9,13 @@ Software Process Models
 	⦁	Oldest
 	⦁	When 100% requirements are accurate
 	⦁	Linear
-	⦁	No iteration, Final product is the only product produced
+- ###### Cons of Waterfall
+	- Iteration is not possible, any change causes confusion
+	- Quality is impacted hard whenever it is noticed that one of the phases went kaput
+		- It is required that you still continue and deliver the product
+	- Customer wont always state all the requirements up front, change is inevitable
+	- Working version is not ready until the final phase
+	- Overall it provides very low accommodation to changes
 ⦁	Waterfall model with feedback loop
 	⦁	Flexible 
 	⦁	Risk mitigation 
