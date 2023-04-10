@@ -113,10 +113,27 @@
 	- User stories (cards- > implementation task)
 	- Prioritize features
 	- Acceptance test
+- ###### Customer Involvement
+		- The role of the customer is to:
+			- Develop stories that refine the requirements
+			- Prioritize features to be implemented in the next release
+			- Develop acceptance test which assess whether or not the system meets its requirements
+		- User Requirements
+			- These are expressed as scenarios/stories
+			- Written on story cards which are broken into task cards. These cards are the basis of schedule and cost estimates
+			- Customer chooses stories to include in the next release based on their priorities and schedule estimates
 - ##### Problems
 	- Customer involvement (not always representative)
 	- Architectural design (costly)
 	- Test complacency (more positive tests != good program)
+- ###### Key Points
+	- Extreme programming includes practices such as systematic testing, continuous improvement and customer involvement
+		- There's always refactoring, test cases and customer feedback and input
+	- Customers are involved in developing requirements which are expressed as simple scenarios
+		- Customers are required to specify their requirements which are converted into scenarios by the team
+	- The approach to testing in XP is a particular strength where executable tests are developed before the code is written
+		- Testing happens before coding, With the help of the customer
+	- Key problems with XP include difficulties of getting customers who are valuable in their input and output to the process and problems of architectural design
 
  ![](./media/image1.png)
  ![](./media/image2.png)
@@ -142,6 +159,23 @@
 	- XP = more technical, scrum= focuses on framework
 	- XP= small team, scrum = larger team
 	- Scrum = has roles, XP= no roles
+- #### Problems with scrum
+	- Other Agile methods produce acceptable results
+	- A project cannot always be divided into a chunk of chunks
+	- Quality Control is meh, everything is irregular therefore so is quality assurance
+		- "Mera masla nhi ha aglay ka masla ha"
+		- If quality assurance is required alongside the project development then go for scrum
+	- Embrace do what i told you to do now and forget about yesterday
+	- Nobody can not agree on a completed project
+	- Quality Control is given more importance over Quality Assurance
+	- Extra points
+		- No way a product will be functioning by the end of the First sprint
+			- It will be working but not functioning as intended at least not at the very start
+		- Sprint Reviews would require product owners to be there at the start of every new Sprint
+		- Agile processes are adaptive therefore not suitable for situations where there is high uncertainty in both requirements and technical degree (This point is kinda meh)
+		- High chance of a failed project if team chemistry is not good enough
+		- Daily meeting sounds annoying
+		- Team member leaving during a project is no buneo 
 
  ![](./media/image4.png)
  ![](./media/image6.png)
