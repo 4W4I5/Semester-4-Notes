@@ -358,7 +358,14 @@
 						- Identify Collaborations
 							- Collaborations define how classes work together to achieve their responsibilities
 						- Iterate and Refine
-					- CRC Cards are used to create Class diagrams later on
+				- Class Selection Criteria
+					- Retained information
+					- Needed services
+					- Multiple attributes
+					- Common attributes
+					- Common operations
+					- Essential requirements
+				- CRC Cards are used to create Class diagrams later on
   ![](./media/image12.png)
   ![](./media/image13.png)
  ![](./media/image14.png)
