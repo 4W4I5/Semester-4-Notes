@@ -21,10 +21,26 @@
 	- Flexible
 	- Risk mitigation
 	- Time-taking, Complex
+	- Cons
+		- Even though it is iterative, there is still no incremental delivery of the product
+		- Phase overlapping not supported
+		- Risk handling not supported
+		- Customer interaction only occurs during the start and the end of the project
 - ##### Incremental Model
 	- When requirements are well understood
 	- Multiple independent deliveries
 	- Workflow is linear in increment but staggered between increments
+	- ##### Pros
+		- Useful when staffing is low for full-scale dev
+		- It lets stakeholders and developers see results with the first increment, if anyone doesn't like anything everyone finds out a lot sooner.
+		- Needed functionality set is provided before the optional components
+		- Such a style of model is great for projects that have loosely coupled parts and have complete and clear requirements
+		- Iterative in nature
+			- Every product made is operational at some level
+	- ##### Cons
+	- Requirements must be well understood
+	- Project style must have independent modules
+	- Total cost is higher than waterfall
 - ##### Iterative
 	- Less workforce required
 	- Costly, non-satisfactory usually for customers
