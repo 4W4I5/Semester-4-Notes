@@ -470,11 +470,16 @@ NOTE:: nothing is stored in the network elements i.e. routers, switches, repeate
 - initial number is randomly chosen at handshake
 - wait for the lowest seq num packet to receive
 
-#### Cumulative ACK vs Accumulative ACK (UNKNOWN)
+
 
 NOTE:: These are swapped b/w sender and receiver. They will still increment.
 
-
+#### Cumulative ACK vs Accumulative ACK (UNKNOWN)
+- Cumulative
+	- Used in Go Back N
+	- Waits for last highest ACK
+- Accucmulative ACK
+	- Used in Selective repeat
 ---
 
 - How to set TCP Timeout
