@@ -386,7 +386,7 @@ Introduce Packet loss now into the equation
 		- **Allows out-of-order packets:** The receiver can accept and buffer out-of-order packets, and then deliver them to the upper layer in order.
 		- **Requires larger buffer space:** Selective Repeat requires a larger buffer space at the receiver to store out-of-order packets.
 
-##### NOTE:: A packet cannot live in the network for more than approx 3 min 
+##### NOTE:: A packet cannot live in the network for more than approx 3 min
 
 ---
 
@@ -469,7 +469,9 @@ NOTE:: nothing is stored in the network elements i.e. routers, switches, repeate
 - indicates which byte in the stream is expected next and thus which bytes have been received
 - initial number is randomly chosen at handshake
 - wait for the lowest seq num packet to receive
+
 #### Cumulative ACK vs Accumulative ACK
+
 NOTE:: These are swapped b/w sender and receiver. They will still increment.
 
 
@@ -574,35 +576,42 @@ Congestion Control
 
 ---
 GOT FROM CHATGPT
-## Slow Start
+1. Slow Start:
 
--   When a TCP connection is established, the sender starts in slow-start mode.
--   In this mode, the sender starts by sending a small number of packets and then gradually increases the number of packets it sends until it detects congestion.
--   The number of packets sent is controlled by a congestion window (cwnd) parameter that starts with a small value and doubles with each successful round-trip transmission until it reaches a maximum value.
--   If congestion is detected (e.g., through packet loss or an explicit congestion notification), the sender reduces the cwnd and switches to congestion avoidance mode.
+- The initial window size is set to a small value, e.g. 1 MSS (maximum segment size).
+- For every ACK received, the window size is increased by 1 MSS.
+- The window size grows exponentially until it reaches a threshold called the congestion window (cwnd).
+- The cwnd is typically set to a fraction of the maximum receive window advertised by the receiver.
+- Mathematically, the window size is given by: `Window size = min(cwnd, receiver's advertised window)`
 
-## Congestion Avoidance
+2. Congestion Avoidance:
 
--   In congestion avoidance mode, the sender continues to increase the cwnd but at a slower rate than in slow-start mode.
--   Instead of doubling the cwnd with each successful transmission, the cwnd is increased by a smaller amount for each successful transmission.
--   If congestion is detected, the sender reduces the cwnd and switches to slow start mode.
+- Once the cwnd is reached, TCP switches to congestion avoidance mode.
+- In this mode, the window size is increased linearly for every round-trip time (RTT).
+- The increase is typically by 1 MSS for every RTT.
+- Mathematically, the window size is given by: `Window size = min(cwnd, receiver's advertised window) + (MSS * (number of ACKs received in RTT))`
 
-## Fast Retransmit
+3. Fast Retransmit/Fast Recovery:
 
--   When a sender detects that a packet has been lost (e.g., through a timeout or duplicate ACKs), it retransmits the lost packet.
--   However, in some cases, the receiver may have already received subsequent packets, which means that the retransmitted packet is unnecessary.
--   To address this issue, TCP includes a fast retransmit mechanism, which allows the sender to retransmit a lost packet as soon as it receives three duplicate ACKs (i.e., three ACKs that acknowledge the same packet number).
--   This avoids the need to wait for a timeout to occur, which can significantly reduce the retransmission delay.
+- If TCP detects a packet loss, it assumes that the network is congested and reduces the window size to half of its current value.
+- It then enters fast recovery mode and sends new packets while waiting for ACKs.
+- If it receives three duplicate ACKs for a particular packet, it assumes that the lost packet has been retransmitted and immediately sends another copy of it.
+- Mathematically, the window size is given by: `Window size = ssthresh + 3 * MSS`
 
-## Fast Recovery
+where ssthresh is the threshold value of cwnd at which TCP switches to slow start mode.
 
--   After a fast retransmit, the sender enters fast recovery mode.
--   In this mode, the sender reduces the cwnd by half to account for the loss of the retransmitted packet.
--   However, instead of switching back to slow start mode, the sender continues to transmit packets at a reduced rate.
--   The sender also uses duplicate ACKs received during this time to update the congestion window and gradually increase the transmission rate back to its previous level.
 
-## Timeout
+4. Timeout:
 
--   If a sender does not receive an ACK for a transmitted packet within a certain period of time (i.e., the timeout period), it assumes that the packet has been lost and retransmits it.
--   However, relying solely on timeouts can lead to long delays and reduced throughput, especially in networks with high latency or high packet loss rates.
--   To address this issue, TCP uses a combination of timeout and congestion control mechanisms to minimize retransmission delays while avoiding network congestion.
+- If a packet is not acknowledged within a certain time frame, TCP assumes that it has been lost and retransmits the packet.
+- It also reduces the window size to the initial value and restarts the slow start algorithm.
+- Mathematically, the window size is given by: `Window size = 1 MSS`
+- This ensures that TCP can recover from severe network congestion caused by multiple packet losses.
+
+5. AIMD (Additive Increase Multiplicative Decrease):
+
+- AIMD is a congestion control algorithm used by TCP in congestion avoidance mode.
+- In AIMD, TCP increases the window size linearly for every RTT until it reaches the cwnd.
+- Once the cwnd is reached, TCP reduces the window size multiplicatively by half in response to packet loss or congestion signals.
+- This allows TCP to respond quickly to network congestion, while ensuring that it does not flood the network with too much traffic.
+- Mathematically, the window size is given by: `Window size = min(cwnd, receiver's advertised window) + (MSS * (number of ACKs received in RTT)) - (number of packets lost / cwnd) * MSS * cwnd`
