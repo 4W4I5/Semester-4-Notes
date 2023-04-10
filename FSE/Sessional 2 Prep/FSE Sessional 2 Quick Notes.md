@@ -182,15 +182,15 @@ Behavior model = State diagram, sequence diagram
 	- Functions, behavior, constraints, information
 	- All kind of requirements, tests, linkage of requirements = crux of everything
 - Validation
-- SRS quality assessment
-- To check if everything is met and mentioned = confliction, clear information, test analysis
-- Primary requirement validation mechanism
-- Engineers, customers, users, stakeholders involved
-- Requirement management task
-- Each requirement has identifier
-- More focus on requirement traceability tables = RTM (Requirement Traceability Matrix)
-- Requirement dependence
-- Linkage between requirements, test cases, diagrams used
+	- SRS quality assessment
+	- To check if everything is met and mentioned = confliction, clear information, test analysis
+	- Primary requirement validation mechanism
+	- Engineers, customers, users, stakeholders involved
+	- Requirement management task
+	- Each requirement has identifier
+	- More focus on requirement traceability tables = RTM (Requirement Traceability Matrix)
+	- Requirement dependence
+	- Linkage between requirements, test cases, diagrams used
 
 Diagrams
 Use cases
