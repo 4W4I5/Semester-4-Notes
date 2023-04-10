@@ -1,12 +1,12 @@
 ## Software Process Models
 
-- Generic process framework
+- ##### Generic process framework
 	- Communication
 	- Planning
 	- Modelling (analyze, design)
 	- Construction (code, testing)
 	- Deployment
-- Waterfall model
+- ##### Waterfall model
 	- Oldest
 	- When 100% requirements are accurate
 	- Linear
@@ -17,24 +17,24 @@
 		- Customer wont always state all the requirements up front, change is inevitable
 		- Working version is not ready until the final phase
 		- Overall it provides very low accommodation to changes
-- Waterfall model with feedback loop
+- ##### Waterfall model with feedback loop
 	- Flexible
 	- Risk mitigation
 	- Time-taking, Complex
-- Incremental Model
+- ##### Incremental Model
 	- When requirements are well understood
 	- Multiple independent deliveries
 	- Workflow is linear in increment but staggered between increments
-- Iterative
+- ##### Iterative
 	- Less workforce required
 	- Costly, non-satisfactory usually for customers
-- Prototyping Model
+- ##### Prototyping Model
 	- Creates a model of product before final product
 	- Iterative
 	- When requirements are not that well understood
 	- Focuses on visibility of product
 	- Time taking, customer accepts “demo”, developers get lazy thus implementation compromises so discard model after getting it approved.
-- Spiral Model
+- ##### Spiral Model
 	- When risks are high and requirements are not well understood
 	- Evolutionary approach (incremental + iterative)
 	- Inner spiral = taking requirements. Outer spiral = waterfall approach but allow changes
@@ -46,12 +46,12 @@
 ---
 
 Intro to Agile Development
-- Agility
+- ##### Agility
 	- Rapid response to change
 	- Customer involvement in team
 	- Organization team to control work
 	- Incremental delivery of product
-- Agile process
+- ##### Agile process
 	- User stories/scenarios
 	- Plans are short-lived
 	- Iterative
@@ -59,27 +59,27 @@ Intro to Agile Development
 	- Incremental product
 	- People, not process
 	- Simplicity
-- Agile Process models
+- ##### Agile Process models
 	- XP programming
 	- Scrum
 
 ---
 
 XP Programming
-- Best used
+- ##### Best used
 	- Extreme approach – iterative
 	- Increments delivered every 2 weeks
-- Steps involved
+- ##### Steps involved
 	- Planning= user stories, values, acceptance test criteria, iteration plan, deadline, costs
 	- Design= CRC cards, spike solutions(prototypes), follows KIS principal
 	- Coding= pair programming, unit testing, refactoring (change code to reduce complexity, shouldn’t change functionality, automated test cases used to check running code)
 	- Testing = unit tests, acceptance test criteria, automated test cases
 	- = Software increment
-- Customer role
+- ##### Customer role
 	- User stories (cards- > implementation task)
 	- Prioritize features
 	- Acceptance test
-- Problems
+- ##### Problems
 	- Customer involvement (not always representative)
 	- Architectural design (costly)
 	- Test complacency (more positive tests != good program)
@@ -88,23 +88,23 @@ XP Programming
  ![](./media/image2.png)
  ![](./media/image3.png)
 Scrum
-- Backlog
-- Scrum meetings
+- ##### Backlog
+- ##### Scrum meetings
 	- Plan meeting (Product owner- > team // priorities are discussed)
 	- Review meeting (4 hours, team->Product owner // shows results, informal)
 	- Daily scrum (15 minutes, Scrum master and team)
 	- Sprint Retrospective (Product owner, scrum master, team) , meeting to review last sprint, lasts 3 hours
 	- Sprints
-- Scrum roles
+- ##### Scrum roles
 	- Product owner
 	- Scrum master
 	- Team
-- Artefacts
+- ##### Artefacts
 	- Product backlog
 	- Sprint backlog
 	- Sprint burndown chart
 	- Product increment (product of every increment, functional, can be sold on its own)
-- XP vs Scrum
+- ##### XP vs Scrum
 	- XP = more technical, scrum= focuses on framework
 	- XP= small team, scrum = larger team
 	- Scrum = has roles, XP= no roles
@@ -117,13 +117,13 @@ Scrum
 
 ## Requirement Engineering
 
-- Why?
+- ##### Why?
 	- No understanding
 	- Disorganized
 	- Not much verification
 	- No solid base of software
 	- Developers mindset = clear as we go, will examine increments, start coding asap
-- Steps
+- ##### Steps
 	- Inception
 	- Elicitation
 	- Elaboration
@@ -131,9 +131,9 @@ Scrum
 	- Specification
 	- Validation
 	- Requirements Management
-- Inception
+- ##### Inception
 	- Requirement Engineer asks questions to understand clearly (customer, stakeholder, benefits) // problem and solution, effectiveness of communication
-- Elicitation
+- ##### Elicitation
 	- To extract information
 	- Has problems (scope, understanding, volatility)
 	- Collaborative requirement gathering
@@ -141,15 +141,15 @@ Scrum
 		- Control = facilitator = customer/developer/anyone from outside
 		- Definition mechanism = tools used
 		- goal = identify problems, get different approaches, requirements
-- Quality function deployment (QFD)
-	- Customer needs- > technical document
-	- Normal requirements = normal goals
-	- Expected requirements = not explicitly mentioned
-	- Exciting requirements = extra features without extra pay
-	- R/s matrix
-	- Benefits = avoid loss of information, improves user and team involvement, saves time of cycle, better quality product
+	- ##### Quality function deployment (QFD)
+		- Customer needs- > technical document
+		- Normal requirements = normal goals
+		- Expected requirements = not explicitly mentioned
+		- Exciting requirements = extra features without extra pay
+		- R/s matrix
+		- Benefits = avoid loss of information, improves user and team involvement, saves time of cycle, better quality product
   ![](./media/image8.png)
-- Elaboration
+- ##### Elaboration
 	- Analysis modelling
 	- First technical diagram
 	- Essential vs implementation tasks
@@ -162,7 +162,7 @@ Scrum
  ![](./media/image10.png)
 
  ![](./media/image11.png)
-- Class based= extract nouns (class attributes) and verbs (operations) from a paragraph, CRC
+- ##### Class based= extract nouns (class attributes) and verbs (operations) from a paragraph, CRC
   ![](./media/image12.png)
   ![](./media/image13.png)
  ![](./media/image14.png)
@@ -170,61 +170,56 @@ Scrum
 Flow based = DFD, CFD
 Behavior model = State diagram, sequence diagram
 
-- Negotiation
+- ##### Negotiation
 	- Wants vs can be done
 	- Requirements are ranked
 	- Risk analysis
 	- Costs and deadline
 	- Iterative, requirements can be cut/modified to reach common ground, try to satisfy customers
-- Specification
+- ##### Specification
 	- Final work product (SRS Document)
 	- Foundation
 	- Functions, behavior, constraints, information
 	- All kind of requirements, tests, linkage of requirements = crux of everything
-- Validation
+- ##### Validation
 	- SRS quality assessment
 	- To check if everything is met and mentioned = confliction, clear information, test analysis
 	- Primary requirement validation mechanism
 	- Engineers, customers, users, stakeholders involved
-	- Requirement management task
+- ##### Requirement management task
 	- Each requirement has identifier
 	- More focus on requirement traceability tables = RTM (Requirement Traceability Matrix)
 	- Requirement dependence
 	- Linkage between requirements, test cases, diagrams used
+
+---
 
 Diagrams
 Use cases
   ![](./media/image16.png)
   ![](./media/image17.png)
 
-Activity diagram
-- Analyze use cases
-- Can add parallel activities (differs from flowchart)
-- Multi-threaded
-- Doesn’t show object collaboration or behavior over a lifetime
-- Can be used to define event in a use case
-- Workflow
-- Special case of state chart diagram
-- Control flow edge?
-- Object flow edge?
-- Initial node = dot
-- Decision node = diamond
-- Merge nodes= 3->1
-- Fork nodes= 1->3 /// ?? control nodes
-- Final nodes
-- flow final (circle w inside as X) incase of all tokens
-- final node = dot in a circle, incase of 1 token
-- Object nodes
-- Activity, w/pins
-- central buffer (multiple inputs and output)
-- data store = holds data persistently like a databse
-
-
-
-
-
-
-
+- ##### Activity diagram
+	- Analyze use cases
+	- Can add parallel activities (differs from flowchart)
+	- Multi-threaded
+	- Doesn’t show object collaboration or behavior over a lifetime
+	- Can be used to define event in a use case
+	- Workflow
+	- Special case of state chart diagram
+	- Control flow edge?
+	- Object flow edge?
+	- Initial node = dot
+	- Decision node = diamond
+	- Merge nodes= 3->1
+	- Fork nodes= 1->3 /// ?? control nodes
+	- Final nodes
+		- flow final (circle w inside as X) incase of all tokens
+		- final node = dot in a circle, incase of 1 token
+	- Object nodes
+		- Activity, w/pins
+		- central buffer (multiple inputs and output)
+		- data store = holds data persistently like a database
 
 
 Activity diagram
