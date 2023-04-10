@@ -24,9 +24,9 @@
 - ##### Incremental Delivery
 	- Develops software iteratively with heavy emphasis on construction activities
 	- Due to multiple prototyping standards per component, multiple fully functional versions of the software are available in increments 
--#####  Embrace Change
+- #####  Embrace Change
 	- Adapts to changes as they occur
--#####  People Not Process
+- #####  People Not Process
 	- Banda ziada important ha process ki jagah, Focus more on practicality instead of by book
 - ##### Very important to understand the divide and conquer rule, Divide a very big problem into small chunks that can be programmed into quick functioning prototypes
 

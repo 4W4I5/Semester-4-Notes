@@ -57,11 +57,19 @@
 	- Requires expertise, uncertain iterations (too much= chaos, too less= very slow)
 	- A decision is made after every complete spiral
 	- Should focus on flexibility and extensibility > high quality. Speed > zero defects
+	- ##### Cons
+		- Number of iterations are always unknown
+			- Cause of the way requirements are not understood, the spiral keeps on going until requirements are finalized
+		- Max speed of evolution unknown
+			- Too fast and something will be missing
+			- Too slow and productivity suffers
+		- Software development should be flexible to future changes
+			- After which the defects can be worked out and we can start to focus on quality
 
 
 ---
 
-Intro to Agile Development
+## Intro to Agile Development
 - ##### Agility
 	- Rapid response to change
 	- Customer involvement in team
@@ -75,13 +83,23 @@ Intro to Agile Development
 	- Incremental product
 	- People, not process
 	- Simplicity
+		- ##### Pros
+			- Working software is delivered frequently in weeks instead of months
+			- Face-to-Face is the best form of communication b/w a dev team and the customer
+			- Continuous attention to technical excellence and good design
+			- Even late changes are welcomed
+		- ##### Cons
+			- Large software deliverables are hard to assess for level of difficulty
+			- Lack of emphasis on necessary documentation
+			- Easily taken off track if customer is not clear on the final outcome
+			- Advanced technique, newbie programmer are better off with traditional models
 - ##### Agile Process models
 	- XP programming
 	- Scrum
 
 ---
 
-XP Programming
+## XP Programming
 - ##### Best used
 	- Extreme approach – iterative
 	- Increments delivered every 2 weeks
