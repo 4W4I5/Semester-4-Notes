@@ -74,9 +74,9 @@ XP Programming
 	⦁	Architectural design (costly)
 	⦁	Test complacency (more positive tests != good program)
 
- 
- 
- 
+ ![[image1.png]]
+ ![[image2.png]]
+ ![[image3.png]]
 Scrum
 ⦁	Consists of
 ⦁	Backlog 
@@ -100,7 +100,11 @@ v. Sprint Retrospective (Product owner, scrum master, team) , meeting to review 
 ⦁	XP= small team, scrum = larger team
 ⦁	Scrum = has roles, XP= no roles
    
- 
+ ![[image4.png]]
+![[image5.png]]
+![[image6.png]]
+![[image7.png]]
+
 Requirement Engineering
 ⦁	Why?
 ⦁	No understanding
@@ -135,7 +139,7 @@ iv. Expected requirements = not explicitly mentioned
 v. Exciting requirements = extra features without extra pay
 vi. R/s matrix
 vii. Benefits = avoid loss of information, improves user and team involvement, saves time of cycle, better quality product
- 
+ ![[image8.png]]
 ⦁	Elaboration
 ⦁	Analysis modelling
 ⦁	First technical diagram
@@ -145,11 +149,15 @@ vii. Benefits = avoid loss of information, improves user and team involvement, s
 ⦁	Object oriented = classes and their collaborations. Consists of scenario (use user stories), class based (divide work to classes) and behavioral modelling (states of processes)
 ⦁	Scenario = use cases (find actors first), activity diagram, swim lane diagram
    
+![[image9.png]]
+![[image10.png]]
 
+![[image11.png]]
 ⦁	Class based= extract nouns (class attributes) and verbs (operations) from a paragraph, CRC 
- 
- 
-
+ ![[image12.png]]
+ ![[image13.png]]
+![[image14.png]]
+![[image15.png]]
 Flow based = DFD, CFD
 Behavior model = State diagram, sequence diagram
  
@@ -184,7 +192,8 @@ Behavior model = State diagram, sequence diagram
 
 Diagrams
 Use cases
- 
+ ![[image16.png]]
+ ![[image17.png]]
 
 Activity diagram
 ⦁	Analyze use cases
