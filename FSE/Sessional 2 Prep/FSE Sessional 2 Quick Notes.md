@@ -8,7 +8,7 @@
 	- Deployment
 - ##### Waterfall model
 	- Oldest
-	- When 100% requirements are accurate
+	- Used When 100% requirements are accurate
 	- Linear
 	- Cons
 		- Iteration is not possible, any change causes confusion
@@ -38,9 +38,9 @@
 		- Iterative in nature
 			- Every product made is operational at some level
 	- ##### Cons
-	- Requirements must be well understood
-	- Project style must have independent modules
-	- Total cost is higher than waterfall
+		- Requirements must be well understood
+		- Project style must have independent modules
+		- Total cost is higher than waterfall
 - ##### Iterative
 	- Less workforce required
 	- Costly, non-satisfactory usually for customers
