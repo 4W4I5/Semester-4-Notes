@@ -213,6 +213,84 @@
 		- Control = facilitator = customer/developer/anyone from outside
 		- Definition mechanism = tools used
 		- goal = identify problems, get different approaches, requirements
+	- ##### Pros
+		- Clarify and refine customer requirements
+		- Improves communication and collaboration b/w stakeholders
+		- Increases chances of developing a system the customer actually needs
+		- Avoid misunderstanding
+		- Identifies potential risks and problems early on
+		- Increases user and stakeholder confidence in the development process
+		- Identify new business opportunities and revenue streams
+	- ##### Cons
+		- Most error-prone
+		- Time consuming
+		- Impacted by political and organizational factors
+		- Bad elicitation leads to
+			- Increased dev costs
+			- Decreased efficiency
+			- lack of buy in from stakeholders
+			- incomplete product
+		- Most communication intensive
+		- Requires expertise
+	- ###### Difficulty during this phase
+		- Hard to define scope, the boundaries of the system, what it can do and what it can not do. Too much technical detail instead of overall system objectives
+		- Hard to understand what is wanted, obvious info is often omitted
+		- Hard to focus on a requirement, as they change over time
+	- ##### Procedure
+		- ##### Collaborative Requirements Gathering (CRG)
+			- Meetings organized by **Facilitator** and attended by
+				- Software engr
+				- customers
+				- stakeholders
+			- Rules for participation are established
+			- Informal agenda proposed, formal enough to cover all points
+			- Goal of the meeting is to
+				- Identify problem
+				- Propose elements of the solution
+				- Negotiate different approaches
+				- Specify a prelim set of requirements
+		- ###### Quality Function Deployment (QFD) 
+			- ##### Definition
+				- Construct basic relationship matrices b/w 
+				- Customer needs
+				- Technical Requirements
+				- Priorities
+				- Competitor Assessment (Optional, on a need basis)
+			- ##### Done by
+				- Identifying stakeholder requirements
+				- Identify technical features of requirements
+				- Relate requirements to the technical features
+				- Evaluate features and specify a target value for each
+				- Prioritize features for dev effort
+			- ##### Pros
+				- Improves
+					- User involvement
+					- Management support and involvement
+					- Project Development
+				- Shortens dev lifecycle
+				- Supports team involvement
+				- Structures communication process
+				- Avoids loss of information
+				- Preventive tool for improving quality
+			- ##### Cons
+				- The matrix can get very complex very quickly for a large project
+				- Heavily dependent on the customer
+				- Adapting to the market trends is tough due to the nature of observing the market and processing data
+				- Focus on customer satisfaction
+					- Cost, lifecycle and other strats take a heavy hit
+			- Image
+				- ![[Pasted image 20230227111109.png]]
+				- Whats are on the left
+				- Hows on the top
+				- Competitive and importance weightages are on the right
+				- Bottom (in order)
+				- Target Values
+					- Competitive Evaluation
+					- Importance weighting
+				- Relationship Matrix
+					- Rows are requirement
+					- Cols are Measurable response to demanded quality
+						- in short its the measure
 	- ##### Quality function deployment (QFD)
 		- Customer needs- > technical document
 		- Normal requirements = normal goals
