@@ -289,7 +289,6 @@
 				- Focus on customer satisfaction
 					- Cost, lifecycle and other strats take a heavy hit
 			- Image
-				- ![[Pasted image 20230227111109.png]]
 				- Whats are on the left
 				- Hows on the top
 				- Competitive and importance weightages are on the right
