@@ -84,8 +84,8 @@ XP Programming
 	⦁	Test complacency (more positive tests != good program)
 
  ![](./media/image1.png)
- ![[image2.png]]
- ![[image3.png]]
+ ![](./media/image2.png)
+ ![](./media/image3.png)
 Scrum
 ⦁	Consists of
 ⦁	Backlog
@@ -109,10 +109,9 @@ v. Sprint Retrospective (Product owner, scrum master, team) , meeting to review 
 ⦁	XP= small team, scrum = larger team
 ⦁	Scrum = has roles, XP= no roles
 
- ![[image4.png]]
-![[image5.png]]
-![[image6.png]]
-![[image7.png]]
+ ![](./media/image4.png)
+ ![](./media/image6.png)
+ ![](./media/image7.png)
 
 ---
 
@@ -150,7 +149,7 @@ iv. Expected requirements = not explicitly mentioned
 v. Exciting requirements = extra features without extra pay
 vi. R/s matrix
 vii. Benefits = avoid loss of information, improves user and team involvement, saves time of cycle, better quality product
- ![[image8.png]]
+  ![](./media/image8.png)
 ⦁	Elaboration
 ⦁	Analysis modelling
 ⦁	First technical diagram
@@ -160,15 +159,15 @@ vii. Benefits = avoid loss of information, improves user and team involvement, s
 ⦁	Object oriented = classes and their collaborations. Consists of scenario (use user stories), class based (divide work to classes) and behavioral modelling (states of processes)
 ⦁	Scenario = use cases (find actors first), activity diagram, swim lane diagram
 
-![[image9.png]]
-![[image10.png]]
+ ![](./media/image9.png)
+ ![](./media/image10.png)
 
-![[image11.png]]
+ ![](./media/image11.png)
 ⦁	Class based= extract nouns (class attributes) and verbs (operations) from a paragraph, CRC
- ![[image12.png]]
- ![[image13.png]]
-![[image14.png]]
-![[image15.png]]
+  ![](./media/image12.png)
+  ![](./media/image13.png)
+ ![](./media/image14.png)
+ ![](./media/image15.png)
 Flow based = DFD, CFD
 Behavior model = State diagram, sequence diagram
 
@@ -203,8 +202,8 @@ Behavior model = State diagram, sequence diagram
 
 Diagrams
 Use cases
- ![[image16.png]]
- ![[image17.png]]
+  ![](./media/image16.png)
+  ![](./media/image17.png)
 
 Activity diagram
 ⦁	Analyze use cases
