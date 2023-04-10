@@ -364,6 +364,9 @@
  ![](./media/image14.png)
  ![](./media/image15.png)
 Flow based = DFD, CFD
+- ## Process of creating a Flow Diagram
+- ### Data Flow Diagram
+- ### Control Flow Diagram
 Behavior model = State diagram, sequence diagram
 
 - ##### Negotiation
