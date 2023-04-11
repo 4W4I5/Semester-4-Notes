@@ -174,7 +174,26 @@
 	- Ethics: the principles of right and wrong behavior in organizations.
 	- Sustainability: the need for organizations to operate in an environmentally and socially responsible manner.
 
-### 
+### 3 Approaches managers use to make decisions
+1.  Rational decision-making approach:
+-   Systematic, analytical, and logical process.
+-   Involves gathering and analyzing data, generating alternatives, and selecting the best alternative based on a set of criteria.
+-   Assumes that managers make decisions in a rational and objective manner.
+-   Assumes that the decision-making process is based on complete information.
+-   Appropriate for non-programmed decisions that require a high level of analysis and judgment.
+
+2.  Behavioral decision-making approach:
+-   Emphasizes the psychological and emotional factors that influence the decision-making process.
+-   Recognizes that managers are not always rational and objective.
+-   Recognizes that decision-making can be influenced by cognitive biases and social pressures.
+-   Focuses on understanding own and others' behavior and emotions to make decisions that reflect personal values and beliefs.
+-   Useful for decisions that involve high levels of uncertainty and risk.
+
+3.  Intuitive decision-making approach:
+-   Relies on the manager's intuition and judgment to make decisions quickly and efficiently.
+-   Based on the manager's past experiences, knowledge, and instincts.
+-   Relies on gut feelings and does not necessarily follow a systematic process.
+-   Often used for programmed decisions that are routine and do not require a high level of analysis.
 ---
 # BIASES
 - ### Types of Decision Making Bias
