@@ -2,9 +2,14 @@
 
 1.  Preindustrial Era:
 
--   The preindustrial era spanned from ancient times to the late 1700s.
--   Management during this era was limited and focused on the organization of armies and the construction of buildings and other structures.
+-   The preindustrial era was a period that spanned from ancient times to the late 1700s.
+-   During this period, management was limited and focused on the organization of armies, the construction of buildings and other structures, and the regulation of trade.
+-   In ancient civilizations such as Egypt, Greece, and Rome, managers were responsible for overseeing the construction of buildings and monuments and the organization of large-scale projects.
 -   The rise of Christianity brought about the development of the monastic form of organization, which was characterized by a hierarchical structure and the establishment of rules and procedures.
+-   Monks were responsible for managing the affairs of monasteries and the lands they owned, which included agricultural production, trade, and the provision of social services.
+-   The feudal system of medieval Europe was another form of preindustrial management. In this system, lords were responsible for managing their estates and the serfs who worked on them.
+-   The development of guilds during the Middle Ages was another form of preindustrial management. Guilds were associations of skilled workers who regulated the practice of their craft and protected the interests of their members.
+-   Overall, preindustrial management was characterized by a limited scope of management practices and a focus on maintaining social order and ensuring the efficient use of resources.
 
 2.  Industrial Revolution:
 
