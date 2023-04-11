@@ -1,5 +1,11 @@
 ### Chapter 1 History Module
 
+
+1.	Classical approach: Rules and principles were developed that could be taught and used in a variety of settings. These early management proponents were called classical theorists
+2.	The behavioral approach: to management focused on the actions of workers
+3.	Quantitative approach: which focuses on the application of statistics, optimization models, information models, computer simulations, and other quantitative techniques to management activities, provided tools for managers to make their jobs easier.
+4.	Contemporary Approaches:  Most of the early approaches to management focused on managers’ concerns inside the organization. Starting in the 1960s, management researchers began to look at what was happening in the external environment outside the organization.
+
 1. Preindustrial Era:
 
 - The preindustrial era was a period that spanned from ancient times to the late 1700s.
