@@ -118,3 +118,29 @@
 - The modern era of management began in the mid-20th century and is characterized by a focus on globalization, technology, and innovation.
 - Peter Drucker is considered the father of modern management and emphasized the importance of managing knowledge workers.
 - Contemporary management approaches include Total Quality Management, Business Process Reengineering, and Sustainable Management.
+
+
+---
+
+## Chapter 2
+
+- Classical Management Theories
+	- Scientific Management Theory: developed by Frederick W. Taylor, focused on breaking down work processes into smaller, more efficient components, and determining the most efficient way to perform each task.
+	- Administrative Management Theory: developed by Henri Fayol, focused on identifying the principles of management that could be applied universally to all organizations.
+- Behavioral Management Theories
+	- Hawthorne Studies: conducted by Elton Mayo and his colleagues at the Hawthorne plant of Western Electric, found that worker productivity was influenced not only by their physical working conditions, but also by social factors such as group dynamics and management styles.
+	- Theory X and Theory Y: developed by Douglas McGregor, Theory X assumes that workers are inherently lazy and need to be closely managed, while Theory Y assumes that workers are self-motivated and can be trusted to manage themselves.
+- Quantitative Management Theories
+	- Management Science: uses mathematical models to aid in decision-making.
+	- Operations Management: focuses on the efficient management of production processes.
+- Contemporary Management Theories
+	- Systems Theory: views organizations as systems made up of interconnected parts.
+	- Contingency Theory: asserts that the most effective management approach is contingent on the specific situation.
+	- Total Quality Management: focuses on continuous improvement of all organizational processes to achieve customer satisfaction.
+- Integrating Contemporary Management Theories
+	- Management by Objectives (MBO): a system that involves setting specific, measurable goals for employees and evaluating their performance based on their success in achieving those goals.
+	- Learning Organizations: organizations that emphasize continuous learning and improvement among employees.
+- Emerging Management Issues
+	- Globalization: the increasing interconnectedness of the world's economies.
+	- Ethics: the principles of right and wrong behavior in organizations.
+	- Sustainability: the need for organizations to operate in an environmentally and socially responsible manner.
