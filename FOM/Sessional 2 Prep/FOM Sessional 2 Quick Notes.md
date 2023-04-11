@@ -174,7 +174,7 @@
 	- Ethics: the principles of right and wrong behavior in organizations.
 	- Sustainability: the need for organizations to operate in an environmentally and socially responsible manner.
 
-
+### 
 ---
 # BIASES
 - ### Types of Decision Making Bias
