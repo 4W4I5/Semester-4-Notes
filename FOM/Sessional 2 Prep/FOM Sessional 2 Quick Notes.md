@@ -107,13 +107,13 @@
 	- Employees should feel a sense of loyalty and belonging to the organization, and should be encouraged to work together to achieve common goals.
 	- Mary Parker Follett is known for her work on group dynamics and the importance of collaboration and communication in organizations.
 
-1.  Human Relations Movement:
+4.  Human Relations Movement:
 
 - The Human Relations Movement emerged in the 1930s and emphasized the importance of understanding human behavior in the workplace.
 - Elton Mayo's Hawthorne studies revealed the importance of social factors in employee motivation and productivity.
 - Abraham Maslow's hierarchy of needs theory proposed that individuals have a set of needs that must be satisfied in order to achieve self-actualization.
 
-2.  Modern Era:
+5.  Modern Era:
 
 - The modern era of management began in the mid-20th century and is characterized by a focus on globalization, technology, and innovation.
 - Peter Drucker is considered the father of modern management and emphasized the importance of managing knowledge workers.
