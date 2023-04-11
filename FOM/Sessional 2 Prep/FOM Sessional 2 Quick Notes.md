@@ -195,7 +195,18 @@
 -   Relies on gut feelings and does not necessarily follow a systematic process.
 -   Often used for programmed decisions that are routine and do not require a high level of analysis.
 ---
-# BIASES
+# BIASES & Decision Making Process
+### Decision-making process:
+
+-   Identifying a problem involves recognizing that a decision needs to be made.
+-   Identifying decision criteria involves determining the factors that are important in making the decision.
+-   Weighting the criteria involves assigning a value or importance to each of the decision criteria.
+-   Developing alternatives involves generating possible options for solving the problem.
+-   Analyzing alternatives involves evaluating each alternative based on the decision criteria.
+-   Selecting an alternative involves choosing the best option from the alternatives generated.
+-   Implementing the alternative involves putting the chosen alternative into action.
+-   Evaluating decision effectiveness involves assessing the outcomes of the decision and whether it achieved the desired results.
+
 - ### Types of Decision Making Bias
 	- #### Overconfidence bias 
 		- Decision makers tend to think they know more than they do or hold unrealistically positive views of themselves and their performance.
@@ -226,7 +237,7 @@
 ---
 ## ChatGPT Answer to make it easier to remember
 
-## COINS FEARS
+## COINS FEARS (Mnemonic)
 - ##### Confirmation Bias: 
 	- This is the tendency to look for information that confirms our existing beliefs and ignore information that contradicts them.    
 - ##### Overconfidence Bias: 
@@ -252,19 +263,19 @@
 # Cotemporary issues and design thinking
 ### Contemporary issues and Design Thinking
 
-1. Contemporary issues in management
+1. **Contemporary issues in management**
 	1. Globalization: Managers are facing increased competition from international firms and must learn to navigate cultural and political differences.
 	2. Diversity: Managers must manage a diverse workforce and create an inclusive work environment.
 	3. Ethics: Managers must ensure ethical behavior in their organizations to maintain credibility with stakeholders.
 	4. Sustainability: Managers must consider the environmental and social impact of their organization's operations.
 	5. Technology: Managers must stay up-to-date with technological advancements and adopt new technologies to remain competitive
- 2. Design thinking
+ 2. **Design thinking**
 	 - Empathize: Understanding the needs of customers and developing empathy for their experiences.
 	 - Define: Defining the problem and the desired outcomes.
 	 - Ideate: Generating a wide range of ideas and potential solutions.
 	 - Prototype: Creating a physical representation of the solution.
 	 - Test: Testing the solution with customers and gathering feedback for further improvements'
-3. Applying design thinking in management
+3. **Applying design thinking in management**
 	1. Identify the Problem: The first step in applying design thinking in management is to identify the problem or challenge that needs to be addressed. This requires a deep understanding of the needs and motivations of the stakeholders involved.
 	2. Empathize with the Stakeholders: Empathy is a key element of design thinking. In order to develop solutions that meet the needs of stakeholders, it is important to understand their perspectives and experiences.
 	3. Generate Ideas: Design thinking involves generating a large number of ideas, both individually and collaboratively. This requires a willingness to explore unconventional ideas and to build on the ideas of others.
