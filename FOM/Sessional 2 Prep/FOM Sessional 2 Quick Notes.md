@@ -108,39 +108,33 @@
 		- Mary Parker Follett is known for her work on group dynamics and the importance of collaboration and communication in organizations.
 	4. Scientific Management vs. Administrative Management:
 		1.  Focus:
-
 		-   Scientific Management: The focus of scientific management is on improving efficiency and productivity in the workplace through the use of scientific methods.
 		-   Administrative Management: The focus of administrative management is on the overall management of organizations, including planning, organizing, commanding, coordinating, and controlling.
 		
 		2.  Approach:
-		
 		-   Scientific Management: The scientific management approach involves analyzing work processes to identify the most efficient way to complete each task.
 		-   Administrative Management: The administrative management approach involves developing general principles of management that can be applied to any organization.
 		
 		3.  Emphasis:
-		
 		-   Scientific Management: Scientific management places a strong emphasis on individual workers and their productivity.
 		-   Administrative Management: Administrative management places a strong emphasis on the organization as a whole and its management.
 		
 		4.  Originators:
-		
 		-   Scientific Management: Frederick Winslow Taylor is credited with developing the scientific management approach in the late 19th and early 20th centuries.
 		-   Administrative Management: Henri Fayol is credited with developing the administrative management approach in the early 20th century.
 		
 		5.  Principles:
-		
 		-   Scientific Management: Scientific management principles include time and motion studies, standardization of work processes, and the use of financial incentives to motivate workers.
 		-   Administrative Management: Administrative management principles include the division of work, unity of command, centralization, and coordination.
 		
 		6.  Influence:
-		
 		-   Scientific Management: Scientific management has had a significant influence on the development of modern manufacturing and production methods.
 		-   Administrative Management: Administrative management has had a significant influence on the development of modern management practices, including strategic planning and organizational design.
 		
 		7.  Criticism:
-		
 		-   Scientific Management: Scientific management has been criticized for its focus on efficiency at the expense of worker well-being and satisfaction.
 		-   Administrative Management: Administrative management has been criticized for its bureaucratic nature and its potential to stifle creativity and innovation.
+
 	1. Contributions to Modern Management:
 	- The early 20th century was a period of significant development in management theory and practice.
 	- The administrative management approach, the scientific management approach, and the work of Mary Parker Follett all contributed to the development of modern management practices.
