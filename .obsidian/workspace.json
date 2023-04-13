@@ -30,9 +30,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "462a26fcc3283fa8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CLC/CLC 13 Apr, 2023.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -98,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "FOM/Sessional 2 Prep/FOM Sessional 2 Quick Notes.md",
+                "file": "CLC/CLC 13 Apr, 2023.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "FOM/Sessional 2 Prep/FOM Sessional 2 Quick Notes.md",
+                "file": "CLC/CLC 13 Apr, 2023.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "FOM/Sessional 2 Prep/FOM Sessional 2 Quick Notes.md"
+                "file": "CLC/CLC 13 Apr, 2023.md"
               }
             }
           },
@@ -169,10 +181,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "14efda5e7bdc5bb6",
+  "active": "462a26fcc3283fa8",
   "lastOpenFiles": [
-    "FSE/Sessional 2 Prep/FSE Sessional 2 Quick Notes ft Anonymous.md",
     "FOM/Sessional 2 Prep/FOM Sessional 2 Quick Notes.md",
+    "CLC/CLC 13 Apr, 2023.md",
+    "FSE/Sessional 2 Prep/FSE Sessional 2 Quick Notes ft Anonymous.md",
     "FOM/FOM 16 Mar, 2023.md",
     "FOM/FOM 9 Mar, 2023.md",
     "FOM/Sessional 2 Prep",
@@ -211,7 +224,6 @@
     "CNET/CNET 22 Mar, 2023.md",
     "CNET/CNET 25 Mar, 2023.md",
     "CNET/CNET 27 Mar, 2023.md",
-    "CNET/CNET 3 April, 2023.md",
     "CNET/Sessional 2 Prep",
     "CLC/Sessional 2 Prep",
     "TBW/Sessional 2 Prep",
