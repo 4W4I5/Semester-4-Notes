@@ -5,8 +5,9 @@ Cont IP Datagram
 	- 2^16 Bytes
 	- Fragmentation/Reassembly
 		- 16-Bit ID
-		- Flags
-		- Fragment offset
+			- The same is assigned to all subdivided packets as well
+		- Flags 3-Bit
+		- Fragment offset 13-Bit
 		- \
 ### IP Fragmentation
 - Occurs when IP packet is longer than MTU 
