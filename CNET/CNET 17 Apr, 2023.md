@@ -7,6 +7,8 @@ Cont IP Datagram
 		- 16-Bit ID
 			- The same is assigned to all subdivided packets as well
 		- Flags 3-Bit
+			- haveMoreFragments: 0 if NO
+				- Set to 0 by source host internet process. Also set to 0 after fragmentation
 		- Fragment offset 13-Bit
 		- \
 ### IP Fragmentation
