@@ -18,3 +18,4 @@ Cont IP Datagram
 	- Occurs at the routers
 		- Defrag/Reassembly is handled by end system
 - Target MTU is the sender's MTU
+- Always frag the data, 20 bytes for the IP header is fixed
