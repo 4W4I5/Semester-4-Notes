@@ -11,6 +11,7 @@ Cont IP Datagram
 				- Set to 0 by source host internet process. Also set to 0 for the last segment after fragmentation
 		- Fragment offset 13-Bit
 			- Based on Octals
+			- Number must be divisible by 8 to be able to be send
 			- 
 		- \
 ### IP Fragmentation
