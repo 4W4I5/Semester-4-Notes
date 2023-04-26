@@ -26,3 +26,4 @@ DHCP
 		- Note this example only assigned the IP to the new device. Network information still has not been passed through
 
 ### NAT (Network Address Translation)
+- Allows a single unique public IP to represent a group of local computers
