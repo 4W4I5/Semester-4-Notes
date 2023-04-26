@@ -15,8 +15,10 @@ DHCP
 	- Host broadcasts ->  DHCP Discover
 	- DHCP responds with -> DHCP Offer
 	- Host -> DHCP Request
+	-  -> DHCP Ack
 - Example
 	- Client Broadcast IP is 0.0.0.0::68
 	- Server Broadcast IP is 255.255.255.255::67
 	- A unique transaction ID is also assigned which is used in the DHCP discover and offer phases
 	- After DHCP offer the client has both its own IP and the Client IP that can be used to communicate in the network
+	- DHCP Request also uses broadcast to make sure only one DHCP IP is used by the client
