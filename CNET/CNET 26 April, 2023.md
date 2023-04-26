@@ -2,8 +2,8 @@ Lec 29: DHCP, NAT & ICMP
 
 DHCP 
 - Ports
-	- Client uses port 68
-	- Server uses port 67
+	- Client uses UDP port 68
+	- Server uses UDP port 67
 - How does a host get an IP address
 	-  Used to be hardcoded by system admin
 	- DHCP
