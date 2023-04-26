@@ -27,3 +27,10 @@ DHCP
 
 ### NAT (Network Address Translation)
 - Allows a single unique public IP to represent a group of local computers
+- pretty ez
+- Controversial
+	- Routers should only process upto layer 3
+	- End to end comms concept is misused
+	- Hosts should only talk directly to each other
+		- No interfering nodes modifying IP addresses and port numbers
+	- Problematic for P2P application
