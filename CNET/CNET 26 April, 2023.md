@@ -22,3 +22,5 @@ DHCP
 	- A unique transaction ID is also assigned which is used in the DHCP discover and offer phases
 	- After DHCP offer the client has both its own IP and the Client IP that can be used to communicate in the network
 	- DHCP Request also uses broadcast to make sure only one DHCP IP is used by the client
+	- DHCP ACK used to assure that IP is in use
+		- Note this example only assigned the IP to the new device. Network information still has not been passed through
