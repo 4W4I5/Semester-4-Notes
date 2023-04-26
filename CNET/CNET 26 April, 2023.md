@@ -1,14 +1,22 @@
 Lec 29: DHCP, NAT & ICMP
 
 DHCP 
+- Ports
+	- Client uses port 68
+	- Server uses port 67
 - How does a host get an IP address
 	-  Used to be hardcoded by system admin
 	- DHCP
 - Goal
 	- Allow host to dynamically obtain an ip address from network server when it joins a network
-		- Allow resuse of addresses, on hold addresses when host is connected/on
+		- Allow reuse of addresses, on hold addresses when host is connected/on
 		- Required use of DCHP to assign IP to new devices in the network
 - Procedure
 	- Host broadcasts ->  DHCP Discover
 	- DHCP responds with -> DHCP Offer
-	- Host 
+	- Host -> DHCP Request
+- Example
+	- Client Broadcast IP is 0.0.0.0::68
+	- Server Broadcast IP is 255.255.255.255::67
+	- A unique transaction ID is also assigned which is used in the DHCP discover and offer phases
+	- After DHCP offer the client has both its own IP and the Client IP that can be used to communicate in the network
