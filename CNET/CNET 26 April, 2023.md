@@ -24,3 +24,5 @@ DHCP
 	- DHCP Request also uses broadcast to make sure only one DHCP IP is used by the client
 	- DHCP ACK used to assure that IP is in use
 		- Note this example only assigned the IP to the new device. Network information still has not been passed through
+
+### NAT (Network Address Translation)
