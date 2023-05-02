@@ -16,7 +16,12 @@ Section 4: Container Services
 			- Dependencies
 			- Configurations
 			- Hooks into OS
+		- Libraries
+		- Code
+		- Runtime
 
-
+### Types of Containers
 - Docker
+	- Enables you to build, test and deploy applications quickly
+		- Containers are built using templates based on OS images
 - Kubernetes
