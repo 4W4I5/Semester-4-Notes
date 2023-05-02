@@ -42,9 +42,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "6b3fdf13ffcda056",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CLC/CLC 2 May, 2023.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -110,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CLC/CLC 27 Apr, 2023.md",
+                "file": "CLC/CLC 2 May, 2023.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CLC/CLC 27 Apr, 2023.md",
+                "file": "CLC/CLC 2 May, 2023.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CLC/CLC 27 Apr, 2023.md"
+                "file": "CLC/CLC 2 May, 2023.md"
               }
             }
           },
@@ -181,10 +193,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "3325f6b910b331af",
+  "active": "6b3fdf13ffcda056",
   "lastOpenFiles": [
-    "CNET/CNET 26 April, 2023.md",
     "CLC/CLC 27 Apr, 2023.md",
+    "CLC/CLC 2 May, 2023.md",
+    "CNET/CNET 26 April, 2023.md",
     "Pasted image 20230426131837.png",
     "README.md",
     "FSE/FSE 13 Mar, 2023.md",
@@ -223,7 +236,6 @@
     "FSE/Sessional 2 Prep/e28648e35e61439e9895af88d6b5e081.markdown",
     "FSE/Sessional 2 Prep",
     "CNET/Sessional 2 Prep/CNET Sessional 2 Quick Notes.md",
-    "CNET/CNET 8 Mar, 2023.md",
     "CNET/Sessional 2 Prep",
     "CLC/Sessional 2 Prep",
     "TBW/Sessional 2 Prep",
