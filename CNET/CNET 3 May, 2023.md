@@ -46,3 +46,5 @@ Last class notes
 | 5    | uxvywz |            |            |            |            |            |
 NOTE:: DO this table later baad mein (Very bad at this)
 
+![[Pasted image 20230503135612.png]]
+
