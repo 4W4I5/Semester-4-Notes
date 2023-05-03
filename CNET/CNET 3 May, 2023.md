@@ -34,3 +34,13 @@ Last class notes
 		- Predecessor to V
 	- N'
 		- Visited Node
+
+
+| Step | N'     | D(v), P(v) | D(w), P(w) | D(x), P(x) | D(y), P(y) | D(z), P(z) |
+| ---- | ------ | ---------- | ---------- | ---------- | ---------- | ---------- |
+| 0    | u      | 2,u        | 5, u       | 1,u        | infinite   | infinite   |
+| 1    | ux     | 2,u        | 5, u       |            | 1, x       | 3, z       |
+| 2    | uxv    |            | 5, u       |            |            |            |
+| 3    | uxvy   |            |            |            |            |            |
+| 4    | uxvyw  |            |            |            |            |            |
+| 5    | uxvywz |            |            |            |            |            |
