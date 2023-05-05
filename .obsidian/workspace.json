@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CNET/CNET 3 May, 2023.md",
+                "file": "CNET/CNET 5 May, 2023.md",
                 "mode": "source",
                 "source": false
               }
@@ -113,6 +113,14 @@
               "type": "starred",
               "state": {}
             }
+          },
+          {
+            "id": "22e6013c16b5de6f",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
           }
         ]
       }
@@ -134,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CNET/CNET 3 May, 2023.md",
+                "file": "CNET/CNET 5 May, 2023.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +159,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CNET/CNET 3 May, 2023.md",
+                "file": "CNET/CNET 5 May, 2023.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CNET/CNET 3 May, 2023.md"
+                "file": "CNET/CNET 5 May, 2023.md"
               }
             }
           },
@@ -207,9 +215,10 @@
   },
   "active": "b240dbbf83b5b396",
   "lastOpenFiles": [
+    "CNET/CNET 3 May, 2023.md",
+    "CNET/CNET 5 May, 2023.md",
     "Pasted image 20230503135612.png",
     "CLC/CLC 2 May, 2023.md",
-    "CNET/CNET 3 May, 2023.md",
     "CLC/CLC 27 Apr, 2023.md",
     "CNET/CNET 26 April, 2023.md",
     "Pasted image 20230426131837.png",
@@ -243,7 +252,6 @@
     "FSE/Sessional 2 Prep/media/image4.png",
     "FSE/Sessional 2 Prep/media/image8.png",
     "FSE/Sessional 2 Prep/media/image9.png",
-    "FSE/Sessional 2 Prep/media/image12.png",
     "FSE/Sessional 2 Prep/media",
     "FSE/Sessional 2 Prep/vertopal_e28648e35e61439e9895af88d6b5e081",
     "FSE/Sessional 2 Prep/e28648e35e61439e9895af88d6b5e081.markdown",
