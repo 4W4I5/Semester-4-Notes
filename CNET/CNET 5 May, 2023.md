@@ -16,4 +16,5 @@ Types of Vector Routing Algo
 
 Bellman-Ford Algo
 - Used in DVR Algo
+- Probes each neighboring connection for the shortest path
 - 
