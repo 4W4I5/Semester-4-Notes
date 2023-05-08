@@ -10,3 +10,4 @@ Layer: Link Layer/Back Layer
 	- Function
 		- Used locally to get frame from one interface to another physicaly-connected interface
 	- 48 bit MAC burned in NIC
+	- Switches do not have MAC Addresses
