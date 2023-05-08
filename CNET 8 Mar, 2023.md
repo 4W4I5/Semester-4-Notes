@@ -8,7 +8,7 @@ Layer: Link Layer/Back Layer
 - MAC Address
 	- LAN. physical or ethernet address
 	- Function
-		- Used locally to get frame from one interface to another physicaly-connected interface
+		- Used locally to get frame from one interface to another physically-connected interface
 	- 48 bit MAC burned in NIC
 	- Switches do not have MAC Addresses
 		- Switch communication happens at the link level
@@ -20,4 +20,5 @@ Layer: Link Layer/Back Layer
 - ARP Table
 	- Each host has on the LAN has a table
 		- IP/MAC datagram with the receivers unknown MAC is sent 
-		- Receiver will respond in unicast with its MAC message
+		- Receiver will respond in unicast with its MAC message as it already has the IP of the sender
+		- All nodes however receive an ARP query
