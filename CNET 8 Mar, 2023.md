@@ -11,3 +11,7 @@ Layer: Link Layer/Back Layer
 		- Used locally to get frame from one interface to another physicaly-connected interface
 	- 48 bit MAC burned in NIC
 	- Switches do not have MAC Addresses
+		- Switch communication happens at the link level
+		- MAC Addresses are used
+		- ARP facilitates this communication by providing a MAC address based on IP addresses
+			- Similar to DNS in working
