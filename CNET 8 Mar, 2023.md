@@ -15,3 +15,9 @@ Layer: Link Layer/Back Layer
 		- MAC Addresses are used
 		- ARP facilitates this communication by providing a MAC address based on IP addresses
 			- Similar to DNS in working
+			- While sending packets through, MAC address of the sender and directly linked router is used while the IP stays the same
+
+- ARP Table
+	- Each host has on the LAN has a table
+		- IP/MAC datagram with the receivers unknown MAC is sent 
+		- Receiver will respond in unicast with its MAC message
