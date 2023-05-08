@@ -22,3 +22,6 @@ Layer: Link Layer/Back Layer
 		- IP/MAC datagram with the receivers unknown MAC is sent 
 		- Receiver will respond in unicast with its MAC message as it already has the IP of the sender
 		- All nodes however receive an ARP query
+
+Lecture 37: Ethernet & Switches
+- 
