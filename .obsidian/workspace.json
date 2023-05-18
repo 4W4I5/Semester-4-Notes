@@ -138,7 +138,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 257.5
+    "width": 257.5,
+    "collapsed": true
   },
   "right": {
     "id": "1010b0dc0ef48981",
@@ -154,7 +155,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CLC/AZ-900 PREP.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -171,7 +172,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CLC/AZ-900 PREP.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -194,7 +195,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CLC/AZ-900 PREP.md"
+                "file": "README.md"
               }
             }
           },
@@ -225,7 +226,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "d06082dc9de17905",
+  "active": "c6bb1a0b5ef1e3e9",
   "lastOpenFiles": [
     "CLC/CLC 9 May, 2023.md",
     "CLC/AZ-900 PREP.md",
