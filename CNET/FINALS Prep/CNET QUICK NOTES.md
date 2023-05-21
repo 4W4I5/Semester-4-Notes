@@ -10,6 +10,7 @@
 		- has a unslotted CSMA/CD binary backoff MAC protocol
 			- IG this means its got collision detection
 		- no ACKs/NACKs
+		- multiple physical media of transmission
 - Ethernet Topologies
 	- Bus
 	- Star
@@ -19,11 +20,13 @@
 	- SFD 
 		- A single Byte (10101011) sent after PREAMBLE
 		- Indicates start of frame
-	- DEST. ADDR
-	- SRC. ADDR
-	- TYPE
+	- DEST. ADDR (6 Bytes)
+	- SRC. ADDR (6 Bytes)
+	- TYPE (2 Bytes)
+		- IPv4/IPv6/AT&T
 	- PAYLOAD(DATA)
-	- CRC
+	- FCS (4 Bytes)
+		- CRC checksum
 - 
 # Network Layer
 # Transport Layer
