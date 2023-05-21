@@ -37,7 +37,8 @@
 			- Collision detection and congestion, introduces random waiting periods for both senders when they detect a collision.
 			- If another collision is detected after waiting i.e, both senders picked the same integer for wait time then the randomized waiting interval is doubled
 		- How would a host know the IP of the first hop router?
-			- ARP broadcast which would give the IP and then the mac as well 
+			- This would be done
+			- ARP broadcast on FF-FF-FF-FF-FF-FF w/ B's IP address which would give the IP and then the mac as well 
 - Ethernet Topologies
 	- Bus
 	- Star
