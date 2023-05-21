@@ -27,6 +27,11 @@
 			- Uses a switch table
 			- Filtering is where the switch determines to drop the packet or forward it to the host its meant for
 			- Forwarding is where the switch determines the host to send the frame to and sends it
+		- Router VS Switch
+			- Both are Store&Forward
+				- They examine their respective layers i.e a switch will examine the link layer and the router will examine the network layer
+			- Both use forwarding tables
+				- Routers compute theirs using routing algos, IP addresses while switches use self-learning, broadcasts
 - Ethernet Topologies
 	- Bus
 	- Star
@@ -48,6 +53,13 @@
 		- Entry of sender MAC address
 		- Time of sending 
 		- Interface the frame was received on 
+	- Filled using self-learning
+		- That is, every unknown sender frame is broadcast/flooded on all interfaces
+			- MAC address and interface added to the table
+			- the response back to the sender is also then recorded and saved as well
+			- the next time the same frame is detected it is automatically sent on its corresponding interface
+		- Routers also have their own IP and hence will also have the same
+			- However, note that only the interface facing the switch is known, all other interfaces away from the network are the responsibility of the router
 # Network Layer
 # Transport Layer
 # Session Layer
