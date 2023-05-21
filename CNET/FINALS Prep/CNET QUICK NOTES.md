@@ -20,6 +20,11 @@
 		- plug n play, self learning
 			- builds a switch table to forward to the correct host
 				- done by broadcasting the same packet to everyone, store senders mac address and then get the receivers mac address when they reply back. 
+		- buffer packets
+		- full duplex connections
+		- witching, each connection can send to another host without collisions
+		- Forwards & Filters
+			- Forwarding is where the switch determines 
 - Ethernet Topologies
 	- Bus
 	- Star
