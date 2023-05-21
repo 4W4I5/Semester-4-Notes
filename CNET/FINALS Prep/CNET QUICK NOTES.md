@@ -16,7 +16,7 @@
 		- store & forward frames
 			- selectively forward frame to one or more outgoing links
 		- transparent
-			- hosts are unware of switches in the network
+			- hosts are unwary of switches in the network
 		- plug n play, self learning
 			- builds a switch table to forward to the correct host
 				- done by broadcasting the same packet to everyone, store senders mac address and then get the receivers mac address when they reply back. 
