@@ -24,7 +24,9 @@
 		- full duplex connections
 		- witching, each connection can send to another host without collisions
 		- Forwards & Filters
-			- Forwarding is where the switch determines 
+			- Uses a switch table
+			- Filtering is where the switch determines to drop the packet or forward it to the host its meant for
+			- Forwarding is where the switch determines the host to send the frame to and sends it
 - Ethernet Topologies
 	- Bus
 	- Star
@@ -41,7 +43,11 @@
 	- PAYLOAD(DATA)
 	- FCS (4 Bytes)
 		- CRC checksum
-- 
+- Switch Table
+	- Contains entries for some but not always all hosts and routers on a LAN
+		- Entry of sender MAC address
+		- Time of sending 
+		- Interface the frame was received on 
 # Network Layer
 # Transport Layer
 # Session Layer
