@@ -15,7 +15,10 @@
 	- Star
 - Ethernet Frame Structure
 	- PREAMBLE
-		- 7 Bytes with 10101010 after which a Byte with 10101011 is sent at the end
+		- 7 Bytes with 10101010
+	- SFD 
+		- A single Byte (10101011) sent after PREAMBLE
+		- Indicates start of frame
 	- DEST. ADDR
 	- SRC. ADDR
 	- TYPE
