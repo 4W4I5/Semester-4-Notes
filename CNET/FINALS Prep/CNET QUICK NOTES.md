@@ -2,8 +2,9 @@
 
 ## MAC & ARP
 - Trivia
-	- MAC
-	- ARP
+	- MAC (Media Access Control)
+		- Used locally, its the name of the 
+	- ARP (Address Resolution Protocol)
 
 ## Ethernet & Switches (Lec 37)
 - Trivia 
