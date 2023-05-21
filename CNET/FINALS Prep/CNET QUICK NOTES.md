@@ -32,6 +32,10 @@
 				- They examine their respective layers i.e a switch will examine the link layer and the router will examine the network layer
 			- Both use forwarding tables
 				- Routers compute theirs using routing algos, IP addresses while switches use self-learning, broadcasts
+	- Quiz @ end of slides
+		- What is binary (exponential) backoff and what problem does it solve?
+			- Collision detection and congestion, introduces random waiting periods for both senders when they detect a collision.
+			- If another collision is detected after waiting i.e, both senders picked the same integer for wait time then the randomized waiting interval is doubled
 - Ethernet Topologies
 	- Bus
 	- Star
