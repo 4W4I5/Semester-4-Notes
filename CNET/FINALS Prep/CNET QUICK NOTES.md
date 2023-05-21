@@ -6,6 +6,10 @@
 		- is cheap
 		- widely used LAN tech
 		- simple and fast
+		- no handshakes
+		- has a unslotted CSMA/CD binary backoff MAC protocol
+			- IG this means its got collision detection
+		- no ACKs/NACKs
 - Ethernet Topologies
 	- Bus
 	- Star
