@@ -85,6 +85,13 @@
 		- Routers also have their own IP and hence will also have the same
 			- However, note that only the interface facing the switch is known, all other interfaces away from the network are the responsibility of the router
 # Network Layer
+## Link State Routing (Lec 30) could merge 30 and 31
+## Distance Vector Routing (Lec 31)
+## Hierarchical Routing (Lec 32)
+## RIP & OSPF (Lec 33)
+
 # Transport Layer
 # Session Layer
 # Application Layer
+## DHCP (Lec 29)
+
