@@ -85,12 +85,24 @@
 		- Routers also have their own IP and hence will also have the same
 			- However, note that only the interface facing the switch is known, all other interfaces away from the network are the responsibility of the router
 # Network Layer
+
+## Network Layer Principles (Lec 25)
+## IP Datagram (Lec 26)
+## IP Addressing (Lec 27)
+## IP Subnetting (Lec 28)
+## NAT & ICMP (Lec 29)
 ## Link State Routing (Lec 30) could merge 30 and 31
 ## Distance Vector Routing (Lec 31)
 ## Hierarchical Routing (Lec 32)
 ## RIP & OSPF (Lec 33)
 
 # Transport Layer
+## GoBackN & Selective Repeat (Lec 17)
+## TCP Segment Structure (Lec 18)
+## TCP Reliable Data Transfer (RDT) (Lec 19)
+## TCP Flow control (Lec 20)
+## TCP Congestion control (Lec 22 & 23)
+
 # Session Layer
 # Application Layer
 ## DHCP (Lec 29)
