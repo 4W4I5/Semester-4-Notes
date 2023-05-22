@@ -5,9 +5,10 @@
 	- MAC (Media Access Control)
 		- Used locally, its the name of the interface
 		- First half is vendor info, Second half is unique identifier
-		- 
 	- ARP (Address Resolution Protocol)
 		- Used to resolve MAC addresses of hosts/Map an IP address to a MAC address
+		- Usually if the IP/MAC entry isnt present then a broadcast is sent
+			- Lookup using IP
 		- usually used for IPv4
 - ARP Table NOTE::Does not contain the Interface, thats on switch table
 	- Consists 
