@@ -197,7 +197,7 @@
 ## DNS (Lec 11)
 ## DHCP (Lec 29)
 - Trivia
-	- Autoassignment of IP to hosts
+	- Auto assignment of IP to hosts
 	- PORT=67 for server | 68 for client over UDP 
 	- Shares gateway, DNS, next hop router and IP address of host
 - Working (all are broadcasts)
