@@ -204,6 +204,11 @@
 	- DHCP discover
 		- source IP = 0.0.0.0
 		- destination IP = 255.255.255.255
-	- DHCP offer = offer IP of DHCP server and a usable IP
+	- DHCP offer
+		- source IP = 1.1.1.254/24
+		- destination IP = 255.255.255.255 (offer is also broadcast to all)
+		- Server sends available IP addresses and options
 	- DHCP request 
+		- Requests IP from server after selecting from options
 	- DHCP ACK
+		- DHCP agrees final comms and ack the IP request
