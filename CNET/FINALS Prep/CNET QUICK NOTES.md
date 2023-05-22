@@ -117,6 +117,7 @@
 			- find nodeNew that isnt in last visited set and is also the lowest D(nodeNew)
 			- update D(nodeNew) w the following formula
 				- min of (D(prevNode), D(nodeNew) + cost(prevNode, newNode))
+			- FUCK IT, doing by hand
 ## Hierarchical Routing (Lec 32)
 ## RIP & OSPF (Lec 33)
 
