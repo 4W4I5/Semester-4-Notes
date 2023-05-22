@@ -8,9 +8,9 @@
 		- Used to resolve MAC addresses of hosts
 - ARP Table NOTE::Does not contain the Interface, thats on switch table
 	- Consists 
-		- IP Address
-		- MAC Address (usually the )
-		- TTL
+		- IP Address of the device
+		- MAC Address of the device
+		- TTL for the entry in the table
 
 ## Ethernet & Switches (Lec 37)
 - Trivia 
