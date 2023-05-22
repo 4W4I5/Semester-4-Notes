@@ -96,6 +96,13 @@
 ## IP Addressing (Lec 27)
 ## IP Subnetting (Lec 28)
 ## NAT & ICMP (Lec 29)
+- Trivia 
+	- NAT Network address translation
+		- made to cater with growing pains of adapting IPv6 
+		- one single public IP address is used to map an internal network
+- NAT
+	- works by modifying the datagrams leaving the router to have a single source IP (the public IP) but varied source port numbers
+	- internally a NAT table is used to map a random port number to a host interface and this is used to send packets to and fro from a NAT network
 ## Link State & Distance Vector Routing(Lec 30 & 31)
 - Trivia
 	- Comparison b/w the two
@@ -210,5 +217,6 @@
 		- Server sends available IP addresses and options
 	- DHCP request 
 		- Requests IP from server after selecting from options
+		- Basically check if the network has that IP already assigned by using the offered IP and ARP broadcasting
 	- DHCP ACK
 		- DHCP agrees final comms and ack the IP request
