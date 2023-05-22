@@ -3,7 +3,9 @@
 ## MAC & ARP (Lec 36)
 - Trivia
 	- MAC (Media Access Control)
-		- Used locally, its the name of the 
+		- Used locally, its the name of the interface
+		- First half is vendor info, Second half is unique identifier
+		- 
 	- ARP (Address Resolution Protocol)
 		- Used to resolve MAC addresses of hosts/Map an IP address to a MAC address
 		- usually used for IPv4
