@@ -102,6 +102,12 @@
 		- Find directly connected neighbors only using a Link-State Packet
 		- Floods to all neighbors who store the LSP in database
 		- Each router determines its own cost to each destination
+- Link State Algorithim
+	- Dijkstra gives end to end routes, routing tables are used to store next hop addresses
+	- Each router uess the database to construct a complete map of the network topology
+		- Computes least cost paths using Dijkstra and Constructs routing tables that show the destination address and next hop address
+	- Working
+		- 
 ## Hierarchical Routing (Lec 32)
 ## RIP & OSPF (Lec 33)
 
