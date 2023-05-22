@@ -98,6 +98,16 @@
 ## NAT & ICMP (Lec 29)
 ## Link State & Distance Vector Routing(Lec 30 & 31)
 - Trivia
+	- Comparison b/w the two
+		- Complexity
+			- LinkState: updates are sent to all
+			- DistanceVector: exchange b/w neighbors only
+		- Convergence
+			- LinkState: pata nai bhai its some O(n) stuff
+			- DistanceVector: might count to infinity, routing loops
+		- Malfunction?
+			- LinkState: Node might advertise incorrect link cost, only computes its own table
+			- DistanceVector: Node might advertise incorrect path cost, own nodes table is used by others, error will propagate thru the network
 	- Link State
 		- Find directly connected neighbors only using a Link-State Packet
 		- Floods to all neighbors who store the LSP in database
@@ -126,6 +136,9 @@
 			- FUCK IT, doing by hand
 	- Bellman-Ford Algorithm
 ## Hierarchical Routing (Lec 32)
+- Trivia
+	- aka Autonomous Systems (AS)
+	- 
 ## RIP & OSPF (Lec 33)
 
 ---
