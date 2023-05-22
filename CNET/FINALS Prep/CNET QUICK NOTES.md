@@ -6,7 +6,7 @@
 		- Used locally, its the name of the 
 	- ARP (Address Resolution Protocol)
 		- Used to resolve MAC addresses of hosts
-- ARP Table
+- ARP Table NOTE::Does not contain the Interface, thats on switch table
 	- Consists 
 		- IP Address
 		- MAC Address (usually the )
