@@ -1,10 +1,16 @@
 # Link Layer
 
-## MAC & ARP
+## MAC & ARP (Lec 36)
 - Trivia
 	- MAC (Media Access Control)
 		- Used locally, its the name of the 
 	- ARP (Address Resolution Protocol)
+		- Used to resolve MAC addresses of hosts
+- ARP Table
+	- Consists 
+		- IP Address
+		- MAC Address (usually the )
+		- TTL
 
 ## Ethernet & Switches (Lec 37)
 - Trivia 
