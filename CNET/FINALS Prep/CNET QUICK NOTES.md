@@ -96,8 +96,9 @@
 ## IP Addressing (Lec 27)
 ## IP Subnetting (Lec 28)
 ## NAT & ICMP (Lec 29)
-## Link State Routing (Lec 30) could merge 30 and 31
-## Distance Vector Routing (Lec 31)
+## Link State & Distance Vector Routing(Lec 30 & 31)
+- Trivia
+	- 
 ## Hierarchical Routing (Lec 32)
 ## RIP & OSPF (Lec 33)
 
