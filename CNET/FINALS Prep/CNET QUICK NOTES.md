@@ -138,7 +138,24 @@
 ## Hierarchical Routing | RIP & OSPF(Lec 32 & 33)
 - Trivia
 	- aka Autonomous Systems (AS)
-	- 
+	- runs intra-AS routing protocols (RIP, OSPF, IGRP) as well
+	- RIP
+		- uses DV algo
+		- limited to max hops of 15
+		- DV sent every 30 sec w neighbors
+		- Costs are from src to dest
+		- Hop means number of subnets traversed
+		- if no ad heard after 180, link is dead and new ad is to be sent
+		- managed by application level by route-d
+			- uses UDP
+	- OSPF
+		- uses LS algo
+		- link costs are setup by admin to 1
+		- link weights are inversely proportional to link capacity to discourage traffic from using low bandwidth linsk
+		- AD carries one entry per neighbor
+			- Flooded to entire AS
+			- uses either TCP/UDP
+			- LS is broadcast periodically or upon every 
 ---
 
 # Transport Layer
