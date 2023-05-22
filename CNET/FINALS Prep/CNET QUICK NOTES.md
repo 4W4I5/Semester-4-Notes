@@ -102,9 +102,12 @@
 		- Find directly connected neighbors only using a Link-State Packet
 		- Floods to all neighbors who store the LSP in database
 		- Each router determines its own cost to each destination
+		- Distributed algorithm
 		- Use of djikstra
 	- Distance Vector 
-		- 
+		- Distributed = Only communicates with directly attached neighbors
+		- Iterative = Self-terminating, continues until no nodes exchange info
+		- Asynchronous = wtf is this "nodes need not exchange info/iterate in lock step"
 - Link State Algorithm
 	- Dijkstra gives end to end routes, routing tables are used to store next hop addresses
 	- Each router uses the database to construct a complete map of the network topology
