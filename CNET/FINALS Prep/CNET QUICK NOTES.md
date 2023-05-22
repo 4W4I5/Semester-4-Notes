@@ -199,7 +199,11 @@
 - Trivia
 	- Autoassignment of IP to hosts
 	- PORT=67 for server | 68 for client over UDP 
-- Working
-	- DHCP discover = broadcast
+	- Shares gateway, DNS, next hop router and IP address of host
+- Working (all are broadcasts)
+	- DHCP discover
 		- source IP = 0.0.0.0
 		- destination IP = 255.255.255.255
+	- DHCP offer = offer IP of DHCP server and a usable IP
+	- DHCP request 
+	- DHCP ACK
