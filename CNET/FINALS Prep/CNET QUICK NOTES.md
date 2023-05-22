@@ -102,6 +102,9 @@
 		- Find directly connected neighbors only using a Link-State Packet
 		- Floods to all neighbors who store the LSP in database
 		- Each router determines its own cost to each destination
+		- Use of djikstra
+	- Distance Vector 
+		- 
 - Link State Algorithm
 	- Dijkstra gives end to end routes, routing tables are used to store next hop addresses
 	- Each router uses the database to construct a complete map of the network topology
@@ -118,6 +121,7 @@
 			- update D(nodeNew) w the following formula
 				- min of (D(prevNode), D(nodeNew) + cost(prevNode, newNode))
 			- FUCK IT, doing by hand
+	- Bellman-Ford Algorithm
 ## Hierarchical Routing (Lec 32)
 ## RIP & OSPF (Lec 33)
 
