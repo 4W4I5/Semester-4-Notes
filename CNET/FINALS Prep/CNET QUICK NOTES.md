@@ -135,12 +135,10 @@
 				- min of (D(prevNode), D(nodeNew) + cost(prevNode, newNode))
 			- FUCK IT, doing by hand
 	- Bellman-Ford Algorithm
-## Hierarchical Routing (Lec 32)
+## Hierarchical Routing | RIP & OSPF(Lec 32 & 33)
 - Trivia
 	- aka Autonomous Systems (AS)
 	- 
-## RIP & OSPF (Lec 33)
-
 ---
 
 # Transport Layer
