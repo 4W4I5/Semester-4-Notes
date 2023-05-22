@@ -134,7 +134,8 @@
 			- update D(nodeNew) w the following formula
 				- min of (D(prevNode), D(nodeNew) + cost(prevNode, newNode))
 			- FUCK IT, doing by hand
-	- Bellman-Ford Algorithm
+- Distance Vector Algorithm
+		- aka bellman-ford
 ## Hierarchical Routing | RIP & OSPF(Lec 32 & 33)
 - Trivia
 	- aka Autonomous Systems (AS)
@@ -148,14 +149,31 @@
 		- if no ad heard after 180, link is dead and new ad is to be sent
 		- managed by application level by route-d
 			- uses UDP
+		- only one path
 	- OSPF
 		- uses LS algo
 		- link costs are setup by admin to 1
-		- link weights are inversely proportional to link capacity to discourage traffic from using low bandwidth linsk
+		- link weights are inversely proportional to link capacity to discourage traffic from using low bandwidth links
 		- AD carries one entry per neighbor
 			- Flooded to entire AS
 			- uses either TCP/UDP
-			- LS is broadcast periodically or upon every 
+			- LS is broadcast periodically or upon every LS change
+		- Must implement its own RDT and LS broadcast features
+			- protocol num is 89
+		- multiple same cost paths are allowed
+		- can be structured hierarchically
+	- Hierarchical OSPF (needs refinement)
+		- two-level hierarchy
+			- local area, backbone
+			- LS AD only in area
+		- area border routers
+			- summarize distances to nets in own area, ad to other area border routers
+		- backbone routers
+			- run ospf routing to limited to backbone
+		- boundary routers
+			- connect to other AS's
+		- hot potato routing 
+			- choose the gateway that has the smallest lead cost
 ---
 
 # Transport Layer
