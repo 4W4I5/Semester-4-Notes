@@ -5,7 +5,8 @@
 	- MAC (Media Access Control)
 		- Used locally, its the name of the 
 	- ARP (Address Resolution Protocol)
-		- Used to resolve MAC addresses of hosts
+		- Used to resolve MAC addresses of hosts/Map an IP address to a MAC address
+		- usually used for IPv4
 - ARP Table NOTE::Does not contain the Interface, thats on switch table
 	- Consists 
 		- IP Address of the device
