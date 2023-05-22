@@ -76,6 +76,7 @@
 		- Entry of sender MAC address
 		- Time of sending 
 		- Interface the frame was received on 
+	- Maps MAC to an interface/port
 	- Filled using self-learning
 		- That is, every unknown sender frame is broadcast/flooded on all interfaces
 			- MAC address and interface added to the table
