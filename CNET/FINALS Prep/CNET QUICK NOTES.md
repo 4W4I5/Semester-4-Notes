@@ -128,7 +128,7 @@
 			- D(v) => current value of cost of path from source to destination
 			- p(v) => last visited node (predecessor)
 			- N' => set of nodes whos are last visited (least cost walay)
-		- Code: (agar smjh gaye toh guru ho)
+		- Code: (agar smjh gaye toh guru ho) {**IGNORE THIS**}
 			- Start the loop by using direct costs of neighbors otherwise theyre all infinity
 			- find nodeNew that isnt in last visited set and is also the lowest D(nodeNew)
 			- update D(nodeNew) w the following formula
