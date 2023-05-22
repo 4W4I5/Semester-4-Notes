@@ -196,4 +196,10 @@
 ## WebCache & FTP (Lec 09)
 ## DNS (Lec 11)
 ## DHCP (Lec 29)
-
+- Trivia
+	- Autoassignment of IP to hosts
+	- PORT=67 for server | 68 for client over UDP 
+- Working
+	- DHCP discover = broadcast
+		- source IP = 0.0.0.0
+		- destination IP = 255.255.255.255
