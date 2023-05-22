@@ -98,7 +98,10 @@
 ## NAT & ICMP (Lec 29)
 ## Link State & Distance Vector Routing(Lec 30 & 31)
 - Trivia
-	- 
+	- Link State
+		- Find directly connected neighbors only using a Link-State Packet
+		- Floods to all neighbors who store the LSP in database
+		- Each router determines its own cost to each destination
 ## Hierarchical Routing (Lec 32)
 ## RIP & OSPF (Lec 33)
 
