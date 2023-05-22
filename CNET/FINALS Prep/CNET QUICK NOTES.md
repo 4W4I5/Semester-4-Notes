@@ -115,7 +115,8 @@
 		- Code: (agar smjh gaye toh guru ho)
 			- Start the loop by using direct costs of neighbors otherwise theyre all infinity
 			- find nodeNew that isnt in last visited set and is also the lowest D(nodeNew)
-			- update D(new)
+			- update D(nodeNew) w the following formula
+				- 
 ## Hierarchical Routing (Lec 32)
 ## RIP & OSPF (Lec 33)
 
