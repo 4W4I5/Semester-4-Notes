@@ -93,13 +93,75 @@
 
 ## Network Layer Principles (Lec 25)
 ## IP Datagram (Lec 26)
+- Trivia
+	- IP HEADER
+		- 4 bits for version
+		- 4 for header len
+		- 8 for service
+		- 16 for packet length
+		- 16 for identifier
+		- 3 for flags and 13 for frag offset
+		- 8 for TTL
+		- 8 for upper layer protocol
+		- 16 for checksum
+		- 32 for src and dest IP
+		- payload
+		- 20 Bytes of overhead for TCP header and then another 20 for IP overhead
+	- Max Transmission Unit
+		- Length of largest frame sent over a link
+		- if larger than MTU
+			- Packet is fragmented
+	- IPv6 doesnt have fragmentation
+		- Causes complexity at the router
+		- can also be used to DOS
+- IP Fragmentation
+	- Components
+		- ID, random for each og full size packet. kept the same for fragmented packets from original
+		- Flags, first bit is reserved. other two are Dont Frag and More Frag flags 
+			- DF = 1, packet will be dropped if over MTU
+			- MF = 1, more fragments, 0 if not 
+				- Last frag MF is set to 0 others are 1
+		- Frag Offset
+			- work in octets (base 8)
 ## IP Addressing (Lec 27)
+- Trivia
+	- Talks about IPv4
+	- dotted decimal notation i.e 192.168.1.1
+	- conversion to binary
+	- networkID + hostID bits
+	- CIDR
+		- fixed bits denoted by /x
+		- 192.168.1.1/24 means there are 24 fixed bits
+			- it also means this is a class C network
+	- Address class
+		- OLD WAY had either 0, 10, or 110 at the start of an IP address to determine its class respectively from A to C
+		- also these classes have ranges
+			- CLASS A = 1 - 126
+			- CLASS B = 128 - 191
+			- CLASS C = 192 - 223
 ## IP Subnetting (Lec 28)
+- already know this lol
+- Just remember that u are supposed to iterate thru subnet bits 
+- subnet bits are derived from host bits
+- subnet mask is made up of network and host bits
+- subnet bits are used to extend the number of networks available within a IP range
 ## NAT & ICMP (Lec 29)
 - Trivia 
 	- NAT Network address translation
 		- made to cater with growing pains of adapting IPv6 
 		- one single public IP address is used to map an internal network
+		- Controversial
+			- Misuse of port numbers (meant for addressing processes not hosts)
+			- Routers are meant to process upto the network layer
+			- end to end policy violated
+			- problematic for P2P
+	- ICMP Internet Control Message Protocol
+		- Made to address limitation of data loss within the transport layer
+		- Error-reporting protocol
+		- ICMP messages are carried in IP datagrams
+			- Type, Code + 8 bytes of IP w the error
+			- Imagine tracert reporting that a particular router is down
+			- Header size of 8 bytes
 - NAT
 	- works by modifying the datagrams leaving the router to have a single source IP (the public IP) but varied source port numbers
 	- internally a NAT table is used to map a random port number to a host interface and this is used to send packets to and fro from a NAT network
