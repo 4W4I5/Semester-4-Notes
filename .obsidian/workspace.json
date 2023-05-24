@@ -4,22 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "1e4add19cf8a2bc8",
+        "id": "8fba3a73c2ff01a3",
         "type": "tabs",
         "children": [
           {
-            "id": "eb1b6baabf30fcab",
+            "id": "c7cee84a42f75fc3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CNET/FINALS Prep/CNET QUICK NOTES.md",
+                "file": "FSE/Sessional 2 Prep/FSE Sessional 2 Quick Notes ft Anonymous.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "22f7d221f349de3c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "FSE/Finals Prep/FSE Finals Quick Notes.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -77,8 +90,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 257.5,
-    "collapsed": true
+    "width": 257.5
   },
   "right": {
     "id": "1010b0dc0ef48981",
@@ -94,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CNET/FINALS Prep/CNET QUICK NOTES.md",
+                "file": "FSE/Finals Prep/FSE Finals Quick Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CNET/FINALS Prep/CNET QUICK NOTES.md",
+                "file": "FSE/Finals Prep/FSE Finals Quick Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CNET/FINALS Prep/CNET QUICK NOTES.md"
+                "file": "FSE/Finals Prep/FSE Finals Quick Notes.md"
               }
             }
           },
@@ -165,10 +177,28 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "eb1b6baabf30fcab",
+  "active": "c6bb1a0b5ef1e3e9",
   "lastOpenFiles": [
-    "CNET/FINALS Prep/CNET QUICK NOTES.md",
+    "FSE/Finals Prep/media/image9.png",
+    "FSE/Finals Prep/media/image8.png",
+    "FSE/Finals Prep/media/image7.png",
+    "FSE/Finals Prep/media/image6.png",
+    "FSE/Finals Prep/media/image5.png",
+    "FSE/Finals Prep/media/image4.png",
+    "FSE/Finals Prep/media/image3.png",
+    "FSE/Finals Prep/media/image2.png",
+    "FSE/Finals Prep/media/image17.png",
+    "FSE/Finals Prep/media/image16.png",
+    "FSE/Finals Prep/media/image15.png",
+    "FSE/Finals Prep/media",
+    "FSE/Finals Prep/Untitled.md",
+    "FSE/Finals Prep/FSE Finals Quick Notes.md",
+    "Untitled.md",
+    "FSE/Sessional 2 Prep/FSE Sessional 2 Quick Notes ft Anonymous.md",
+    "FSE/Finals Prep",
+    "FSE/FSE 13 Mar, 2023.md",
     "Untitled 7.md",
+    "CNET/FINALS Prep/CNET QUICK NOTES.md",
     "Untitled 6.md",
     "CNET/CNET 3 May, 2023.md",
     "CNET/CNET 5 May, 2023.md",
@@ -181,37 +211,19 @@
     "wh.md",
     "w.md",
     "CNET/Sessional 2 Prep/CNET Sessional 2 Quick Notes.md",
-    "Untitled.md",
     "README.md",
-    "Pasted image 20230503135612.png",
     "Untitled 1.md",
     "Untitled 2.md",
     "Untitled 3.md",
     "CNET/CNET 8 Feb, 2023.md",
     "CNET/CNET 17 Apr, 2023.md",
-    "CNET/CNET 26 April, 2023.md",
     "CNET/FINALS Prep",
-    "CLC/CLC 27 Apr, 2023.md",
-    "CLC/CLC 2 May, 2023.md",
-    "CLC/CLC 9 May, 2023.md",
-    "CLC/AZ-900 PREP.md",
-    "Pasted image 20230426131837.png",
     "FOM/Sessional 2 Prep",
-    "FSE/Sessional 2 Prep/media/image1.png",
-    "FSE/Sessional 2 Prep/media/image14.png",
-    "FSE/Sessional 2 Prep/media/image11.png",
-    "FSE/Sessional 2 Prep/media/image17.png",
-    "FSE/Sessional 2 Prep/media/image15.png",
-    "FSE/Sessional 2 Prep/media/image4.png",
-    "FSE/Sessional 2 Prep/media/image8.png",
-    "FSE/Sessional 2 Prep/media/image9.png",
     "FSE/Sessional 2 Prep/media",
     "FSE/Sessional 2 Prep/vertopal_e28648e35e61439e9895af88d6b5e081",
     "FSE/Sessional 2 Prep/e28648e35e61439e9895af88d6b5e081.markdown",
     "FSE/Sessional 2 Prep",
     "CNET/Sessional 2 Prep",
-    "CLC/Sessional 2 Prep",
-    "TBW/Sessional 2 Prep",
-    "FOM/Sessional 1 Prep"
+    "CLC/Sessional 2 Prep"
   ]
 }
