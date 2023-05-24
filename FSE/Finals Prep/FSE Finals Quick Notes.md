@@ -1,3 +1,8 @@
+
+# Sessional 1
+idk
+---
+# Sessional 2
 ## Software Process Models
 
 - ##### Generic process framework
@@ -498,3 +503,7 @@ Activity diagram (CHATGPT)
 1. Swim Lane Diagrams are UML diagrams that are used to represent the flow of activities between different actors, systems, or processes.
 2. Swim Lane Diagrams consist of a series of parallel lanes, with each lane representing a different actor, system, or process.
 3. Swim Lane Diagrams can be used to model complex workflows and to improve the clarity and organization of an activity diagram.
+
+---
+# After Sessional 2
+
