@@ -1,8 +1,10 @@
-
 # Sessional 1
+
 idk
 ---
+
 # Sessional 2
+
 ## Software Process Models
 
 - ##### Generic process framework
@@ -505,7 +507,7 @@ Activity diagram (CHATGPT)
 3. Swim Lane Diagrams can be used to model complex workflows and to improve the clarity and organization of an activity diagram.
 
 ---
+
 # After Sessional 2
 
 ## Test Cases Format
-- 
