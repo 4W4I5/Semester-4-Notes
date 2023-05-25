@@ -524,11 +524,52 @@ Activity diagram (CHATGPT)
 	- Test Result
 
 ### Class Diagram
+- Identify the classes/entities in the system.
+- Determine the attributes (properties) of each class.
+- Identify the methods (behaviors) of each class.
+- Define the relationships between classes (e.g., association, inheritance, aggregation, etc.).
+- Draw the class diagram, including the classes, attributes, methods, and relationships.
 ### System Sequence Diagram
+- Identify the actors (users or external systems) interacting with the system.
+- Identify the system's use cases or functionalities.
+- For each use case, identify the sequence of messages or method calls between the actors and the system.
+- Draw the sequence diagram, showing the actors, use cases, and the sequence of messages or method calls.
 ### System Diagram
+- Identify the components or subsystems in the system.
+- Determine the relationships and dependencies between the components.
+- Determine the interfaces between the components.
+- Draw the system diagram, representing the components and their relationships.
 ### Activity Diagram
+- Identify the activities or actions within the system.
+- Determine the sequence and flow of activities.
+- Identify decision points or branching conditions.
+- Define the start and end points of the activity diagram.
+- Draw the activity diagram, representing the flow of activities and decision points.
+### State Diagram:
+
+- Identify the objects or system components that have different states.
+- Determine the possible states for each object/component.
+- Identify the events or conditions that trigger state transitions.
+- Define the actions or behaviors associated with each state transition.
+- Draw the state diagram, representing the states, transitions, and actions.
+### Data Flow Diagram:
+
+- Identify the processes, data flows, and data stores in the system.
+- Determine the inputs and outputs of each process.
+- Identify the data flows between processes and data stores.
+- Draw the data flow diagram, representing the processes, data flows, and data stores.
 ### Usecase Diagram
+- Identify the actors (users or external systems) interacting with the system.
+- Identify the use cases or functionalities of the system.
+- Determine the relationships between actors and use cases (e.g., association, extend, include).
+- Draw the use case diagram, representing the actors, use cases, and their relationships.
 ### UseCase Description 
+- Identify the use case for which you want to create a description.
+- Describe the purpose or goal of the use case.
+- List the actors involved in the use case.
+- Outline the steps or interactions involved in the use case.
+- Document any preconditions or requirements for the use case.
+- Include any postconditions or expected outcomes of the use case.
 
 
 
