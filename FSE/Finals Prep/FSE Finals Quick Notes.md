@@ -510,7 +510,7 @@ Activity diagram (CHATGPT)
 
 # Quick Quick prep 
 
-## Test Cases Format
+### Test Cases Format
 - Header
 	- Test Case ID w Name
 	- Purpose
@@ -522,3 +522,14 @@ Activity diagram (CHATGPT)
 	- Expected Output
 	- Actual Output
 	- Test Result
+
+### Class Diagram
+### System Sequence Diagram
+### System Diagram
+### Activity Diagram
+### Usecase Diagram
+### UseCase Description 
+
+
+
+
