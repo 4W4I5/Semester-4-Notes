@@ -508,6 +508,17 @@ Activity diagram (CHATGPT)
 
 ---
 
-# After Sessional 2
+# Quick Quick prep 
 
 ## Test Cases Format
+- Header
+	- Test Case ID w Name
+	- Purpose
+	- PreReq
+	- Test Data
+- Steps
+	- ID
+	- Input
+	- Expected Output
+	- Actual Output
+	- Test Result

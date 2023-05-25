@@ -90,7 +90,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 257.5
+    "width": 257.5,
+    "collapsed": true
   },
   "right": {
     "id": "1010b0dc0ef48981",
@@ -177,7 +178,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "c6bb1a0b5ef1e3e9",
+  "active": "22f7d221f349de3c",
   "lastOpenFiles": [
     "FSE/Finals Prep/media/image9.png",
     "FSE/Finals Prep/media/image8.png",
