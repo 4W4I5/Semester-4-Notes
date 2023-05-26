@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "FOM/Sessional 2 Prep/FOM Sessional 2 Quick Notes.md",
+                "file": "FOM/Finals Prep/FOM Quick Notes.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "FOM/Sessional 2 Prep/FOM Sessional 2 Quick Notes.md",
+                "file": "FOM/Finals Prep/FOM Quick Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "FOM/Sessional 2 Prep/FOM Sessional 2 Quick Notes.md",
+                "file": "FOM/Finals Prep/FOM Quick Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "FOM/Sessional 2 Prep/FOM Sessional 2 Quick Notes.md"
+                "file": "FOM/Finals Prep/FOM Quick Notes.md"
               }
             }
           },
@@ -166,6 +166,7 @@
   },
   "active": "7ffb1428aba9e602",
   "lastOpenFiles": [
+    "FOM/Sessional 2 Prep/FOM Sessional 2 Quick Notes.md",
     "FOM/Finals Prep/FOM Quick Notes.md",
     "FOM/Sessional 1 Prep/Chapter 1 notes.md",
     "FOM/Finals Prep",
@@ -204,7 +205,6 @@
     "Untitled 1.md",
     "Untitled 2.md",
     "Untitled 3.md",
-    "CNET/CNET 8 Feb, 2023.md",
     "CNET/FINALS Prep",
     "FOM/Sessional 2 Prep",
     "FSE/Sessional 2 Prep/media",
