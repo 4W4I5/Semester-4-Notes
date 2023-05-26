@@ -383,7 +383,7 @@
    - Developing professionalism is crucial for career success as it contributes to personal reputation, credibility, and opportunities for growth.
 
 2. **Work Ethic and Professional Behavior:**
-   - Work ethic encompasses the values, attitudes, and behaviors that individuals bring to their work. It includes attributes such as reliability, accountability, punctuality, and dedication to excellence.
+   - **Work ethic** encompasses the values, attitudes, and behaviors that individuals bring to their work. It includes attributes such as reliability, accountability, punctuality, and dedication to excellence.
    - Professional behavior involves maintaining a positive attitude, demonstrating ethical conduct, and adhering to professional standards and codes of conduct.
 
 3. **Effective Communication Skills:**
@@ -403,16 +403,16 @@
    - Flexibility involves being responsive to shifting priorities, adjusting work schedules, and demonstrating a willingness to take on new responsibilities.
 
 7. **Continuous Learning and Professional Development:**
-   - Continuous learning is a commitment to acquiring new knowledge, skills, and competencies throughout one's career. It includes participating in training programs, attending conferences, pursuing certifications, and staying updated with industry trends.
-   - Professional development involves setting goals, seeking feedback, and engaging in activities that enhance professional skills and expertise.
+   - **Continuous learning** is a commitment to acquiring new knowledge, skills, and competencies throughout one's career. It includes participating in training programs, attending conferences, pursuing certifications, and staying updated with industry trends.
+   - **Professional development** involves setting goals, seeking feedback, and engaging in activities that enhance professional skills and expertise.
 
 8. **Employability Skills and Career Planning:**
-   - Employability skills are the transferable skills and qualities that make individuals desirable to employers. They include problem-solving, teamwork, leadership, critical thinking, and adaptability.
-   - Career planning involves identifying career goals, assessing skills and interests, exploring career options, and developing a strategic plan to achieve professional objectives.
+   - **Employability skills** are the transferable skills and qualities that make individuals desirable to employers. They include problem-solving, teamwork, leadership, critical thinking, and adaptability.
+   - **Career planning** involves identifying career goals, assessing skills and interests, exploring career options, and developing a strategic plan to achieve professional objectives.
 
 9. **Professional Etiquette and Workplace Etiquette:**
-   - Professional etiquette encompasses the accepted norms and behaviors in a professional setting. It includes proper business etiquette, meeting etiquette, email etiquette, and phone etiquette.
-   - Workplace etiquette involves respecting colleagues, practicing good manners, maintaining confidentiality, and demonstrating professionalism in interactions and relationships within the workplace.
+   - **Professional etiquette** encompasses the accepted norms and behaviors in a professional setting. It includes proper business etiquette, meeting etiquette, email etiquette, and phone etiquette.
+   - **Workplace etiquette** involves respecting colleagues, practicing good manners, maintaining confidentiality, and demonstrating professionalism in interactions and relationships within the workplace.
 
 10. **Ethics and Professional Responsibility:**
     - Ethics in the workplace involves making ethical decisions, upholding integrity, and adhering to professional and organizational values.
@@ -421,31 +421,32 @@
 11. **Time Management and Organization Skills:**
    - Time management involves effectively allocating and prioritizing tasks, setting deadlines, and utilizing tools and techniques to maximize productivity.
    - Organization skills encompass the ability to maintain order, manage resources efficiently, and stay structured in the workplace.
+
 12. **Leadership and Teamwork:**
    - Leadership skills involve the ability to inspire, motivate, and guide others towards a common goal. Effective leaders delegate tasks, provide feedback, and foster a collaborative and inclusive work environment.
    - Teamwork skills encompass the ability to work harmoniously with colleagues, contribute to group projects, and leverage collective strengths to achieve shared objectives.
 
-13. **Problem-solving and Critical Thinking:**
+12. **Problem-solving and Critical Thinking:**
    - Problem-solving skills involve identifying challenges, analyzing situations, and developing effective solutions. This includes gathering information, evaluating options, and implementing strategies to overcome obstacles.
    - Critical thinking skills enable individuals to assess information objectively, analyze complex problems, and make sound judgments based on evidence and logical reasoning.
 
-14. **Global and Intercultural Competence:**
+13. **Global and Intercultural Competence:**
    - Global and intercultural competence involves understanding and appreciating cultural differences, communicating effectively across diverse cultures, and adapting to global business practices.
    - Being globally competent enhances one's ability to collaborate with colleagues from different backgrounds, navigate cross-cultural situations, and thrive in an increasingly interconnected world.
 
-15. **Emotional Intelligence and Interpersonal Skills:**
+14. **Emotional Intelligence and Interpersonal Skills:**
    - Emotional intelligence encompasses the ability to recognize and manage one's emotions and understand and empathize with others. It involves effective communication, conflict resolution, and building positive relationships.
    - Interpersonal skills include active listening, empathy, persuasion, negotiation, and maintaining professional relationships, all of which contribute to successful interactions with colleagues, clients, and stakeholders.
 
-16. **Resilience and Stress Management:**
+15. **Resilience and Stress Management:**
    - Resilience refers to the ability to bounce back from setbacks, adapt to challenges, and maintain a positive attitude in the face of adversity. It involves managing stress, maintaining work-life balance, and seeking support when needed.
    - Effective stress management techniques, such as prioritizing self-care, practicing mindfulness, and implementing relaxation strategies, contribute to maintaining well-being and optimal performance.
 
-17. **Ethical Leadership and Corporate Social Responsibility:**
+16. **Ethical Leadership and Corporate Social Responsibility:**
    - Ethical leadership involves demonstrating integrity, making ethical decisions, and promoting ethical behavior within the organization. Ethical leaders prioritize the well-being of employees, stakeholders, and society at large.
    - Corporate social responsibility entails organizations taking responsibility for their impact on society and engaging in practices that contribute positively to environmental sustainability, social justice, and community welfare.
 
-18. **Digital Literacy and Technology Skills:**
+17. **Digital Literacy and Technology Skills:**
    - Digital literacy involves being proficient in using technology tools, applications, and platforms relevant to the workplace. It includes skills such as data analysis, online collaboration, digital communication, and cybersecurity awareness.
    - Staying updated with emerging technologies, embracing digital transformation, and leveraging technology to enhance work processes are vital for professional success in today's digital age.
 
