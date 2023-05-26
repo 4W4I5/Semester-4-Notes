@@ -56,7 +56,7 @@
 - Good managers can help organizations adapt to changes in the environment and achieve their objectives.
 - Poor management can lead to organizational failure and negative consequences for stakeholders.
 
-#### Historical Perspectives on Management (not included)
+#### Historical Perspectives on Management 
 
 - The classical approach to management emphasized rationality and efficiency.
 - The behavioral approach focused on the social and psychological aspects of work.

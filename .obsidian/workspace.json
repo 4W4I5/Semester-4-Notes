@@ -13,8 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "FOM/Sessional 2 Prep/FOM Sessional 2 Quick Notes.md",
+                "file": "FOM/Finals Prep/FOM Quick Notes.md",
                 "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "f60f3565a7c879ed",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "187962c697e70114",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "FOM/Finals Prep/FOM Quick Notes.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -93,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "FOM/Sessional 2 Prep/FOM Sessional 2 Quick Notes.md",
+                "file": "FOM/Finals Prep/FOM Quick Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "FOM/Sessional 2 Prep/FOM Sessional 2 Quick Notes.md",
+                "file": "FOM/Finals Prep/FOM Quick Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "FOM/Sessional 2 Prep/FOM Sessional 2 Quick Notes.md"
+                "file": "FOM/Finals Prep/FOM Quick Notes.md"
               }
             }
           },
@@ -164,15 +182,15 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "7ffb1428aba9e602",
+  "active": "187962c697e70114",
   "lastOpenFiles": [
+    "FOM/Sessional 2 Prep/FOM Sessional 2 Quick Notes.md",
     "FOM/Sessional 1 Prep/Technology and management.md",
     "FOM/Sessional 1 Prep/Merged notes.md",
     "FOM/FOM 16 Mar, 2023.md",
     "FOM/FOM 9 Mar, 2023.md",
     "FOM/FOM 23 Feb, 2023.md",
     "FOM/Finals Prep/FOM Quick Notes.md",
-    "FOM/Sessional 2 Prep/FOM Sessional 2 Quick Notes.md",
     "FOM/Sessional 1 Prep/Chapter 1 notes.md",
     "FOM/Finals Prep",
     "FSE/Sessional 2 Prep/FSE Sessional 2 Quick Notes ft Anonymous.md",
