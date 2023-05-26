@@ -498,7 +498,7 @@
    - Managing diversity and promoting inclusion improves organizational performance, creativity, and employee satisfaction.
 
 10. **Workplace Behaviors and Ethics:**
-    - Workplace behavior refers to the actions, interactions, and conduct of individuals within the organization.
-    - Ethical behavior involves adhering to moral principles and values in the workplace.
+    - Workplace behavior refers to the **actions, interactions, and conduct** of individuals within the organization.
+    - Ethical behavior involves adhering to **moral principles and values** in the workplace.
     - Managers play a critical role in promoting ethical behavior, setting a positive example, and addressing unethical conduct.
 
