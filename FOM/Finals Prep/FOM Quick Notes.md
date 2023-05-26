@@ -421,7 +421,6 @@
 11. **Time Management and Organization Skills:**
    - Time management involves effectively allocating and prioritizing tasks, setting deadlines, and utilizing tools and techniques to maximize productivity.
    - Organization skills encompass the ability to maintain order, manage resources efficiently, and stay structured in the workplace.
-
 12. **Leadership and Teamwork:**
    - Leadership skills involve the ability to inspire, motivate, and guide others towards a common goal. Effective leaders delegate tasks, provide feedback, and foster a collaborative and inclusive work environment.
    - Teamwork skills encompass the ability to work harmoniously with colleagues, contribute to group projects, and leverage collective strengths to achieve shared objectives.
