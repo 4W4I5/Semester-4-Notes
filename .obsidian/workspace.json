@@ -31,8 +31,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -106,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "FSE/Sessional 2 Prep/FSE Sessional 2 Quick Notes ft Anonymous.md",
+                "file": "FSE/Finals Prep/FSE Finals Quick Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "FSE/Sessional 2 Prep/FSE Sessional 2 Quick Notes ft Anonymous.md",
+                "file": "FSE/Finals Prep/FSE Finals Quick Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "FSE/Sessional 2 Prep/FSE Sessional 2 Quick Notes ft Anonymous.md"
+                "file": "FSE/Finals Prep/FSE Finals Quick Notes.md"
               }
             }
           },
@@ -177,10 +176,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "dc7f7d14fc9a3bd1",
+  "active": "22f7d221f349de3c",
   "lastOpenFiles": [
-    "FSE/Finals Prep/FSE Finals Quick Notes.md",
     "FSE/Sessional 2 Prep/FSE Sessional 2 Quick Notes ft Anonymous.md",
+    "FSE/Finals Prep/FSE Finals Quick Notes.md",
     "FSE/Finals Prep/media/image9.png",
     "FSE/Finals Prep/media/image8.png",
     "FSE/Finals Prep/media/image7.png",
