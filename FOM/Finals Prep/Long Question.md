@@ -1,0 +1,2 @@
+- [ ] Do not take more than 1.5hr
+- [ ] Answer should not exceed 1.5 pages
