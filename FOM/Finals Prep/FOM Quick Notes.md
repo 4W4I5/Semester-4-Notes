@@ -4,7 +4,7 @@
 - [ ] Chapter 8: Managing Human Resources & Diversity + Professionalism Module
 - [ ] Chapter 10: Understanding Individual Behavior
 
-# Chapter 1: Managing Toda
+# Chapter 1: Managing Today
 
 #### Definition of Management
 
