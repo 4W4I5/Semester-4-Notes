@@ -4,28 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "b0a0d57eba299f6d",
+        "id": "6bbf313374fe3170",
         "type": "tabs",
         "children": [
           {
-            "id": "7ffb1428aba9e602",
+            "id": "b793b0e91a131bfc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "FOM/Finals Prep/FOM Quick Notes.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8c13b062e563708b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "FOM/Finals Prep/Long Question.md",
+                "file": "CLC/AZ-900 PREP.md",
                 "mode": "source",
                 "source": false
               }
@@ -106,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "FOM/Finals Prep/FOM Quick Notes.md",
+                "file": "CLC/AZ-900 PREP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "FOM/Finals Prep/FOM Quick Notes.md",
+                "file": "CLC/AZ-900 PREP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "FOM/Finals Prep/FOM Quick Notes.md"
+                "file": "CLC/AZ-900 PREP.md"
               }
             }
           },
@@ -177,7 +165,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "7ffb1428aba9e602",
+  "active": "b793b0e91a131bfc",
   "lastOpenFiles": [
     "FOM/Finals Prep/Long Question.md",
     "FOM/Finals Prep/FOM Quick Notes.md",
