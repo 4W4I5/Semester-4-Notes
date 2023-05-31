@@ -8,10 +8,24 @@
 		- Private Cloud tenancy includes sharing an onsite datacenter w multiple business units i.e the organization manages the hardware and grants more individual level control to its tenants
 		- Public Cloud tenancy includes sharing resources b/w multiple organizations
 	- Cloud Computing Models
+		- Not required for services to fit these models, as this is a reference model
 		- IaaS
+			- Cloud Based Services over Internet
+			- Access to networking, computational and storage resources
+			- 
 		- PaaS
+			- Tools over Internet
+			- Development/Application Platforms
+			- Examples
+				- Databases
+				- VMs
+				- File Servers
 		- SaaS
+			- Product over Internet
 	- Cloud Deployment Models
+		- Public
+		- Private
+		- Hybrid
 - ### Advantages of Cloud Computing
 - ### Intro to AWS
 - ### AWS CAF
