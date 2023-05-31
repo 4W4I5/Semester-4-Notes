@@ -39,5 +39,47 @@
 	- No costs on running and maintaining servers
 	- Global in minutes
 - ### Intro to AWS
-	- 
+	- What is AWS
+		- Secure Cloud Platform, with broad set of global products
+		- Offers flexibility
+		- Pay as u go
+	- Ways to interact with AWS
+		- AWS Management Console
+		- AWS CLI
+		- AWS SDK
 - ### AWS CAF
+	- **Business Capabilities**
+		- Business (IT aligned with business needs)
+			- IT Finance & Strategy
+			- Benefits Realization
+			- Business Risk Management
+		- People (Training, Staffing & Organizational Changes)
+			- Resource, Incentive, Career, Training and Organizational Change Management
+		- Governance (Align IT Strat & Goals with Business Strat & Goals)
+			- Portfolio, Program, Project, Business Performance and License Management
+	- **Technical Capabilities**
+		- Platform (Describe Architecture of target state environment in detail)
+			- Provisioning of Compute, Network, Storage and Database resources
+			- Systems and Solution Architecture
+			- Application Dev
+		- Security (Meet org security objectives)
+			- Identity & Access Management
+			- Detective Control
+			- Infrastructure Security
+			- Data Protection
+			- Incident Response
+		- Operations (Define day2day, quarter2quarter & year2year business)
+			- Service
+			- App performance monitor
+			- Resource inventory
+			- Release management
+			- Reporting & Business continuity
+			- IT Service
+
+# Module 2: Cloud Economics & Billing
+
+- ### Fundamentals of Pricing
+- ### Total Cost of Ownership
+- ### AWS Organizations
+- ### AWS Billing & Cost Management
+- ### Technical Support
