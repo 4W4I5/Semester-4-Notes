@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CLC/CLC 30 Mar, 2023.md",
+                "file": "CLC/Finals Prep/CLC Finals Quick Notes.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CLC/CLC 30 Mar, 2023.md",
+                "file": "CLC/Finals Prep/CLC Finals Quick Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CLC/CLC 30 Mar, 2023.md",
+                "file": "CLC/Finals Prep/CLC Finals Quick Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CLC/CLC 30 Mar, 2023.md"
+                "file": "CLC/Finals Prep/CLC Finals Quick Notes.md"
               }
             }
           },
@@ -166,6 +166,9 @@
   },
   "active": "1ffceb9d106d6c0a",
   "lastOpenFiles": [
+    "CLC/CLC 30 Mar, 2023.md",
+    "CLC/Finals Prep/CLC Finals Quick Notes.md",
+    "CLC/Finals Prep",
     "CLC/CLC 28 Mar, 2023.md",
     "CLC/CLC 2 Mar, 2023.md",
     "CLC/CLC 14 Mar, 2023.md",
@@ -177,7 +180,6 @@
     "CLC/CLC 2 May, 2023.md",
     "CLC/CLC 27 Apr, 2023.md",
     "CLC/CLC 9 Feb, 2023.md",
-    "CLC/CLC 30 Mar, 2023.md",
     "CLC/CLC 2 Feb, 2023.md",
     "CLC/CLC 10 Feb, 2023.md",
     "CLC/CLC 21 Feb, 2023.md",
@@ -191,7 +193,6 @@
     "FOM/FOM 16 Mar, 2023.md",
     "FOM/FOM 9 Mar, 2023.md",
     "FOM/FOM 23 Feb, 2023.md",
-    "FOM/Sessional 1 Prep/Chapter 1 notes.md",
     "FOM/Finals Prep",
     "FSE/Finals Prep/media/image9.png",
     "FSE/Finals Prep/media/image8.png",
@@ -210,7 +211,6 @@
     "FSE/Sessional 2 Prep/media",
     "FSE/Sessional 2 Prep/vertopal_e28648e35e61439e9895af88d6b5e081",
     "FSE/Sessional 2 Prep/e28648e35e61439e9895af88d6b5e081.markdown",
-    "FSE/Sessional 2 Prep",
-    "CNET/Sessional 2 Prep"
+    "FSE/Sessional 2 Prep"
   ]
 }
