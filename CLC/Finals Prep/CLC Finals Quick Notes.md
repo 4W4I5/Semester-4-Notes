@@ -24,8 +24,20 @@
 			- Product over Internet
 	- Cloud Deployment Models
 		- Public
+			- Accessible by all, Off-Site, Managed by 3rd party provider and intended for the public or a large industry group
 		- Private
+			- Trusted access only, On-Site, Managed by organization and intended for a single organization too
+			- Sought for ability to dedicate resources with more control
 		- Hybrid
+			- Accessible by access only and all, On/Off-site, Managed by both organization/3rd party provider.
+			- Consists of two or more Private/Public Clouds bound together by tech that enables data/application portability i.e. cloud bursting (load balancing b/w clouds)
 - ### Advantages of Cloud Computing
+	- Trade Capital Expense for Variable Expense (PayAsYouGo)
+	- Benefit from Economies of Scale
+	- Stop Guessing Capacity
+	- Increase Speed & Agility
+	- No costs on running and maintaining servers
+	- Global in minutes
 - ### Intro to AWS
+	- 
 - ### AWS CAF
