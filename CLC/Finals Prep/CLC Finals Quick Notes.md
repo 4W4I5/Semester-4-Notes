@@ -1,6 +1,6 @@
 
 # Module 1: Introduction to CC
-- ### Introduction To Cloud Computing
+- ### Section 1: Introduction To Cloud Computing
 	- NIST DEF
 		- Enables Ubiquitous, Convenient, On-Demand Network Access to a Shared Pool of Configurable Computing Resources that can be Rapidly Provisioned and Released with Minimal Management effort or service provider interaction
 	- Multi-Tenancy
@@ -31,14 +31,14 @@
 		- Hybrid
 			- Accessible by access only and all, On/Off-site, Managed by both organization/3rd party provider.
 			- Consists of two or more Private/Public Clouds bound together by tech that enables data/application portability i.e. cloud bursting (load balancing b/w clouds)
-- ### Advantages of Cloud Computing
+- ### Section 2: Advantages of Cloud Computing
 	- Trade Capital Expense for Variable Expense (PayAsYouGo)
 	- Benefit from Economies of Scale
 	- Stop Guessing Capacity
 	- Increase Speed & Agility
 	- No costs on running and maintaining servers
 	- Global in minutes
-- ### Intro to AWS
+- ### Section 3: Intro to AWS
 	- What is AWS
 		- Secure Cloud Platform, with broad set of global products
 		- Offers flexibility
@@ -47,7 +47,7 @@
 		- AWS Management Console
 		- AWS CLI
 		- AWS SDK
-- ### AWS CAF
+- ### Section 4: AWS CAF
 	- **Business Capabilities**
 		- Business (IT aligned with business needs)
 			- IT Finance & Strategy
@@ -78,27 +78,28 @@
 
 # Module 2: Cloud Economics & Billing
 
-- ### Fundamentals of Pricing
+- ### Section 1: Fundamentals of Pricing
 	- AWS Pricing Model
 		- Compute
 		- Storage 
 		- Data Transfer
-- ### Total Cost of Ownership
-- ### AWS Organizations
-- ### AWS Billing & Cost Management
-- ### Technical Support
+- ### Section 2: Total Cost of Ownership
+- ### Section 3: AWS Organizations
+- ### Section 4: AWS Billing & Cost Management
+- ### Section 5: Technical Support
 
 
 ---
 
-- [ ] Module 4 KMS, slide 65 onwards
-- [ ] Module 5: Networking & Content Delivery
-- [ ] Module 6: Compute slides 1 to 16
-- [ ] Module 7: Storage EBS only
+# Module 3: 
+
 ---
 
 # Module 4: AWS IAM (KMS onwards from 65)
 
+## Section 1:
+## Section 2: 
+## Section 3: 
 ## Section 4: Securing Accounts
 
 ### Encryption of Data (AWS Cert Manager)
@@ -276,7 +277,7 @@
 ---
 
 # Module 5: Networking & Content Delivery
-
+## Section 1: 
 ## Section 2: AWS VPC
 
 ### Amazon VPC (Virtual Private Cloud)
