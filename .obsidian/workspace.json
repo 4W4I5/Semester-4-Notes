@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "3ae400142823afb4",
+        "id": "b4786a14af3b9ec3",
         "type": "tabs",
         "children": [
           {
-            "id": "1ffceb9d106d6c0a",
+            "id": "67b0c85a25eb9cd7",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -77,8 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 257.5,
-    "collapsed": true
+    "width": 257.5
   },
   "right": {
     "id": "1010b0dc0ef48981",
@@ -165,10 +164,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "1ffceb9d106d6c0a",
+  "active": "67b0c85a25eb9cd7",
   "lastOpenFiles": [
-    "CLC/CLC 30 Mar, 2023.md",
+    "CLC/Sessional 2 Prep/CLC Sessional 2 Quick Notes.md",
     "CLC/Finals Prep/CLC Finals Quick Notes.md",
+    "CLC/CLC 30 Mar, 2023.md",
     "CLC/Finals Prep",
     "CLC/CLC 28 Mar, 2023.md",
     "CLC/CLC 2 Mar, 2023.md",
@@ -193,7 +193,6 @@
     "FOM/Sessional 1 Prep/Merged notes.md",
     "FOM/FOM 16 Mar, 2023.md",
     "FOM/FOM 9 Mar, 2023.md",
-    "FOM/FOM 23 Feb, 2023.md",
     "FOM/Finals Prep",
     "FSE/Finals Prep/media/image9.png",
     "FSE/Finals Prep/media/image8.png",
