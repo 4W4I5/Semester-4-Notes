@@ -79,6 +79,10 @@
 # Module 2: Cloud Economics & Billing
 
 - ### Fundamentals of Pricing
+	- AWS Pricing Model
+		- Compute
+		- Storage 
+		- Data Transfer
 - ### Total Cost of Ownership
 - ### AWS Organizations
 - ### AWS Billing & Cost Management
