@@ -41,12 +41,12 @@
 			- Accessible by access only and all, On/Off-site, Managed by both organization/3rd party provider.
 			- Consists of two or more Private/Public Clouds bound together by tech that enables data/application portability i.e. cloud bursting (load balancing b/w clouds)
 - ### Section 2: Advantages of Cloud Computing
-	- Trade Capital Expense for Variable Expense (PayAsYouGo)
-	- Benefit from Economies of Scale
-	- Stop Guessing Capacity
-	- Increase Speed & Agility
-	- No costs on running and maintaining servers
-	- Global in minutes
+	- Pay only for the resources you consume (variable cost vs upfront capital expenditure)
+	- Economies of scale achieved by aggregate of all users
+	- Scaling on demand
+	- Speed and flexibility - changes are software level, not hardware like traditional computing
+	- Lower overhead due to not maintaining hardware and data centers
+	- Data centers are global, like a company's customer base
 - ### Section 3: Intro to AWS
 	- What is AWS
 		- Secure Cloud Platform, with broad set of global products
@@ -136,7 +136,17 @@
 			- Group based account management
 			- Application programming interfaces (APIs) that automate account management
 			- Consolidated billing
+		- Security
+			- Control access with AWS Identity and Access Management (IAM)
+			- IAM policies enable you to allow or deny access to AWS services for users, groups, and roles.
+			- Service control policies (SCPs) enable you to allow or deny access to AWS services for individuals or group accounts in an organizational unit (OU).
 	- AWS Billing & Cost management
+		- Definition
+			- Used to pay AWS Bill, monitor usage & analyze and control your costs
+		- Tools
+			- **AWS Budgets:** It gives you the ability to set custom budgets that alert you when your costs or usage exceed (or are forecasted to exceed) your budgeted amount. You can also use it to set reservation utilization or coverage targets and receive alerts when your utilization drops below the threshold you define.
+			- **AWS Cost and Usage Report:** Tracks your AWS usage and provides estimated charges associated with your account.
+			- **AWS Cost Explorer:** Visualize, understand, and manage AWS costs and usage over time.
 - ### Section 4: AWS Billing & Cost Management
 - ### Section 5: Technical Support
 
