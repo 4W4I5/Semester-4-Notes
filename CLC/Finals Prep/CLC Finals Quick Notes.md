@@ -1,5 +1,5 @@
 - [x] Module 1
-- [ ] Module 2
+- [x] Module 2
 - [ ] Module 3
 - [ ] Module 4
 - [ ] Module 5
@@ -8,7 +8,9 @@
 - [ ] Module 8
 - [ ] Module 9
 - [ ] Module 10
+
 # Module 1: Introduction to CC
+
 - ### Section 1: Introduction To Cloud Computing
 	- NIST DEF
 		- Enables Ubiquitous, Convenient, On-Demand Network Access to a Shared Pool of Configurable Computing Resources that can be Rapidly Provisioned and Released with Minimal Management effort or service provider interaction
@@ -21,7 +23,7 @@
 		- IaaS
 			- Cloud Based Services over Internet
 			- Access to networking, computational and storage resources
-			- 
+			-
 		- PaaS
 			- Tools over Internet
 			- Development/Application Platforms
@@ -127,34 +129,48 @@
 		4. IT Labor Costs
 		    - Server administration costs
 - ### Section 3: AWS Organizations | AWS Billing & Cost management
-	- AWS Organizations
-		- Definition
-			- Consolidate multiple AWS Accounts into a centrally manageable organization
-			- Includes Account Management and consolidated billing capabilities that enable you to better meet the budgetary, security, and compliance needs of a business.
-		- Key Features & benefits
-			- Policy based account management
-			- Group based account management
-			- Application programming interfaces (APIs) that automate account management
-			- Consolidated billing
-		- Security
-			- Control access with AWS Identity and Access Management (IAM)
-			- IAM policies enable you to allow or deny access to AWS services for users, groups, and roles.
-			- Service control policies (SCPs) enable you to allow or deny access to AWS services for individuals or group accounts in an organizational unit (OU).
-
+	- Definition
+		- Consolidate multiple AWS Accounts into a centrally manageable organization
+		- Includes Account Management and consolidated billing capabilities that enable you to better meet the budgetary, security, and compliance needs of a business.
+	- Key Features & benefits
+		- Policy based account management
+		- Group based account management
+		- Application programming interfaces (APIs) that automate account management
+		- Consolidated billing
+	- Security
+		- Control access with AWS Identity and Access Management (IAM)
+		- IAM policies enable you to allow or deny access to AWS services for users, groups, and roles.
+		- Service control policies (SCPs) enable you to allow or deny access to AWS services for individuals or group accounts in an organizational unit (OU).
 - ### Section 4: AWS Billing & Cost Management
-	- AWS Billing & Cost management
-		- Definition
-			- Used to pay AWS Bill, monitor usage & analyze and control your costs
-		- Tools
-			- AWS Budgets
-				- It gives you the ability to set custom budgets that alert you when your costs or usage exceed (or are forecasted to exceed) your budgeted amount. You can also use it to set reservation utilization or coverage targets and receive alerts when your utilization drops below the threshold you define.
-			- AWS Cost and Usage Report
-				- Tracks your AWS usage and provides estimated charges associated with your account.
-				- AWS Cost Explorer
-				- Visualize, understand, and manage AWS costs and usage over time.
+	- Definition
+		- Used to pay AWS Bill, monitor usage & analyze and control your costs
+	- Tools
+		- AWS Budgets
+			- It gives you the ability to set custom budgets that alert you when your costs or usage exceed (or are forecasted to exceed) your budgeted amount. You can also use it to set reservation utilization or coverage targets and receive alerts when your utilization drops below the threshold you define.
+		- AWS Cost and Usage Report
+			- Tracks your AWS usage and provides estimated charges associated with your account.
+		- AWS Cost Explorer
+			- Visualize, understand, and manage AWS costs and usage over time.
 - ### Section 5: Technical Support
-
-
+	- Definition
+		- Provides support plans
+		- All plans offer 24/7 access to customer service, documentation, whitepapers and support forums
+	- AWS Services
+		- Proactive Guidance
+			- Technical Account Manager (TAM)
+		- Best Practices
+			- AWS Trusted Advisor
+		- Account Assistance
+			- AWS Support Concierge
+	- Support Plans
+		- Basic Support
+			- Resource Center access, Service Health Dashboard, product FAQs, discussion forums, and support for health checks
+		- Developer Support
+			- Support for early development on AWS
+		- Business Support
+			- Customers that run production workloads
+		- Enterprise Support
+			- Customers that run business and mission-critical workloads
 ---
 
 # Module 3: Global Infrastructure overview
@@ -164,8 +180,11 @@
 # Module 4: AWS IAM (KMS onwards from 65)
 
 ## Section 1:
-## Section 2: 
-## Section 3: 
+
+## Section 2:
+
+## Section 3:
+
 ## Section 4: Securing Accounts
 
 ### Encryption of Data (AWS Cert Manager)
@@ -343,7 +362,9 @@
 ---
 
 # Module 5: Networking & Content Delivery
-## Section 1: 
+
+## Section 1:
+
 ## Section 2: AWS VPC
 
 ### Amazon VPC (Virtual Private Cloud)
@@ -552,10 +573,10 @@ CIDR
 			- Its a turn by turn system that gives weights to each resource
 			- Itll wait till first resource is full of requests before proceeding to send requests to the next one
 		- Not a form of load balancing, however it is a routing mechanism where traffic flow is dictated in a route table
-		- Each server is assigned a weight value. 
+		- Each server is assigned a weight value.
 		- Ensures that each server receives a fair share of traffic based on its weight, and it is useful for load balancing when some servers have a higher capacity or processing power than others.
 	- Latency
-		- Improve global applications 
+		- Improve global applications
 		- Works by routing packets thru the path of lowest latency
 		- Route AWS endpoints depending on the lowest time in flight
 	- Geolocation
@@ -569,13 +590,13 @@ CIDR
 		- Fail over to backup site if primary site is unreachable
 		- Active-Passive Failover
 		- Redirects to alternate locations based on availability
-		- Used 
+		- Used
 			- when secondary IP of a maintenance HTML page is returned if load balancer is down
 	- Multivalue Answer
 		- Respond to DNS queries with upto 8 healthy records selected at random
 
-
 ### AWS CloudFront
+
 - CDN Service
 - AWS's Global network of edge locations and regional edge caches
 	- Edge Locations: Network of data centers used to serve popular content
@@ -640,7 +661,7 @@ Categories of Compute Services
 - Instance Type Naming
 	- t3.large
 		- Here 't' is the family of the instance
-		- 3 is the generation number 
+		- 3 is the generation number
 		- large is the size of the instance
 - Use case based instances
 	- General Purpose
@@ -665,7 +686,9 @@ Categories of Compute Services
 		- AI or machine learning workload expected
 
 ---
+
 # Module 7: Storage
+
 ## Amazon EBS (Elastic Block Storage)
 
 - Uses
