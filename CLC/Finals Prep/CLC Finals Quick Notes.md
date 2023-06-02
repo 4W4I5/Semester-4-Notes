@@ -173,7 +173,22 @@
 			- Customers that run business and mission-critical workloads
 ---
 
-# Module 3: Global Infrastructure overview
+# Module 3: Global Infrastructure 
+- ## Section 1: Global Infrastructure breakdown
+	- AWS Regions
+		- Definition
+			- Each region is a geographical area
+			- Data replication across Regions is controlled by you.
+			- Communication between Regions uses AWS backbone network infrastructure.
+			- Each Region provides full redundancy and connectivity to the network.
+			- A Region typically consists of two or more Availability Zones
+	- AWS Datacenters
+- ## Section 2: AWS Services & Service Categories
+	- Foundation Services
+	- Service Categories
+		- AWS Storage Services
+
+
 
 ---
 
