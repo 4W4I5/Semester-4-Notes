@@ -6,8 +6,8 @@
 - [ ] [[#Module 6 Compute]]
 - [ ] [[#Module 7 Storage]]
 - [ ] [[#Module 8 Databases]]
-- [ ] [[#Module 9 Cloud Architecture]]
-- [ ] [[#Module 10 AutoScaling & Monitoring]]
+- [x] [[#Module 9 Cloud Architecture]]
+- [x] [[#Module 10 AutoScaling & Monitoring]]
 
 # Module 1: Introduction to CC
 
