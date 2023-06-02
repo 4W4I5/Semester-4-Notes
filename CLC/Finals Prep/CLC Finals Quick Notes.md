@@ -182,6 +182,16 @@
 			- Communication between Regions uses AWS backbone network infrastructure.
 			- Each Region provides full redundancy and connectivity to the network.
 			- A Region typically consists of two or more Availability Zones
+		- Considerations when selection a region
+			- Laws - Data governance and legal requirements
+			- Proximity - Select regions close to your customers for reduced latency
+			- Availability - Some services are region locked
+			- Cost - Cost varies by region
+		- Trivia
+			- Availability Zones consist of discrete data centers
+			- They are interconnected with other Availability Zones by using high-speed private networking
+			- They are designed for fault isolation
+			- You choose your Availability Zones but AWS recommends replicating data and resources across Availability Zones for resiliency.
 	- AWS Datacenters
 - ## Section 2: AWS Services & Service Categories
 	- Foundation Services
