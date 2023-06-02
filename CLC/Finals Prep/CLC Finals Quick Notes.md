@@ -5,9 +5,9 @@
 - [x] [[#Module 5 Networking & Content Delivery]]
 - [ ] [[#Module 6 Compute]]
 - [ ] [[#Module 7 Storage]]
-- [ ] [[# Module 8: ]]
-- [ ] [[# Module 9:]]
-- [ ] [[# Module 10:]]
+- [ ] [[#Module 8 Databases]]
+- [ ] [[#Module 9 Cloud Architecture]]
+- [ ] [[#Module 10 AutoScaling & Monitoring]]
 
 # Module 1: Introduction to CC
 
@@ -260,7 +260,7 @@
 
 ---
 
-# Module 4: AWS IAM 
+# Module 4: AWS IAM
 
 ## Section 1: AWS Shared Responsibility Model
 
@@ -925,3 +925,85 @@ Categories of Compute Services
 			- Charged by amount of GB per month until storage is released
 		- Provisioned IOPS (SSD)
 			- Charged by amount of IOPS provisioned x percentage of days that you provision for the month
+
+---
+
+# Module 8: Databases
+
+---
+
+# Module 9: Cloud Architecture
+
+- ## Section 1: AWS Well-Architected Framework
+- ## Section 2: Reliability & Availability
+	- ### **Reliability**
+		- A measure of your system’s ability to provide functionality when desired by the user
+		- System includes all system components: hardware, firmware, and software
+		- Probability that your entire system will function as intended for a specified period
+		- Mean time between failures (MTBF) = total time in service/number of failures
+	- ### Metrics
+		- Mean Time to Failure (MTTF)
+		- Mean Time to Repair (MTTR)
+		- Mean Time Between Failures (MTBF) = MTTF + MTTR
+	- ### Availability
+		- Normal operation time / total time
+		- A percentage of uptime (for example, 99.9 percent) over time (for example, 1 year)
+		- Number of 9s – Five 9s means 99.999 percent availability
+	- ### High Availability
+		- System can withstand some measure of degradation while still remaining available
+		- Downtime is minimized
+		- Minimal human intervention is required
+	- ### Availability Factors
+		- Fault tolerance: The built-in redundancy of an application's components and its ability to remain operational.
+		- Scalability: The ability of an application to accommodate increases in capacity needs without changing design.
+		- Recoverability: The process, policies, and procedures that are related to restoring service after a catastrophic event.
+- ## Section 3: AWS Trusted Advisor
+	- AWS Trusted Advisor is an online tool that provides real-time guidance to help you provision your resources following AWS best practices. It looks at your entire AWS environment and gives you real-time recommendations in five categories: Cost Optimization, Performance, Security, Fault Tolerance, Service Limits. You can use AWS Trusted Advisor to help you optimize your AWS environment as soon as you start implementing your architecture designs.
+
+---
+
+# Module 10: AutoScaling & Monitoring
+
+- ## Section 1: Elastic Load Balancing
+	- Elastic Load Balancing distributes incoming application or network traffic across multiple targets in a single Availability Zone or across multiple Availability Zones. It also scales your load balancer as traffic to your application changes over time. Monitoring is done via Amazon CloudWatch, access logs, and AWS CloudTrail logs
+	- **Types of Load Balancers**
+
+|Application Load Balancer|Network Load Balancer|Classic Load Balancer (Previous Generation)|
+|---|---|---|
+|Load balancing of HTTP and HTTPS traffic|Load balancing of TCP, UDP, and TLS traffic where extreme performance is required|Load balancing of HTTP, HTTPS, TCP, and SSL traffic|
+|- Routes traffic to targets based on content of request  <br>- Provides advanced request routing to targeted at the delivery of modern application architectures, including microservices and containers|- Routes traffic to targets based on IP protocol data  <br>- Can handle millions of requests per second while maintaining ultra-low latencies  <br>- Optimized to handle sudden and volatile traffic patterns|Load balancing across multiple EC2 instances|
+|Operates at the application layer ([OSI model](https://en.wikipedia.org/wiki/OSI_model) layer 7)|Operate at the transport layer (OSI model layer 4)|Operates at both the application and transport layers|
+
+- With Application Load Balancers and Network Load Balancers, you register targets in target groups, and route traffic to the target groups.
+- With Classic Load Balancers, you register instances with the load balancer.
+
+
+
+- ## Section 2: Amazon CloudWatch
+	- **Monitors:** AWS resources and applications that run on AWS
+	- **Collects and tracks:** Standard and custom metrics
+	- **Alarms:** Send notifications to an Amazon SNS topic and perform Amazon EC2 Auto Scaling or Amazon EC2 actions
+	- Create alarms based on:
+	    - Static threshold
+	    - Anomaly detection
+	    - Metric math expression
+	- Specify:
+	    - Name space
+	    - Metric
+	    - Statistic
+	    - Period
+	    - Conditions
+	    - Additional configuration
+	    - Actions
+	- **Events:** Define rules to match changes in AWS environment and route these events to one or more target functions or streams for processing
+
+
+- ## Section 3: Amazon EC2 Auto Scaling
+	- Monitors your applications and automatically adjusts capacity to maintain steady, predictable performance at the lowest possible cost
+	- Provides a simple, powerful user interface that enables you to build scaling plans for resources
+	- Helps you maintain application availability
+	- Enables you to automatically add or remove EC2 instances according to conditions that you define
+	- Detects impaired EC2 instances and unhealthy applications, and replaces the instances without your intervention
+	- Provides several scaling options: Manual, scheduled, dynamic or on-demand, and predictive
+	- An Auto Scaling group is a collection of EC2 instances that are treated as a logical grouping for the purposes of automatic scaling and management.
+	- Scale out (launch instances), Scale in (terminate instances)
