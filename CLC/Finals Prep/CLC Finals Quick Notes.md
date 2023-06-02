@@ -140,14 +140,18 @@
 			- Control access with AWS Identity and Access Management (IAM)
 			- IAM policies enable you to allow or deny access to AWS services for users, groups, and roles.
 			- Service control policies (SCPs) enable you to allow or deny access to AWS services for individuals or group accounts in an organizational unit (OU).
+
+- ### Section 4: AWS Billing & Cost Management
 	- AWS Billing & Cost management
 		- Definition
 			- Used to pay AWS Bill, monitor usage & analyze and control your costs
 		- Tools
-			- **AWS Budgets:** It gives you the ability to set custom budgets that alert you when your costs or usage exceed (or are forecasted to exceed) your budgeted amount. You can also use it to set reservation utilization or coverage targets and receive alerts when your utilization drops below the threshold you define.
-			- **AWS Cost and Usage Report:** Tracks your AWS usage and provides estimated charges associated with your account.
-			- **AWS Cost Explorer:** Visualize, understand, and manage AWS costs and usage over time.
-- ### Section 4: AWS Billing & Cost Management
+			- AWS Budgets
+				- It gives you the ability to set custom budgets that alert you when your costs or usage exceed (or are forecasted to exceed) your budgeted amount. You can also use it to set reservation utilization or coverage targets and receive alerts when your utilization drops below the threshold you define.
+			- AWS Cost and Usage Report
+				- Tracks your AWS usage and provides estimated charges associated with your account.
+				- AWS Cost Explorer
+				- Visualize, understand, and manage AWS costs and usage over time.
 - ### Section 5: Technical Support
 
 
