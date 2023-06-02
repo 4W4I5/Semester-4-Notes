@@ -88,20 +88,62 @@
 # Module 2: Cloud Economics & Billing
 
 - ### Section 1: Fundamentals of Pricing
-	- AWS Pricing Model
-		- Compute
-		- Storage 
-		- Data Transfer
-	- 
+	- **AWS Pricing Model**
+		- Compute, charged by use time, varies by instance
+		- Storage, charged per GB
+		- Data Transfer, outbound transfers are aggregated and charged per GB, inbound transfers and data transfers between services in the same AWS Region typically have no charge
+	- **Paying for AWS**
+		- Pay for what you use
+		- Reserve and save up to 75% versus On-Demand
+		    - All Upfront Reserved Instance (AURI) -> Large Discount
+		    - Partial Upfront Reserved Instance (PURI) -> Lower Discount
+		    - No Upfront Payments Reserved Instance (NURI) -> Smallest Discount
+		- Scale and save as usage increases
+		    - Tiered pricing for services like S3, EBS, EFS
+		- Save as AWS grows
+		- Custom Pricing
+		    - Meet varying needs through custom pricing.
+		    - Available for high-volume projects with unique requirements.
+		- Free services (might be charged when used alongside other services)
+			- Amazon VPC
+			- Elastic Beanstalk
+			- Auto Scaling
+			- AWS CloudFormation
+			- AWS Identity and Access Management
 - ### Section 2: Total Cost of Ownership
-- ### Section 3: AWS Organizations
+	- **Considerations**
+		1. Server Costs
+		    - Hardware: Server, rack chassis power distribution units (PDUs), top-of-rack (TOR) switches, and maintenance
+		    - Software: Operating system (OS), virtualization licenses, and maintenance
+		    - Facilities: Space, power, and cooling
+		2. Storage Costs
+		    - Hardware: Storage disks, storage area network (SAN) or Fibre Channel (FC) switches
+		    - Storage administration costs
+		    - Facilities: Space, power, and cooling
+		3. Network Costs
+		    - Network Hardware: Local area network (LAN) switches, load balancer bandwidth costs
+		    - Network administration costs
+		    - Facilities: Space, power, and cooling
+		4. IT Labor Costs
+		    - Server administration costs
+- ### Section 3: AWS Organizations | AWS Billing & Cost management
+	- AWS Organizations
+		- Definition
+			- Consolidate multiple AWS Accounts into a centrally manageable organization
+			- Includes Account Management and consolidated billing capabilities that enable you to better meet the budgetary, security, and compliance needs of a business.
+		- Key Features & benefits
+			- Policy based account management
+			- Group based account management
+			- Application programming interfaces (APIs) that automate account management
+			- Consolidated billing
+	- AWS Billing & Cost management
 - ### Section 4: AWS Billing & Cost Management
 - ### Section 5: Technical Support
 
 
 ---
 
-# Module 3: 
+# Module 3: Global Infrastructure overview
 
 ---
 
