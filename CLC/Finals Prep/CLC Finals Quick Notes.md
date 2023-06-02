@@ -1,3 +1,5 @@
+#### Click on the module heading to jump to that module
+
 - [x] [[#Module 1 Introduction to CC]]
 - [x] [[# Module 2: Cloud Economics & Billing]]
 - [x] [[#Module 3 Global Infrastructure]]
@@ -940,59 +942,59 @@ Categories of Compute Services
 	- A way to provide best practices that were developed through lessons learned by reviewing customer architectures
 	- There are 5 pillars to the Well-Architected Framework: Operational Excellence, Security, Reliability, Performance Efficiency, and Cost Optimization
 	- The [AWS Well-Architected Tool](https://aws.amazon.com/well-architected-tool/) helps you to implement the Well-Architected Framework
-	
+
 	### [](https://github.com/bundickm/AWS_Cloud_Foundations_Study_Materials/blob/master/Module%209%20Notes.md#operational-excellence)**Operational Excellence**
-	
+
 	**Focus**: Run and monitor systems to deliver business value, and to continually improve supporting processes and procedures.
-	
+
 	#### [](https://github.com/bundickm/AWS_Cloud_Foundations_Study_Materials/blob/master/Module%209%20Notes.md#key-topics)Key Topics
-	
+
 	- Managing and automating changes
 	- Responding to events
 	- Defining standards to successfully manage daily operations
-	
+
 	#### [](https://github.com/bundickm/AWS_Cloud_Foundations_Study_Materials/blob/master/Module%209%20Notes.md#design-principles)Design Principles
-	
+
 	- Perform operations as code
 	- Annotate documentation
 	- Make frequent, small, reversible changes
 	- Refine operations procedures frequently
 	- Anticipate failure
 	- Learn from all operational events and failures
-	
+
 	#### [](https://github.com/bundickm/AWS_Cloud_Foundations_Study_Materials/blob/master/Module%209%20Notes.md#operational-excellence-questions)Operational Excellence Questions
-	
+
 	Prepare
-	
+
 	- How do you determine what your priorities are?
 	- How do you design your workload so that you can understand its state?
 	- How do you reduce defects, ease remediation, and improve flow into production?
 	- How do you mitigate deployment risks?
 	- How do you know that you are ready to support a workload?
-	
+
 	Operate
-	
+
 	- How do you understand the health of your workload?
 	- How do you understand the health of your operations?
 	- How do you manage workload and operations events?
-	
+
 	Evolve
-	
+
 	- How do you evolve operations?
-	
+
 	### [](https://github.com/bundickm/AWS_Cloud_Foundations_Study_Materials/blob/master/Module%209%20Notes.md#security)**Security**
-	
+
 	**Focus:** Protect information, systems, and assets while delivering business value through risk assessments and mitigation strategies.
-	
+
 	#### [](https://github.com/bundickm/AWS_Cloud_Foundations_Study_Materials/blob/master/Module%209%20Notes.md#key-topics-1)Key Topics
-	
+
 	- Identifying and managing who can do what
 	- Establishing controls to detect security events
 	- Protecting systems and services
 	- Protecting confidentiality and integrity of data
-	
+
 	#### [](https://github.com/bundickm/AWS_Cloud_Foundations_Study_Materials/blob/master/Module%209%20Notes.md#design-principles-1)Design Principles
-	
+
 	- Implement a strong identity foundation
 	- Enable traceability
 	- Apply security at all layers
@@ -1000,133 +1002,132 @@ Categories of Compute Services
 	- Protect data in transit and at rest
 	- Keep people away from data
 	- Prepare for security events
-	
+
 	#### [](https://github.com/bundickm/AWS_Cloud_Foundations_Study_Materials/blob/master/Module%209%20Notes.md#security-questions)Security Questions
-	
+
 	Identity and access management
-	
+
 	- How do you manage credentials and authentication?
 	- How do you control human access?
 	- How do you control programmatic access?
-	
+
 	Detective Controls
-	
+
 	- How do you detect and investigate security events?
 	- How do you defend against emerging security threats?
-	
+
 	Infrastructure Protection
-	
+
 	- How do you protect your networks?
 	- How do you protect your compute resources?
-	
+
 	Data Protection
-	
+
 	- How do you classify your data?
 	- How do you protect your data at rest?
 	- How do you protect your data in transit?
-	
+
 	Incident Response
-	
+
 	-How do you respond to an incident?
-	
+
 	### [](https://github.com/bundickm/AWS_Cloud_Foundations_Study_Materials/blob/master/Module%209%20Notes.md#reliability)**Reliability**
-	
+
 	**Focus:** Prevent and quickly recover from failures to meet business and customer demand.
-	
+
 	#### [](https://github.com/bundickm/AWS_Cloud_Foundations_Study_Materials/blob/master/Module%209%20Notes.md#key-topics-2)Key Topics
-	
+
 	- Setting up
 	- Cross-project requirements
 	- Recovery planning
 	- Handling change
-	
+
 	#### [](https://github.com/bundickm/AWS_Cloud_Foundations_Study_Materials/blob/master/Module%209%20Notes.md#design-principles-2)Design Principles
-	
+
 	- Test recovery procedures
 	- Automatically recover from failure
 	- Scale horizontally to increase aggregate system availability
 	- Stop guessing capacity
 	- Manage change in automation
-	
+
 	#### [](https://github.com/bundickm/AWS_Cloud_Foundations_Study_Materials/blob/master/Module%209%20Notes.md#reliability-questions)Reliability Questions
-	
+
 	Foundations
-	
+
 	- How do you manage service limits?
 	- How do you manage your network topology?
-	
+
 	Change Management
-	
+
 	- How does your system adapt to changes in demand?
 	- How do you monitor your resources?
 	- How do you implement change?
-	
+
 	Failure Management
-	
+
 	- How do you back up data?
 	- How does your system withstand component failure?
 	- How do you test resilience?
 	- How do you plan for disaster recovery?
-	
+
 	### [](https://github.com/bundickm/AWS_Cloud_Foundations_Study_Materials/blob/master/Module%209%20Notes.md#performance-efficiency)**Performance Efficiency**
-	
+
 	**Focus:** Use IT and computing resources efficiently to meet system requirements and to maintain that efficiency as demand changes and technologies evolve.
-	
+
 	#### [](https://github.com/bundickm/AWS_Cloud_Foundations_Study_Materials/blob/master/Module%209%20Notes.md#key-topics-3)Key Topics
-	
+
 	- Selecting the right resource types and sizes based on workload requirements
 	- Monitoring performance
 	- Making informed decisions to maintain efficiency as business needs evolve
-	
+
 	#### [](https://github.com/bundickm/AWS_Cloud_Foundations_Study_Materials/blob/master/Module%209%20Notes.md#design-principles-3)Design Principles
-	
+
 	- Democratize advanced technologies
 	- Go global in minutes
 	- Use serverless architectures
 	- Experiment more often
 	- Have mechanical sympathy
-	
+
 	#### [](https://github.com/bundickm/AWS_Cloud_Foundations_Study_Materials/blob/master/Module%209%20Notes.md#performance-efficiency-questions)Performance Efficiency Questions
-	
+
 	Selection
-	
+
 	- How do you select the best performing architecture?
 	- How do you select your compute solution?
 	- How do you select your storage solution?
 	- How do you select your database solution?
 	- How do you select your networking solution?
-	
+
 	Review
-	
+
 	- How do you evolve your workload to take advantage of new releases?
-	
+
 	Monitoring
-	
+
 	- How do you monitor your resources to ensure they are performing as expected?
-	
+
 	Tradeoffs
-	
+
 	- How do you use tradeoffs to improve performance?
-	
+
 	### [](https://github.com/bundickm/AWS_Cloud_Foundations_Study_Materials/blob/master/Module%209%20Notes.md#cost-optimization)**Cost Optimization**
-	
+
 	**Focus:** Run systems to deliver business value at the lowest price point.
-	
+
 	#### [](https://github.com/bundickm/AWS_Cloud_Foundations_Study_Materials/blob/master/Module%209%20Notes.md#key-topics-4)Key Topics
-	
+
 	- Understanding and controlling when money is being spent
 	- Selecting the most appropriate and right number of resource types
 	- Analyzing spending over time
 	- Scaling to meeting business needs without overspending
-	
+
 	#### [](https://github.com/bundickm/AWS_Cloud_Foundations_Study_Materials/blob/master/Module%209%20Notes.md#design-principles-4)Design Principles
-	
+
 	- Adopt a consumption model
 	- Measure overall efficiency
 	- Stop spending money on data center operations
 	- Analyze and attribute expenditure
 	- Use managed and application-level services to reduce cost of ownership
-	
 	- #### Cost Optimization Questions
 		- Expenditure Awareness
 			- How do you govern usage?
@@ -1141,7 +1142,6 @@ Categories of Compute Services
 			- How do you match supply of resources with demand?
 		- Optimizing Over Time
 			- How do you evaluate new services?
-
 - ## Section 2: Reliability & Availability
 	- ### **Reliability**
 		- A measure of your system’s ability to provide functionality when desired by the user
@@ -1183,9 +1183,6 @@ Categories of Compute Services
 
 - With Application Load Balancers and Network Load Balancers, you register targets in target groups, and route traffic to the target groups.
 - With Classic Load Balancers, you register instances with the load balancer.
-
-
-
 - ## Section 2: Amazon CloudWatch
 	- **Monitors:** AWS resources and applications that run on AWS
 	- **Collects and tracks:** Standard and custom metrics
@@ -1203,8 +1200,6 @@ Categories of Compute Services
 	    - Additional configuration
 	    - Actions
 	- **Events:** Define rules to match changes in AWS environment and route these events to one or more target functions or streams for processing
-
-
 - ## Section 3: Amazon EC2 Auto Scaling
 	- Monitors your applications and automatically adjusts capacity to maintain steady, predictable performance at the lowest possible cost
 	- Provides a simple, powerful user interface that enables you to build scaling plans for resources
