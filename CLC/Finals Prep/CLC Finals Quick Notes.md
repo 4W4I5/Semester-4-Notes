@@ -1,7 +1,7 @@
 - [x] Module 1
 - [x] Module 2
-- [ ] Module 3
-- [ ] Module 4
+- [x] Module 3
+- [x] Module 4
 - [ ] Module 5
 - [ ] Module 6
 - [ ] Module 7
@@ -173,7 +173,8 @@
 			- Customers that run business and mission-critical workloads
 ---
 
-# Module 3: Global Infrastructure 
+# Module 3: Global Infrastructure
+
 - ## Section 1: Global Infrastructure breakdown
 	- AWS Regions
 		- Definition
@@ -193,10 +194,67 @@
 			- They are designed for fault isolation
 			- You choose your Availability Zones but AWS recommends replicating data and resources across Availability Zones for resiliency.
 	- AWS Datacenters
+		- Trivia
+			- AWS data centers are designed for security. Each data center has redundant power, networking, and connectivity, and is housed in a separate facility.
+			- Data centers are where the data resides and data processing occurs. A data center typically has 50,000 to 80,000 physical servers
+			- AWS provides a global network of 187 Points of Presence locations
+			- Consists of 176 edge locations - where end users access services located at AWS
+			- 11 Regional edge caches - cache copies of your infrequent content close to your users
+			- Used with **Amazon CloudFront** - a fast content delivery network (CDN) service that securely delivers data, videos, applications, and APIs to customers globally with low latency, high transfer speeds, all within a developer-friendly environment.
+		- AWS InfraStructure Features
+			- Elasticity and scalability - dynamically adapts to capacity and growth needs
+			- Fault-tolerance - Continues operating properly in the presence of a failure due to built-in redundancy of components
+			- High availability - High operational performance with minimized downtime and no human intervention
 - ## Section 2: AWS Services & Service Categories
 	- Foundation Services
 	- Service Categories
 		- AWS Storage Services
+			- [Amazon Simple Storage Services (S3)](https://aws.amazon.com/s3/) - Object storage service that offers industry-leading scalability, data availability, security, and performance.
+			- [Amazon Elastic Block Storage (EBS)](https://aws.amazon.com/ebs) - An easy to use, high performance block storage service designed for use with Amazon Elastic Compute Cloud (EC2) for both throughput and transaction intensive workloads at any scale.
+			- [Amazon Elastic File System (EFS)](https://aws.amazon.com/efs/) - A simple, scalable, fully managed elastic NFS file system for use with AWS Cloud services and on-premises resources.
+			- [Amazon Simple Storage Service Glacier](https://aws.amazon.com/glacier/) - A secure, durable, and extremely low-cost Amazon S3 cloud storage classes for data archiving and long-term backup.
+		- AWS Compute Services
+			- [Amazon EC2](https://aws.amazon.com/ec2/) - A web service that provides secure, resizable compute capacity in the cloud.
+			- [Amazon EC2 Auto Scaling](https://aws.amazon.com/ec2/autoscaling/) - Helps to maintain application availability and allows you to automatically add or remove EC2 instances according to conditions you define.
+			- [Amazon Elastic Container Services (ECS)](https://aws.amazon.com/ecs/) - A fully managed container orchestration service.
+			- [Amazon EC2 Container Registry (ECR)](https://aws.amazon.com/ecr/) - A fully-managed Docker container registry that makes it easy for developers to store, manage, and deploy Docker container images.
+			- [AWS Elastic Beanstalk](https://aws.amazon.com/elasticbeanstalk/) - An easy-to-use service for deploying and scaling web applications and services developed with Java, .NET, PHP, Node.js, Python, Ruby, Go, and Docker on familiar servers such as Apache, Nginx, Passenger, and IIS.
+			- [AWS Lambda](https://aws.amazon.com/lambda/) - Lets you run code without provisioning or managing servers.
+			- [Amazon Elastic Kubernetes Services (EKS)](https://aws.amazon.com/eks/) - A fully managed [Kubernetes](https://en.wikipedia.org/wiki/Kubernetes) service.
+			- [AWS Fargate](https://aws.amazon.com/fargate/) - A serverless compute engine for containers that works with both Amazon Elastic Container Service (ECS) and Amazon Elastic Kubernetes Service (EKS).
+		- AWS Database Services
+			- [Amazon Relational Database Service (RDS)](https://aws.amazon.com/rds/) - Makes it easy to set up, operate, and scale a relational database in the cloud.
+			- [Amazon Aurora](https://aws.amazon.com/rds/aurora/) - A MySQL and PostgreSQL compatible relational database built for the cloud, that combines the performance and availability of traditional enterprise databases with the simplicity and cost-effectiveness of open source databases.
+			- [Amazon Redshift](https://aws.amazon.com/redshift/) - A fully managed, petabyte-scale data warehouse service in the cloud.
+			- [Amazon DynamoDB](https://aws.amazon.com/dynamodb/) - A key value and document database that delivers single-digit millisecond performance at any scale.
+		- Networking and Content Delivery Services
+			- [Amazon VPC](https://aws.amazon.com/vpc/) - Lets you provision a logically isolated section of the AWS Cloud where you can launch AWS resources in a virtual network that you define.
+			- [Elastic Load Balancing](https://aws.amazon.com/elasticloadbalancing/) - Automatically distributes incoming application traffic across multiple targets, such as Amazon EC2 instances, containers, IP addresses, and Lambda functions.
+			- [Amazon CloudFront](https://aws.amazon.com/cloudfront/) - A fast content delivery network (CDN) service that securely delivers data, videos, applications, and APIs to customers globally with low latency, high transfer speeds, all within a developer-friendly environment.
+			- [AWS Transit Gateway](https://aws.amazon.com/transit-gateway/) - A service that enables customers to connect their Amazon Virtual Private Clouds (VPCs) and their on-premises networks to a single gateway.
+			- [Amazon Route 53](https://aws.amazon.com/route53/) - A highly available and scalable cloud Domain Name System (DNS) web service.
+			- [AWS Direct Connect](https://aws.amazon.com/directconnect/) - A cloud service solution that makes it easy to establish a dedicated network connection from your premises to AWS.
+			- [AWS VPN](https://aws.amazon.com/vpn/) - Lets you establish a secure and private encrypted tunnel from your network or device to the AWS global network.
+		- Security, Identity, and Compliance Services
+			- [AWS Identity and Access Management (IAM)](https://aws.amazon.com/iam/) - Enables you to manage access to AWS services and resources securely. You can create and manage AWS users and groups, and use permissions to allow and deny their access to AWS resources. IAM is a feature of your AWS account offered at no additional charge.
+			- [AWS Organizations](https://aws.amazon.com/organizations/) - helps you centrally govern your environment as you grow and scale your workloads on AWS.
+			- [Amazon Cognito](https://aws.amazon.com/cognito/) - Lets you add user sign-up, sign-in, and access control to your web and mobile apps quickly and easily.
+			- [AWS Artifact](https://aws.amazon.com/artifact/) - A central resource for compliance related information that matters to you.
+			- [AWS Key Management Service (KMS)](https://aws.amazon.com/kms/) - Makes it easy for you to create and manage cryptographic keys and control their use across a wide range of AWS services and in your applications.
+			- [AWS Shield](https://aws.amazon.com/shield/) - A managed Distributed Denial of Service (DDoS) protection service that safeguards applications running on AWS.
+		- Cost Management Services
+			- [AWS Cost and Usage Report](https://aws.amazon.com/aws-cost-management/aws-cost-and-usage-reporting/) - contains the most comprehensive set of AWS cost and usage data available, including additional metadata about AWS services, pricing, and reservations (e.g., Amazon EC2 Reserved Instances (RIs)).
+			- [AWS Budgets](https://aws.amazon.com/aws-cost-management/aws-budgets/) - gives you the ability to set custom budgets that alert you when your costs or usage exceed (or are forecasted to exceed) your budgeted amount.
+			- [AWS Cost Explorer](https://aws.amazon.com/aws-cost-management/aws-cost-explorer/) - an easy-to-use interface that lets you visualize, understand, and manage your AWS costs and usage over time.
+		- AWS Management and Governance Services
+			- [AWS Management Console](https://aws.amazon.com/console/) - A secure, easy-to-access, web-based portal for AWS.
+			- [AWS Config](https://aws.amazon.com/config/) - A service that enables you to assess, audit, and evaluate the configurations of your AWS resources.
+			- [Amazon CloudWatch](https://aws.amazon.com/cloudwatch/) - A monitoring and observability service that provides you with data and actionable insights to monitor your applications, respond to system-wide performance changes, optimize resource utilization, and get a unified view of operational health. You can use it to detect anomalous behavior in your environments, set alarms, visualize logs and metrics side by side, take automated actions, troubleshoot issues, and discover insights.
+			- [AWS Auto Scaling](https://aws.amazon.com/autoscaling/) - monitors your applications and automatically adjusts capacity to maintain steady, predictable performance at the lowest possible cost.
+			- [AWS Command Line Interface (CLI)](https://aws.amazon.com/cli/) - a unified tool to manage your AWS services. With just one tool to download and configure, you can control multiple AWS services from the command line and automate them through scripts.
+			- [AWS Trusted Advisor](https://aws.amazon.com/premiumsupport/technology/trusted-advisor/) - An online tool that provides you real time guidance to help you provision your resources following AWS best practices.
+			- [AWS Well-Architected Tool](https://aws.amazon.com/well-architected-tool/) - Helps you review the state of your workloads and compares them to the latest AWS architectural best practices.
+			- [AWS CloudTrail](https://aws.amazon.com/cloudtrail/) - A service that enables governance, compliance, operational auditing, and risk auditing of your AWS account.
 
 
 
@@ -204,11 +262,89 @@
 
 # Module 4: AWS IAM (KMS onwards from 65)
 
-## Section 1:
+## Section 1: AWS Shared Responsibility Model
 
-## Section 2:
+- Customer Security
+	- Amazon Elastic Compute Cloud (Amazon EC2) instance operating system - Including patching, maintenance
+	- Applications - Passwords, role-based access, etc.
+	- Security group configuration
+	- OS or host-based firewalls - Including intrusion detection or prevention systems
+	- Network configurations
+	- Account management - Login and permission settings for each user
+- AWS Security
+	- Physical security of data centers - Controlled, need-based access
+	- Hardware and software infrastructure - Storage decommissioning, host operating system (OS) access logging, and auditing
+	- Network infrastructure - Intrusion detection
+	- Virtualization infrastructure - Instance isolation
+- Service Characteristics and Security
+	- Infrastructure as a service (IaaS)
+		- Customer has more flexibility over configuring networking and storage settings
+		- Customer is responsible for managing more aspects of the security
+		- Customer configures the access controls
+	- Platform as a service (PaaS)
+		- Customer does not need to manage the underlying infrastructure
+		- AWS handles the operating system, database patching, firewall configuration, and disaster recovery
+		- Customer can focus on managing code or data
+	- Software as a service (SaaS)
+		- Software is centrally hosted
+		- Licensed on a subscription model or pay-as-you-go basis.
+		- Services are typically accessed via web browser, mobile app, or application programming interface (API)
+		- Customers do not need to manage the infrastructure that supports the service
 
-## Section 3:
+## Section 2: Identity & Access Management (IAM)
+
+- IAM Uses
+	- **Manage IAM Users and their access:** You can create Users and assign them individual security credentials (access keys, passwords, and multi-factor authentication devices). You can manage permissions to control which operations a User can perform.
+	- **Manage IAM Roles and their permissions:** An IAM Role is similar to a User, in that it is an AWS identity with permission policies that determine what the identity can and cannot do in AWS. However, instead of being uniquely associated with one person, a Role is intended to be assumable by anyone who needs it.
+	- **Manage federated users and their permissions:** You can enable identity federation to allow existing users in your enterprise to access the AWS Management Console, to call AWS APIs and to access resources, without the need to create an IAM User for each identity.
+- Components of IAM
+	- **IAM User:** A person or application that can authenticate with an AWS account. When you define an IAM user, you select what types of access the user is permitted to use.
+		- Programmatic Access
+		    - Authenticate using Access Key ID and Secret Access Key
+		    - Provides AWS CLI and AWS SDK access
+		- AWS Management Console Access
+		    - Authenticate using Account ID or Alias, or Username and Password
+		    - Can enable Multi-Factor Authentication (MFA)
+	- **IAM Group:** A collection of IAM users that are granted identical authorization.
+		- A user can belong to multiple groups
+		- There is no default group
+		- Groups cannot be nested
+	- **IAM Policy:** The document that defines which resources can be accessed and the level of access to each resource.
+		- Permissions determine which resources and operations are allowed.
+		    - All permissions are implicitly denied by default.
+		    - If something is explicitly denied, it is never allowed.
+		- Two Types of Policies:
+		    1. Identity Based
+		        - Attach a policy to any IAM entity - user, group, or role
+		        - Policies specify actions that may or may not be performed by the entity
+		        - Policies and entities have a many-to-many relationship
+		        - When the policy is updated, the changes to the policy are immediately apply against all Users and Groups that are attached to the policy.
+		    2. Resource Based
+		        - Attached to a resource (such as an S3 bucket)
+		        - Specifies who has access to the resource and what actions they can perform on it
+		        - The policies are inline only, not managed. An inline policy is assigned to just one User or Group. Inline Policies are typically used to apply permissions for one-off situations.
+		        - Resource-based policies are supported only by some AWS services
+	- **IAM Role:** Useful mechanism to grant a set of permissions for making AWS service requests.
+		- Similar to an IAM user: Attach permissions policies to it
+		- Different from an IAM user: Not uniquely associated with one person, intended to be assumable by a person, application, or service
+		- Role provides temporary security credentials
+	- **Principle of Least Privilege:** The practice of limiting access rights for users to the bare minimum permissions they need to perform their work. Under POLP, users are granted permission to read, write or execute only the files or resources they need to do their jobs
+
+## Section 3: Securing a New AWS Account
+
+Best practice: Do not use the AWS account root user except when necessary. Access to the account root user requires logging in with the email address and password that you used to create the account.
+
+1. Stop using the account root user as soon as possible
+    1. While you are logged in as the account root user, create an IAM user for yourself. Save the access keys if needed.
+    2. Create an IAM group, give it full administrator permissions, and add the IAM user to the group.
+    3. Disable and remove your account root user access keys, if they exist.
+    4. Enable a password policy for users.
+    5. Sign in with your new IAM user credentials.
+2. Enable multi-factor authentication (MFA)
+3. Use AWS CloudTrail
+    - CloudTrail tracks user activity on your account. It logs all API requests to resources in all supported services your account.
+    - Basic AWS CloudTrail event history is enabled by default and is free. It contains all management event data for the last 90 days of account activity (this can be extended beyond 90 days)
+4. Enable a billing report, such as the _AWS Cost and Usage Report_
 
 ## Section 4: Securing Accounts
 
@@ -227,6 +363,19 @@
 		- **AWS Certificate Manager**
 			- Provides a way to manage, deploy and renew TLS/SSL Certs
 	- AWS Services support data in transit encryption
+
+### AWS Organizations
+
+- Security Features of AWS Organizations
+	- Group AWS accounts into organizational units (OUs) and attach different access policies to each OU.
+	- Integration and support for IAM. Permissions to a user are the intersection of what is allowed by AWS Organizations and what is granted by IAM in that account.
+	- Use service control policies to establish control over the AWS services and API actions that each AWS account can access
+
+#### Service Control Policies
+
+- Service control policies (SCPs) offer centralized control over accounts. Limit permissions that are available in an account that is part of an organization.
+- Ensures that accounts comply with access control guidelines.
+- SCPs are similar to IAM permissions policies – They use similar syntax, but an SCP never grants permissions. Instead, SCPs specify the maximum permissions for an organization.
 
 ### AWS KMS (Key management system)
 
