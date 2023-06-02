@@ -92,6 +92,7 @@
 		- Compute
 		- Storage 
 		- Data Transfer
+	- 
 - ### Section 2: Total Cost of Ownership
 - ### Section 3: AWS Organizations
 - ### Section 4: AWS Billing & Cost Management
