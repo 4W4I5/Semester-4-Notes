@@ -1,13 +1,13 @@
-- [x] Module 1
-- [x] Module 2
-- [x] Module 3
-- [x] Module 4
-- [ ] Module 5
-- [ ] Module 6
-- [ ] Module 7
-- [ ] Module 8
-- [ ] Module 9
-- [ ] Module 10
+- [x] [[#Module 1 Introduction to CC]]
+- [x] [[# Module 2: Cloud Economics & Billing]]
+- [x] [[#Module 3 Global Infrastructure]]
+- [x] [[#Module 4 AWS IAM]]
+- [x] [[#Module 5 Networking & Content Delivery]]
+- [ ] [[#Module 6 Compute]]
+- [ ] [[#Module 7 Storage]]
+- [ ] [[# Module 8: ]]
+- [ ] [[# Module 9:]]
+- [ ] [[# Module 10:]]
 
 # Module 1: Introduction to CC
 
@@ -260,7 +260,7 @@
 
 ---
 
-# Module 4: AWS IAM (KMS onwards from 65)
+# Module 4: AWS IAM 
 
 ## Section 1: AWS Shared Responsibility Model
 
@@ -537,7 +537,7 @@ Best practice: Do not use the AWS account root user except when necessary. Acces
 
 # Module 5: Networking & Content Delivery
 
-## Section 1:
+## Section 1: CIDR Stuff (SKIPPED)
 
 ## Section 2: AWS VPC
 
