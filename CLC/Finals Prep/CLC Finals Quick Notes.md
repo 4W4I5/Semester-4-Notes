@@ -202,7 +202,7 @@
 			- Consists of 176 edge locations - where end users access services located at AWS
 			- 11 Regional edge caches - cache copies of your infrequent content close to your users
 			- Used with **Amazon CloudFront** - a fast content delivery network (CDN) service that securely delivers data, videos, applications, and APIs to customers globally with low latency, high transfer speeds, all within a developer-friendly environment.
-		- AWS InfraStructure Features
+		- AWS Infrastructure Features
 			- Elasticity and scalability - dynamically adapts to capacity and growth needs
 			- Fault-tolerance - Continues operating properly in the presence of a failure due to built-in redundancy of components
 			- High availability - High operational performance with minimized downtime and no human intervention
