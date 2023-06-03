@@ -791,6 +791,8 @@ CIDR
 ---
 
 # Module 6: Compute
+## Section 1: Compute services overview
+
 
 Categories of Compute Services
 - Virtual Machines | Instance based
