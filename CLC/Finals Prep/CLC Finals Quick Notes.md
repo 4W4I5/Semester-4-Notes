@@ -669,10 +669,6 @@ CIDR
 		- Isolated resources from your account
 	- multiple AWS accounts
 	- multiple AWS Regions
-- Restrictions
-	- CIDR IP spaces cannot overlap
-	- Transitive peering is not allowed
-	- Only one peering resource is established b/w two VPCs
 - Routing Table Entry
 	- IP of target VPC | pcx-id
 
