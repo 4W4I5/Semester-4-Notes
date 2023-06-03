@@ -792,9 +792,6 @@ CIDR
 
 # Module 6: Compute
 ## Section 1: Compute services overview
-
-
-Categories of Compute Services
 - Virtual Machines | Instance based
 	- AWS EC2
 - Serverless computing
@@ -819,11 +816,16 @@ Categories of Compute Services
 	- AWS Beanstalk
 		- Used for WebApps
 		- AWS automatically handles the deployment. All you need is to upload the code
+- Other options not covered in class
+	- Lightsail
+	- Fargate
+	- Outposts
 
-### Amazon EC2
+## Section 2: Amazon EC2
 
 - Provides VMs
 	- Allows user spec of hardware to use for a specific instance
+	- Monitored by CloudWatch
 - Can run into any availability zone
 - Use of AMI, Amazon Machine Images
 	- Custom images can also be used either from the community or your own
@@ -862,6 +864,57 @@ Categories of Compute Services
 		- F1, G3, G4, P2, P3
 		- GPU-Acceleration expected
 		- AI or machine learning workload expected
+
+## Section 3: Amazon EC2 Cost Optimization
+
+- By Instance type
+	- On Demand Instance
+		- Pay by the hour
+		- No long-term commitments.
+		- Eligible for the AWS Free Tier.
+	- Dedicated Host
+		- A physical server with EC2 instance capacity fully dedicated to your use.
+	- Dedicated Instance
+		- Instances that run in a VPC on hardware that is dedicated to a single customer.
+	- Spot Instance
+		- Instances run as long as they are available and your bid is above the Spot Instance price.
+		- They can be interrupted by AWS with a 2-minute notification
+		- Interruption options include terminated, stopped or hibernated
+		- Prices can be significantly less expensive compared to On-Demand Instances
+		- Good choice when you have flexibility in when your applications can run.
+	- Reserved Instance
+		- Full, partial, or no upfront payment for instance you reserve
+		- Discount on hourly charge for that instance
+		- 1-year or 3-year term
+	- Scheduled Reserved Instance
+		- Purchase a capacity reservation that is always available on a recurring schedule you specify
+		- 1-year term
+	- PerSecond Billing
+		- Only on instances that run Amazon Linux or Ubuntu:
+			- On-Demand
+			- Reserved
+			- Spot 
+- Four Pillars of Cost Optimization
+	- Right Size
+		- Provision instances to match the need - CPU, memory, storage, and network throughput
+		- Use Amazon CloudWatch metrics to dowsize as needed - How idle are instances? When?
+		- Best practice: Right size, then reserve
+	- Increase Elasticity
+		- Stop or hibernate Amazon EBS-backed instances that are not actively in use
+		- Use automatic scaling to match needs based on usage
+	- Optimal Pricing Model
+		- Leverage the right pricing model for your use case
+		- Optimize and combine purchase types
+		    - Examples: Use On-Demand Instance and Spot Instances for variable workloads, use Reserved Instances for predictable workloads
+		- Consider serverless solutions (AWS Lambda)
+	- Optimize Storage Choices
+		- Reduce costs while maintaining storage performance and availability
+		- Resize EBS volumes and change EBS volume types
+		- Delete EBS snapshots that are no longer needed
+		- Identify the most appropriate destination for specific types of data
+## Section 4: AWS Lambda
+## Section 5: AWS Lambda
+## Section 6: AWS Lambda
 
 ---
 
