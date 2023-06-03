@@ -5,9 +5,9 @@
 - [x] [[#Module 3 Global Infrastructure]]
 - [x] [[#Module 4 AWS IAM]]
 - [x] [[#Module 5 Networking & Content Delivery]]
-- [ ] [[#Module 6 Compute]]
-- [ ] [[#Module 7 Storage]]
-- [ ] [[#Module 8 Databases]]
+- [x] [[#Module 6 Compute]]
+- [x] [[#Module 7 Storage]]
+- [x] [[#Module 8 Databases]]
 - [x] [[#Module 9 Cloud Architecture]]
 - [x] [[#Module 10 AutoScaling & Monitoring]]
 
@@ -25,7 +25,6 @@
 		- IaaS
 			- Cloud Based Services over Internet
 			- Access to networking, computational and storage resources
-			-
 		- PaaS
 			- Tools over Internet
 			- Development/Application Platforms
@@ -1105,8 +1104,6 @@ Docker is a software platform that enables you to build, test, and deploy applic
 		4. Data transfer
 		    - Pricing is based on the amount of data that is transferred out of the Amazon S3 Region
 
-
-
 ## Section 3: Amazon Elastic File System
 
 - **EFS Features**
@@ -1235,59 +1232,40 @@ Amazon Aurora is a MySQL and PostgreSQL-compatible relational database built fo
 	- A way to provide best practices that were developed through lessons learned by reviewing customer architectures
 	- There are 5 pillars to the Well-Architected Framework: Operational Excellence, Security, Reliability, Performance Efficiency, and Cost Optimization
 	- The [AWS Well-Architected Tool](https://aws.amazon.com/well-architected-tool/) helps you to implement the Well-Architected Framework
-
-	### [](https://github.com/bundickm/AWS_Cloud_Foundations_Study_Materials/blob/master/Module%209%20Notes.md#operational-excellence)**Operational Excellence**
-
-	**Focus**: Run and monitor systems to deliver business value, and to continually improve supporting processes and procedures.
-
-	#### [](https://github.com/bundickm/AWS_Cloud_Foundations_Study_Materials/blob/master/Module%209%20Notes.md#key-topics)Key Topics
-
+- **Operational Excellence**
+	- **Focus**: Run and monitor systems to deliver business value, and to continually improve supporting processes and procedures.
+- Key Topics
 	- Managing and automating changes
 	- Responding to events
 	- Defining standards to successfully manage daily operations
-
-	#### [](https://github.com/bundickm/AWS_Cloud_Foundations_Study_Materials/blob/master/Module%209%20Notes.md#design-principles)Design Principles
-
+- Design Principles
 	- Perform operations as code
 	- Annotate documentation
 	- Make frequent, small, reversible changes
 	- Refine operations procedures frequently
 	- Anticipate failure
 	- Learn from all operational events and failures
-
-	#### [](https://github.com/bundickm/AWS_Cloud_Foundations_Study_Materials/blob/master/Module%209%20Notes.md#operational-excellence-questions)Operational Excellence Questions
-
-	Prepare
-
+- Operational Excellence Questions
+	- Prepare
 	- How do you determine what your priorities are?
 	- How do you design your workload so that you can understand its state?
 	- How do you reduce defects, ease remediation, and improve flow into production?
 	- How do you mitigate deployment risks?
 	- How do you know that you are ready to support a workload?
-
-	Operate
-
+	- Operate
 	- How do you understand the health of your workload?
 	- How do you understand the health of your operations?
 	- How do you manage workload and operations events?
-
-	Evolve
-
+	- Evolve
 	- How do you evolve operations?
-
-	### [](https://github.com/bundickm/AWS_Cloud_Foundations_Study_Materials/blob/master/Module%209%20Notes.md#security)**Security**
-
-	**Focus:** Protect information, systems, and assets while delivering business value through risk assessments and mitigation strategies.
-
-	#### [](https://github.com/bundickm/AWS_Cloud_Foundations_Study_Materials/blob/master/Module%209%20Notes.md#key-topics-1)Key Topics
-
+- **Security**
+	- **Focus:** Protect information, systems, and assets while delivering business value through risk assessments and mitigation strategies.
+- Key Topics
 	- Identifying and managing who can do what
 	- Establishing controls to detect security events
 	- Protecting systems and services
 	- Protecting confidentiality and integrity of data
-
-	#### [](https://github.com/bundickm/AWS_Cloud_Foundations_Study_Materials/blob/master/Module%209%20Notes.md#design-principles-1)Design Principles
-
+- Design Principles
 	- Implement a strong identity foundation
 	- Enable traceability
 	- Apply security at all layers
@@ -1295,127 +1273,82 @@ Amazon Aurora is a MySQL and PostgreSQL-compatible relational database built fo
 	- Protect data in transit and at rest
 	- Keep people away from data
 	- Prepare for security events
-
-	#### [](https://github.com/bundickm/AWS_Cloud_Foundations_Study_Materials/blob/master/Module%209%20Notes.md#security-questions)Security Questions
-
-	Identity and access management
-
+- Security Questions
+	- Identity and access management
 	- How do you manage credentials and authentication?
 	- How do you control human access?
 	- How do you control programmatic access?
-
-	Detective Controls
-
+	- Detective Controls
 	- How do you detect and investigate security events?
 	- How do you defend against emerging security threats?
-
-	Infrastructure Protection
-
+	- Infrastructure Protection
 	- How do you protect your networks?
 	- How do you protect your compute resources?
-
-	Data Protection
-
+	- Data Protection
 	- How do you classify your data?
 	- How do you protect your data at rest?
 	- How do you protect your data in transit?
-
-	Incident Response
-
-	-How do you respond to an incident?
-
-	### [](https://github.com/bundickm/AWS_Cloud_Foundations_Study_Materials/blob/master/Module%209%20Notes.md#reliability)**Reliability**
-
-	**Focus:** Prevent and quickly recover from failures to meet business and customer demand.
-
-	#### [](https://github.com/bundickm/AWS_Cloud_Foundations_Study_Materials/blob/master/Module%209%20Notes.md#key-topics-2)Key Topics
-
+	- Incident Response
+	- How do you respond to an incident?
+- **Reliability**
+	- **Focus:** Prevent and quickly recover from failures to meet business and customer demand.
+- Key Topics
 	- Setting up
 	- Cross-project requirements
 	- Recovery planning
 	- Handling change
-
-	#### [](https://github.com/bundickm/AWS_Cloud_Foundations_Study_Materials/blob/master/Module%209%20Notes.md#design-principles-2)Design Principles
-
+- Design Principles
 	- Test recovery procedures
 	- Automatically recover from failure
 	- Scale horizontally to increase aggregate system availability
 	- Stop guessing capacity
 	- Manage change in automation
-
-	#### [](https://github.com/bundickm/AWS_Cloud_Foundations_Study_Materials/blob/master/Module%209%20Notes.md#reliability-questions)Reliability Questions
-
-	Foundations
-
+- Reliability Questions
+	- Foundations
 	- How do you manage service limits?
 	- How do you manage your network topology?
-
-	Change Management
-
+	- Change Management
 	- How does your system adapt to changes in demand?
 	- How do you monitor your resources?
 	- How do you implement change?
-
-	Failure Management
-
+	- Failure Management
 	- How do you back up data?
 	- How does your system withstand component failure?
 	- How do you test resilience?
 	- How do you plan for disaster recovery?
-
-	### [](https://github.com/bundickm/AWS_Cloud_Foundations_Study_Materials/blob/master/Module%209%20Notes.md#performance-efficiency)**Performance Efficiency**
-
+- **Performance Efficiency**
 	**Focus:** Use IT and computing resources efficiently to meet system requirements and to maintain that efficiency as demand changes and technologies evolve.
-
-	#### [](https://github.com/bundickm/AWS_Cloud_Foundations_Study_Materials/blob/master/Module%209%20Notes.md#key-topics-3)Key Topics
-
+- Key Topics
 	- Selecting the right resource types and sizes based on workload requirements
 	- Monitoring performance
 	- Making informed decisions to maintain efficiency as business needs evolve
-
-	#### [](https://github.com/bundickm/AWS_Cloud_Foundations_Study_Materials/blob/master/Module%209%20Notes.md#design-principles-3)Design Principles
-
+- Design Principles
 	- Democratize advanced technologies
 	- Go global in minutes
 	- Use serverless architectures
 	- Experiment more often
 	- Have mechanical sympathy
-
-	#### [](https://github.com/bundickm/AWS_Cloud_Foundations_Study_Materials/blob/master/Module%209%20Notes.md#performance-efficiency-questions)Performance Efficiency Questions
-
-	Selection
-
+- Performance Efficiency Questions
+	- Selection
 	- How do you select the best performing architecture?
 	- How do you select your compute solution?
 	- How do you select your storage solution?
 	- How do you select your database solution?
 	- How do you select your networking solution?
-
-	Review
-
+	- Review
 	- How do you evolve your workload to take advantage of new releases?
-
-	Monitoring
-
+	- Monitoring
 	- How do you monitor your resources to ensure they are performing as expected?
-
-	Tradeoffs
-
+	- Tradeoffs
 	- How do you use tradeoffs to improve performance?
-
-	### [](https://github.com/bundickm/AWS_Cloud_Foundations_Study_Materials/blob/master/Module%209%20Notes.md#cost-optimization)**Cost Optimization**
-
-	**Focus:** Run systems to deliver business value at the lowest price point.
-
+- **Cost Optimization**
+	- **Focus:** Run systems to deliver business value at the lowest price point.
 - Key Topics
-
 	- Understanding and controlling when money is being spent
 	- Selecting the most appropriate and right number of resource types
 	- Analyzing spending over time
 	- Scaling to meeting business needs without overspending
-
 - Design Principles
-
 	- Adopt a consumption model
 	- Measure overall efficiency
 	- Stop spending money on data center operations
