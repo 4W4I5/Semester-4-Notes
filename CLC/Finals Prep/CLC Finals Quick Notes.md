@@ -912,9 +912,79 @@ CIDR
 		- Resize EBS volumes and change EBS volume types
 		- Delete EBS snapshots that are no longer needed
 		- Identify the most appropriate destination for specific types of data
-## Section 4: AWS Lambda
+## Section 4: Container Services
+### **Container Basics**
+
+Containers are a method of operating system virtualization.
+
+- Repeatable
+- Self-contained execution environments
+- Software runs the same in different environments
+- Faster to launch and stop or terminate than virtual machines
+
+Docker is a software platform that enables you to build, test, and deploy applications quickly. Containers are created from a template called an image.
+
+### [](https://github.com/bundickm/AWS_Cloud_Foundations_Study_Materials/blob/master/Module%206%20Notes.md#amazon-elastic-container-service-ecs)**Amazon Elastic Container Service (ECS)**
+
+- A highly scalable, fast, container management service
+- Key benefits
+    - Orchestrates the execution of Docker containers
+    - Maintains and scales the fleet of nodes that run your containers
+    - Removes the complexity of standing up the infrastructure
+- Integrated with features that are familiar to Amazon EC2 service users
+    - Elastic Load Balancing
+    - Amazon EC2 security groups
+    - Amazon EBS volumes
+    - IAM roles
+
+Do you want to manage the Amazon ECS cluster that runs the containers?
+
+- If yes, create an Amazon ECS cluster backed by Amazon EC2 (provides more granular control over infrastructure)
+- If no, create an Amazon ECS cluster backed by AWS Fargate (easier to maintain, focus on your applications)
+
+Amazon Elastic Container Registry (ECR) is a fully managed Docker container registry that makes it easy for developers to store, manage, and deploy Docker container images.
+
+### [](https://github.com/bundickm/AWS_Cloud_Foundations_Study_Materials/blob/master/Module%206%20Notes.md#amazon-elastic-kubernetes-service-eks)**Amazon Elastic Kubernetes Service (EKS)**
+
+What is Kubernetes?
+
+- Kubernetes is open source software for container orchestration
+    - Deploy and manage containerized applicationsat scale
+    - The same toolset can be used on premises and in the cloud
+- Complements Docker
+    - Docker enables you to run multiple containers on a single OS host
+    - Kubernetes orchestrates multiple Docker hosts (nodes)
+- Automates container provisioning, networking, load distribution and scaling
+
+Amazon Elastic Kubernetes Service (Amazon EKS)
+
+- Enables you to run Kubernetes on AWS
+- Certified Kubernetes conformant (supports easy migration)
+- Supports Linux and Windows containers
+- Compatible with Kubernetes community tools and supports popular Kubernetes add-ons
+- Use Amazon EKS to manage clusters of Amazon EC2 compute instances and run containers that are orchestrated by Kubernetes on those instances
 ## Section 5: AWS Lambda
-## Section 6: AWS Lambda
+- Serverless computing enables you to build and run applications and services without provisioning or managing servers.
+- Supports multiple programming languages.
+- Provides built-in fault tolerance and automatic scaling.
+- An event source is an AWS service or developer-created application that triggers a Lambda function to run.
+- Pay-per-use pricing
+- The maximum memory allocation for a single Lambda function is 3,008 MB.
+- The maximum execution time for a Lambda function is 15 minutes
+- Deployment package size = 250 MB unzipped, including layers
+## Section 6: Elastic Beanstalk
+- An easy way to get web applications up and running
+- A managed service that automatically handles
+    - Infrastructure provisioning and configuration
+    - Deployment
+    - Load balancing
+    - Automatic scaling
+    - Health monitoring
+    - Analysis and debugging
+    - Logging
+- No additional charge for Elastic Beanstalk, pay only for the underlying resources that are used
+- It supports web applications written for common platforms
+- You upload your code and Elastic Beanstalk automatically handles the deployment
 
 ---
 
