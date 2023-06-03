@@ -115,21 +115,21 @@
 			- AWS Identity and Access Management
 - ### Section 2: Total Cost of Ownership
 	- **Considerations**
-		1. Server Costs
+		1. **Server Costs**
 		    - Hardware: Server, rack chassis power distribution units (PDUs), top-of-rack (TOR) switches, and maintenance
 		    - Software: Operating system (OS), virtualization licenses, and maintenance
 		    - Facilities: Space, power, and cooling
-		2. Storage Costs
-		    - Hardware: Storage disks, storage area network (SAN) or Fibre Channel (FC) switches
+		2. **Storage Costs**
+		    - Hardware: Storage disks, storage area network (SAN) or Fiber Channel (FC) switches
 		    - Storage administration costs
 		    - Facilities: Space, power, and cooling
-		3. Network Costs
+		3. **Network Costs**
 		    - Network Hardware: Local area network (LAN) switches, load balancer bandwidth costs
 		    - Network administration costs
 		    - Facilities: Space, power, and cooling
-		4. IT Labor Costs
+		4. **IT Labor Costs**
 		    - Server administration costs
-- ### Section 3: AWS Organizations | AWS Billing & Cost management
+- ### Section 3: AWS Organizations 
 	- Definition
 		- Consolidate multiple AWS Accounts into a centrally manageable organization
 		- Includes Account Management and consolidated billing capabilities that enable you to better meet the budgetary, security, and compliance needs of a business.
