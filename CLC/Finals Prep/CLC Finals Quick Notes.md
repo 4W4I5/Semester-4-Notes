@@ -701,7 +701,7 @@ CIDR
 	- VPC Attachments
 	- VPN Connections
 	- Direct Connect Gateway
-	- Peeing Connections
+	- VPC Peering
 	- VPC Sharing
 - Allows
 	- Connect VPCs across different regions & accounts, sharing resources with them
