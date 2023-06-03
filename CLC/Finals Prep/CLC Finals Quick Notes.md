@@ -265,19 +265,19 @@
 
 ## Section 1: AWS Shared Responsibility Model
 
-- Customer Security
+- **Customer Security**
 	- Amazon Elastic Compute Cloud (Amazon EC2) instance operating system - Including patching, maintenance
 	- Applications - Passwords, role-based access, etc.
 	- Security group configuration
 	- OS or host-based firewalls - Including intrusion detection or prevention systems
 	- Network configurations
 	- Account management - Login and permission settings for each user
-- AWS Security
+- **AWS Security**
 	- Physical security of data centers - Controlled, need-based access
 	- Hardware and software infrastructure - Storage decommissioning, host operating system (OS) access logging, and auditing
 	- Network infrastructure - Intrusion detection
 	- Virtualization infrastructure - Instance isolation
-- Service Characteristics and Security
+- **Service Characteristics and Security**
 	- Infrastructure as a service (IaaS)
 		- Customer has more flexibility over configuring networking and storage settings
 		- Customer is responsible for managing more aspects of the security
