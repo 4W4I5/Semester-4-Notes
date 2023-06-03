@@ -129,7 +129,7 @@
 		    - Facilities: Space, power, and cooling
 		4. **IT Labor Costs**
 		    - Server administration costs
-- ### Section 3: AWS Organizations 
+- ### Section 3: AWS Organizations
 	- Definition
 		- Consolidate multiple AWS Accounts into a centrally manageable organization
 		- Includes Account Management and consolidated billing capabilities that enable you to better meet the budgetary, security, and compliance needs of a business.
@@ -363,18 +363,15 @@ Best practice: Do not use the AWS account root user except when necessary. Acces
 			- **AWS Certificate Manager**
 				- Provides a way to manage, deploy and renew TLS/SSL Certs
 		- AWS Services support data in transit encryption
-
 - ### AWS Organizations
 	- Security Features of AWS Organizations
 		- Group AWS accounts into organizational units (OUs) and attach different access policies to each OU.
 		- Integration and support for IAM. Permissions to a user are the intersection of what is allowed by AWS Organizations and what is granted by IAM in that account.
 		- Use service control policies to establish control over the AWS services and API actions that each AWS account can access
-
 - #### Service Control Policies
 	- Service control policies (SCPs) offer centralized control over accounts. Limit permissions that are available in an account that is part of an organization.
 	- Ensures that accounts comply with access control guidelines.
 	- SCPs are similar to IAM permissions policies – They use similar syntax, but an SCP never grants permissions. Instead, SCPs specify the maximum permissions for an organization.
-
 - ### AWS KMS (Key management system)
 	- Enables you to
 		- Create & Manage encryption keys
@@ -396,7 +393,6 @@ Best practice: Do not use the AWS account root user except when necessary. Acces
 						- Rotate
 						- Audit
 						- Define policies for the key
-
 - ### AWS Cognito
 	- Adds the following to your web and mobile application
 		- User
@@ -414,7 +410,6 @@ Best practice: Do not use the AWS account root user except when necessary. Acces
 		- Microsoft Active Directory via Security Assertion Markup Language (SAML 2.0)
 			- Allows single sign-on (SSO)
 	- Compliant with healthcare & merchant companies
-
 - ### AWS Shield
 	- DDOS Protection Service
 	- Available for all AWS applications and services
@@ -506,7 +501,6 @@ Best practice: Do not use the AWS account root user except when necessary. Acces
 			- Examples
 				- Center for internet security (CIS)
 				- EU-US Privacy Shield certified
-
 - #### AWS Config
 	- Simplify compliance auditing and security analysis
 	- Assess, Audit and Evaluate the configurations of AWS Resources
@@ -514,7 +508,6 @@ Best practice: Do not use the AWS account root user except when necessary. Acces
 	- Automatically evaluate recorded configs vs desired configs
 	- Review config changes
 	- View detailed config histories
-
 - #### AWS Artifact
 	- Resource for compliance-related information
 	- Provide access to security and compliance reports
@@ -1128,8 +1121,6 @@ Amazon S3 Glacier is a data archiving service that is designed for security, du
     - Control access with IAM
     - Manages your keys
 
-
-
 ---
 
 # Module 8: Databases
@@ -1161,31 +1152,31 @@ Amazon Relational Database Service (Amazon RDS) makes it easy to set up, operate
 
 	  RDS also supports the creation of read replicas. Updates that are made to the source database instance are asynchronously copied to the read replica instance. You can reduce the load on your source DB instance by routing read queries from your applications to the read replica.
 - **Cost and Usage of RDS**
-- When to use RDS
-	- Use when you require:
-		- Complex transactions or complex queries
-		- A medium to high query or write rate – Up to 30,000 IOPS (15,000 reads + 15,000 writes)
-		- No more than a single worker node or shard
-		- High durability
-	- Do not use when:
-		- Massive read/write rates (for example, 150,000 write/second)
-		- Sharding due to high data size or throughput demands
-		- Simple GET or PUT requests and queries that a NoSQL database can handle
-		- Relational database management system (RDBMS) customization
-- Billing
-	- Clock hour billing - resources incur charges when running
-	- Database characteristics effect cost
-	- DB Purchase Type
-	    - On-Demand Instances - Compute capacity by the hour
-	    - Reserved Instances - Low, one-time, upfront payment for database instances that are reserved with a 1-year or 3-year term
-	- Number of DB instances
-	- Provisioned storage
-	    - No charge - Backup storage of up to 100 percent of database storage for an active database
-	    - Charge (GB/month) - Backup storage for terminated DB instances
-	- Additional Storage - Charge (GB/Month) for backup storage in addition to the provisioned storage
-	- Number of Requests
-	- Deployment type — Storage and I/0 charges vary, depending on whether you deploy to a single availability zone or multiple
-	- Data transfer – No charge for inbound, tiered charges for outbound
+	- When to use RDS
+		- Use when you require:
+			- Complex transactions or complex queries
+			- A medium to high query or write rate – Up to 30,000 IOPS (15,000 reads + 15,000 writes)
+			- No more than a single worker node or shard
+			- High durability
+		- Do not use when:
+			- Massive read/write rates (for example, 150,000 write/second)
+			- Sharding due to high data size or throughput demands
+			- Simple GET or PUT requests and queries that a NoSQL database can handle
+			- Relational database management system (RDBMS) customization
+	- Billing
+		- Clock hour billing - resources incur charges when running
+		- Database characteristics effect cost
+		- DB Purchase Type
+		    - On-Demand Instances - Compute capacity by the hour
+		    - Reserved Instances - Low, one-time, upfront payment for database instances that are reserved with a 1-year or 3-year term
+		- Number of DB instances
+		- Provisioned storage
+		    - No charge - Backup storage of up to 100 percent of database storage for an active database
+		    - Charge (GB/month) - Backup storage for terminated DB instances
+		- Additional Storage - Charge (GB/Month) for backup storage in addition to the provisioned storage
+		- Number of Requests
+		- Deployment type — Storage and I/0 charges vary, depending on whether you deploy to a single availability zone or multiple
+		- Data transfer – No charge for inbound, tiered charges for outbound
 
 ## Section 2: Amazon DynamoDB
 
@@ -1235,20 +1226,20 @@ Amazon Aurora is a MySQL and PostgreSQL-compatible relational database built fo
 	- Refine operations procedures frequently
 	- Anticipate failure
 	- Learn from all operational events and failures
-- Operational Excellence Questions
+- #### Operational Excellence Questions
 	- Prepare
-	- How do you determine what your priorities are?
-	- How do you design your workload so that you can understand its state?
-	- How do you reduce defects, ease remediation, and improve flow into production?
-	- How do you mitigate deployment risks?
-	- How do you know that you are ready to support a workload?
+		- How do you determine what your priorities are?
+		- How do you design your workload so that you can understand its state?
+		- How do you reduce defects, ease remediation, and improve flow into production?
+		- How do you mitigate deployment risks?
+		- How do you know that you are ready to support a workload?
 	- Operate
-	- How do you understand the health of your workload?
-	- How do you understand the health of your operations?
-	- How do you manage workload and operations events?
+		- How do you understand the health of your workload?
+		- How do you understand the health of your operations?
+		- How do you manage workload and operations events?
 	- Evolve
-	- How do you evolve operations?
-- **Security**
+		- How do you evolve operations?
+- #### **Security**
 	- **Focus:** Protect information, systems, and assets while delivering business value through risk assessments and mitigation strategies.
 - Key Topics
 	- Identifying and managing who can do what
@@ -1265,22 +1256,22 @@ Amazon Aurora is a MySQL and PostgreSQL-compatible relational database built fo
 	- Prepare for security events
 - Security Questions
 	- Identity and access management
-	- How do you manage credentials and authentication?
-	- How do you control human access?
-	- How do you control programmatic access?
+		- How do you manage credentials and authentication?
+		- How do you control human access?
+		- How do you control programmatic access?
 	- Detective Controls
-	- How do you detect and investigate security events?
-	- How do you defend against emerging security threats?
+		- How do you detect and investigate security events?
+		- How do you defend against emerging security threats?
 	- Infrastructure Protection
-	- How do you protect your networks?
-	- How do you protect your compute resources?
+		- How do you protect your networks?
+		- How do you protect your compute resources?
 	- Data Protection
-	- How do you classify your data?
-	- How do you protect your data at rest?
-	- How do you protect your data in transit?
+		- How do you classify your data?
+		- How do you protect your data at rest?
+		- How do you protect your data in transit?
 	- Incident Response
-	- How do you respond to an incident?
-- **Reliability**
+		- How do you respond to an incident?
+- #### **Reliability**
 	- **Focus:** Prevent and quickly recover from failures to meet business and customer demand.
 - Key Topics
 	- Setting up
@@ -1295,18 +1286,18 @@ Amazon Aurora is a MySQL and PostgreSQL-compatible relational database built fo
 	- Manage change in automation
 - Reliability Questions
 	- Foundations
-	- How do you manage service limits?
-	- How do you manage your network topology?
+		- How do you manage service limits?
+		- How do you manage your network topology?
 	- Change Management
-	- How does your system adapt to changes in demand?
-	- How do you monitor your resources?
-	- How do you implement change?
+		- How does your system adapt to changes in demand?
+		- How do you monitor your resources?
+		- How do you implement change?
 	- Failure Management
-	- How do you back up data?
-	- How does your system withstand component failure?
-	- How do you test resilience?
-	- How do you plan for disaster recovery?
-- **Performance Efficiency**
+		- How do you back up data?
+		- How does your system withstand component failure?
+		- How do you test resilience?
+		- How do you plan for disaster recovery?
+- #### **Performance Efficiency**
 	**Focus:** Use IT and computing resources efficiently to meet system requirements and to maintain that efficiency as demand changes and technologies evolve.
 - Key Topics
 	- Selecting the right resource types and sizes based on workload requirements
@@ -1320,18 +1311,18 @@ Amazon Aurora is a MySQL and PostgreSQL-compatible relational database built fo
 	- Have mechanical sympathy
 - Performance Efficiency Questions
 	- Selection
-	- How do you select the best performing architecture?
-	- How do you select your compute solution?
-	- How do you select your storage solution?
-	- How do you select your database solution?
-	- How do you select your networking solution?
+		- How do you select the best performing architecture?
+		- How do you select your compute solution?
+		- How do you select your storage solution?
+		- How do you select your database solution?
+		- How do you select your networking solution?
 	- Review
-	- How do you evolve your workload to take advantage of new releases?
+		- How do you evolve your workload to take advantage of new releases?
 	- Monitoring
-	- How do you monitor your resources to ensure they are performing as expected?
+		- How do you monitor your resources to ensure they are performing as expected?
 	- Tradeoffs
-	- How do you use tradeoffs to improve performance?
-- **Cost Optimization**
+		- How do you use tradeoffs to improve performance?
+- #### **Cost Optimization**
 	- **Focus:** Run systems to deliver business value at the lowest price point.
 - Key Topics
 	- Understanding and controlling when money is being spent
