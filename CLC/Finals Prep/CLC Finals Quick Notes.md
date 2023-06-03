@@ -791,7 +791,9 @@ CIDR
 ---
 
 # Module 6: Compute
+
 ## Section 1: Compute services overview
+
 - Virtual Machines | Instance based
 	- AWS EC2
 - Serverless computing
@@ -893,7 +895,7 @@ CIDR
 		- Only on instances that run Amazon Linux or Ubuntu:
 			- On-Demand
 			- Reserved
-			- Spot 
+			- Spot
 - Four Pillars of Cost Optimization
 	- Right Size
 		- Provision instances to match the need - CPU, memory, storage, and network throughput
@@ -912,10 +914,10 @@ CIDR
 		- Resize EBS volumes and change EBS volume types
 		- Delete EBS snapshots that are no longer needed
 		- Identify the most appropriate destination for specific types of data
-## Section 4: Container Services
-### **Container Basics**
 
-Containers are a method of operating system virtualization.
+## Section 4: Container Services
+
+### **Container Basics**
 
 - Repeatable
 - Self-contained execution environments
@@ -924,46 +926,39 @@ Containers are a method of operating system virtualization.
 
 Docker is a software platform that enables you to build, test, and deploy applications quickly. Containers are created from a template called an image.
 
-### [](https://github.com/bundickm/AWS_Cloud_Foundations_Study_Materials/blob/master/Module%206%20Notes.md#amazon-elastic-container-service-ecs)**Amazon Elastic Container Service (ECS)**
+- **Amazon Elastic Container Service (ECS)**
+	- A highly scalable, fast, container management service
+	- Key benefits
+	    - Orchestrates the execution of Docker containers
+	    - Maintains and scales the fleet of nodes that run your containers
+	    - Removes the complexity of standing up the infrastructure
+	- Integrated with features that are familiar to Amazon EC2 service users
+	    - Elastic Load Balancing
+	    - Amazon EC2 security groups
+	    - Amazon EBS volumes
+	    - IAM roles
+	- Do you want to manage the Amazon ECS cluster that runs the containers?
+		- If yes, create an Amazon ECS cluster backed by Amazon EC2 (provides more granular control over infrastructure)
+		- If no, create an Amazon ECS cluster backed by AWS Fargate (easier to maintain, focus on your applications)
+	- Amazon Elastic Container Registry (ECR) is a fully managed Docker container registry that makes it easy for developers to store, manage, and deploy Docker container images.
+- **Amazon Elastic Kubernetes Service (EKS)**
+	- What is Kubernetes?
+		- Kubernetes is open source software for container orchestration
+		    - Deploy and manage containerized applicationsat scale
+		    - The same toolset can be used on premises and in the cloud
+		- Complements Docker
+		    - Docker enables you to run multiple containers on a single OS host
+		    - Kubernetes orchestrates multiple Docker hosts (nodes)
+		- Automates container provisioning, networking, load distribution and scaling
+	- Amazon Elastic Kubernetes Service (Amazon EKS)
+		- Enables you to run Kubernetes on AWS
+		- Certified Kubernetes conformant (supports easy migration)
+		- Supports Linux and Windows containers
+		- Compatible with Kubernetes community tools and supports popular Kubernetes add-ons
+		- Use Amazon EKS to manage clusters of Amazon EC2 compute instances and run containers that are orchestrated by Kubernetes on those instances
 
-- A highly scalable, fast, container management service
-- Key benefits
-    - Orchestrates the execution of Docker containers
-    - Maintains and scales the fleet of nodes that run your containers
-    - Removes the complexity of standing up the infrastructure
-- Integrated with features that are familiar to Amazon EC2 service users
-    - Elastic Load Balancing
-    - Amazon EC2 security groups
-    - Amazon EBS volumes
-    - IAM roles
-
-Do you want to manage the Amazon ECS cluster that runs the containers?
-
-- If yes, create an Amazon ECS cluster backed by Amazon EC2 (provides more granular control over infrastructure)
-- If no, create an Amazon ECS cluster backed by AWS Fargate (easier to maintain, focus on your applications)
-
-Amazon Elastic Container Registry (ECR) is a fully managed Docker container registry that makes it easy for developers to store, manage, and deploy Docker container images.
-
-### [](https://github.com/bundickm/AWS_Cloud_Foundations_Study_Materials/blob/master/Module%206%20Notes.md#amazon-elastic-kubernetes-service-eks)**Amazon Elastic Kubernetes Service (EKS)**
-
-What is Kubernetes?
-
-- Kubernetes is open source software for container orchestration
-    - Deploy and manage containerized applicationsat scale
-    - The same toolset can be used on premises and in the cloud
-- Complements Docker
-    - Docker enables you to run multiple containers on a single OS host
-    - Kubernetes orchestrates multiple Docker hosts (nodes)
-- Automates container provisioning, networking, load distribution and scaling
-
-Amazon Elastic Kubernetes Service (Amazon EKS)
-
-- Enables you to run Kubernetes on AWS
-- Certified Kubernetes conformant (supports easy migration)
-- Supports Linux and Windows containers
-- Compatible with Kubernetes community tools and supports popular Kubernetes add-ons
-- Use Amazon EKS to manage clusters of Amazon EC2 compute instances and run containers that are orchestrated by Kubernetes on those instances
 ## Section 5: AWS Lambda
+
 - Serverless computing enables you to build and run applications and services without provisioning or managing servers.
 - Supports multiple programming languages.
 - Provides built-in fault tolerance and automatic scaling.
@@ -972,7 +967,9 @@ Amazon Elastic Kubernetes Service (Amazon EKS)
 - The maximum memory allocation for a single Lambda function is 3,008 MB.
 - The maximum execution time for a Lambda function is 15 minutes
 - Deployment package size = 250 MB unzipped, including layers
+
 ## Section 6: Elastic Beanstalk
+
 - An easy way to get web applications up and running
 - A managed service that automatically handles
     - Infrastructure provisioning and configuration
@@ -990,7 +987,7 @@ Amazon Elastic Kubernetes Service (Amazon EKS)
 
 # Module 7: Storage
 
-## Amazon EBS (Elastic Block Storage)
+## Section 1: Amazon EBS (Elastic Block Store)
 
 - Uses
 	- Root/Boot volumes & storage for EC2
@@ -1022,7 +1019,7 @@ Amazon Elastic Kubernetes Service (Amazon EKS)
 		- Provisioned IOPS (SSD) 64k IOPS
 			- Critical businesses that require sustained IOPS or more than 16k IOPS
 			- Large Database workloads
-- Features
+- Trivia
 	- MAX volume size capped at 16TiB or roughly 17TB
 	- Enables you to create individual storage volumes & attach them to an EC2 instance
 	- Block-Level Storage
@@ -1034,6 +1031,27 @@ Amazon Elastic Kubernetes Service (Amazon EKS)
 	- Change to diff types or scale capacity
 	- Snapshots allows to revert back in time
 		- Can be stored locally, on a EBS or on a S3 Bucket but generally stored in S3
+- Features
+	- Snapshots
+		- Point-in-time images
+		- Recreate a new volume at any time
+		- Added cost of Amazon EBS snapshots to Amazon S3 is per GB-month of data stored
+	- Encryption
+		- Encrypted Amazon EBS volumes
+		- No additional cost
+	- Elasticity
+		- Increase capacity
+		- Change to different types
+	- Volumes
+		- Amazon EBS volumes persist independently from the instance
+		- All volume types are charged by the amount that is provisioned per month.
+	- IOPS (Input/Output Operations Per Second)
+		- General Purpose SSD: Charged by the amount that you provision in GB per month until storage is released
+		- Magnetic: Charged by the number of requests to the volum
+		- Provisioned IOPS SSD: Charged by the amount that you provision in IOPS (multiplied by the percentage of days that you provision for the month).
+	- Data transfer
+		- Inbound data transfer is free
+		- Outbound data transfer across Regions incurs charges
 - Pricing
 	- Volume
 		- Direct cost of storage provision in GB/Month until released
@@ -1053,9 +1071,159 @@ Amazon Elastic Kubernetes Service (Amazon EKS)
 		- Provisioned IOPS (SSD)
 			- Charged by amount of IOPS provisioned x percentage of days that you provision for the month
 
+## Section 2: Amazon Simple Storage Solution (S3)
+
+- Trivia
+	- Data is stored as objects in buckets
+	- Virtually unlimited storage but a single object is limited to 5 TB
+	- Granular access to bucket and objects
+	- Data is redundantly stored in the Region
+- Common Use Cases and Scenarios
+	- Storing application assets
+	- Static web hosting
+	- Backup and disaster recovery(DR)
+	- Staging area for big data
+	- Application hosting
+	- Media hosting
+	- Software delivery
+- **S3 Pricing**
+	- Pay only for what you use
+		- GBs per month
+		- Transfer OUT to other Regions
+		- PUT, COPY, POST, LIST, and GET requests
+	- You do not pay for
+		- Transfers IN to Amazon S3
+		- Transfers OUT from Amazon S3 to Amazon CloudFront or Amazon EC2 in the same Region
+	- Estimating S3 Pricing
+		1. Storage class type
+		    - Standard storage is designed for: 11 9s of durability and four 9s of availability
+		    - S3 Standard-Infrequent Access (S-IA) is designed for 11 9s of durability and three 9s of availability
+		2. Amount of storage
+		3. Requests
+		    - The number and type of requests (GET, PUT, COPY)
+		    - Type of requests: Different rates for GET requests than other requests.
+		4. Data transfer
+		    - Pricing is based on the amount of data that is transferred out of the Amazon S3 Region
+
+
+
+## Section 3: Amazon Elastic File System
+
+- **EFS Features**
+	- File storage in the AWS Cloud
+	- Works well for big data and analytics, media processing workflows, content management, web serving, and home directories
+	- Petabyte-scale, low-latency file system
+	- Shared storage
+	- Elastic capacity
+	- Supports Network File System (NFS) versions 4.0 and 4.1 (NFSv4)
+	- Compatible with all Linux-based AMIs for Amazon EC2
+- **EFS Implementation**
+	1. Create your Amazon EC2 resources and launch your Amazon EC2 instance
+	2. Create your Amazon EFS file system.Create your mount targets in the appropriate subnets
+	3. Connect your Amazon EC2 instances to the mount targets
+	4. Verify the resources and protection of your AWS account
+
+## Section 4: Amazon S3 Glacier
+
+Amazon S3 Glacier is a data archiving service that is designed for security, durability, and an extremely low cost.
+
+- Amazon S3 Glacier is designed to provide 11 9s of durability for objects
+- It supports the encryption of data in transit and at rest through Secure Sockets Layer (SSL) or Transport Layer Security (TLS)
+- The Vault Lock feature enforces compliance through a policy
+- Extremely low-cost design works well for long-term archiving. Pricing is varied on region, and where the data is being sent.
+- You can configure lifecycle archiving of Amazon S3 content to Amazon S3 Glacier. Lifecycle policies enable you to delete or move objects based on age.
+- Retrieval options:
+    - Standard: 3–5 hours
+    - Bulk: 5–12 hours
+    - Expedited: 1–5 minutes
+- Secure Storage
+    - Server-side encryption with AES-256
+    - Control access with IAM
+    - Manages your keys
+
+
+
 ---
 
 # Module 8: Databases
+
+## Section 1: Amazon Relational Database Service (RDS)
+
+Amazon Relational Database Service (Amazon RDS) makes it easy to set up, operate, and scale a relational database in the cloud. It provides cost-efficient and resizable capacity while automating time-consuming administration tasks such as hardware provisioning, database setup, patching and backups. RDS provides you with six familiar database engines to choose from: Amazon Aurora, Oracle, Microsoft SQL Server, PostgreSQL, MySQL and MariaDB.
+
+- **Managed vs Unmanaged Service**
+	- Unmanaged Challenges
+		- Server maintenance and energy footprint
+		- Software installation and patches
+		- Database backups and high availability
+		- Limits on scalability
+		- Data security
+		- Operating system (OS) installation and patches
+	- RDS is a managed service that sets up and operates a relational database in the cloud. AWS Manages:
+		- OS installation and patches
+		- Database software installation and patches
+		- Database backups
+		- High availability
+		- Scaling
+		- Power and racking and stacking servers
+		- Server maintenance
+- **RDS Features**
+	- The database instance is the basic building block of Amazon RDS. The DB instance is an isolated database environment that can contain multiple user created databases. When setting up the database, you pick an instance class and the type of storage you need for your database. You also need to specify which database engine to run: MySQL, Amazon Aurora, Microsoft SQL Server, PostgreSQL, MariaDB, or Oracle.
+
+	  Amazon RDS allows you to configure your DB instance for high availability with a Multi-AZ (availability zone) deployment. When you configure a Multi-AZ deployment, RDS automatically generates a standby copy of the database instance in another availability zone within the same VPC. After seeding the database copy, transactions are synchronously replicated to the standby copy. If the main database instance fails in a Multi-AZ deployment, RDS automatically brings the standby database instance online as the new main instance.
+
+	  RDS also supports the creation of read replicas. Updates that are made to the source database instance are asynchronously copied to the read replica instance. You can reduce the load on your source DB instance by routing read queries from your applications to the read replica.
+- **Cost and Usage of RDS**
+- When to use RDS
+	- Use when you require:
+		- Complex transactions or complex queries
+		- A medium to high query or write rate – Up to 30,000 IOPS (15,000 reads + 15,000 writes)
+		- No more than a single worker node or shard
+		- High durability
+	- Do not use when:
+		- Massive read/write rates (for example, 150,000 write/second)
+		- Sharding due to high data size or throughput demands
+		- Simple GET or PUT requests and queries that a NoSQL database can handle
+		- Relational database management system (RDBMS) customization
+- Billing
+	- Clock hour billing - resources incur charges when running
+	- Database characteristics effect cost
+	- DB Purchase Type
+	    - On-Demand Instances - Compute capacity by the hour
+	    - Reserved Instances - Low, one-time, upfront payment for database instances that are reserved with a 1-year or 3-year term
+	- Number of DB instances
+	- Provisioned storage
+	    - No charge - Backup storage of up to 100 percent of database storage for an active database
+	    - Charge (GB/month) - Backup storage for terminated DB instances
+	- Additional Storage - Charge (GB/Month) for backup storage in addition to the provisioned storage
+	- Number of Requests
+	- Deployment type — Storage and I/0 charges vary, depending on whether you deploy to a single availability zone or multiple
+	- Data transfer – No charge for inbound, tiered charges for outbound
+
+## Section 2: Amazon DynamoDB
+
+- Fast and flexible NoSQL database service for any scale.
+- NoSQL database tables with no limits
+- Virtually unlimited storage
+- Items can have differing attributes
+- Low-latency queries
+- Scalable read/write throughput with no limits
+- Supports document and key-value store models.
+- Replicates your tables automatically across your choice of AWS Regions
+- Works well for mobile, web, gaming, adtech, and Internet of Things (IoT) applications
+- Provides consistent, single-digit millisecond latency at any scale
+
+## Section 3: Amazon Redshift
+
+Amazon Redshift is a fully managed, petabyte-scale data warehouse service in the cloud. The Redshift service manages all of the work of setting up, operating, and scaling a data warehouse. These tasks include provisioning capacity, monitoring and backing up the cluster, and applying patches and upgrades to the Amazon Redshift engine.
+
+- Columnar storage and parallel processing architectures
+- Automatically and continuously monitors cluster
+- Encryption is built in
+
+## Section 4: Amazon Aurora
+
+Amazon Aurora is a MySQL and PostgreSQL-compatible relational database built for the cloud, that combines the performance and availability of traditional enterprise databases with the simplicity and cost-effectiveness of open source databases. Aurora features a distributed, fault-tolerant, self-healing storage system that auto-scales up to 64TB per database instance. It delivers high performance and availability with up to 15 low-latency read replicas, point-in-time recovery, continuous backup to Amazon S3, and replication across three Availability Zones (AZs). It also automates time-consuming tasks such as provisioning, patching, backup, recovery, failure detection, and repair.
 
 ---
 
