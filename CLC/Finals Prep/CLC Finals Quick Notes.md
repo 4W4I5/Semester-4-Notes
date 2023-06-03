@@ -1407,14 +1407,14 @@ Amazon Aurora is a MySQL and PostgreSQL-compatible relational database built fo
 
 	**Focus:** Run systems to deliver business value at the lowest price point.
 
-	#### [](https://github.com/bundickm/AWS_Cloud_Foundations_Study_Materials/blob/master/Module%209%20Notes.md#key-topics-4)Key Topics
+- Key Topics
 
 	- Understanding and controlling when money is being spent
 	- Selecting the most appropriate and right number of resource types
 	- Analyzing spending over time
 	- Scaling to meeting business needs without overspending
 
-	#### [](https://github.com/bundickm/AWS_Cloud_Foundations_Study_Materials/blob/master/Module%209%20Notes.md#design-principles-4)Design Principles
+- Design Principles
 
 	- Adopt a consumption model
 	- Measure overall efficiency
