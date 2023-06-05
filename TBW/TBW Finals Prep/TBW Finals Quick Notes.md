@@ -1,5 +1,5 @@
-- [ ] [[#Differences]]
 - [ ] [[# Formats ]]
+- [ ] [[#Differences]]
 - [ ] [[# Chapter 2: The communication process: rewriting, writing and rewriting]]
 - [ ] [[#Chapter 6 Written Correspondence]]
 - [ ] [[#Chapter 10 Importance of Visual Aids]]
