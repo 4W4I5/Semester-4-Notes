@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "b4786a14af3b9ec3",
+        "id": "c9951cb96f217b66",
         "type": "tabs",
         "children": [
           {
-            "id": "67b0c85a25eb9cd7",
+            "id": "d1d3c579c9bab81b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CLC/Finals Prep/CLC Finals Quick Notes.md",
+                "file": "TBW/TBW Finals Prep/TBW Finals Quick Notes.md",
                 "mode": "source",
                 "source": false
               }
@@ -77,8 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 257.5,
-    "collapsed": true
+    "width": 257.5
   },
   "right": {
     "id": "1010b0dc0ef48981",
@@ -94,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CLC/Finals Prep/CLC Finals Quick Notes.md",
+                "file": "TBW/TBW Finals Prep/TBW Finals Quick Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CLC/Finals Prep/CLC Finals Quick Notes.md",
+                "file": "TBW/TBW Finals Prep/TBW Finals Quick Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CLC/Finals Prep/CLC Finals Quick Notes.md"
+                "file": "TBW/TBW Finals Prep/TBW Finals Quick Notes.md"
               }
             }
           },
@@ -165,10 +164,16 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "67b0c85a25eb9cd7",
+  "active": "d1d3c579c9bab81b",
   "lastOpenFiles": [
-    "Module 1 Introduction to CC.md",
+    "TBW/Sessional 1 Prep/TBW(First book) Chapter 1 - Introduction to technical communication.md",
+    "TBW/Sessional 1 Prep/TBW(Second Book) - Chapter 4 Technical Communication Style.md",
+    "TBW/Sessional 1 Prep/TBW(First Book) - Chapter 3 Clarity, Conciseness, Accuracy & Ethics in techincal communication.md",
+    "TBW/Sessional 2 Prep/TBW Sessional 2 Quick Notes.md",
+    "TBW/TBW Finals Prep/TBW Finals Quick Notes.md",
+    "TBW/TBW Finals Prep",
     "CLC/Finals Prep/CLC Finals Quick Notes.md",
+    "Module 1 Introduction to CC.md",
     "Module 2.md",
     "CLC/Sessional 2 Prep/CLC Sessional 2 Quick Notes.md",
     "CLC/CLC 30 Mar, 2023.md",
@@ -189,11 +194,6 @@
     "CLC/CLC 21 Feb, 2023.md",
     "CLC/CLC 31 Jan, 2023.md",
     "CLC/AZ-900 PREP.md",
-    "FOM/Finals Prep/Long Question.md",
-    "FOM/Finals Prep/FOM Quick Notes.md",
-    "FOM/Sessional 2 Prep/FOM Sessional 2 Quick Notes.md",
-    "FOM/Sessional 1 Prep/Technology and management.md",
-    "FOM/Sessional 1 Prep/Merged notes.md",
     "FOM/Finals Prep",
     "FSE/Finals Prep/media/image9.png",
     "FSE/Finals Prep/media/image8.png",
@@ -211,7 +211,6 @@
     "FOM/Sessional 2 Prep",
     "FSE/Sessional 2 Prep/media",
     "FSE/Sessional 2 Prep/vertopal_e28648e35e61439e9895af88d6b5e081",
-    "FSE/Sessional 2 Prep/e28648e35e61439e9895af88d6b5e081.markdown",
-    "FSE/Sessional 2 Prep"
+    "FSE/Sessional 2 Prep/e28648e35e61439e9895af88d6b5e081.markdown"
   ]
 }
