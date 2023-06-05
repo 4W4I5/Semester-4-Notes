@@ -1,4 +1,4 @@
-- [ ] Chapter 2
+- [ ] [[# Chapter 2: The communication process: rewriting, writing and rewriting]]
 - [ ] [[#Chapter 6 Written Correspondence]]
 - [ ] Chapter 10
 - [ ] Chapter 13
@@ -9,7 +9,7 @@
 
 
 ---
-# Chapter 2: 
+# Chapter 2: The communication process: rewriting, writing and rewriting
 1. Writing Process:
     
     - Planning, drafting, revising, and editing.
