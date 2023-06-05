@@ -77,7 +77,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 257.5
+    "width": 257.5,
+    "collapsed": true
   },
   "right": {
     "id": "1010b0dc0ef48981",
@@ -164,7 +165,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "d1d3c579c9bab81b",
+  "active": "c6bb1a0b5ef1e3e9",
   "lastOpenFiles": [
     "TBW/Sessional 1 Prep/TBW(First book) Chapter 1 - Introduction to technical communication.md",
     "TBW/Sessional 1 Prep/TBW(Second Book) - Chapter 4 Technical Communication Style.md",
